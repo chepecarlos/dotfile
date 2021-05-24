@@ -1,0 +1,7 @@
+[user]
+	name = chepecarlos
+	email = chepecarlos@alswblog.org
+[merge]
+	tool = meld
+[diff]
+	tool = meld
