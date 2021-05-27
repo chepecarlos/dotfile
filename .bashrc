@@ -1,9 +1,6 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-# source ~/.bash_git
-# export GIT_PS1_SHOWDIRTYSTATE=true
-# export GIT_PS1_SHOWUNTRACKEDFILES=true
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -129,8 +126,6 @@ export PATH="$HOME/5.Programas/3.Desarrollo/1.Arduino/Arduino-cli:$PATH"
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
-
-export JEKYLL_GITHUB_TOKEN='a580517daf2d5dda6dd5a24e478b080f6d026856'
 
 # export PS1="\[\e[0;1m\]┌─( \[\e[31;1m\]\u\[\e[0;1m\] ) » { \[\e[36;1m\]\w\[\e[0;1m\] }\n└──┤ \[\e[0m\]"
 export PS1="\[\e[0;1m\]┌─(\[\e[31;1m\]\u@\H\[\e[0;1m\])»{\[\e[36;1m\]\w\[\e[0;1m\]}\n└──┤ \[\e[0m\]"
