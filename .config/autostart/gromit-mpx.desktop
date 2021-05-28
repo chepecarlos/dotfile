@@ -1,0 +1,17 @@
+[Desktop Entry]
+Exec=gromit-mpx
+Icon=gromit-mpx
+Name=Gromit-MPX
+Type=Application
+Comment=GRaphics Over MIscellaneous Things, a multi pointer annotation tool
+Comment[pl]=Program do rysowania bezpośrednio po ekranie
+Keywords=presentation;overlay;markup;pointer;
+Terminal=false
+StartupNotify=false
+Categories=Graphics;
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[es_SV]=Gromit-MPX
+Comment[es_SV]=GRaphics Over MIscellaneous Things, a multi pointer annotation tool
+X-GNOME-Autostart-Delay=5
