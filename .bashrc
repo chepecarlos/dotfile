@@ -115,19 +115,33 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Ejecutable de Blender
-# export PATH="$HOME/5.Programa/1.Edicion/1.Blender/blender-2.90.1-linux64:$PATH"
-# Ejecutable de Python
-# Mi Gato
+# Agregando ElGatoALSW
+if [ -d "$HOME/5.Programas/2.Heramientas/1.ElGatoALSW" ] ;
+    then PATH="$HOME/5.Programas/2.Heramientas/1.ElGatoALSW:$PATH"
+fi
 
-export PATH="$HOME/5.Programas/2.Heramientas/1.ElGatoALSW:$PATH"
-export PATH="$HOME/5.Programas/2.Heramientas/5.tooltube:$PATH"
-export PATH="$HOME/5.Programas/3.Desarrollo/1.Arduino/Arduino-cli:$PATH"
+# Agregando Tooltube
+if [ -d "$HOME/5.Programas/2.Heramientas/5.tooltube" ] ;
+    then PATH="$HOME/5.Programas/2.Heramientas/5.tooltube:$PATH"
+fi
+
+# Agregando Arduino-cli
+if [ -d "$HOME/5.Programas/3.Desarrollo/1.Arduino/Arduino-cli" ] ;
+    then PATH="$HOME/5.Programas/3.Desarrollo/1.Arduino/Arduino-cli:$PATH"
+fi
+
+# Agregando Blender
+if [ -d "$HOME/5.Programas/1.Edicion/1.Blender/blender-2.92.0" ] ;
+    then PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-2.92.0:$PATH"
+fi
+
+bind "set completion-ignore-case on"
+
 # Install Ruby Gems to ~/gems
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
+# export GEM_HOME="$HOME/gems"
+# export PATH="$HOME/gems/bin:$PATH"
 
-# export PS1="\[\e[0;1m\]┌─( \[\e[31;1m\]\u\[\e[0;1m\] ) » { \[\e[36;1m\]\w\[\e[0;1m\] }\n└──┤ \[\e[0m\]"
+# Pront de Terminal 
 export PS1="\[\e[0;1m\]┌─(\[\e[31;1m\]\u@\H\[\e[0;1m\])»{\[\e[36;1m\]\w\[\e[0;1m\]}\n└──┤ \[\e[0m\]"
 
 #config de dotfile
