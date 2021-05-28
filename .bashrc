@@ -131,4 +131,4 @@ export PATH="$HOME/gems/bin:$PATH"
 export PS1="\[\e[0;1m\]┌─(\[\e[31;1m\]\u@\H\[\e[0;1m\])»{\[\e[36;1m\]\w\[\e[0;1m\]}\n└──┤ \[\e[0m\]"
 
 #config de dotfile
-alias config='/usr/bin/git --git-dir=/home/chepecarlos/dotfile/ --work-tree=/home/chepecarlos'
+alias config='/usr/bin/git --git-dir=/home/chepecarlos/.cfg --work-tree=/home/chepecarlos'
