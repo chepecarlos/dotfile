@@ -1,0 +1,18 @@
+[{
+  "nombre": "Aumentar Brillo",
+  "titulo": "Brillo++",
+  "deck": "brillo",
+  "cantidad": 5,
+  "key": 0
+}, {
+  "nombre": "Bajar Brillo",
+  "titulo": "Brillo--",
+  "deck": "brillo",
+  "cantidad": -5,
+  "key": 1
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]

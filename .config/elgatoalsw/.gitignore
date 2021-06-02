@@ -1,0 +1,6 @@
+logs/*
+*.wav
+*.webp
+Data.json
+data/*
+recursos/*

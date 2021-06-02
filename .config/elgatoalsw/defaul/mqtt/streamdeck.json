@@ -1,0 +1,51 @@
+[{
+  "nombre": "reiniciar",
+  "titulo": "reiniciar",
+  "key": 0,
+  "mqtt": "mensaje",
+  "topic": "fondo/reiniciar",
+  "mensaje": "1"
+}, {
+  "nombre": "color rojo",
+  "titulo": "Color Rojo",
+  "key": 1,
+  "mqtt": "mensaje",
+  "topic": "fondo/color",
+  "mensaje": "rojo"
+}, {
+  "nombre": "color azul",
+  "titulo": "Color Azul",
+  "key": 2,
+  "mqtt": "mensaje",
+  "topic": "fondo/color",
+  "mensaje": "azul"
+}, {
+  "nombre": "color verde",
+  "titulo": "Color verde",
+  "key": 3,
+  "mqtt": "mensaje",
+  "topic": "fondo/color",
+  "mensaje": "verde"
+}, {
+  "nombre": "color aqua",
+  "titulo": "Color aqua",
+  "key": 4,
+  "mqtt": "mensaje",
+  "topic": "fondo/color",
+  "mensaje": "aqua"
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 19
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 24
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]

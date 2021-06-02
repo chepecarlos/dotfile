@@ -1,0 +1,164 @@
+[{
+  "nombre": "Concatenar",
+  "icono": "defaul/blender/concatenar.png",
+  "key": 0,
+  "tecla": ["shift", "c"]
+}, {
+  "nombre": "Borrar",
+  "icono": "defaul/blender/borrar.png",
+  "key": 1,
+  "tecla": ["x"]
+}, {
+  "nombre": "TrimAll",
+  "icono": "defaul/blender/trim_all.png",
+  "key": 2,
+  "tecla": ["shift", "t"]
+}, {
+  "nombre": "Texto",
+  "titulo": "Texto",
+  "key": 3,
+  "tecla": ["ctrl", "q"]
+},{
+  "nombre": "Marka",
+  "icono": "defaul/blender/marcador/maker.png",
+  "key": 4,
+  "macro": [{
+    "tecla": ["m"]
+  }, {
+    "tecla": ["ctrl", "m"]
+  }]
+}, {
+  "nombre": "Corta Duro",
+  "icono": "defaul/blender/corta_duro.png",
+  "key": 5,
+  "tecla": ["shift", "k"]
+}, {
+  "nombre": "Mute",
+  "icono": "defaul/blender/ocultar.png",
+  "key": 6,
+  "tecla": ["h"]
+}, {
+  "nombre": "Play",
+  "icono": "defaul/blender/play.png",
+  "key": 7,
+  "tecla": ["space"]
+}, {
+  "nombre": "Mover",
+  "icono": "defaul/blender/mover.png",
+  "key": 8,
+  "tecla": ["g"]
+}, {
+  "nombre": "fade",
+  "icono": "defaul/blender/fade_in.png",
+  "key": 9,
+  "opcion": "folder",
+  "path": "defaul/blender/fade"
+}, {
+  "nombre": "Expandir",
+  "icono": "defaul/blender/expandir.png",
+  "key": 10,
+  "tecla": ["ctrl", "e"]
+}, {
+  "nombre": "AjusTime",
+  "icono": "defaul/blender/ajuste_time.png",
+  "key": 11,
+  "tecla": ["ctrl", "alt", "p"]
+}, {
+  "nombre": "MostarAudio",
+  "icono": "defaul/blender/mostar_audio.png",
+  "key": 12,
+  "tecla": ["alt", "w"]
+}, {
+  "nombre": "Panel",
+  "icono": "defaul/blender/panel.png",
+  "key": 13,
+  "tecla": ["n"]
+}, {
+  "nombre": "Velocidad",
+  "titulo": "Velocidad",
+  "key": 14,
+  "opcion": "folder",
+  "path": "defaul/blender/velocidad"
+}, {
+  "nombre": "Añadir",
+  "titulo": "Añadir",
+  "icono": "defaul/blender/añadir.png",
+  "key": 15,
+  "tecla": ["shift", "a"]
+}, {
+  "nombre": "Menu",
+  "titulo": "Menu",
+  "icono": "defaul/blender/menu.png",
+  "key": 16,
+  "tecla": ["shift", "space"]
+}, {
+  "nombre": "TrimI",
+  "titulo": "Trim I",
+  "icono": "defaul/blender/trim_i.png",
+  "key": 17,
+  "tecla": ["i"]
+}, {
+  "nombre": "TrimD",
+  "titulo": "Trim D",
+  "icono": "defaul/blender/trim_d.png",
+  "key": 18,
+  "tecla": ["o"]
+}, {
+  "nombre": "Duplicar",
+  "titulo": "Duplicar",
+  "icono": "defaul/blender/duplicar.png",
+  "key": 20,
+  "tecla": ["d"]
+}, {
+  "nombre": "Maker",
+  "titulo": "Maker",
+  "icono": "defaul/blender/marcador/maker.png",
+  "key": 21,
+  "opcion": "folder",
+  "path": "defaul/blender/marcador"
+}, {
+  "nombre": "Import",
+  "titulo": "Import",
+  "key": 23,
+  "tecla": ["ctrl", "shift", "i"]
+}, {
+  "nombre": "Guardar",
+  "icono": "defaul/blender/guardar.png",
+  "key": 24,
+  "tecla": ["ctrl", "s"]
+},{
+  "nombre": "Agrupar",
+  "titulo": "agrupar",
+  "key": 25,
+  "tecla": ["ctrl", "g"]
+}, {
+  "nombre": "Agrupar",
+  "titulo": "agrupar",
+  "key": 26,
+  "tecla": ["p"]
+}, {
+  "nombre": "Agrupar",
+  "titulo": "agrupar",
+  "key": 27,
+  "tecla": ["alt", "p"]
+}, {
+  "nombre": "Snap",
+  "titulo": "Snap",
+  "key": 28,
+  "tecla": ["shift", "s"]
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 19
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 24
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]
