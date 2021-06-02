@@ -6,6 +6,9 @@ alias p='ping 8.8.8.8'
 alias ..='cd ..'
 alias df='df -h'
 
+# Android
+alias miandroid="scrcpy"
+
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve'
 alias midescripcion="npm run yt-descriptions"
