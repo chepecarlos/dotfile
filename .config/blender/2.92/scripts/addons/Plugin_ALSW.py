@@ -10,7 +10,7 @@ bl_info = {
     "category": "Object",
 }
 
-def ShowMessageBox(message="", title="Message Box", icon='INFO'):
+def MostarMensajeBot(message="", title="Message Box", icon='INFO'):
     def draw(self, context):
         self.layout.label(text=message)
     bpy.context.window_manager.popup_menu(draw, title=title, icon=icon)
@@ -24,19 +24,17 @@ class insertVideo(bpy.types.Operator):
 
         VideoActual = "/home/chepecarlos/2.VideoMusicales/demo/POP.mkv"
 
-        # bpy.context.area.type = 'SEQUENCE_EDITOR'
+        # context.area.type = 'SEQUENCE_EDITOR'
         # FrameActual = bpy.context.scene.frame_current
 
         if len(bpy.context.selected_sequences) > 0:
-            print("Insertando")
-
-            Inicio = bpy.context.selected_sequences[0].frame_final_start
-            Final = bpy.context.selected_sequences[0].frame_final_end
-            Canal = bpy.context.selected_sequences[0].channel + 1
+            Inicio = context.selected_sequences[0].frame_final_start
+            Final = context.selected_sequences[0].frame_final_end
+            Canal = context.selected_sequences[0].channel + 1
 
             bpy.ops.sequencer.sound_strip_add(filepath=VideoActual, frame_start=Inicio, channel=Canal)
 
-            bpy.context.selected_sequences[0].show_waveform = True
+            context.selected_sequences[0].show_waveform = True
 
             bpy.ops.sequencer.split(frame=Final, channel=Canal, type='SOFT', side='RIGHT')
 
@@ -44,8 +42,7 @@ class insertVideo(bpy.types.Operator):
 
             # bpy.context.selected_sequences[0].use_proxy = True
         else:
-            print("Selecione una pista")
-            ShowMessageBox("Selecione una pista", title="Error", icon="ERROR")
+            MostarMensajeBot("Selecione una pista", title="Error", icon="ERROR")
         return{'FINISHED'}
 
 class superzoon(bpy.types.Operator):
@@ -80,7 +77,7 @@ class MyPanel(bpy.types.Panel):
 
     def draw(self, context):
         layout = self.layout
-        obj = context.object
+        # obj = context.object
 
         row = layout.row()
         row.label(text="Musica Velocidad")
@@ -91,13 +88,12 @@ class MyPanel(bpy.types.Panel):
 
 addon_keymaps = []
 
-
 def add_hotkey():
     print("Agregando Teclas Rapida")
     wm = bpy.context.window_manager
     kc = wm.keyconfigs.addon
 
-    km = kc.keymaps.new(name='Object Mode', space_type='EMPTY')
+    km = kc.keymaps.new(name='Sequencer', space_type='SEQUENCE_EDITOR')
 
     kmi = km.keymap_items.new("scene.invideo", 'M', 'PRESS', ctrl=True, shift=False)
     addon_keymaps.append((km, kmi))
@@ -105,7 +101,6 @@ def add_hotkey():
 def remove_hotkey():
     for km, kmi in addon_keymaps:
         km.keymap_items.remove(kmi)
-
     addon_keymaps.clear()
 
 
