@@ -44,7 +44,6 @@ class audioespecial(bpy.types.Operator):
         return context.selected_sequences
 
     def execute(self, context):
-        print("Pista ", self.pista)
 
         if self.pista == 'alsw':
             return{'FINISHED'}
@@ -80,18 +79,23 @@ class superaliniar(bpy.types.Operator):
     bl_description = "Alinea los clips"
     bl_options = {"REGISTER", "UNDO"}
 
-    alineacion : EnumProperty(
-        name="Alineacion de clip",
+    alineacion_horizontal : EnumProperty(
+        name="Alineacion Horizontal de clip",
         description="Alina el clip",
         items=(('derecha', "Derecha", "ALSW base"),
                ('izquierda', "Izquierda", "Musica MrTee"),
-               ('centro', "pollo", "musica pollo"),
-               ('centrohorizontal', "Centro Horizontal", "musica pollo"),
-               ('centrovertical', "Centro Vertical", "musica pollo"),
-               ('ariba', "Ariba", "musica pollo"),
-               ('abajo', "Abajo", "musica pollo")),
-        default='centro',)
+               ('centro', "Centro", "musica pollo"),
+               ('nada', "Nada", "ninguna")),
+        default='nada',)
 
+    alineacion_vertical : EnumProperty(
+        name="Alineacion Vertical de clip",
+        description="Alina el clip",
+        items=(('ariba', "Ariba", "ALSW base"),
+               ('abajo', "Abajo", "Musica MrTee"),
+               ('centro', "Centro", "musica pollo"),
+               ('nada', "Nada", "ninguna")),
+        default='nada',)
 
     # Verifica que este alguna secuencia selecionada
     @classmethod
@@ -107,9 +111,7 @@ class superaliniar(bpy.types.Operator):
 
         if len(bpy.context.selected_sequences) > 0:
             ClipActual = context.selected_sequences[0]
-            print(self.alineacion)
             if ClipActual.type != "MOVIE":
-                print("No es Video")
                 return{'FINISHED'}
 
             ClipActual = context.selected_sequences[0]
@@ -123,29 +125,29 @@ class superaliniar(bpy.types.Operator):
             EscalaX = ClipActual.transform.scale_x
             EscalaY = ClipActual.transform.scale_y
 
-            if self.alineacion == "centro":
-                ClipActual.transform.offset_x = 0
+            if self.alineacion_vertical == "centro":
                 ClipActual.transform.offset_y = 0
-            if self.alineacion == "centrohorizontal":
-                ClipActual.transform.offset_x = 0
-            if self.alineacion == "centrovertical":
-                ClipActual.transform.offset_y = 0
-            elif self.alineacion == "izquierda":
-                AnchoClip = Ancho * EscalaX
-                ValorX = AnchoCanva/2 - AnchoClip/2
-                ClipActual.transform.offset_x = -ValorX
-            elif self.alineacion == "derecha":
-                AnchoClip = Ancho * EscalaX
-                ValorX = AnchoCanva/2 - AnchoClip/2
-                ClipActual.transform.offset_x = ValorX
-            elif self.alineacion == "ariba":
+            elif self.alineacion_vertical == "ariba":
                 AltoClip = Alto * EscalaY
                 ValorY =  AltoCanva/2 - AltoClip/2
                 ClipActual.transform.offset_y = ValorY
-            elif self.alineacion == "abajo":
+            elif self.alineacion_vertical == "abajo":
                 AltoClip = Alto * EscalaY
                 ValorY =  AltoCanva/2 - AltoClip/2
                 ClipActual.transform.offset_y = -ValorY
+
+
+            if self.alineacion_horizontal == "centro":
+                ClipActual.transform.offset_x = 0
+            elif self.alineacion_horizontal == "izquierda":
+                AnchoClip = Ancho * EscalaX
+                ValorX = AnchoCanva/2 - AnchoClip/2
+                ClipActual.transform.offset_x = -ValorX
+            elif self.alineacion_horizontal == "derecha":
+                AnchoClip = Ancho * EscalaX
+                ValorX = AnchoCanva/2 - AnchoClip/2
+                ClipActual.transform.offset_x = ValorX
+
         return{'FINISHED'}
 
 class superzoon(bpy.types.Operator):
@@ -177,7 +179,6 @@ class superzoon(bpy.types.Operator):
             ClipActual = context.selected_sequences[0]
 
             if ClipActual.type != "MOVIE":
-                print("No es Video")
                 return{'FINISHED'}
 
             zoon = self.zoon
@@ -198,8 +199,6 @@ class superzoon(bpy.types.Operator):
 
             MultiplicadorUnitario = RelacionCanva/Relacion
 
-            print("Relacion ", Relacion, RelacionCanva, MultiplicadorUnitario)
-
             ClipActual.transform.scale_x = MultiplicadorUnitario * zoon
             ClipActual.transform.scale_y = MultiplicadorUnitario * zoon
         else:
@@ -219,7 +218,7 @@ class MyPanel(bpy.types.Panel):
         layout = self.layout
 
         row = layout.row()
-        row.label(text="Musica sobre clip")
+        row.label(text="Musica sobre clip",  icon="SOUND")
         row = layout.row()
         ops = row.operator("scene.audioespecial", text="MrTee")
         ops.pista = "mrtee"
@@ -230,34 +229,47 @@ class MyPanel(bpy.types.Panel):
         row = layout.row()
         row.label(text="Alineacion")
         row = layout.row()
-        ops = row.operator("scene.superaliniar", text="Izquierda")
-        ops.alineacion = "izquierda"
-        ops = row.operator("scene.superaliniar", text="Centro")
-        ops.alineacion = "centrohorizontal"
-        ops = row.operator("scene.superaliniar", text="Derecha")
-        ops.alineacion = "derecha"
+        ops = row.operator("scene.superaliniar", text="Ariba")
+        ops.alineacion_vertical = "ariba"
         row = layout.row()
-        ops = row.operator("scene.superaliniar", text="centro")
-        ops.alineacion = "centro"
+        ops = row.operator("scene.superaliniar", text="Izquierda")
+        ops.alineacion_horizontal = "izquierda"
+        ops = row.operator("scene.superaliniar", text="Centro")
+        ops.alineacion_horizontal = "centro"
+        ops = row.operator("scene.superaliniar", text="Derecha")
+        ops.alineacion_horizontal = "derecha"
         row = layout.row()
         ops = row.operator("scene.superaliniar", text="Abajo")
-        ops.alineacion = "abajo"
-        ops = row.operator("scene.superaliniar", text="Centro")
-        ops.alineacion = "centrovertical"
-        ops = row.operator("scene.superaliniar", text="Ariba")
-        ops.alineacion = "ariba"
+        ops.alineacion_vertical = "abajo"
 
         row = layout.row()
         row.label(text="Zoon", icon="ZOOM_IN")
         row = layout.row()
+        ops = row.operator("scene.superzoon", text="0.25X")
+        ops.zoon = 0.25
         ops = row.operator("scene.superzoon", text="0.5X")
         ops.zoon = 0.5
+        ops = row.operator("scene.superzoon", text="0.75X")
+        ops.zoon = 0.75
+        row = layout.row()
         ops = row.operator("scene.superzoon", text="1X")
         ops.zoon = 1
+        row = layout.row()
         ops = row.operator("scene.superzoon", text="2X")
         ops.zoon = 2
         ops = row.operator("scene.superzoon", text="4X")
         ops.zoon = 4
+        ops = row.operator("scene.superzoon", text="8X")
+        ops.zoon = 8
+
+        row = layout.row()
+        row.label(text="Corte")
+        row = layout.row()
+        ops = row.operator("scene.superzoon", text="L")
+        ops = row.operator("scene.superzoon", text="J")
+
+        row = layout.row()
+        row.label(text="Corte")
 
 addon_keymaps = []
 
