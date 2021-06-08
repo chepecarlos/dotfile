@@ -1,4 +1,5 @@
 import bpy
+import math
 
 from bpy.props import (
         BoolProperty,
@@ -29,29 +30,12 @@ class audioespecial(bpy.types.Operator):
     bl_description = "Insertar pista de audio sobre otra clip"
     bl_options = {"REGISTER", "UNDO"}
 
-    # pista : EnumProperty(
-    #         items=(
-    #             (0, 'alsw', "ALSW"),
-    #             (1, 'mrtee', "MrTee"),
-    #             ),
-    #         name="Pista",
-    #         default= 0,
-    #         description="Pista de audio"
-    #         )
-
-    pollo : FloatProperty(
-            name="pollo",
-            description="zoon para clip",
-            default=1,
-            min=-10, max=10
-            )
-
-    pista: EnumProperty(
+    pista : EnumProperty(
         name="Type of radius",
         description="Choose type of atom radius",
-        items=(('alsw', "ALSW", "Use pre-defined radius"),
-               ('mrtee', "MrTee", "Use atomic radius"),
-               ('p', "van der Waals", "Use van der Waals radius")),
+        items=(('alsw', "ALSW", "ALSW base"),
+               ('mrtee', "MrTee", "Musica MrTee"),
+               ('p', "pollo", "musica pollo")),
         default='mrtee',)
 
     # Verifica que este alguna secuencia selecionada
@@ -60,8 +44,13 @@ class audioespecial(bpy.types.Operator):
         return context.selected_sequences
 
     def execute(self, context):
-        print("Pista ", self.pista)
-        VideoActual = "/home/chepecarlos/2.VideoMusicales/demo/POP.mkv"
+
+        if self.pista == 'alsw':
+            return{'FINISHED'}
+        elif self.pista == 'mrtee':
+            VideoActual = "/home/chepecarlos/2.VideoMusicales/demo/POP.mkv"
+        else:
+            return{'FINISHED'}
 
         # context.area.type = 'SEQUENCE_EDITOR'
         # FrameActual = bpy.context.scene.frame_current
@@ -84,6 +73,83 @@ class audioespecial(bpy.types.Operator):
             MostarMensajeBox("Selecione una pista", title="Error", icon="ERROR")
         return{'FINISHED'}
 
+class superaliniar(bpy.types.Operator):
+    bl_idname = "scene.superaliniar"
+    bl_label = "super Aliniar"
+    bl_description = "Alinea los clips"
+    bl_options = {"REGISTER", "UNDO"}
+
+    alineacion_horizontal : EnumProperty(
+        name="Alineacion Horizontal de clip",
+        description="Alina el clip",
+        items=(('derecha', "Derecha", "ALSW base"),
+               ('izquierda', "Izquierda", "Musica MrTee"),
+               ('centro', "Centro", "musica pollo"),
+               ('nada', "Nada", "ninguna")),
+        default='nada',)
+
+    alineacion_vertical : EnumProperty(
+        name="Alineacion Vertical de clip",
+        description="Alina el clip",
+        items=(('ariba', "Ariba", "ALSW base"),
+               ('abajo', "Abajo", "Musica MrTee"),
+               ('centro', "Centro", "musica pollo"),
+               ('nada', "Nada", "ninguna")),
+        default='nada',)
+
+    # Verifica que este alguna secuencia selecionada
+    @classmethod
+    def poll(cls, context):
+        # Todo: Solo activar con clip de video
+        if len(bpy.context.selected_sequences) > 0:
+            ClipActual = context.selected_sequences[0]
+            if ClipActual.type != "MOVIE":
+                return False
+        return context.selected_sequences
+
+    def execute(self, context):
+
+        if len(bpy.context.selected_sequences) > 0:
+            ClipActual = context.selected_sequences[0]
+            if ClipActual.type != "MOVIE":
+                return{'FINISHED'}
+
+            ClipActual = context.selected_sequences[0]
+            EsenaActual = context.scene.sequence_editor.active_strip.elements[0]
+            AnchoCanva = context.scene.render.resolution_x
+            AltoCanva = context.scene.render.resolution_y
+            Alto = EsenaActual.orig_height
+            Ancho = EsenaActual.orig_width
+            PosicionX = ClipActual.transform.offset_x
+            PosicionY = ClipActual.transform.offset_y
+            EscalaX = ClipActual.transform.scale_x
+            EscalaY = ClipActual.transform.scale_y
+
+            if self.alineacion_vertical == "centro":
+                ClipActual.transform.offset_y = 0
+            elif self.alineacion_vertical == "ariba":
+                AltoClip = Alto * EscalaY
+                ValorY =  AltoCanva/2 - AltoClip/2
+                ClipActual.transform.offset_y = ValorY
+            elif self.alineacion_vertical == "abajo":
+                AltoClip = Alto * EscalaY
+                ValorY =  AltoCanva/2 - AltoClip/2
+                ClipActual.transform.offset_y = -ValorY
+
+
+            if self.alineacion_horizontal == "centro":
+                ClipActual.transform.offset_x = 0
+            elif self.alineacion_horizontal == "izquierda":
+                AnchoClip = Ancho * EscalaX
+                ValorX = AnchoCanva/2 - AnchoClip/2
+                ClipActual.transform.offset_x = -ValorX
+            elif self.alineacion_horizontal == "derecha":
+                AnchoClip = Ancho * EscalaX
+                ValorX = AnchoCanva/2 - AnchoClip/2
+                ClipActual.transform.offset_x = ValorX
+
+        return{'FINISHED'}
+
 class superzoon(bpy.types.Operator):
     bl_idname = "scene.superzoon"
     bl_label = "Super Zoon"
@@ -100,20 +166,41 @@ class superzoon(bpy.types.Operator):
     # Verifica que este alguna secuencia selecionada
     @classmethod
     def poll(cls, context):
+        # Todo: Solo activar con clip de video
+        if len(bpy.context.selected_sequences) > 0:
+            ClipActual = context.selected_sequences[0]
+            if ClipActual.type != "MOVIE":
+                return False
         return context.selected_sequences
 
     def execute(self, context):
 
         if len(bpy.context.selected_sequences) > 0:
-            print("zoon ",self.zoon)
+            ClipActual = context.selected_sequences[0]
 
-            # ClipActual = bpy.context.selected_sequences[0]
-            # PosicionX = ClipActual.transform.offset_x
-            # PosicionY = ClipActual.transform.offset_y
-            # EscalaX = ClipActual.transform.scale_x
-            # EscalaY = ClipActual.transform.scale_y
-            # ClipActual.transform.scale_x = EscalaX*2
-            # ClipActual.transform.scale_y = EscalaY*2
+            if ClipActual.type != "MOVIE":
+                return{'FINISHED'}
+
+            zoon = self.zoon
+            ClipActual = context.selected_sequences[0]
+            EsenaActual = context.scene.sequence_editor.active_strip.elements[0]
+            AnchoCamva = context.scene.render.resolution_x
+            AltoCamva = context.scene.render.resolution_y
+            Alto = EsenaActual.orig_height
+            Ancho = EsenaActual.orig_width
+            PosicionX = ClipActual.transform.offset_x
+            PosicionY = ClipActual.transform.offset_y
+            EscalaX = ClipActual.transform.scale_x
+            EscalaY = ClipActual.transform.scale_y
+
+            Relacion = math.sqrt(Alto*Alto + Ancho*Ancho)
+
+            RelacionCanva =  math.sqrt(AnchoCamva*AnchoCamva + AltoCamva*AltoCamva)
+
+            MultiplicadorUnitario = RelacionCanva/Relacion
+
+            ClipActual.transform.scale_x = MultiplicadorUnitario * zoon
+            ClipActual.transform.scale_y = MultiplicadorUnitario * zoon
         else:
             ShowMessageBox("Selecione una pista", title="Error", icon="ERROR")
 
@@ -131,34 +218,58 @@ class MyPanel(bpy.types.Panel):
         layout = self.layout
 
         row = layout.row()
-        row.label(text="Musica sobre clip")
+        row.label(text="Musica sobre clip",  icon="SOUND")
         row = layout.row()
         ops = row.operator("scene.audioespecial", text="MrTee")
         ops.pista = "mrtee"
         ops = row.operator("scene.audioespecial", text="ALSW")
         ops.pista = "alsw"
-
         layout.separator()
+
         row = layout.row()
         row.label(text="Alineacion")
         row = layout.row()
-        row.operator("scene.audioespecial", text="Izquierda")
-        row.operator("scene.audioespecial", text="Centro")
-        row.operator("scene.audioespecial", text="Derecha")
+        ops = row.operator("scene.superaliniar", text="Ariba")
+        ops.alineacion_vertical = "ariba"
         row = layout.row()
-        row.operator("scene.audioespecial", text="Abajo")
-        row.operator("scene.audioespecial", text="Centro")
-        row.operator("scene.audioespecial", text="Ariba")
+        ops = row.operator("scene.superaliniar", text="Izquierda")
+        ops.alineacion_horizontal = "izquierda"
+        ops = row.operator("scene.superaliniar", text="Centro")
+        ops.alineacion_horizontal = "centro"
+        ops = row.operator("scene.superaliniar", text="Derecha")
+        ops.alineacion_horizontal = "derecha"
+        row = layout.row()
+        ops = row.operator("scene.superaliniar", text="Abajo")
+        ops.alineacion_vertical = "abajo"
 
         row = layout.row()
         row.label(text="Zoon", icon="ZOOM_IN")
         row = layout.row()
+        ops = row.operator("scene.superzoon", text="0.25X")
+        ops.zoon = 0.25
         ops = row.operator("scene.superzoon", text="0.5X")
         ops.zoon = 0.5
+        ops = row.operator("scene.superzoon", text="0.75X")
+        ops.zoon = 0.75
+        row = layout.row()
         ops = row.operator("scene.superzoon", text="1X")
         ops.zoon = 1
+        row = layout.row()
         ops = row.operator("scene.superzoon", text="2X")
         ops.zoon = 2
+        ops = row.operator("scene.superzoon", text="4X")
+        ops.zoon = 4
+        ops = row.operator("scene.superzoon", text="8X")
+        ops.zoon = 8
+
+        row = layout.row()
+        row.label(text="Corte")
+        row = layout.row()
+        ops = row.operator("scene.superzoon", text="L")
+        ops = row.operator("scene.superzoon", text="J")
+
+        row = layout.row()
+        row.label(text="Corte")
 
 addon_keymaps = []
 
@@ -166,7 +277,8 @@ addon_keymaps = []
 classes = [
     MyPanel,
     audioespecial,
-    superzoon
+    superzoon,
+    superaliniar
 ]
 
 def add_hotkey():
