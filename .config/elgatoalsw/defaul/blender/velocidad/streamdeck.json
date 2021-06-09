@@ -1,0 +1,42 @@
+[{
+  "nombre": "X2",
+  "titulo": "X2",
+  "key": 0,
+  "macro": [{
+    "tecla": ["alt", "2"]
+  }, {
+    "opcion": "regresar"
+  }]
+}, {
+  "nombre": "X3",
+  "titulo": "X3",
+  "key": 1,
+  "macro": [{
+    "tecla": ["alt", "3"]
+  }, {
+    "opcion": "regresar"
+  }]
+}, {
+  "nombre": "X4",
+  "titulo": "X4",
+  "key": 2,
+  "macro": [{
+    "tecla": ["alt", "4"]
+  }, {
+    "opcion": "regresar"
+  }]
+}, {
+  "nombre": "X10",
+  "titulo": "X10",
+  "key": 3,
+  "macro": [{
+    "tecla": ["alt", "5"]
+  }, {
+    "opcion": "regresar"
+  }]
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 4
+}]

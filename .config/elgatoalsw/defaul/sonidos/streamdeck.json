@@ -1,0 +1,41 @@
+[{
+  "nombre": "Parar",
+  "titulo": "Parar",
+  "key": 0,
+  "sonido": "parar"
+}, {
+  "nombre": "Golpe",
+  "titulo": "Golpe",
+  "key": 1,
+  "sonido": "defaul/sonidos/golpe.wav"
+}, {
+  "nombre": "Musica_ALSW",
+  "titulo": "Musica ALSW",
+  "key": 2,
+  "sonido": "defaul/sonidos/musica_ALSW.wav"
+}, {
+  "nombre": "Mr_Tea",
+  "titulo": "MrTea",
+  "key": 3,
+  "sonido": "defaul/sonidos/mr_tea.wav"
+}, {
+  "nombre": "Aplausos",
+  "titulo": "Aplauso",
+  "key": 4,
+  "sonido": "defaul/sonidos/aplausos.wav"
+}, {
+  "nombre": "Chan",
+  "titulo": "chan",
+  "key": 5,
+  "sonido": "defaul/sonidos/chan.wav"
+}, {
+  "nombre": "Pokemon",
+  "titulo": "Pokemon",
+  "key": 6,
+  "sonido": "defaul/sonidos/pokemon.wav"
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]

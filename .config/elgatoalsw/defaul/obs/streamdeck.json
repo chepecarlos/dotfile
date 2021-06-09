@@ -1,0 +1,75 @@
+[{
+  "nombre": "Tutorial",
+  "titulo": "Tutorial",
+  "key": 0,
+  "icono": "defaul/obs/inicio_on.png",
+  "opcion": "folder",
+  "path": "defaul/obs/tutorial"
+}, {
+  "nombre": "ProgramacionNews",
+  "titulo": "News",
+  "key": 1,
+  "icono": "defaul/obs/news/news.png",
+  "macro": [{
+    "opcion": "folder",
+    "path": "defaul/obs/news"
+  }, {
+    "news": "actualizar"
+  }]
+}, {
+  "nombre": "Shorts",
+  "titulo": "Shorts",
+  "key": 2,
+  "icono": "defaul/obs/inicio_on.png",
+  "opcion": "folder",
+  "path": "defaul/obs/tutorial"
+}, {
+  "nombre": "Juego",
+  "titulo": "Juego",
+  "key": 3,
+  "icono": "defaul/obs/juego/juego.png",
+  "opcion": "folder",
+  "path": "defaul/obs/juego"
+}, {
+  "nombre": "grabar",
+  "key": 10,
+  "obs": "grabando",
+  "estado": false,
+  "icono_true": "defaul/obs/grabar_on.png",
+  "icono_false": "defaul/obs/grabar_off.png"
+}, {
+  "nombre": "EnVivo",
+  "key": 11,
+  "obs": "envivo",
+  "estado": false,
+  "icono_true": "defaul/obs/envivo_on.png",
+  "icono_false": "defaul/obs/envivo_off.png"
+}, {
+  "nombre": "Conectar",
+  "titulo": "Conectar",
+  "key": 18,
+  "obs": "conectar",
+  "estado": false,
+  "icono_true": "defaul/obs/conectar_on.png",
+  "icono_false": "defaul/obs/conectar_off.png"
+}, {
+  "nombre": "Desconectar",
+  "titulo": "Desconectar",
+  "key": 23,
+  "obs": "cerrar"
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 19
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 24
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]

@@ -1,0 +1,172 @@
+[{
+  "nombre": "RotarI",
+  "icono": "defaul/arte/inkscape/rotar_i.png",
+  "key": 0,
+  "tecla": ["ctrl", "["]
+}, {
+  "nombre": "RotarD",
+  "icono": "defaul/arte/inkscape/rotar_d.png",
+  "key": 1,
+  "tecla": ["ctrl", "]"]
+}, {
+  "nombre": "ReflejarH",
+  "icono": "defaul/arte/inkscape/reflejar_h.png",
+  "key": 2,
+  "tecla": ["h"]
+}, {
+  "nombre": "ReflejarV",
+  "icono": "defaul/arte/inkscape/reflejar_v.png",
+  "key": 3,
+  "tecla": ["v"]
+}, {
+  "nombre": "Selecion",
+  "icono": "defaul/arte/inkscape/selecion.png",
+  "key": 4,
+  "tecla": ["f1"]
+}, {
+  "nombre": "Centrar Vertical",
+  "icono": "defaul/arte/inkscape/centar_vertical.png",
+  "key": 5,
+  "tecla": ["ctrl", "alt", "h"]
+}, {
+  "nombre": "Centrar Horizontal",
+  "icono": "defaul/arte/inkscape/centrar_horizontal.png",
+  "key": 6,
+  "tecla": ["ctrl", "alt", "u"]
+}, {
+  "nombre": "ordenar horizontal",
+  "icono": "defaul/arte/inkscape/ordenar_horizontal.png",
+  "key": 7,
+}, {
+  "nombre": "ordenar vertical",
+  "icono": "defaul/arte/inkscape/ordenar_vertical.png",
+  "key": 8,
+}, {
+  "nombre": "Texto",
+  "icono": "defaul/arte/inkscape/texto.png",
+  "key": 9,
+  "tecla": ["f8"]
+}, {
+  "nombre": "Bajar Fondo",
+  "icono": "defaul/arte/inkscape/bajar_fondo.png",
+  "key": 10,
+  "tecla": ["end"]
+}, {
+  "nombre": "Bajar",
+  "icono": "defaul/arte/inkscape/bajar.png",
+  "key": 11,
+  "tecla": ["pagedown"]
+}, {
+  "nombre": "Suvir",
+  "icono": "defaul/arte/inkscape/suvir.png",
+  "key": 12,
+  "tecla": ["pageup"]
+}, {
+  "nombre": "Suvir Frente",
+  "icono": "defaul/arte/inkscape/suvir_frente.png",
+  "key": 13,
+  "tecla": ["home"]
+}, {
+  "nombre": "Relleno",
+  "icono": "defaul/arte/inkscape/relleno.png",
+  "key": 14,
+  "tecla": ["shift", "ctrl", "f"]
+}, {
+  "nombre": "Aliniar",
+  "icono": "defaul/arte/inkscape/aliniar.png",
+  "key": 15,
+  "tecla": ["shift", "ctrl", "a"]
+}, {
+  "nombre": "Rectangulo",
+  "icono": "defaul/arte/inkscape/rectangulo.png",
+  "key": 16,
+  "tecla": ["f4"]
+}, {
+  "nombre": "Jessyink",
+  "titulo": "Jessyink",
+  "icono": "defaul/arte/inkscape/jessyink/jessyink.png",
+  "key": 17,
+  "opcion": "folder",
+  "path": "defaul/arte/inkscape/jessyink"
+}, {
+  "nombre": "Recortar",
+  "titulo": "Recortar",
+  "key": 20,
+  "tecla": ["ctrl", "shift", "i"]
+}, {
+  "nombre": "Liberrar",
+  "titulo": "Liberrar",
+  "key": 21,
+  "tecla": ["ctrl", "shift", "u"]
+}, {
+  "nombre": "Borrar",
+  "icono": "defaul/arte/inkscape/borrar.png",
+  "key": 22,
+  "tecla": ["del"]
+}, {
+  "nombre": "Ultimo",
+  "titulo": "Ultimo",
+  "icono": "defaul/arte/inkscape/nodo.png",
+  "key": 23,
+  "tecla": ["shift", "alt", "q"]
+}, {
+  "nombre": "Objeto a Trajectoria",
+  "icono": "defaul/arte/inkscape/trajectoria.png",
+  "key": 25,
+  "tecla": ["shift", "ctrl", "c"]
+}, {
+  "nombre": "Duplicar",
+  "icono": "defaul/arte/inkscape/duplicar.png",
+  "key": 26,
+  "tecla": ["ctrl", "d"]
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 19
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 24
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}, {
+  "nombre": "Salvar",
+  "icono": "defaul/arte/inkscape/salvar.png",
+  "key": 30,
+  "tecla": ["ctrl", "s"]
+}, {
+  "nombre": "Selecion",
+  "icono": "defaul/arte/inkscape/selecion.png",
+  "key": 31,
+  "tecla": ["f1"]
+}, {
+  "nombre": "Nodo",
+  "icono": "defaul/arte/inkscape/nodo.png",
+  "key": 32,
+  "tecla": ["f2"]
+}, {
+  "nombre": "curva",
+  "icono": "defaul/arte/inkscape/curva.png",
+  "key": 33,
+  "tecla": ["shift", "f6"]
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 49
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 54
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 59
+}]

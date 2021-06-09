@@ -1,0 +1,30 @@
+[{
+  "nombre": "inkscape",
+  "titulo": "Inkscape",
+  "key": 0,
+  "icono": "defaul/arte/inkscape/inkscape.png",
+  "opcion": "folder",
+  "path": "defaul/arte/inkscape"
+}, {
+  "nombre": "gimp",
+  "titulo": "Gimp",
+  "key": 1,
+  "icono": "defaul/arte/gimp/gimp.png",
+  "opcion": "folder",
+  "path": "defaul/arte/gimp"
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 19
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 24
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]

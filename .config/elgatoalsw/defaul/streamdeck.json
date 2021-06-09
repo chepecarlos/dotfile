@@ -1,0 +1,117 @@
+[{
+  "nombre": "OBS",
+  "titulo": "OBS",
+  "key": 0,
+  "icono": "defaul/obs/obs.png",
+  "opcion": "folder",
+  "path": "defaul/obs"
+}, {
+  "nombre": "Arte",
+  "titulo": "Arte",
+  "key": 1,
+  "icono": "defaul/arte/arte.png",
+  "opcion": "folder",
+  "path": "defaul/arte"
+}, {
+  "nombre": "IDE's",
+  "titulo": "IDE's",
+  "key": 2,
+  "icono": "defaul/ide/ide.png",
+  "opcion": "folder",
+  "path": "defaul/ide"
+}, {
+  "nombre": "Blender",
+  "titulo": "Blender",
+  "key": 5,
+  "icono": "defaul/blender/blender.png",
+  "opcion": "folder",
+  "path": "defaul/blender"
+}, {
+  "nombre": "Link",
+  "titulo": "Link's",
+  "key": 7,
+  "icono": "defaul/link/link.png",
+  "opcion": "folder",
+  "path": "defaul/link"
+}, {
+  "nombre": "FanPage",
+  "titulo": "FanPage",
+  "key": 15,
+  "opcion": "folder",
+  "path": "defaul/fanpage"
+}, {
+  "nombre": "MQTT",
+  "titulo": "MQTT",
+  "key": 16,
+  "opcion": "folder",
+  "path": "defaul/mqtt"
+}, {
+  "nombre": "Sonidos",
+  "titulo": "Sonidos",
+  "icono": "defaul/sonidos/sonidos.png",
+  "key": 17,
+  "opcion": "folder",
+  "path": "defaul/sonidos"
+}, {
+  "nombre": "Notion",
+  "titulo": "Notion",
+  "icono": "defaul/notion/notion.png",
+  "key": 18,
+  "opcion": "folder",
+  "path": "defaul/notion"
+}, {
+  "nombre": "Recursos",
+  "titulo": "Recursos",
+  "gif": "defaul/recursos/ryuk_pc.gif",
+  "key": 22,
+  "opcion": "folder",
+  "path": "defaul/recursos"
+}, {
+  "nombre": "FreeCAD",
+  "titulo": "FreeCAD",
+  "icono": "defaul/freecad/freecad.png",
+  "key": 26,
+  "opcion": "folder",
+  "path": "defaul/freecad"
+}, {
+  "nombre": "Config",
+  "titulo": "Config",
+  "key": 27,
+  "opcion": "folder",
+  "path": "defaul/config"
+}, {
+  "nombre": "Salir",
+  "titulo": "Salir",
+  "opcion": "salir",
+  "key": 28
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 19
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 24
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 49
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 54
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 59
+}, ]

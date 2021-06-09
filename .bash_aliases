@@ -1,5 +1,6 @@
-# Alias extras para PC de ChepeCarlos de ALSW
-# https://github.com/chepecarlos/dotfile
+# .bash_aliase
+# Autor: ChepeCarlos <ChepeCarlos@alsw.net>
+# Codigo: https://github.com/chepecarlos/dotfile
 
 # Generales
 alias p='ping 8.8.8.8'

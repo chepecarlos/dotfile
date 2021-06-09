@@ -1,0 +1,115 @@
+[{
+  "nombre": "Reiniciar",
+  "titulo": "Reiniciar",
+  "key": 0,
+  "icono_texto": {
+    "archivo": "data/fanpage.json",
+    "atributo": "id"
+  },
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/fanpage.json",
+      "atributo": "id",
+      "valor": 0
+    }
+  }]
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "key": 1,
+  "icono": "defaul/fanpage/anterior.png",
+  "macro": [{
+    "data_archivo": {
+      "opcion": "agregar",
+      "archivo": "data/fanpage.json",
+      "atributo": "id",
+      "valor": -1
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "minimo",
+      "archivo": "data/fanpage.json",
+      "atributo": "id",
+      "valor": 0
+    }
+  }]
+}, {
+  "nombre": "Siquiente",
+  "titulo": "Siquiente",
+  "key": 2,
+  "icono": "defaul/fanpage/siquiente.png",
+  "macro": [{
+    "data_archivo": {
+      "opcion": "agregar",
+      "archivo": "data/fanpage.json",
+      "atributo": "id",
+      "valor": 1
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "maximo",
+      "archivo": "data/fanpage.json",
+      "atributo": "id",
+      "valor": "max"
+    }
+  }]
+}, {
+  "nombre": "Fanpage",
+  "titulo": "Fanpage",
+  "key": 3,
+  "icono": "defaul/fanpage/link.png",
+  "Macro": [{
+    "data_archivo": {
+      "opcion": "agregar",
+      "archivo": "data/fanpage.json",
+      "atributo": "id",
+      "valor": 1
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "maximo",
+      "archivo": "data/fanpage.json",
+      "atributo": "id",
+      "valor": "max"
+    }
+  }, {
+    "tecla": ["ctrl", "t"]
+  }, {
+    "data_archivo": {
+      "opcion": "pegar",
+      "archivo": "data/fanpage.json",
+      "atributo": "url"
+    }
+  }, {
+    "tecla": ["enter"]
+  }]
+}, {
+  "nombre": "Post",
+  "titulo": "Post",
+  "key": 4,
+  "icono": "defaul/fanpage/link.png",
+  "Macro": [{
+    "Archivo": "Pegar",
+    "fuente": {
+      "json": "FanPage.json",
+      "Atributo": "Post"
+    }
+  }]
+}, {
+  "nombre": "GuardadTexto",
+  "titulo": "GuardadTexto",
+  "Archivo": "Salvar",
+  "json": "FanPage.json",
+  "Atributo": "Post"
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 5
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]

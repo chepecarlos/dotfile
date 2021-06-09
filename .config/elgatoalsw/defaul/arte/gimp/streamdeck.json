@@ -1,0 +1,81 @@
+[{
+  "nombre": "seleccion",
+  "icono": "defaul/arte/gimp/seleccion.png",
+  "key": 0,
+  "tecla": ["u"]
+}, {
+  "nombre": "seleccion color",
+  "icono": "defaul/arte/gimp/seleccion_color.png",
+  "key": 1,
+  "tecla": ["shift", "o"]
+}, {
+  "nombre": "añadir alfa",
+  "icono": "defaul/arte/gimp/anadir_alfa.png",
+  "key": 2,
+  "tecla": ["ctrl", "f12"]
+}, {
+  "nombre": "clonar",
+  "icono": "defaul/arte/gimp/clonar.png",
+  "key": 5,
+  "tecla": ["c"]
+}, {
+  "nombre": "cortar",
+  "icono": "defaul/arte/gimp/cortar.png",
+  "key": 6,
+  "tecla": ["ctrl", "x"]
+}, {
+  "nombre": "copiar visible",
+  "icono": "defaul/arte/gimp/copiar.png",
+  "key": 7,
+  "tecla": ["ctrl", "shift", "c"]
+}, {
+  "nombre": "pegar nuevo documento",
+  "icono": "defaul/arte/gimp/pegar.png",
+  "key": 8,
+  "tecla": ["ctrl", "shift", "v"]
+}, {
+  "nombre": "selecionar todo",
+  "icono": "defaul/arte/gimp/selecionar_todo.png",
+  "key": 10,
+  "tecla": ["ctrl", "a"]
+}, {
+  "nombre": "selecionar nada",
+  "icono": "defaul/arte/gimp/selecionar_nada.png",
+  "key": 11,
+  "tecla": ["ctrl", "shift", "a"]
+}, {
+  "nombre": "curva",
+  "icono": "defaul/arte/gimp/curvas.png",
+  "key": 15,
+  "tecla": ["ctrl", "shift", "m"]
+}, {
+  "nombre": "tono saturacion",
+  "icono": "defaul/arte/gimp/tono.png",
+  "key": 16,
+  "tecla": ["ctrl", ":"]
+}, {
+  "nombre": "Incrementar",
+  "titulo": "Incrementar",
+  "key": 26,
+  "tecla_on": ["]"]
+}, {
+  "nombre": "Reducir",
+  "titulo": "Reducir",
+  "key": 27,
+  "tecla_on": ["["]
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 19
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 24
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]
