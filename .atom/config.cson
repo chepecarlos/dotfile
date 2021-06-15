@@ -56,10 +56,11 @@
   "linter-flake8":
     ignoreErrorCodes: [
       "E501"
-      ""
+      "D100"
     ]
     maxLineLength: 200
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 99.15692901611328
   "markdown-preview": {}
   minimap:
     plugins:
