@@ -1,0 +1,77 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "219abd43-e3dd-4a7f-ba6e-6cc25875abf7"
+  "autocomplete-python":
+    useKite: false
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "ide-python"
+      "atom-python-run"
+      "atom-debugger"
+      "build-python"
+      "atom-console"
+      "buildium"
+      "intentions"
+    ]
+    packagesWithKeymapsDisabled: [
+      "atom-debugger"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    autoIndentOnPaste: false
+    fontSize: 17
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "7f00b4a9-8700-46a7-90fc-5a6535845e0d"
+  "ide-python":
+    pylsPlugins:
+      flake8:
+        ignore: [
+          "E121"
+          "E123"
+          "E126"
+          "E226"
+          "E24"
+          "E704"
+          "W503"
+          "W504"
+          "E501"
+        ]
+      pycodestyle:
+        ignore: [
+          "E121"
+          "E123"
+          "E126"
+          "E226"
+          "E24"
+          "E704"
+          "W503"
+          "E501"
+        ]
+    python: "python3"
+  "linter-flake8":
+    ignoreErrorCodes: [
+      "E501"
+      ""
+    ]
+    maxLineLength: 200
+  "linter-ui-default": {}
+  "markdown-preview": {}
+  minimap:
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "todo-show":
+    ignoreThesePaths: [
+      "node_modules"
+      "vendor"
+      "bower_components"
+      "*.pdf"
+      "*.svg"
+    ]
+  welcome:
+    showOnStartup: false
