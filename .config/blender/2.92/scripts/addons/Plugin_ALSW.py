@@ -18,7 +18,9 @@ bl_info = {
     "category": "Object",
 }
 
+
 def MostarMensajeBox(message="", title="Message Box", icon='INFO'):
+    """Muestra mensaje en pantalla."""
     def draw(self, context):
         self.layout.label(text=message)
     bpy.context.window_manager.popup_menu(draw, title=title, icon=icon)
@@ -30,7 +32,7 @@ class audioespecial(bpy.types.Operator):
     bl_description = "Insertar pista de audio sobre otra clip"
     bl_options = {"REGISTER", "UNDO"}
 
-    pista : EnumProperty(
+    pista: EnumProperty(
         name="Type of radius",
         description="Choose type of atom radius",
         items=(('alsw', "ALSW", "ALSW base"),
@@ -48,7 +50,7 @@ class audioespecial(bpy.types.Operator):
         if self.pista == 'alsw':
             return{'FINISHED'}
         elif self.pista == 'mrtee':
-            VideoActual = "/home/chepecarlos/2.VideoMusicales/demo/POP.mkv"
+            VideoActual = "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/3.Sonido/1.Musica/1.Mr_Tea.mp3"
         else:
             return{'FINISHED'}
 
@@ -73,13 +75,14 @@ class audioespecial(bpy.types.Operator):
             MostarMensajeBox("Selecione una pista", title="Error", icon="ERROR")
         return{'FINISHED'}
 
+
 class superaliniar(bpy.types.Operator):
     bl_idname = "scene.superaliniar"
     bl_label = "super Aliniar"
     bl_description = "Alinea los clips"
     bl_options = {"REGISTER", "UNDO"}
 
-    alineacion_horizontal : EnumProperty(
+    alineacion_horizontal: EnumProperty(
         name="Alineacion Horizontal de clip",
         description="Alina el clip",
         items=(('derecha', "Derecha", "ALSW base"),
@@ -88,7 +91,7 @@ class superaliniar(bpy.types.Operator):
                ('nada', "Nada", "ninguna")),
         default='nada',)
 
-    alineacion_vertical : EnumProperty(
+    alineacion_vertical: EnumProperty(
         name="Alineacion Vertical de clip",
         description="Alina el clip",
         items=(('ariba', "Ariba", "ALSW base"),
@@ -129,13 +132,12 @@ class superaliniar(bpy.types.Operator):
                 ClipActual.transform.offset_y = 0
             elif self.alineacion_vertical == "ariba":
                 AltoClip = Alto * EscalaY
-                ValorY =  AltoCanva/2 - AltoClip/2
+                ValorY = AltoCanva/2 - AltoClip/2
                 ClipActual.transform.offset_y = ValorY
             elif self.alineacion_vertical == "abajo":
                 AltoClip = Alto * EscalaY
-                ValorY =  AltoCanva/2 - AltoClip/2
+                ValorY = AltoCanva/2 - AltoClip/2
                 ClipActual.transform.offset_y = -ValorY
-
 
             if self.alineacion_horizontal == "centro":
                 ClipActual.transform.offset_x = 0
@@ -150,13 +152,14 @@ class superaliniar(bpy.types.Operator):
 
         return{'FINISHED'}
 
+
 class superzoon(bpy.types.Operator):
     bl_idname = "scene.superzoon"
     bl_label = "Super Zoon"
     bl_description = "Cambia el zoon en clip"
     bl_options = {"REGISTER", "UNDO"}
 
-    zoon : FloatProperty(
+    zoon: FloatProperty(
             name="zoon",
             description="zoon para clip",
             default=1,
@@ -195,7 +198,7 @@ class superzoon(bpy.types.Operator):
 
             Relacion = math.sqrt(Alto*Alto + Ancho*Ancho)
 
-            RelacionCanva =  math.sqrt(AnchoCamva*AnchoCamva + AltoCamva*AltoCamva)
+            RelacionCanva = math.sqrt(AnchoCamva*AnchoCamva + AltoCamva*AltoCamva)
 
             MultiplicadorUnitario = RelacionCanva/Relacion
 
@@ -208,7 +211,7 @@ class superzoon(bpy.types.Operator):
 
 
 class MyPanel(bpy.types.Panel):
-    """Creates a Panel in the Object properties window"""
+    """Creates a Panel in the Object properties window."""
     bl_label = "Panel ALSW"
     bl_idname = "my.panel"
     bl_space_type = 'SEQUENCE_EDITOR'
@@ -271,6 +274,7 @@ class MyPanel(bpy.types.Panel):
         row = layout.row()
         row.label(text="Corte")
 
+
 addon_keymaps = []
 
 # Registar clases
@@ -281,6 +285,7 @@ classes = [
     superaliniar
 ]
 
+
 def add_hotkey():
     print("Agregando Teclas Rapida")
     wm = bpy.context.window_manager
@@ -289,16 +294,19 @@ def add_hotkey():
     km = kc.keymaps.new(name='Sequencer', space_type='SEQUENCE_EDITOR')
 
     kmi = km.keymap_items.new("scene.audioespecial", 'M', 'PRESS', ctrl=True, shift=False)
+    kmi.properties.pista = "mrtee"
 
     kmi = km.keymap_items.new("scene.superzoon", type="P", value="PRESS", ctrl=True, shift=False)
     kmi.properties.zoon = 1
 
     addon_keymaps.append((km, kmi))
 
+
 def remove_hotkey():
     for km, kmi in addon_keymaps:
         km.keymap_items.remove(kmi)
     addon_keymaps.clear()
+
 
 def register():
     from bpy.utils import register_class
@@ -313,6 +321,7 @@ def unregister():
     from bpy.utils import unregister_class
     for cls in reversed(classes):
         unregister_class(cls)
+
 
 if __name__ == "__main__":
     register()
