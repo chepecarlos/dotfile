@@ -1,9 +1,14 @@
 [user]
 	name = chepecarlos
 	email = chepecarlos@alswblog.org
+	username = chepecarlos
 [merge]
 	tool = meld
 [diff]
 	tool = meld
 [core]
 	editor = nano
+[alias]
+	#############
+	l = log --oneline
+	lg = log --oneline --graph --decorate
