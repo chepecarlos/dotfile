@@ -72,14 +72,14 @@
   "icono_true": "defaul/obs/zoon_on.png",
   "icono_false": "defaul/obs/zoon_off.png"
 }, {
-  "nombre": "Fin",
-  "titulo": "Fin",
+  "nombre": "Apoyo",
+  "titulo": "Apoyo",
   "key": 9,
   "obs": "esena",
-  "esena": "Fin",
+  "esena": "Apoyo",
   "estado": false,
-  "icono_true": "defaul/obs/fin_on.png",
-  "icono_false": "defaul/obs/fin_off.png"
+  "icono_true": "defaul/obs/codigo_on.png",
+  "icono_false": "defaul/obs/codigo_off.png"
 }, {
   "nombre": "grabar",
   "key": 10,
@@ -94,6 +94,15 @@
   "estado": false,
   "icono_true": "defaul/obs/envivo_on.png",
   "icono_false": "defaul/obs/envivo_off.png"
+}, {
+  "nombre": "Fin",
+  "titulo": "Fin",
+  "key": 14,
+  "obs": "esena",
+  "esena": "Fin",
+  "estado": false,
+  "icono_true": "defaul/obs/fin_on.png",
+  "icono_false": "defaul/obs/fin_off.png"
 }, {
   "nombre": "reiniciar",
   "titulo": "reiniciar",

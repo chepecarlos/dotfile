@@ -1,6 +1,6 @@
 [{
   "nombre": "X2",
-  "titulo": "X2",
+  "icono": "defaul/blender/x2.png",
   "key": 0,
   "macro": [{
     "tecla": ["alt", "2"]
@@ -9,7 +9,7 @@
   }]
 }, {
   "nombre": "X3",
-  "titulo": "X3",
+  "icono": "defaul/blender/x3.png",
   "key": 1,
   "macro": [{
     "tecla": ["alt", "3"]
@@ -18,7 +18,7 @@
   }]
 }, {
   "nombre": "X4",
-  "titulo": "X4",
+  "icono": "defaul/blender/x4.png",
   "key": 2,
   "macro": [{
     "tecla": ["alt", "4"]
@@ -27,7 +27,7 @@
   }]
 }, {
   "nombre": "X10",
-  "titulo": "X10",
+  "icono": "defaul/blender/x10.png",
   "key": 3,
   "macro": [{
     "tecla": ["alt", "5"]

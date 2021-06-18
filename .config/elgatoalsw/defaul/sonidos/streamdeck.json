@@ -34,6 +34,23 @@
   "key": 6,
   "sonido": "defaul/sonidos/pokemon.wav"
 }, {
+  "nombre": "Cencura",
+  "titulo": "Cencura -10",
+  "key": 7,
+  "sonido": "defaul/sonidos/cencura.mp3",
+  "ganancia": -10
+}, {
+  "nombre": "Cencura",
+  "titulo": "Cencura",
+  "key": 8,
+  "sonido": "defaul/sonidos/cencura.mp3",
+}, {
+  "nombre": "Cencura",
+  "titulo": "Cencura +10",
+  "key": 9,
+  "sonido": "defaul/sonidos/cencura.mp3",
+  "ganancia": 10
+}, {
   "nombre": "regresar",
   "titulo": "Regresar",
   "opcion": "regresar",

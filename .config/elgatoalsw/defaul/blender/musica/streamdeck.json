@@ -1,0 +1,31 @@
+[{
+  "nombre": "MrTee",
+  "titulo": "MrTee",
+  "solo_titulo": true,
+  "key": 0,
+  "macro": [{
+    "tecla": ["ctrl", "m"]
+  }, {
+    "opcion": "regresar"
+  }]
+}, {
+  "nombre": "ALSw",
+  "titulo": "ALSW",
+  "solo_titulo": true,
+  "key": 1,
+  "macro": [{
+    "tecla": ["alt", "3"]
+  }, {
+    "opcion": "regresar"
+  }]
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 2
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]

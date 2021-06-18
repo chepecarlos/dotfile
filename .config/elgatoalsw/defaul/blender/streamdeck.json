@@ -18,7 +18,7 @@
   "titulo": "Texto",
   "key": 3,
   "tecla": ["ctrl", "q"]
-},{
+}, {
   "nombre": "Marka",
   "icono": "defaul/blender/marcador/maker.png",
   "key": 4,
@@ -69,13 +69,14 @@
   "key": 12,
   "tecla": ["alt", "w"]
 }, {
-  "nombre": "Panel",
-  "icono": "defaul/blender/panel.png",
+  "nombre": "Musica",
+  "titulo": "Musica",
   "key": 13,
-  "tecla": ["n"]
+  "opcion": "folder",
+  "path": "defaul/blender/musica"
 }, {
   "nombre": "Velocidad",
-  "titulo": "Velocidad",
+  "icono": "defaul/blender/velocidad.png",
   "key": 14,
   "opcion": "folder",
   "path": "defaul/blender/velocidad"
@@ -117,16 +118,16 @@
   "opcion": "folder",
   "path": "defaul/blender/marcador"
 }, {
+  "nombre": "Guardar",
+  "icono": "defaul/blender/guardar.png",
+  "key": 22,
+  "tecla": ["ctrl", "s"]
+}, {
   "nombre": "Import",
   "titulo": "Import",
   "key": 23,
   "tecla": ["ctrl", "shift", "i"]
 }, {
-  "nombre": "Guardar",
-  "icono": "defaul/blender/guardar.png",
-  "key": 24,
-  "tecla": ["ctrl", "s"]
-},{
   "nombre": "Agrupar",
   "titulo": "agrupar",
   "key": 25,
@@ -161,4 +162,24 @@
   "titulo": "Regresar",
   "opcion": "regresar",
   "key": 29
+}, {
+  "nombre": "Panel",
+  "icono": "defaul/blender/panel.png",
+  "key": 30,
+  "tecla": ["n"]
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 49
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 54
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 59
 }]

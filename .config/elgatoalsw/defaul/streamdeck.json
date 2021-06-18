@@ -30,6 +30,7 @@
   "nombre": "Link",
   "titulo": "Link's",
   "key": 7,
+  "gif": "defaul/link/link.gif",
   "icono": "defaul/link/link.png",
   "opcion": "folder",
   "path": "defaul/link"
@@ -83,6 +84,7 @@
   "nombre": "Salir",
   "titulo": "Salir",
   "opcion": "salir",
+  "gif": "defaul/salir.gif",
   "key": 28
 }, {
   "nombre": "Anterior",

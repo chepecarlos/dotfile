@@ -46,4 +46,8 @@
   "nombre": "Reacer",
   "key": "KEY_4",
   "tecla": ["shift", "f10"]
+}, {
+  "nombre": "Salir",
+  "key": "KEY_ESC",
+  "opcion": "salir"
 }]
