@@ -1,3 +1,7 @@
+# .bashrc
+# Autor: ChepeCarlos <ChepeCarlos@alsw.net>
+# Codigo: https://github.com/chepecarlos/dotfile
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
