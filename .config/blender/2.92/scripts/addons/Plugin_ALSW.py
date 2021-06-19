@@ -123,6 +123,11 @@ class superaliniar(bpy.types.Operator):
             AltoCanva = context.scene.render.resolution_y
             Alto = EsenaActual.orig_height
             Ancho = EsenaActual.orig_width
+            # Codigo feo, pero funciona
+            if ClipActual.use_proxy:
+                # Buscar una forma no sucia
+                Alto *= 4
+                Ancho *= 4
             PosicionX = ClipActual.transform.offset_x
             PosicionY = ClipActual.transform.offset_y
             EscalaX = ClipActual.transform.scale_x
@@ -191,6 +196,11 @@ class superzoon(bpy.types.Operator):
             AltoCamva = context.scene.render.resolution_y
             Alto = EsenaActual.orig_height
             Ancho = EsenaActual.orig_width
+            # Codigo feo, pero funciona
+            if ClipActual.use_proxy:
+                # Buscar una forma no sucia
+                Alto *= 4
+                Ancho *= 4
             PosicionX = ClipActual.transform.offset_x
             PosicionY = ClipActual.transform.offset_y
             EscalaX = ClipActual.transform.scale_x
