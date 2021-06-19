@@ -249,6 +249,7 @@ class MyPanel(bpy.types.Panel):
         ops.alineacion_horizontal = "izquierda"
         ops = row.operator("scene.superaliniar", text="Centro")
         ops.alineacion_horizontal = "centro"
+        ops.alineacion_vertical = "centro"
         ops = row.operator("scene.superaliniar", text="Derecha")
         ops.alineacion_horizontal = "derecha"
         row = layout.row()
@@ -270,6 +271,8 @@ class MyPanel(bpy.types.Panel):
         row = layout.row()
         ops = row.operator("scene.superzoon", text="2X")
         ops.zoon = 2
+        ops = row.operator("scene.superzoon", text="3X")
+        ops.zoon = 3
         ops = row.operator("scene.superzoon", text="4X")
         ops.zoon = 4
         ops = row.operator("scene.superzoon", text="8X")
