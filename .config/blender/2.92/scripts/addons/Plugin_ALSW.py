@@ -2,11 +2,11 @@ import bpy
 import math
 
 from bpy.props import (
-        BoolProperty,
-        FloatProperty,
-        EnumProperty,
-        IntProperty,
-        )
+    BoolProperty,
+    FloatProperty,
+    EnumProperty,
+    IntProperty,
+)
 
 bl_info = {
     "name": "Heramientas ALSW",
@@ -24,7 +24,6 @@ def MostarMensajeBox(message="", title="Message Box", icon='INFO'):
     def draw(self, context):
         self.layout.label(text=message)
     bpy.context.window_manager.popup_menu(draw, title=title, icon=icon)
-
 
 class audioespecial(bpy.types.Operator):
     bl_idname = "scene.audioespecial"
@@ -137,22 +136,22 @@ class superaliniar(bpy.types.Operator):
                 ClipActual.transform.offset_y = 0
             elif self.alineacion_vertical == "ariba":
                 AltoClip = Alto * EscalaY
-                ValorY = AltoCanva/2 - AltoClip/2
+                ValorY = AltoCanva / 2 - AltoClip / 2
                 ClipActual.transform.offset_y = ValorY
             elif self.alineacion_vertical == "abajo":
                 AltoClip = Alto * EscalaY
-                ValorY = AltoCanva/2 - AltoClip/2
+                ValorY = AltoCanva / 2 - AltoClip / 2
                 ClipActual.transform.offset_y = -ValorY
 
             if self.alineacion_horizontal == "centro":
                 ClipActual.transform.offset_x = 0
             elif self.alineacion_horizontal == "izquierda":
                 AnchoClip = Ancho * EscalaX
-                ValorX = AnchoCanva/2 - AnchoClip/2
+                ValorX = AnchoCanva / 2 - AnchoClip / 2
                 ClipActual.transform.offset_x = -ValorX
             elif self.alineacion_horizontal == "derecha":
                 AnchoClip = Ancho * EscalaX
-                ValorX = AnchoCanva/2 - AnchoClip/2
+                ValorX = AnchoCanva / 2 - AnchoClip / 2
                 ClipActual.transform.offset_x = ValorX
 
         return{'FINISHED'}
@@ -165,11 +164,11 @@ class superzoon(bpy.types.Operator):
     bl_options = {"REGISTER", "UNDO"}
 
     zoon: FloatProperty(
-            name="zoon",
-            description="zoon para clip",
-            default=1,
-            min=-10, max=10
-            )
+        name="zoon",
+        description="zoon para clip",
+        default=1,
+        min=-10, max=10
+    )
 
     # Verifica que este alguna secuencia selecionada
     @classmethod
@@ -206,32 +205,34 @@ class superzoon(bpy.types.Operator):
             EscalaX = ClipActual.transform.scale_x
             EscalaY = ClipActual.transform.scale_y
 
-            Relacion = math.sqrt(Alto*Alto + Ancho*Ancho)
+            Relacion = math.sqrt(Alto * Alto + Ancho * Ancho)
 
-            RelacionCanva = math.sqrt(AnchoCamva*AnchoCamva + AltoCamva*AltoCamva)
+            RelacionCanva = math.sqrt(AnchoCamva * AnchoCamva + AltoCamva * AltoCamva)
 
-            MultiplicadorUnitario = RelacionCanva/Relacion
+            MultiplicadorUnitario = RelacionCanva / Relacion
 
             ClipActual.transform.scale_x = MultiplicadorUnitario * zoon
             ClipActual.transform.scale_y = MultiplicadorUnitario * zoon
         else:
-            ShowMessageBox("Selecione una pista", title="Error", icon="ERROR")
+            MostarMensajeBox("Selecione una pista", title="Error", icon="ERROR")
 
         return{'FINISHED'}
 
 
 class MyPanel(bpy.types.Panel):
     """Creates a Panel in the Object properties window."""
+
     bl_label = "Panel ALSW"
     bl_idname = "my.panel"
     bl_space_type = 'SEQUENCE_EDITOR'
     bl_region_type = 'UI'
 
     def draw(self, context):
+        """Dibujar el panel."""
         layout = self.layout
 
         row = layout.row()
-        row.label(text="Musica sobre clip",  icon="SOUND")
+        row.label(text="Musica sobre clip", icon="SOUND")
         row = layout.row()
         ops = row.operator("scene.audioespecial", text="MrTee")
         ops.pista = "mrtee"
@@ -244,6 +245,7 @@ class MyPanel(bpy.types.Panel):
         row = layout.row()
         ops = row.operator("scene.superaliniar", text="Ariba")
         ops.alineacion_vertical = "ariba"
+
         row = layout.row()
         ops = row.operator("scene.superaliniar", text="Izquierda")
         ops.alineacion_horizontal = "izquierda"
@@ -252,6 +254,7 @@ class MyPanel(bpy.types.Panel):
         ops.alineacion_vertical = "centro"
         ops = row.operator("scene.superaliniar", text="Derecha")
         ops.alineacion_horizontal = "derecha"
+
         row = layout.row()
         ops = row.operator("scene.superaliniar", text="Abajo")
         ops.alineacion_vertical = "abajo"
@@ -283,6 +286,7 @@ class MyPanel(bpy.types.Panel):
         row = layout.row()
         ops = row.operator("scene.superzoon", text="L")
         ops = row.operator("scene.superzoon", text="J")
+        ops = row.operator("scene.superzoon", text="A")
 
         row = layout.row()
         row.label(text="Corte")
@@ -300,7 +304,7 @@ classes = [
 
 
 def add_hotkey():
-    print("Agregando Teclas Rapida")
+    """Agregando Macros de Teclado."""
     wm = bpy.context.window_manager
     kc = wm.keyconfigs.addon
 
@@ -316,12 +320,14 @@ def add_hotkey():
 
 
 def remove_hotkey():
+    """Removiendo Macros de Teclado."""
     for km, kmi in addon_keymaps:
         km.keymap_items.remove(kmi)
     addon_keymaps.clear()
 
 
 def register():
+    """Regista funciones y clases."""
     from bpy.utils import register_class
 
     for cls in classes:
@@ -330,6 +336,7 @@ def register():
 
 
 def unregister():
+    """Quita funciones y clases."""
     remove_hotkey()
     from bpy.utils import unregister_class
     for cls in reversed(classes):
