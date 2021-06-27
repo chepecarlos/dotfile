@@ -39,6 +39,7 @@
 }, {
   "nombre": "Series",
   "titulo": "Series",
+  "icono": "defaul/link/series.png",
   "key": 8,
   "opcion": "folder",
   "path": "defaul/link/series"
