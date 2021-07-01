@@ -33,10 +33,10 @@
   "key": 5,
   "tecla": ["shift", "k"]
 }, {
-  "nombre": "Mute",
-  "icono": "defaul/blender/ocultar.png",
+  "nombre": "Desacer",
+  "titulo": "desacer",
   "key": 6,
-  "tecla": ["h"]
+  "tecla": ["ctrl", "z"]
 }, {
   "nombre": "Play",
   "icono": "defaul/blender/play.png",
@@ -167,7 +167,12 @@
   "icono": "defaul/blender/panel.png",
   "key": 30,
   "tecla": ["n"]
-}, {
+},{
+  "nombre": "Mute",
+  "icono": "defaul/blender/ocultar.png",
+  "key": 31,
+  "tecla": ["h"]
+},  {
   "nombre": "Anterior",
   "titulo": "Anterior",
   "opcion": "anterior",

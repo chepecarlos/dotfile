@@ -1,0 +1,54 @@
+[{
+  "nombre": "Into",
+  "titulo": "Into",
+  "key": 0,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/1.Intro &"
+}, {
+  "nombre": "outro",
+  "titulo": "Outro",
+  "key": 1,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/2.Outro &"
+}, {
+  "nombre": "Musica",
+  "titulo": "Musica",
+  "icono": "defaul/recurso/musica.png",
+  "key": 2,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/3.Musica &"
+}, {
+  "nombre": "Sonidos",
+  "titulo": "Sonidos",
+  "icono": "defaul/recurso/sonido.png",
+  "key": 3,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos &"
+}, {
+  "nombre": "Apoyo",
+  "titulo": "Apoyo",
+  "key": 4,
+  "opcion": "folder",
+  "path": "defaul/recurso/video/apoyo"
+}, {
+  "nombre": "Memes",
+  "titulo": "Memes",
+  "key": 5,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/6.Memes &"
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 9
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 19
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 24
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]

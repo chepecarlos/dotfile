@@ -31,6 +31,11 @@
   "opcion": "folder",
   "path": "defaul/obs/juego"
 }, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 4
+}, {
   "nombre": "grabar",
   "key": 10,
   "obs": "grabando",

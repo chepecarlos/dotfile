@@ -30,6 +30,21 @@
   "key": 4,
   "texto": "https://github.com/chepecarlos"
 }, {
+  "nombre": "Cafe",
+  "titulo": "Cafe",
+  "key": 5,
+  "texto": "https://www.buymeacoffee.com/alswnet"
+}, {
+  "nombre": "Twitch",
+  "titulo": "Twitch",
+  "key": 6,
+  "texto": "https://www.twitch.tv/alswnet"
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 9
+}, {
   "nombre": "Anterior",
   "titulo": "Anterior",
   "opcion": "anterior",

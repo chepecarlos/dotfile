@@ -1,22 +1,13 @@
 [{
-  "nombre": "inkscape",
-  "titulo": "Inkscape",
+  "nombre": "Codigo",
+  "titulo": "Codigo",
   "key": 0,
-  "icono": "defaul/arte/inkscape/inkscape.png",
-  "opcion": "folder",
-  "path": "defaul/arte/inkscape"
-}, {
-  "nombre": "gimp",
-  "titulo": "Gimp",
-  "key": 1,
-  "icono": "defaul/arte/gimp/gimp.png",
-  "opcion": "folder",
-  "path": "defaul/arte/gimp"
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/5.Apoyo/1.Codigo &"
 }, {
   "nombre": "regresar",
   "titulo": "Regresar",
   "opcion": "regresar",
-  "key": 4
+  "key": 9
 }, {
   "nombre": "Anterior",
   "titulo": "Anterior",

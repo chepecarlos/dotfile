@@ -1,0 +1,71 @@
+[{
+  "nombre": "ChepeCarlos",
+  "titulo": "ChepeCarlos",
+  "key": 0,
+  "icono": "defaul/recurso/chepecarlos.png",
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/1.ChepeCarlos &"
+}, {
+  "nombre": "Fondos",
+  "titulo": "Fondos",
+  "key": 1,
+  "icono": "defaul/recurso/fondos.png",
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/2.Fondos &"
+}, {
+  "nombre": "Logos",
+  "titulo": "Logos",
+  "icono": "defaul/recurso/logos.png",
+  "key": 2,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/3.Logos &"
+}, {
+  "nombre": "Indicadores",
+  "titulo": "Indicadores",
+  "icono": "defaul/recurso/indicadores.png",
+  "key": 3,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/4.Indicadores &"
+}, {
+  "nombre": "Circuitos",
+  "titulo": "Circuitos",
+  "key": 4,
+  "icono": "defaul/recurso/circuitos.png",
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/5.Circuitos &"
+}, {
+  "nombre": "VideoJuego",
+  "titulo": "VideoJuego",
+  "key": 5,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/6.VideoJuegos &"
+}, {
+  "nombre": "Meme",
+  "titulo": "Meme",
+  "key": 6,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/7.Memes &"
+}, {
+  "nombre": "Emoji",
+  "titulo": "Emoji",
+  "key": 7,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/8.Emoji &"
+}, {
+  "nombre": "Iconos",
+  "titulo": "Iconos",
+  "key": 8,
+  "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/9.Iconos &"
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 9
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "opcion": "anterior",
+  "key": 19
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "opcion": "siquiente",
+  "key": 24
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]
