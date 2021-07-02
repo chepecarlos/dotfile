@@ -47,6 +47,10 @@
   "key": "KEY_4",
   "tecla": ["shift", "f10"]
 }, {
+  "nombre": "Reiniciar",
+  "key": "KEY_6",
+  "deck": "reiniciar",
+}, {
   "nombre": "Salir",
   "key": "KEY_ESC",
   "opcion": "salir"
