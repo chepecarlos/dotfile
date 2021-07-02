@@ -2,19 +2,19 @@
   "nombre": "Bot",
   "titulo": "Bot Youtube",
   "key": 0,
-  "gif": "defaul/link/bot.gif",
+  "gif": "./bot.gif",
   "texto": "https://nocheprogramacion.com/bot"
 }, {
   "nombre": "Ayuda Discord",
   "titulo": "Ayuda",
   "key": 1,
-  "icono": "defaul/link/discord.png",
+  "icono": "./discord.png",
   "texto": "si quieres apoyo entra a Discord de la comunidad de ALSW nos vemos en Ayuda-chat https://nocheprogramacion.com/discord y hablamos :) "
 }, {
   "nombre": "Discord Link",
   "titulo": "Link",
   "key": 2,
-  "icono": "defaul/link/discord.png",
+  "icono": "./discord.png",
   "texto": "https://nocheprogramacion.com/discord"
 }, {
   "nombre": "Donar",
@@ -39,16 +39,16 @@
 }, {
   "nombre": "Series",
   "titulo": "Series",
-  "icono": "defaul/link/series.png",
+  "icono": "./series.png",
   "key": 8,
   "opcion": "folder",
-  "path": "defaul/link/series"
+  "path": "./series"
 }, {
   "nombre": "Redes",
   "titulo": "Redes",
   "key": 9,
   "opcion": "folder",
-  "path": "defaul/link/redes"
+  "path": "./redes"
 }, {
   "nombre": "Apoyar",
   "titulo": "Apoyar",

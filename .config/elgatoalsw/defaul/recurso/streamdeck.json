@@ -3,31 +3,31 @@
   "titulo": "Video",
   "key": 0,
   "opcion": "folder",
-  "path": "defaul/recurso/video"
+  "path": "./video"
 }, {
   "nombre": "Miniatura",
   "titulo": "Miniatura",
   "key": 1,
   "opcion": "folder",
-  "path": "defaul/recurso/miniatura"
+  "path": "./miniatura"
 }, {
   "nombre": "Biblioteca",
   "titulo": "Biblioteca",
   "key": 2,
-  "icono": "defaul/recurso/biblioteca.png",
+  "icono": "./biblioteca.png",
   "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca &"
 }, {
   "nombre": "Color",
   "titulo": "Color",
   "key": 3,
-  "icono": "defaul/recurso/color.png",
+  "icono": "./color.png",
   "os": "atom /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/3.Global/1.PaletaColor/1.ColorALSW.md &"
 }, {
   "nombre": "Contenido",
   "titulo": "Contenido",
   "key": 4,
   "opcion": "folder",
-  "path": "defaul/recurso/Contenido"
+  "path": "./Contenido"
 }, {
   "nombre": "regresar",
   "titulo": "Regresar",

@@ -1,16 +1,16 @@
 [{
   "nombre": "Concatenar",
-  "icono": "defaul/blender/concatenar.png",
+  "icono": "./concatenar.png",
   "key": 0,
   "tecla": ["shift", "c"]
 }, {
   "nombre": "Borrar",
-  "icono": "defaul/blender/borrar.png",
+  "icono": "./borrar.png",
   "key": 1,
   "tecla": ["x"]
 }, {
   "nombre": "TrimAll",
-  "icono": "defaul/blender/trim_all.png",
+  "icono": "./trim_all.png",
   "key": 2,
   "tecla": ["shift", "t"]
 }, {
@@ -20,7 +20,7 @@
   "tecla": ["ctrl", "q"]
 }, {
   "nombre": "Marka",
-  "icono": "defaul/blender/marcador/maker.png",
+  "icono": "./marcador/maker.png",
   "key": 4,
   "macro": [{
     "tecla": ["m"]
@@ -29,7 +29,7 @@
   }]
 }, {
   "nombre": "Corta Duro",
-  "icono": "defaul/blender/corta_duro.png",
+  "icono": "./corta_duro.png",
   "key": 5,
   "tecla": ["shift", "k"]
 }, {
@@ -39,33 +39,33 @@
   "tecla": ["ctrl", "z"]
 }, {
   "nombre": "Play",
-  "icono": "defaul/blender/play.png",
+  "icono": "./play.png",
   "key": 7,
   "tecla": ["space"]
 }, {
   "nombre": "Mover",
-  "icono": "defaul/blender/mover.png",
+  "icono": "./mover.png",
   "key": 8,
   "tecla": ["g"]
 }, {
   "nombre": "fade",
-  "icono": "defaul/blender/fade_in.png",
+  "icono": "./fade_in.png",
   "key": 9,
   "opcion": "folder",
-  "path": "defaul/blender/fade"
+  "path": "./fade"
 }, {
   "nombre": "Expandir",
-  "icono": "defaul/blender/expandir.png",
+  "icono": "./expandir.png",
   "key": 10,
   "tecla": ["ctrl", "e"]
 }, {
   "nombre": "AjusTime",
-  "icono": "defaul/blender/ajuste_time.png",
+  "icono": "./ajuste_time.png",
   "key": 11,
   "tecla": ["ctrl", "alt", "p"]
 }, {
   "nombre": "MostarAudio",
-  "icono": "defaul/blender/mostar_audio.png",
+  "icono": "./mostar_audio.png",
   "key": 12,
   "tecla": ["alt", "w"]
 }, {
@@ -73,53 +73,53 @@
   "titulo": "Musica",
   "key": 13,
   "opcion": "folder",
-  "path": "defaul/blender/musica"
+  "path": "./musica"
 }, {
   "nombre": "Velocidad",
-  "icono": "defaul/blender/velocidad.png",
+  "icono": "./velocidad.png",
   "key": 14,
   "opcion": "folder",
-  "path": "defaul/blender/velocidad"
+  "path": "./velocidad"
 }, {
   "nombre": "Añadir",
   "titulo": "Añadir",
-  "icono": "defaul/blender/añadir.png",
+  "icono": "./añadir.png",
   "key": 15,
   "tecla": ["shift", "a"]
 }, {
   "nombre": "Menu",
   "titulo": "Menu",
-  "icono": "defaul/blender/menu.png",
+  "icono": "./menu.png",
   "key": 16,
   "tecla": ["shift", "space"]
 }, {
   "nombre": "TrimI",
   "titulo": "Trim I",
-  "icono": "defaul/blender/trim_i.png",
+  "icono": "./trim_i.png",
   "key": 17,
   "tecla": ["i"]
 }, {
   "nombre": "TrimD",
   "titulo": "Trim D",
-  "icono": "defaul/blender/trim_d.png",
+  "icono": "./trim_d.png",
   "key": 18,
   "tecla": ["o"]
 }, {
   "nombre": "Duplicar",
   "titulo": "Duplicar",
-  "icono": "defaul/blender/duplicar.png",
+  "icono": "./duplicar.png",
   "key": 20,
   "tecla": ["d"]
 }, {
   "nombre": "Maker",
   "titulo": "Maker",
-  "icono": "defaul/blender/marcador/maker.png",
+  "icono": "./marcador/maker.png",
   "key": 21,
   "opcion": "folder",
-  "path": "defaul/blender/marcador"
+  "path": "./marcador"
 }, {
   "nombre": "Guardar",
-  "icono": "defaul/blender/guardar.png",
+  "icono": "./guardar.png",
   "key": 22,
   "tecla": ["ctrl", "s"]
 }, {
@@ -164,12 +164,12 @@
   "key": 29
 }, {
   "nombre": "Panel",
-  "icono": "defaul/blender/panel.png",
+  "icono": "./panel.png",
   "key": 30,
   "tecla": ["n"]
 },{
   "nombre": "Mute",
-  "icono": "defaul/blender/ocultar.png",
+  "icono": "./ocultar.png",
   "key": 31,
   "tecla": ["h"]
 },  {

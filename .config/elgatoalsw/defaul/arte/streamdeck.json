@@ -2,16 +2,16 @@
   "nombre": "inkscape",
   "titulo": "Inkscape",
   "key": 0,
-  "icono": "defaul/arte/inkscape/inkscape.png",
+  "icono": "./inkscape/inkscape.png",
   "opcion": "folder",
-  "path": "defaul/arte/inkscape"
+  "path": "./inkscape"
 }, {
   "nombre": "gimp",
   "titulo": "Gimp",
   "key": 1,
-  "icono": "defaul/arte/gimp/gimp.png",
+  "icono": "./gimp/gimp.png",
   "opcion": "folder",
-  "path": "defaul/arte/gimp"
+  "path": "./gimp"
 }, {
   "nombre": "regresar",
   "titulo": "Regresar",

@@ -2,37 +2,37 @@
   "nombre": "Instalar",
   "titulo": "Instalar",
   "key": 0,
-  "icono": "defaul/arte/inkscape/jessyink/instalar.png",
+  "icono": "./instalar.png",
   "tecla": ["shift", "alt", "ctrl", "l"]
 }, {
   "nombre": "Eliminar",
   "titulo": "Eliminar",
   "key": 1,
-  "icono": "defaul/arte/inkscape/jessyink/eliminar.png",
+  "icono": "./eliminar.png",
   "tecla": ["shift", "alt", "ctrl", "k"]
 }, {
   "nombre": "Vista",
   "titulo": "Vista",
   "key": 2,
-  "icono": "defaul/arte/inkscape/jessyink/vista.png",
+  "icono": "./vista.png",
   "tecla": ["shift", "alt", "ctrl", "j"]
 }, {
   "nombre": "Efecto",
   "titulo": "Efecto",
   "key": 3,
-  "icono": "defaul/arte/inkscape/jessyink/efecto.png",
+  "icono": "./efecto.png",
   "tecla": ["shift", "alt", "ctrl", "y"]
 }, {
   "nombre": "Maestra",
   "titulo": "Maestra",
   "key": 4,
-  "icono": "defaul/arte/inkscape/jessyink/maestra.png",
+  "icono": "./maestra.png",
   "tecla": ["shift", "alt", "ctrl", "g"]
 }, {
   "nombre": "AutoText",
   "titulo": "AutoText",
   "key": 5,
-  "icono": "defaul/arte/inkscape/jessyink/autotext.png",
+  "icono": "./autotext.png",
   "tecla": ["shift", "alt", "ctrl", "f"]
 }, {
   "nombre": "regresar",

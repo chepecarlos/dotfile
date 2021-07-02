@@ -1,56 +1,56 @@
 [{
   "nombre": "seleccion",
-  "icono": "defaul/arte/gimp/seleccion.png",
+  "icono": "./seleccion.png",
   "key": 0,
   "tecla": ["u"]
 }, {
   "nombre": "seleccion color",
-  "icono": "defaul/arte/gimp/seleccion_color.png",
+  "icono": "./seleccion_color.png",
   "key": 1,
   "tecla": ["shift", "o"]
 }, {
   "nombre": "añadir alfa",
-  "icono": "defaul/arte/gimp/anadir_alfa.png",
+  "icono": "./anadir_alfa.png",
   "key": 2,
   "tecla": ["ctrl", "f12"]
 }, {
   "nombre": "clonar",
-  "icono": "defaul/arte/gimp/clonar.png",
+  "icono": "./clonar.png",
   "key": 5,
   "tecla": ["c"]
 }, {
   "nombre": "cortar",
-  "icono": "defaul/arte/gimp/cortar.png",
+  "icono": "./cortar.png",
   "key": 6,
   "tecla": ["ctrl", "x"]
 }, {
   "nombre": "copiar visible",
-  "icono": "defaul/arte/gimp/copiar.png",
+  "icono": "./copiar.png",
   "key": 7,
   "tecla": ["ctrl", "shift", "c"]
 }, {
   "nombre": "pegar nuevo documento",
-  "icono": "defaul/arte/gimp/pegar.png",
+  "icono": "./pegar.png",
   "key": 8,
   "tecla": ["ctrl", "shift", "v"]
 }, {
   "nombre": "selecionar todo",
-  "icono": "defaul/arte/gimp/selecionar_todo.png",
+  "icono": "./selecionar_todo.png",
   "key": 10,
   "tecla": ["ctrl", "a"]
 }, {
   "nombre": "selecionar nada",
-  "icono": "defaul/arte/gimp/selecionar_nada.png",
+  "icono": "./selecionar_nada.png",
   "key": 11,
   "tecla": ["ctrl", "shift", "a"]
 }, {
   "nombre": "curva",
-  "icono": "defaul/arte/gimp/curvas.png",
+  "icono": "./curvas.png",
   "key": 15,
   "tecla": ["ctrl", "shift", "m"]
 }, {
   "nombre": "tono saturacion",
-  "icono": "defaul/arte/gimp/tono.png",
+  "icono": "./tono.png",
   "key": 16,
   "tecla": ["ctrl", ":"]
 }, {

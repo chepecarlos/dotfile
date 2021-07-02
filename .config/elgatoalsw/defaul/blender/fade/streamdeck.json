@@ -1,19 +1,19 @@
 [{
   "nombre": "FadeIn",
   "titulo": "Fade In",
-  "icono": "defaul/blender/fade_in.png",
+  "icono": "./../fade_in.png",
   "key": 0,
   "tecla": ["ctrl", "f"]
 }, {
   "nombre": "FadeOut",
   "titulo": "Fade Out",
-  "icono": "defaul/blender/fade_out.png",
+  "icono": "./../fade_out.png",
   "key": 1,
   "tecla": ["alt", "f"]
 },  {
   "nombre": "LimpiarFade",
   "titulo": "Clear Fade",
-  "icono": "defaul/blender/limpiar_fade.png",
+  "icono": "./../limpiar_fade.png",
   "key": 2,
   "tecla": ["ctrl", "alt", "f"]
 },{

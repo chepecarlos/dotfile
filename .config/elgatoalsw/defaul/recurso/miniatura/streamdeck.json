@@ -2,31 +2,31 @@
   "nombre": "ChepeCarlos",
   "titulo": "ChepeCarlos",
   "key": 0,
-  "icono": "defaul/recurso/chepecarlos.png",
+  "icono": "./../chepecarlos.png",
   "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/1.ChepeCarlos &"
 }, {
   "nombre": "Fondos",
   "titulo": "Fondos",
   "key": 1,
-  "icono": "defaul/recurso/fondos.png",
+  "icono": "./../fondos.png",
   "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/2.Fondos &"
 }, {
   "nombre": "Logos",
   "titulo": "Logos",
-  "icono": "defaul/recurso/logos.png",
+  "icono": "./../logos.png",
   "key": 2,
   "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/3.Logos &"
 }, {
   "nombre": "Indicadores",
   "titulo": "Indicadores",
-  "icono": "defaul/recurso/indicadores.png",
+  "icono": "./../indicadores.png",
   "key": 3,
   "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/4.Indicadores &"
 }, {
   "nombre": "Circuitos",
   "titulo": "Circuitos",
   "key": 4,
-  "icono": "defaul/recurso/circuitos.png",
+  "icono": "./../circuitos.png",
   "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/5.Circuitos &"
 }, {
   "nombre": "VideoJuego",

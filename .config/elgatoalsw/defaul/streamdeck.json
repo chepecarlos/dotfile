@@ -2,96 +2,96 @@
   "nombre": "OBS",
   "titulo": "OBS",
   "key": 0,
-  "icono": "defaul/obs/obs.png",
+  "icono": "./obs/obs.png",
   "opcion": "folder",
-  "path": "defaul/obs"
+  "path": "./obs"
 }, {
   "nombre": "Arte",
   "titulo": "Arte",
   "key": 1,
-  "icono": "defaul/arte/arte.png",
+  "icono": "./arte/arte.png",
   "opcion": "folder",
-  "path": "defaul/arte"
+  "path": "./arte"
 }, {
   "nombre": "IDE's",
   "titulo": "IDE's",
   "key": 2,
-  "icono": "defaul/ide/ide.png",
+  "icono": "./ide/ide.png",
   "opcion": "folder",
-  "path": "defaul/ide"
+  "path": "./ide"
 }, {
   "nombre": "Recurso",
   "titulo": "Recurso",
   "key": 3,
-  "gif": "defaul/recurso/ryuk_pc.gif",
+  "gif": "./recurso/ryuk_pc.gif",
   "opcion": "folder",
-  "path": "defaul/recurso"
+  "path": "./recurso"
 }, {
   "nombre": "Link",
   "titulo": "Link's",
   "key": 7,
-  "gif": "defaul/link/link.gif",
-  "icono": "defaul/link/link.png",
+  "gif": "./link/link.gif",
+  "icono": "./link/link.png",
   "opcion": "folder",
-  "path": "defaul/link"
+  "path": "./link"
 }, {
   "nombre": "Blender",
   "titulo": "Blender",
   "key": 10,
-  "icono": "defaul/blender/blender.png",
+  "icono": "./blender/blender.png",
   "opcion": "folder",
-  "path": "defaul/blender"
+  "path": "./blender"
 }, {
   "nombre": "FanPage",
   "titulo": "FanPage",
   "key": 15,
   "opcion": "folder",
-  "path": "defaul/fanpage"
+  "path": "./fanpage"
 }, {
   "nombre": "MQTT",
   "titulo": "MQTT",
   "key": 16,
   "opcion": "folder",
-  "path": "defaul/mqtt"
+  "path": "./mqtt"
 }, {
   "nombre": "Sonidos",
   "titulo": "Sonidos",
-  "icono": "defaul/sonidos/sonidos.png",
+  "icono": "./sonidos/sonidos.png",
   "key": 17,
   "opcion": "folder",
-  "path": "defaul/sonidos"
+  "path": "./sonidos"
 }, {
   "nombre": "Notion",
   "titulo": "Notion",
-  "icono": "defaul/notion/notion.png",
+  "icono": "./notion/notion.png",
   "key": 18,
   "opcion": "folder",
-  "path": "defaul/notion"
+  "path": "./notion"
 }, {
   "nombre": "Recursos",
   "titulo": "Recursos",
-  "gif": "defaul/recursos/ryuk_pc.gif",
+  "gif": "./recursos/ryuk_pc.gif",
   "key": 22,
   "opcion": "folder",
-  "path": "defaul/recursos"
+  "path": "./recursos"
 }, {
   "nombre": "FreeCAD",
   "titulo": "FreeCAD",
-  "icono": "defaul/freecad/freecad.png",
+  "icono": "./freecad/freecad.png",
   "key": 26,
   "opcion": "folder",
-  "path": "defaul/freecad"
+  "path": "./freecad"
 }, {
   "nombre": "Config",
   "titulo": "Config",
   "key": 27,
   "opcion": "folder",
-  "path": "defaul/config"
+  "path": "./config"
 }, {
   "nombre": "Salir",
   "titulo": "Salir",
   "opcion": "salir",
-  "gif": "defaul/salir.gif",
+  "gif": "./salir.gif",
   "key": 28
 }, {
   "nombre": "Anterior",
@@ -123,4 +123,4 @@
   "titulo": "Regresar",
   "opcion": "regresar",
   "key": 59
-} ]
+}]

@@ -95,6 +95,15 @@
   "icono_true": "defaul/obs/envivo_on.png",
   "icono_false": "defaul/obs/envivo_off.png"
 }, {
+  "nombre": "Movil",
+  "titulo": "Movil",
+  "key": 13,
+  "obs": "esena",
+  "esena": "movil",
+  "estado": false,
+  "icono_true": "defaul/obs/codigo_on.png",
+  "icono_false": "defaul/obs/codigo_off.png"
+}, {
   "nombre": "Fin",
   "titulo": "Fin",
   "key": 14,

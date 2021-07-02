@@ -1,7 +1,7 @@
 [{
   "nombre": "Agregar",
   "titulo": "Agregar",
-  "icono": "defaul/blender/marcador/maker.png",
+  "icono": "./maker.png",
   "key": 0,
   "macro": [{
     "tecla": ["m"]
@@ -13,13 +13,13 @@
 }, {
   "nombre": "Maker",
   "titulo": "Crear",
-  "icono": "defaul/blender/marcador/maker.png",
+  "icono": "./maker.png",
   "key": 1,
   "tecla": ["m"]
 }, {
   "nombre": "Edit Maker",
   "titulo": "Editar",
-  "icono": "defaul/blender/marcador/edit_maker.png",
+  "icono": "./edit_maker.png",
   "key": 2,
   "tecla": ["ctrl", "m"]
 }, {
