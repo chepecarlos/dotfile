@@ -1,28 +1,56 @@
 [{
   "nombre": "Git",
   "titulo": "GIT",
+  "solo_titulo": true,
   "key": 0,
   "texto": "https://nocheprogramacion.com/git"
 }, {
   "nombre": "Blender",
   "titulo": "Blender",
+  "solo_titulo": true,
   "key": 1,
   "texto": "https://nocheprogramacion.com/blender"
 }, {
   "nombre": "MQTT",
   "titulo": "MQTT",
+  "solo_titulo": true,
   "key": 2,
   "texto": "https://nocheprogramacion.com/mqtt"
 }, {
   "nombre": "Bluetooth",
   "titulo": "Bluetooth",
+  "solo_titulo": true,
   "key": 3,
   "texto": "https://nocheprogramacion.com/bluetooth"
 }, {
   "nombre": "FreeCAD",
   "titulo": "FreeCAD",
+  "solo_titulo": true,
   "key": 4,
   "texto": "https://nocheprogramacion.com/freecad"
+}, {
+  "nombre": "OBS",
+  "titulo": "OBS",
+  "solo_titulo": true,
+  "key": 5,
+  "texto": "https://nocheprogramacion.com/obs"
+}, {
+  "nombre": "Arduino Avanzado",
+  "titulo": "Arduino\nAvanzado",
+  "solo_titulo": true,
+  "key": 6,
+  "texto": "https://nocheprogramacion.com/series/arduino/avanzado/"
+}, {
+  "nombre": "Arduino Basico",
+  "titulo": "Arduino\nBasico",
+  "solo_titulo": true,
+  "key": 7,
+  "texto": "https://nocheprogramacion.com/series/arduino/basico"
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 9
 }, {
   "nombre": "Anterior",
   "titulo": "Anterior",

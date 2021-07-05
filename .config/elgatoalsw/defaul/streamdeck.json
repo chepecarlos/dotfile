@@ -20,12 +20,12 @@
   "opcion": "folder",
   "path": "defaul/ide"
 }, {
-  "nombre": "Blender",
-  "titulo": "Blender",
-  "key": 5,
-  "icono": "defaul/blender/blender.png",
+  "nombre": "Recurso",
+  "titulo": "Recurso",
+  "key": 3,
+  "gif": "defaul/recurso/ryuk_pc.gif",
   "opcion": "folder",
-  "path": "defaul/blender"
+  "path": "defaul/recurso"
 }, {
   "nombre": "Link",
   "titulo": "Link's",
@@ -34,6 +34,13 @@
   "icono": "defaul/link/link.png",
   "opcion": "folder",
   "path": "defaul/link"
+}, {
+  "nombre": "Blender",
+  "titulo": "Blender",
+  "key": 10,
+  "icono": "defaul/blender/blender.png",
+  "opcion": "folder",
+  "path": "defaul/blender"
 }, {
   "nombre": "FanPage",
   "titulo": "FanPage",
@@ -116,4 +123,4 @@
   "titulo": "Regresar",
   "opcion": "regresar",
   "key": 59
-}, ]
+} ]
