@@ -86,6 +86,11 @@ if [ -d "$HOME/5.Programas/2.Heramientas/5.tooltube" ] ;
     then PATH="$HOME/5.Programas/2.Heramientas/5.tooltube:$PATH"
 fi
 
+# Agregando Basket
+if [ -d "$HOME/5.Programas/2.Heramientas/3.Basket" ] ;
+    then PATH="$HOME/5.Programas/2.Heramientas/3.Basket:$PATH"
+fi
+
 # Agregando Arduino-cli
 if [ -d "$HOME/5.Programas/3.Desarrollo/1.Arduino/Arduino-cli" ] ;
     then PATH="$HOME/5.Programas/3.Desarrollo/1.Arduino/Arduino-cli:$PATH"
