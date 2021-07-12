@@ -44,6 +44,7 @@ alias yta-opus="youtube-dl --extract-audio --audio-format opus "
 alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
 alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+alias ytt-thumbnail="youtube-dl --write-thumbnail --skip-download "
 
 # Cambiando "ls" a "exa"
 alias ls='exa -a --group-directories-first' # Nuevo ls con opciones preferidas
