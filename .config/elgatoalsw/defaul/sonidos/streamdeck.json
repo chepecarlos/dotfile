@@ -7,48 +7,48 @@
   "nombre": "Golpe",
   "titulo": "Golpe",
   "key": 1,
-  "sonido": "defaul/sonidos/golpe.wav"
+  "sonido": "./golpe.wav"
 }, {
   "nombre": "Musica_ALSW",
   "titulo": "Musica ALSW",
   "key": 2,
-  "sonido": "defaul/sonidos/musica_ALSW.wav"
+  "sonido": "./musica_ALSW.wav"
 }, {
   "nombre": "Mr_Tea",
   "titulo": "MrTea",
   "key": 3,
-  "sonido": "defaul/sonidos/mr_tea.wav"
+  "sonido": "./mr_tea.wav"
 }, {
   "nombre": "Aplausos",
   "titulo": "Aplauso",
   "key": 4,
-  "sonido": "defaul/sonidos/aplausos.wav"
+  "sonido": "./aplausos.wav"
 }, {
   "nombre": "Chan",
   "titulo": "chan",
   "key": 5,
-  "sonido": "defaul/sonidos/chan.wav"
+  "sonido": "./chan.wav"
 }, {
   "nombre": "Pokemon",
   "titulo": "Pokemon",
   "key": 6,
-  "sonido": "defaul/sonidos/pokemon.wav"
+  "sonido": "./pokemon.wav"
 }, {
   "nombre": "Cencura",
   "titulo": "Cencura -10",
   "key": 7,
-  "sonido": "defaul/sonidos/cencura.mp3",
+  "sonido": "./cencura.mp3",
   "ganancia": -10
 }, {
   "nombre": "Cencura",
   "titulo": "Cencura",
   "key": 8,
-  "sonido": "defaul/sonidos/cencura.mp3",
+  "sonido": "./cencura.mp3",
 }, {
   "nombre": "Cencura",
   "titulo": "Cencura +10",
   "key": 9,
-  "sonido": "defaul/sonidos/cencura.mp3",
+  "sonido": "./cencura.mp3",
   "ganancia": 10
 }, {
   "nombre": "regresar",

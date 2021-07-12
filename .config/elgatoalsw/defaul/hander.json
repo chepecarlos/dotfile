@@ -48,10 +48,14 @@
   "tecla": ["shift", "f10"]
 }, {
   "nombre": "Reiniciar",
-  "key": "KEY_6",
+  "key": "KEY_F9",
   "deck": "reiniciar",
 }, {
   "nombre": "Salir",
-  "key": "KEY_ESC",
+  "key": "KEY_F10",
   "opcion": "salir"
+}, {
+  "nombre": "Regresar",
+  "key": "KEY_ESC",
+  "opcion": "regresar"
 }]

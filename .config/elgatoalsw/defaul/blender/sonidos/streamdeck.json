@@ -1,0 +1,28 @@
+[{
+  "nombre": "Aplausos",
+  "titulo": "Aplausos",
+  "solo_titulo": true,
+  "key": 0,
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "sonido",
+      "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/aplausos.mp3"
+    }
+  }, {
+    "tecla": ["ctrl", "shift", "o"]
+  }, {
+    "opcion": "regresar"
+  }]
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 4
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 29
+}]

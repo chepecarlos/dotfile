@@ -64,13 +64,14 @@
   "key": 11,
   "tecla": ["ctrl", "alt", "p"]
 }, {
-  "nombre": "MostarAudio",
-  "icono": "./mostar_audio.png",
+  "nombre": "Sonido",
+  "icono": "./sonido.png",
   "key": 12,
-  "tecla": ["alt", "w"]
+  "opcion": "folder",
+  "path": "./sonidos"
 }, {
   "nombre": "Musica",
-  "titulo": "Musica",
+  "icono": "./musica.png",
   "key": 13,
   "opcion": "folder",
   "path": "./musica"
@@ -81,11 +82,10 @@
   "opcion": "folder",
   "path": "./velocidad"
 }, {
-  "nombre": "Añadir",
-  "titulo": "Añadir",
-  "icono": "./añadir.png",
+  "nombre": "MostarAudio",
+  "icono": "./mostar_audio.png",
   "key": 15,
-  "tecla": ["shift", "a"]
+  "tecla": ["alt", "w"]
 }, {
   "nombre": "Menu",
   "titulo": "Menu",
@@ -167,12 +167,18 @@
   "icono": "./panel.png",
   "key": 30,
   "tecla": ["n"]
-},{
+}, {
   "nombre": "Mute",
   "icono": "./ocultar.png",
   "key": 31,
   "tecla": ["h"]
-},  {
+}, {
+  "nombre": "Añadir",
+  "titulo": "Añadir",
+  "icono": "./añadir.png",
+  "key": 32,
+  "tecla": ["shift", "a"]
+}, {
   "nombre": "Anterior",
   "titulo": "Anterior",
   "opcion": "anterior",

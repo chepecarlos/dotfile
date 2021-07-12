@@ -11,13 +11,13 @@
 }, {
   "nombre": "Musica",
   "titulo": "Musica",
-  "icono": "defaul/recurso/musica.png",
+  "icono": "./../musica.png",
   "key": 2,
   "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/3.Musica &"
 }, {
   "nombre": "Sonidos",
   "titulo": "Sonidos",
-  "icono": "defaul/recurso/sonido.png",
+  "icono": "./../sonido.png",
   "key": 3,
   "os": "nemo /home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos &"
 }, {
@@ -25,7 +25,7 @@
   "titulo": "Apoyo",
   "key": 4,
   "opcion": "folder",
-  "path": "defaul/recurso/video/apoyo"
+  "path": "./../video/apoyo"
 }, {
   "nombre": "Memes",
   "titulo": "Memes",

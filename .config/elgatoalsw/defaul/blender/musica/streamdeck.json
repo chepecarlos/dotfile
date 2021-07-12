@@ -4,17 +4,48 @@
   "solo_titulo": true,
   "key": 0,
   "macro": [{
-    "tecla": ["ctrl", "m"]
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "clip",
+      "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/3.Musica/1.Mr_Tea.mp3"
+    }
+  }, {
+    "tecla": ["ctrl", "shift", "o"]
   }, {
     "opcion": "regresar"
   }]
 }, {
-  "nombre": "ALSw",
+  "nombre": "ALSW",
   "titulo": "ALSW",
   "solo_titulo": true,
   "key": 1,
   "macro": [{
-    "tecla": ["alt", "3"]
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "clip",
+      "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/3.Musica/2.Musica_ALSW.mp3"
+    }
+  }, {
+    "tecla": ["ctrl", "shift", "o"]
+  }, {
+    "opcion": "regresar"
+  }]
+}, {
+  "nombre": "Snack Time",
+  "titulo": "Snack Time",
+  "solo_titulo": true,
+  "key": 2,
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "clip",
+      "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/3.Musica/3.Snack_Time.mp3"
+    }
+  }, {
+    "tecla": ["ctrl", "shift", "o"]
   }, {
     "opcion": "regresar"
   }]
@@ -22,7 +53,7 @@
   "nombre": "regresar",
   "titulo": "Regresar",
   "opcion": "regresar",
-  "key": 2
+  "key": 4
 }, {
   "nombre": "regresar",
   "titulo": "Regresar",

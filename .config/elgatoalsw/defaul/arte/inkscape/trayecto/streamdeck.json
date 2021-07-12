@@ -1,57 +1,57 @@
 [{
   "nombre": "Union",
   "key": 0,
-  "icono": "defaul/arte/inkscape/trayecto/union.png",
+  "icono": "./union.png",
   "tecla": ["ctrl", "+"]
 }, {
   "nombre": "Diferencia",
   "key": 1,
-  "icono": "defaul/arte/inkscape/trayecto/diferencia.png",
+  "icono": "./diferencia.png",
   "tecla": ["ctrl", "-"]
 }, {
   "nombre": "Intercepcion",
   "key": 2,
-  "icono": "defaul/arte/inkscape/trayecto/interpecion.png",
+  "icono": "./interpecion.png",
   "tecla": ["ctrl", "*"]
 }, {
   "nombre": "Exclusion",
   "key": 3,
-  "icono": "defaul/arte/inkscape/trayecto/exclusion.png",
+  "icono": "./exclusion.png",
   "tecla": ["ctrl", "^"]
 }, {
   "nombre": "Division",
   "key": 4,
-  "icono": "defaul/arte/inkscape/trayecto/divicion.png",
+  "icono": "./divicion.png",
   "tecla": ["ctrl", "alt", "/"]
 }, {
   "nombre": "Cortar",
   "key": 5,
-  "icono": "defaul/arte/inkscape/trayecto/cortar.png",
+  "icono": "./cortar.png",
   "tecla": ["ctrl", "/"]
 }, {
   "nombre": "Combinar",
   "key": 6,
-  "icono": "defaul/arte/inkscape/trayecto/combinar.png",
+  "icono": "./combinar.png",
   "tecla": ["ctrl", "k"]
 }, {
   "nombre": "Reducir",
   "key": 7,
-  "icono": "defaul/arte/inkscape/trayecto/reducir.png",
+  "icono": "./reducir.png",
   "tecla": ["ctrl", "("]
 }, {
   "nombre": "Ampliar",
   "key": 8,
-  "icono": "defaul/arte/inkscape/trayecto/ampliar.png",
+  "icono": "./ampliar.png",
   "tecla": ["ctrl", ")"]
 }, {
   "nombre": "Desvio Dinamico",
   "key": 9,
-  "icono": "defaul/arte/inkscape/trayecto/desvio_dinamico.png",
+  "icono": "./desvio_dinamico.png",
   "tecla": ["ctrl", "j"]
 }, {
   "nombre": "Desvio Enlacazo",
   "key": 10,
-  "icono": "defaul/arte/inkscape/trayecto/desvio_enlazado.png",
+  "icono": "./desvio_enlazado.png",
   "tecla": ["ctrl", "alt", "j"]
 }, {
   "nombre": "Simplificar",

@@ -47,8 +47,21 @@
   "nombre": "Redes",
   "titulo": "Redes",
   "key": 9,
+  "icono": "./redes.png",
   "opcion": "folder",
   "path": "./redes"
+}, {
+  "nombre": "Sorteo",
+  "titulo": "Sorteo",
+  "key": 10,
+  "texto": "https://nocheprogramacion.com/sorteo"
+}, {
+  "nombre": "proyectos",
+  "titulo": "proyectos",
+  "key": 11,
+  "opcion": "folder",
+  "path": "./proyectos"
+
 }, {
   "nombre": "Apoyar",
   "titulo": "Apoyar",
@@ -63,7 +76,7 @@
   "nombre": "ElGatoALSW",
   "titulo": "ElGatoALSW",
   "key": 26,
-  "texto": "https://github.com/chepecarlos/ElGatoALSW"
+  "texto": ""
 }, {
   "nombre": "Anterior",
   "titulo": "Anterior",
