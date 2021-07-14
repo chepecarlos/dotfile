@@ -1,5 +1,8 @@
 import bpy
 import math
+import yaml
+
+from FuncionesArchivos import ObtenerValor
 
 from bpy.props import (
     BoolProperty,
@@ -25,6 +28,7 @@ def MostarMensajeBox(message="", title="Message Box", icon='INFO'):
         self.layout.label(text=message)
     bpy.context.window_manager.popup_menu(draw, title=title, icon=icon)
 
+
 class audioespecial(bpy.types.Operator):
     bl_idname = "scene.audioespecial"
     bl_label = "Insert Video"
@@ -47,9 +51,10 @@ class audioespecial(bpy.types.Operator):
     def execute(self, context):
 
         if self.pista == 'alsw':
-            return{'FINISHED'}
+            VideoActual = ObtenerValor("data/blender.json", "clip")
+            print(VideoActual)
         elif self.pista == 'mrtee':
-            VideoActual = "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/3.Sonido/1.Musica/1.Mr_Tea.mp3"
+            VideoActual = "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/3.Musica/1.Mr_Tea.mp3"
         else:
             return{'FINISHED'}
 
@@ -64,6 +69,7 @@ class audioespecial(bpy.types.Operator):
             bpy.ops.sequencer.sound_strip_add(filepath=VideoActual, frame_start=Inicio, channel=Canal)
 
             context.selected_sequences[0].show_waveform = True
+            context.selected_sequences[0].volume = 0.3
 
             bpy.ops.sequencer.split(frame=Final, channel=Canal, type='SOFT', side='RIGHT')
 
@@ -310,8 +316,11 @@ def add_hotkey():
 
     km = kc.keymaps.new(name='Sequencer', space_type='SEQUENCE_EDITOR')
 
-    kmi = km.keymap_items.new("scene.audioespecial", 'M', 'PRESS', ctrl=True, shift=False)
-    kmi.properties.pista = "mrtee"
+    # kmi = km.keymap_items.new("scene.audioespecial", 'M', 'PRESS', ctrl=True, shift=False)
+    # kmi.properties.pista = "mrtee"
+
+    kmi = km.keymap_items.new("scene.audioespecial", 'O', 'PRESS', ctrl=True, shift=True)
+    kmi.properties.pista = "alsw"
 
     kmi = km.keymap_items.new("scene.superzoon", type="P", value="PRESS", ctrl=True, shift=False)
     kmi.properties.zoon = 1
