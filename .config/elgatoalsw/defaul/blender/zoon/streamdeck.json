@@ -153,6 +153,62 @@
     "tecla": ["ctrl", "p"]
   }]
 }, {
+  "nombre": "+0.10",
+  "key": 10,
+  "titulo": "+0.10",
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "aumentar",
+      "valor": 0.10
+    }
+  }, {
+    "tecla": ["ctrl", "u"]
+  }]
+}, {
+  "nombre": "+0.05",
+  "key": 11,
+  "titulo": "+0.05",
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "aumentar",
+      "valor": 0.05
+    }
+  }, {
+    "tecla": ["ctrl", "u"]
+  }]
+}, {
+  "nombre": "-0.05",
+  "key": 12,
+  "titulo": "-0.05",
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "aumentar",
+      "valor": -0.05
+    }
+  }, {
+    "tecla": ["ctrl", "u"]
+  }]
+}, {
+  "nombre": "-0.10",
+  "key": 13,
+  "titulo": "-0.10",
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "aumentar",
+      "valor": -0.10
+    }
+  }, {
+    "tecla": ["ctrl", "u"]
+  }]
+}, {
   "nombre": "regresar",
   "titulo": "Regresar",
   "opcion": "regresar",

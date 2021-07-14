@@ -171,7 +171,13 @@ class superzoon(bpy.types.Operator):
 
     macros: BoolProperty(
         name="macro",
-        description="funcion con macro",
+        description="funcion con macro para zoon",
+        default=False
+    )
+
+    incrementro: BoolProperty(
+        name="Incrementro",
+        description="incremento el zoon",
         default=False
     )
 
@@ -200,10 +206,6 @@ class superzoon(bpy.types.Operator):
             if ClipActual.type != "MOVIE":
                 return{'FINISHED'}
 
-            if self.macros:
-                zoon = ObtenerValor("data/blender.json", "zoon")
-            else:
-                zoon = self.zoon
             ClipActual = context.selected_sequences[0]
             EsenaActual = context.scene.sequence_editor.active_strip.elements[0]
             AnchoCamva = context.scene.render.resolution_x
@@ -220,11 +222,26 @@ class superzoon(bpy.types.Operator):
             EscalaX = ClipActual.transform.scale_x
             EscalaY = ClipActual.transform.scale_y
 
+            AnchoClip = Ancho * EscalaX
+            AltoClip = Alto * EscalaY
+
             Relacion = math.sqrt(Alto * Alto + Ancho * Ancho)
 
             RelacionCanva = math.sqrt(AnchoCamva * AnchoCamva + AltoCamva * AltoCamva)
 
+            RelacionRelativa = math.sqrt(AnchoClip * AnchoClip + AltoClip * AltoClip)
+
             MultiplicadorUnitario = RelacionCanva / Relacion
+
+            if self.macros:
+                if self.incrementro:
+                    Aumentar = ObtenerValor("data/blender.json", "aumentar")
+                    MultiplicadorRelativo = RelacionRelativa / Relacion
+                    zoon = MultiplicadorRelativo + Aumentar
+                else:
+                    zoon = ObtenerValor("data/blender.json", "zoon")
+            else:
+                zoon = self.zoon
 
             ClipActual.transform.scale_x = MultiplicadorUnitario * zoon
             ClipActual.transform.scale_y = MultiplicadorUnitario * zoon
@@ -278,29 +295,37 @@ class MyPanel(bpy.types.Panel):
         row.label(text="Zoon", icon="ZOOM_IN")
         row = layout.row()
         ops = row.operator("scene.superzoon", text="0.25X")
+        ops.incrementro = False
         ops.macros = False
         ops.zoon = 0.25
         ops = row.operator("scene.superzoon", text="0.5X")
+        ops.incrementro = False
         ops.macros = False
         ops.zoon = 0.5
         ops = row.operator("scene.superzoon", text="0.75X")
+        ops.incrementro = False
         ops.macros = False
         ops.zoon = 0.75
         row = layout.row()
         ops = row.operator("scene.superzoon", text="1X")
+        ops.incrementro = False
         ops.macros = False
         ops.zoon = 1
         row = layout.row()
         ops = row.operator("scene.superzoon", text="2X")
+        ops.incrementro = False
         ops.macros = False
         ops.zoon = 2
         ops = row.operator("scene.superzoon", text="3X")
+        ops.incrementro = False
         ops.macros = False
         ops.zoon = 3
         ops = row.operator("scene.superzoon", text="4X")
+        ops.incrementro = False
         ops.macros = False
         ops.zoon = 4
         ops = row.operator("scene.superzoon", text="8X")
+        ops.incrementro = False
         ops.macros = False
         ops.zoon = 8
 
@@ -341,6 +366,11 @@ def add_hotkey():
 
     kmi = km.keymap_items.new("scene.superzoon", type="P", value="PRESS", ctrl=True, shift=False)
     kmi.properties.macros = True
+    kmi.properties.incrementro = False
+
+    kmi = km.keymap_items.new("scene.superzoon", type="U", value="PRESS", ctrl=True, shift=False)
+    kmi.properties.macros = True
+    kmi.properties.incrementro = True
 
     addon_keymaps.append((km, kmi))
 
