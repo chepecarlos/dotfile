@@ -169,6 +169,12 @@ class superzoon(bpy.types.Operator):
     bl_description = "Cambia el zoon en clip"
     bl_options = {"REGISTER", "UNDO"}
 
+    macros: BoolProperty(
+        name="macro",
+        description="funcion con macro",
+        default=False
+    )
+
     zoon: FloatProperty(
         name="zoon",
         description="zoon para clip",
@@ -194,7 +200,10 @@ class superzoon(bpy.types.Operator):
             if ClipActual.type != "MOVIE":
                 return{'FINISHED'}
 
-            zoon = self.zoon
+            if self.macros:
+                zoon = ObtenerValor("data/blender.json", "zoon")
+            else:
+                zoon = self.zoon
             ClipActual = context.selected_sequences[0]
             EsenaActual = context.scene.sequence_editor.active_strip.elements[0]
             AnchoCamva = context.scene.render.resolution_x
@@ -269,22 +278,30 @@ class MyPanel(bpy.types.Panel):
         row.label(text="Zoon", icon="ZOOM_IN")
         row = layout.row()
         ops = row.operator("scene.superzoon", text="0.25X")
+        ops.macros = False
         ops.zoon = 0.25
         ops = row.operator("scene.superzoon", text="0.5X")
+        ops.macros = False
         ops.zoon = 0.5
         ops = row.operator("scene.superzoon", text="0.75X")
+        ops.macros = False
         ops.zoon = 0.75
         row = layout.row()
         ops = row.operator("scene.superzoon", text="1X")
+        ops.macros = False
         ops.zoon = 1
         row = layout.row()
         ops = row.operator("scene.superzoon", text="2X")
+        ops.macros = False
         ops.zoon = 2
         ops = row.operator("scene.superzoon", text="3X")
+        ops.macros = False
         ops.zoon = 3
         ops = row.operator("scene.superzoon", text="4X")
+        ops.macros = False
         ops.zoon = 4
         ops = row.operator("scene.superzoon", text="8X")
+        ops.macros = False
         ops.zoon = 8
 
         row = layout.row()
@@ -323,7 +340,7 @@ def add_hotkey():
     kmi.properties.pista = "alsw"
 
     kmi = km.keymap_items.new("scene.superzoon", type="P", value="PRESS", ctrl=True, shift=False)
-    kmi.properties.zoon = 1
+    kmi.properties.macros = True
 
     addon_keymaps.append((km, kmi))
 

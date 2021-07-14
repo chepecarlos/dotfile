@@ -27,11 +27,11 @@
   }, {
     "tecla": ["ctrl", "m"]
   }]
-}, {
-  "nombre": "Corta Duro",
-  "icono": "./corta_duro.png",
+},  {
+  "nombre": "Expandir",
+  "icono": "./expandir.png",
   "key": 5,
-  "tecla": ["shift", "k"]
+  "tecla": ["ctrl", "e"]
 }, {
   "nombre": "Desacer",
   "titulo": "desacer",
@@ -54,15 +54,16 @@
   "opcion": "folder",
   "path": "./fade"
 }, {
-  "nombre": "Expandir",
-  "icono": "./expandir.png",
-  "key": 10,
-  "tecla": ["ctrl", "e"]
-}, {
   "nombre": "AjusTime",
   "icono": "./ajuste_time.png",
-  "key": 11,
+  "key": 10,
   "tecla": ["ctrl", "alt", "p"]
+}, {
+  "nombre": "Zoon",
+  "titulo": "Zoon",
+  "key": 11,
+  "opcion": "folder",
+  "path": "./zoon"
 }, {
   "nombre": "Sonido",
   "icono": "./sonido.png",
@@ -179,6 +180,11 @@
   "key": 32,
   "tecla": ["shift", "a"]
 }, {
+  "nombre": "Corta Duro",
+  "icono": "./corta_duro.png",
+  "key": 33,
+  "tecla": ["shift", "k"]
+},{
   "nombre": "Anterior",
   "titulo": "Anterior",
   "opcion": "anterior",
