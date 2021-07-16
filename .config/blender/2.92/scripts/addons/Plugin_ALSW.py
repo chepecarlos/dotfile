@@ -87,6 +87,12 @@ class superaliniar(bpy.types.Operator):
     bl_description = "Alinea los clips"
     bl_options = {"REGISTER", "UNDO"}
 
+    macros: BoolProperty(
+        name="macro",
+        description="funcion con macro para alinacion",
+        default=False
+    )
+
     alineacion_horizontal: EnumProperty(
         name="Alineacion Horizontal de clip",
         description="Alina el clip",
@@ -121,6 +127,10 @@ class superaliniar(bpy.types.Operator):
             ClipActual = context.selected_sequences[0]
             if ClipActual.type != "MOVIE":
                 return{'FINISHED'}
+
+            if self.macros:
+                self.alineacion_vertical = ObtenerValor("data/blender.json", "alineacion_vertical")
+                self.alineacion_horizontal = ObtenerValor("data/blender.json", "alineacion_horizontal")
 
             ClipActual = context.selected_sequences[0]
             EsenaActual = context.scene.sequence_editor.active_strip.elements[0]
@@ -276,19 +286,24 @@ class MyPanel(bpy.types.Panel):
         row.label(text="Alineacion")
         row = layout.row()
         ops = row.operator("scene.superaliniar", text="Ariba")
+        ops.macros = False
         ops.alineacion_vertical = "ariba"
 
         row = layout.row()
         ops = row.operator("scene.superaliniar", text="Izquierda")
+        ops.macros = False
         ops.alineacion_horizontal = "izquierda"
         ops = row.operator("scene.superaliniar", text="Centro")
+        ops.macros = False
         ops.alineacion_horizontal = "centro"
         ops.alineacion_vertical = "centro"
         ops = row.operator("scene.superaliniar", text="Derecha")
+        ops.macros = False
         ops.alineacion_horizontal = "derecha"
 
         row = layout.row()
         ops = row.operator("scene.superaliniar", text="Abajo")
+        ops.macros = False
         ops.alineacion_vertical = "abajo"
 
         row = layout.row()
@@ -363,6 +378,9 @@ def add_hotkey():
 
     kmi = km.keymap_items.new("scene.audioespecial", 'O', 'PRESS', ctrl=True, shift=True)
     kmi.properties.pista = "alsw"
+
+    kmi = km.keymap_items.new("scene.superaliniar", type="R", value="PRESS", ctrl=True, shift=False)
+    kmi.properties.macros = True
 
     kmi = km.keymap_items.new("scene.superzoon", type="P", value="PRESS", ctrl=True, shift=False)
     kmi.properties.macros = True

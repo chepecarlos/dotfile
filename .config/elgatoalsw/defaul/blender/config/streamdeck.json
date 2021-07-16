@@ -1,0 +1,21 @@
+[{
+  "nombre": "MostarAudio",
+  "icono": "./../mostar_audio.png",
+  "key": 0,
+  "tecla": ["alt", "w"]
+}, {
+  "nombre": "Expandir",
+  "icono": "./../expandir.png",
+  "key": 1,
+  "tecla": ["ctrl", "e"]
+}, {
+  "nombre": "AjusTime",
+  "icono": "./../ajuste_time.png",
+  "key": 2,
+  "tecla": ["ctrl", "alt", "p"]
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "opcion": "regresar",
+  "key": 3
+}]
