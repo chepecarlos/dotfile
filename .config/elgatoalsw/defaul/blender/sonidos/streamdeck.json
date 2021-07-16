@@ -11,9 +11,36 @@
       "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/aplausos.mp3"
     }
   }, {
-    "tecla": ["ctrl", "shift", "o"]
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "volumen",
+      "valor": 0.5
+    }
   }, {
-    "opcion": "regresar"
+    "tecla": ["ctrl", "shift", "y"]
+  }]
+}, {
+  "nombre": "Rebobinar",
+  "titulo": "Rebobinar",
+  "solo_titulo": true,
+  "key": 1,
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "sonido",
+      "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/rebobinar.mp3"
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "volumen",
+      "valor": 1
+    }
+  }, {
+    "tecla": ["ctrl", "shift", "y"]
   }]
 }, {
   "nombre": "regresar",
