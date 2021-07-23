@@ -6,6 +6,8 @@
 alias p='ping 8.8.8.8'
 alias ..='cd ..'
 alias df='df -h'
+alias miip='hostname -I'
+alias miippublica='curl ifconfig.me'
 
 # Android
 alias miandroid="scrcpy"
