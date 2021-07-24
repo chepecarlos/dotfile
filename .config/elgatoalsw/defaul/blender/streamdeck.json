@@ -29,7 +29,7 @@
   }]
 }, {
   "nombre": "Desacer",
-  "titulo": "desacer",
+  "icono": "./desacer.png",
   "key": 6,
   "tecla": ["ctrl", "z"]
 }, {
@@ -50,13 +50,13 @@
   "path": "./fade"
 }, {
   "nombre": "aliniacion",
-  "titulo": "aliniacion",
+  "icono": "./aliniar.png",
   "key": 10,
   "opcion": "folder",
   "path": "./aliniacion"
 }, {
   "nombre": "Zoon",
-  "titulo": "Zoon",
+  "icono": "./zoon.png",
   "key": 11,
   "opcion": "folder",
   "path": "./zoon"

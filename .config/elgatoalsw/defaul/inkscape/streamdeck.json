@@ -42,10 +42,10 @@
   "icono": "./ordenar_vertical.png",
   "key": 8,
 }, {
-  "nombre": "Texto",
-  "icono": "./texto.png",
+  "nombre": "selector_color",
+  "icono": "./selector_color.png",
   "key": 9,
-  "tecla": ["f8"]
+  "tecla": ["F7"]
 }, {
   "nombre": "Bajar Fondo",
   "icono": "./bajar_fondo.png",
@@ -67,15 +67,15 @@
   "key": 13,
   "tecla": ["home"]
 }, {
+  "nombre": "Texto",
+  "icono": "./texto.png",
+  "key": 14,
+  "tecla": ["f8"]
+}, {
   "nombre": "Relleno",
   "icono": "./relleno.png",
-  "key": 14,
-  "tecla": ["shift", "ctrl", "f"]
-}, {
-  "nombre": "Aliniar",
-  "icono": "./aliniar.png",
   "key": 15,
-  "tecla": ["shift", "ctrl", "a"]
+  "tecla": ["shift", "ctrl", "f"]
 }, {
   "nombre": "Rectangulo",
   "icono": "./rectangulo.png",
@@ -154,6 +154,11 @@
   "icono": "./curva.png",
   "key": 33,
   "tecla": ["shift", "f6"]
+}, {
+  "nombre": "Aliniar",
+  "icono": "./aliniar.png",
+  "key": 34,
+  "tecla": ["shift", "ctrl", "a"]
 }, {
   "nombre": "Anterior",
   "titulo": "Anterior",
