@@ -27,6 +27,12 @@
   "opcion": "folder",
   "path": "./recurso"
 }, {
+  "nombre": "Binarios",
+  "titulo": "Binarios",
+  "key": 4,
+  "opcion": "folder",
+  "path": "./binarios"
+}, {
   "nombre": "Link",
   "titulo": "Link's",
   "key": 7,
