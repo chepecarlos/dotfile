@@ -43,6 +43,12 @@ class audioespecial(bpy.types.Operator):
                ('p', "pollo", "musica pollo")),
         default='mrtee',)
 
+    macros: BoolProperty(
+        name="macro",
+        description="funcion con macro para zoon",
+        default=False
+    )
+
     # Verifica que este alguna secuencia selecionada
     @classmethod
     def poll(cls, context):
@@ -50,7 +56,7 @@ class audioespecial(bpy.types.Operator):
 
     def execute(self, context):
 
-        if self.pista == 'alsw':
+        if self.pista == 'alsw' or self.macros:
             VideoActual = ObtenerValor("data/blender.json", "clip")
             print(VideoActual)
         elif self.pista == 'mrtee':
@@ -117,15 +123,16 @@ class superaliniar(bpy.types.Operator):
         # Todo: Solo activar con clip de video
         if len(bpy.context.selected_sequences) > 0:
             ClipActual = context.selected_sequences[0]
-            if ClipActual.type != "MOVIE":
+            if ClipActual.type != "MOVIE" and ClipActual.type != "IMAGE":
                 return False
-        return context.selected_sequences
+            return context.selected_sequences
+        return False
 
     def execute(self, context):
 
         if len(bpy.context.selected_sequences) > 0:
             ClipActual = context.selected_sequences[0]
-            if ClipActual.type != "MOVIE":
+            if ClipActual.type != "MOVIE" and ClipActual.type != "IMAGE":
                 return{'FINISHED'}
 
             if self.macros:
@@ -204,7 +211,7 @@ class superzoon(bpy.types.Operator):
         # Todo: Solo activar con clip de video
         if len(bpy.context.selected_sequences) > 0:
             ClipActual = context.selected_sequences[0]
-            if ClipActual.type != "MOVIE":
+            if ClipActual.type != "MOVIE" and ClipActual.type != "IMAGE":
                 return False
         return context.selected_sequences
 
@@ -213,7 +220,7 @@ class superzoon(bpy.types.Operator):
         if len(bpy.context.selected_sequences) > 0:
             ClipActual = context.selected_sequences[0]
 
-            if ClipActual.type != "MOVIE":
+            if ClipActual.type != "MOVIE" and ClipActual.type != "IMAGE":
                 return{'FINISHED'}
 
             ClipActual = context.selected_sequences[0]
@@ -261,6 +268,37 @@ class superzoon(bpy.types.Operator):
         return{'FINISHED'}
 
 
+class insertaraudio(bpy.types.Operator):
+    bl_idname = "scene.insertaraudio"
+    bl_label = "Insert Video"
+    bl_description = "Insertar audio donde esta el cursor"
+    bl_options = {"REGISTER", "UNDO"}
+
+    macros: BoolProperty(
+        name="macro",
+        description="funcion con macro para zoon",
+        default=False
+    )
+
+    # Verifica que este alguna secuencia selecionada
+    @classmethod
+    def poll(cls, context):
+        return True
+        # return context.selected_sequences
+
+    def execute(self, context):
+        if self.macros:
+            FrameActual = context.scene.frame_current
+            SonidoActual = ObtenerValor("data/blender.json", "sonido")
+            Volumen = ObtenerValor("data/blender.json", "volumen")
+
+            bpy.ops.sequencer.sound_strip_add(filepath=SonidoActual, frame_start=FrameActual, channel=1)
+
+            context.selected_sequences[0].show_waveform = True
+            context.selected_sequences[0].volume = Volumen
+        return{'FINISHED'}
+
+
 class MyPanel(bpy.types.Panel):
     """Creates a Panel in the Object properties window."""
 
@@ -280,6 +318,9 @@ class MyPanel(bpy.types.Panel):
         ops.pista = "mrtee"
         ops = row.operator("scene.audioespecial", text="ALSW")
         ops.pista = "alsw"
+        row = layout.row()
+        ops = row.operator("scene.insertaraudio", text="Insertar Audio")
+        ops.macros = True
         layout.separator()
 
         row = layout.row()
@@ -362,7 +403,8 @@ classes = [
     MyPanel,
     audioespecial,
     superzoon,
-    superaliniar
+    superaliniar,
+    insertaraudio
 ]
 
 
@@ -377,7 +419,10 @@ def add_hotkey():
     # kmi.properties.pista = "mrtee"
 
     kmi = km.keymap_items.new("scene.audioespecial", 'O', 'PRESS', ctrl=True, shift=True)
-    kmi.properties.pista = "alsw"
+    kmi.properties.macros = True
+
+    kmi = km.keymap_items.new("scene.insertaraudio", 'Y', 'PRESS', ctrl=True, shift=True)
+    kmi.properties.macros = True
 
     kmi = km.keymap_items.new("scene.superaliniar", type="R", value="PRESS", ctrl=True, shift=False)
     kmi.properties.macros = True
