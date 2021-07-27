@@ -1,7 +1,8 @@
 [{
-  "nombre": "izquierda",
+  "nombre": "izquierda Ariba",
   "key": 1,
-  "titulo": "Izquierda",
+  "titulo": "Izquierda\nAriba",
+  "solo_titulo": true,
   "macro": [{
     "data_archivo": {
       "opcion": "asignar",
@@ -14,63 +15,22 @@
       "opcion": "asignar",
       "archivo": "data/blender.json",
       "atributo": "alineacion_vertical",
-      "valor": "nada"
+      "valor": "ariba"
     }
   }, {
     "tecla": ["ctrl", "r"]
   }]
 }, {
-  "nombre": "centro",
+  "nombre": "centro ariba",
   "key": 2,
-  "titulo": "Centro",
+  "titulo": "Ariba",
+  "solo_titulo": true,
   "macro": [{
     "data_archivo": {
       "opcion": "asignar",
       "archivo": "data/blender.json",
       "atributo": "alineacion_horizontal",
       "valor": "centro"
-    }
-  }, {
-    "data_archivo": {
-      "opcion": "asignar",
-      "archivo": "data/blender.json",
-      "atributo": "alineacion_vertical",
-      "valor": "nada"
-    }
-  }, {
-    "tecla": ["ctrl", "r"]
-  }]
-}, {
-  "nombre": "derecha",
-  "key": 3,
-  "titulo": "Derecha",
-  "macro": [{
-    "data_archivo": {
-      "opcion": "asignar",
-      "archivo": "data/blender.json",
-      "atributo": "alineacion_horizontal",
-      "valor": "derecha"
-    }
-  }, {
-    "data_archivo": {
-      "opcion": "asignar",
-      "archivo": "data/blender.json",
-      "atributo": "alineacion_vertical",
-      "valor": "nada"
-    }
-  }, {
-    "tecla": ["ctrl", "r"]
-  }]
-}, {
-  "nombre": "ariba",
-  "key": 6,
-  "titulo": "Ariba",
-  "macro": [{
-    "data_archivo": {
-      "opcion": "asignar",
-      "archivo": "data/blender.json",
-      "atributo": "alineacion_horizontal",
-      "valor": "nada"
     }
   }, {
     "data_archivo": {
@@ -83,15 +43,38 @@
     "tecla": ["ctrl", "r"]
   }]
 }, {
-  "nombre": "centro",
-  "key": 7,
-  "titulo": "centro",
+  "nombre": "derecha ariba",
+  "key": 3,
+  "titulo": "Derecha\nAriba",
+  "solo_titulo": true,
   "macro": [{
     "data_archivo": {
       "opcion": "asignar",
       "archivo": "data/blender.json",
       "atributo": "alineacion_horizontal",
-      "valor": "nada"
+      "valor": "derecha"
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "alineacion_vertical",
+      "valor": "ariba"
+    }
+  }, {
+    "tecla": ["ctrl", "r"]
+  }]
+}, {
+  "nombre": "centro izquierda",
+  "key": 6,
+  "titulo": "izquierda",
+  "solo_titulo": true,
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "alineacion_horizontal",
+      "valor": "izquierda"
     }
   }, {
     "data_archivo": {
@@ -104,15 +87,104 @@
     "tecla": ["ctrl", "r"]
   }]
 }, {
-  "nombre": "abajo",
-  "key": 8,
-  "titulo": "Abajo",
+  "nombre": "centro",
+  "key": 7,
+  "titulo": "Centro",
+  "solo_titulo": true,
   "macro": [{
     "data_archivo": {
       "opcion": "asignar",
       "archivo": "data/blender.json",
       "atributo": "alineacion_horizontal",
-      "valor": "nada"
+      "valor": "centro"
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "alineacion_vertical",
+      "valor": "centro"
+    }
+  }, {
+    "tecla": ["ctrl", "r"]
+  }]
+}, {
+  "nombre": "derecha abajo ",
+  "key": 8,
+  "titulo": "Derecha",
+  "solo_titulo": true,
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "alineacion_horizontal",
+      "valor": "derecha"
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "alineacion_vertical",
+      "valor": "centro"
+    }
+  }, {
+    "tecla": ["ctrl", "r"]
+  }]
+}, {
+  "nombre": "izquierda abajo",
+  "key": 11,
+  "titulo": "Izquierda\nAbajo",
+  "solo_titulo": true,
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "alineacion_horizontal",
+      "valor": "izquierda"
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "alineacion_vertical",
+      "valor": "abajo"
+    }
+  }, {
+    "tecla": ["ctrl", "r"]
+  }]
+}, {
+  "nombre": "centro abajo",
+  "key": 12,
+  "titulo": "Abajo",
+  "solo_titulo": true,
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "alineacion_horizontal",
+      "valor": "centro"
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "alineacion_vertical",
+      "valor": "abajo"
+    }
+  }, {
+    "tecla": ["ctrl", "r"]
+  }]
+}, {
+  "nombre": "derecha abajo",
+  "key": 13,
+  "titulo": "Derecha\nAbajo",
+  "solo_titulo": true,
+  "macro": [{
+    "data_archivo": {
+      "opcion": "asignar",
+      "archivo": "data/blender.json",
+      "atributo": "alineacion_horizontal",
+      "valor": "derecha"
     }
   }, {
     "data_archivo": {
