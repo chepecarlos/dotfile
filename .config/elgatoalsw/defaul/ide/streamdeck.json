@@ -6,12 +6,12 @@
   "opcion": "folder",
   "path": "defaul/ide/arduino"
 }, {
-  "nombre": "Atom",
-  "titulo": "Atom",
+  "nombre": "Code",
+  "titulo": "Code",
   "key": 1,
-  "icono": "defaul/ide/atom/atom.png",
+  "icono": "defaul/ide/code/code.png",
   "opcion": "folder",
-  "path": "defaul/ide/atom"
+  "path": "defaul/ide/code"
 }, {
   "nombre": "Processing",
   "titulo": "Processing",
@@ -19,6 +19,13 @@
   "icono": "defaul/ide/processing/processing.png",
   "opcion": "folder",
   "path": "defaul/ide/processing"
+}, {
+  "nombre": "Atom",
+  "titulo": "Atom",
+  "key": 3,
+  "icono": "defaul/ide/atom/atom.png",
+  "opcion": "folder",
+  "path": "defaul/ide/atom"
 }, {
   "nombre": "Anterior",
   "titulo": "Anterior",

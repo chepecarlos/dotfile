@@ -1,0 +1,69 @@
+[
+  {
+    "nombre": "Cambiar Panel",
+    "titulo": "Panel",
+    "key": 0,
+    "tecla": ["ctrl", "b"]
+  },
+  {
+    "nombre": "Salvar",
+    "titulo": "Salvar",
+    "key": 1,
+    "tecla": ["ctrl", "s"]
+  },
+  {
+    "nombre": "Duplicar",
+    "titulo": "Duplicar",
+    "key": 2,
+    "tecla": ["alt", "d"]
+  },
+  {
+    "nombre": "Zen Mode",
+    "titulo": "Zen Mode",
+    "key": 5,
+    "macro": [
+      {
+        "tecla": ["ctrl", "k"]
+      },
+      {
+        "tecla": ["z"]
+      }
+    ]
+  },
+  {
+    "nombre": "Auto Formato",
+    "titulo": "Auto Formato",
+    "key": 6,
+    "tecla": ["ctrl", "shift", "i"]
+  },
+  {
+    "nombre": "Palette",
+    "titulo": "Palette",
+    "key": 7,
+    "tecla": ["ctrl", "shift", "p"]
+  },
+  {
+    "nombre": "Buscar File",
+    "titulo": "Buscar File",
+    "key": 8,
+    "tecla": ["ctrl", "p"]
+  },
+  {
+    "nombre": "Anterior",
+    "titulo": "Anterior",
+    "opcion": "anterior",
+    "key": 19
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "Siquiente",
+    "opcion": "siquiente",
+    "key": 24
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 29
+  }
+]
