@@ -4,14 +4,16 @@
   "folder_path": "defaul",
   "fuente": "base/Roboto-Black.ttf",
   "broker_mqtt": "test.mosquitto.org",
-  "global": [{
-    "nombre": "streamdeck",
-    "file": "streamdeck.json"
-  }],
+  "global": [
+    {
+      "nombre": "streamdeck",
+      "file": "streamdeck.json"
+    }
+  ],
   "imagenes": {
     "base": "base/icono.png",
     "siquiente": "base/siquiente.png",
     "anterior": "base/anterior.png",
-    "regresar": "base/regresar.png",
+    "regresar": "base/regresar.png"
   }
 }

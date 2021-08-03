@@ -1,68 +1,81 @@
-[{
-  "nombre": "Youtube",
-  "titulo": "Youtube",
-  "key": 0,
-  "icono": "./../youtube.png",
-  "texto": "https://youtube.com/alswnet?sub_confirmation=1"
-}, {
-  "nombre": "Facebook",
-  "titulo": "Facebook",
-  "key": 1,
-  "icono": "./../facebook.png",
-  "texto": "https://www.facebook.com/alswnet/"
-}, {
-  "nombre": "Instagram",
-  "titulo": "Instagram",
-  "key": 2,
-  "icono": "./../instagram.png",
-  "texto": "https://www.instagram.com/alswnet/"
-}, {
-  "nombre": "Twitter",
-  "titulo": "Twitter",
-  "key": 3,
-  "icono": "./../twitter.png",
-  "texto": "https://twitter.com/alswnet"
-}, {
-  "nombre": "ChepeCarlos",
-  "titulo": "ChepeCarlos",
-  "key": 4,
-  "texto": "https://chepecarlos.com/"
-}, {
-  "nombre": "Github",
-  "titulo": "Github",
-  "icono": "./../github.png",
-  "key": 5,
-  "texto": "https://github.com/chepecarlos"
-}, {
-  "nombre": "Cafe",
-  "titulo": "Cafe",
-  "key": 6,
-  "icono": "./../cafe.png",
-  "texto": "https://www.buymeacoffee.com/alswnet"
-}, {
-  "nombre": "Twitch",
-  "titulo": "Twitch",
-  "key": 7,
-  "icono": "./../twitch.png",
-  "texto": "https://www.twitch.tv/alswnet"
-}, {
-  "nombre": "regresar",
-  "titulo": "Regresar",
-  "opcion": "regresar",
-  "key": 9
-}, {
-  "nombre": "Anterior",
-  "titulo": "Anterior",
-  "opcion": "anterior",
-  "key": 19
-}, {
-  "nombre": "siquiente",
-  "titulo": "Siquiente",
-  "opcion": "siquiente",
-  "key": 24
-}, {
-  "nombre": "regresar",
-  "titulo": "Regresar",
-  "opcion": "regresar",
-  "key": 29
-}]
+[
+  {
+    "nombre": "Youtube",
+    "titulo": "Youtube",
+    "key": 0,
+    "icono": "./../youtube.png",
+    "texto": "https://youtube.com/alswnet?sub_confirmation=1"
+  },
+  {
+    "nombre": "Facebook",
+    "titulo": "Facebook",
+    "key": 1,
+    "icono": "./../facebook.png",
+    "texto": "https://www.facebook.com/alswnet/"
+  },
+  {
+    "nombre": "Instagram",
+    "titulo": "Instagram",
+    "key": 2,
+    "icono": "./../instagram.png",
+    "texto": "https://www.instagram.com/alswnet/"
+  },
+  {
+    "nombre": "Twitter",
+    "titulo": "Twitter",
+    "key": 3,
+    "icono": "./../twitter.png",
+    "texto": "https://twitter.com/alswnet"
+  },
+  {
+    "nombre": "ChepeCarlos",
+    "titulo": "ChepeCarlos",
+    "key": 4,
+    "texto": "https://chepecarlos.com/"
+  },
+  {
+    "nombre": "Github",
+    "titulo": "Github",
+    "icono": "./../github.png",
+    "key": 5,
+    "texto": "https://github.com/chepecarlos"
+  },
+  {
+    "nombre": "Cafe",
+    "titulo": "Cafe",
+    "key": 6,
+    "icono": "./../cafe.png",
+    "texto": "https://www.buymeacoffee.com/alswnet"
+  },
+  {
+    "nombre": "Twitch",
+    "titulo": "Twitch",
+    "key": 7,
+    "icono": "./../twitch.png",
+    "texto": "https://www.twitch.tv/alswnet"
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 9
+  },
+  {
+    "nombre": "Anterior",
+    "titulo": "Anterior",
+    "opcion": "anterior",
+    "key": 19
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "Siquiente",
+    "opcion": "siquiente",
+    "key": 24
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 29
+  }
+]

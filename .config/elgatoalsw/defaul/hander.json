@@ -1,61 +1,77 @@
-[{
-  "nombre": "Parar",
-  "key": "KEY_SPACE",
-  "sonido": "parar"
-}, {
-  "nombre": "Golpe",
-  "key": "KEY_F1",
-  "sonido": "defaul/sonidos/golpe.wav"
-}, {
-  "nombre": "Musica_ALSW",
-  "key": "KEY_F2",
-  "sonido": "defaul/sonidos/musica_ALSW.wav"
-}, {
-  "nombre": "Mr_Tea",
-  "key": "KEY_F3",
-  "sonido": "defaul/sonidos/mr_tea.wav"
-}, {
-  "nombre": "Aplausos",
-  "key": "KEY_F4",
-  "sonido": "defaul/sonidos/aplausos.wav"
-}, {
-  "nombre": "Chan",
-  "key": "KEY_F5",
-  "sonido": "defaul/sonidos/chan.wav"
-}, {
-  "nombre": "Pokemon",
-  "key": "KEY_LEFTCTRL",
-  "sonido": "defaul/sonidos/pokemon.wav"
-}, {
-  "nombre": "Activar",
-  "key": "KEY_GRAVE",
-  "tecla": ["f9"]
-}, {
-  "nombre": "Limpiar",
-  "key": "KEY_1",
-  "tecla": ["shift", "f9"]
-}, {
-  "nombre": "Ocultar",
-  "key": "KEY_2",
-  "tecla": ["ctrl", "f9"]
-}, {
-  "nombre": "Desacer",
-  "key": "KEY_3",
-  "tecla": ["f10"]
-}, {
-  "nombre": "Reacer",
-  "key": "KEY_4",
-  "tecla": ["shift", "f10"]
-}, {
-  "nombre": "Reiniciar",
-  "key": "KEY_F9",
-  "deck": "reiniciar",
-}, {
-  "nombre": "Salir",
-  "key": "KEY_F10",
-  "opcion": "salir"
-}, {
-  "nombre": "Regresar",
-  "key": "KEY_ESC",
-  "opcion": "regresar"
-}]
+[
+  {
+    "nombre": "Parar",
+    "key": "KEY_SPACE",
+    "sonido": "parar"
+  },
+  {
+    "nombre": "Golpe",
+    "key": "KEY_F1",
+    "sonido": "defaul/sonidos/golpe.wav"
+  },
+  {
+    "nombre": "Musica_ALSW",
+    "key": "KEY_F2",
+    "sonido": "defaul/sonidos/musica_ALSW.wav"
+  },
+  {
+    "nombre": "Mr_Tea",
+    "key": "KEY_F3",
+    "sonido": "defaul/sonidos/mr_tea.wav"
+  },
+  {
+    "nombre": "Aplausos",
+    "key": "KEY_F4",
+    "sonido": "defaul/sonidos/aplausos.wav"
+  },
+  {
+    "nombre": "Chan",
+    "key": "KEY_F5",
+    "sonido": "defaul/sonidos/chan.wav"
+  },
+  {
+    "nombre": "Pokemon",
+    "key": "KEY_LEFTCTRL",
+    "sonido": "defaul/sonidos/pokemon.wav"
+  },
+  {
+    "nombre": "Activar",
+    "key": "KEY_GRAVE",
+    "tecla": ["f9"]
+  },
+  {
+    "nombre": "Limpiar",
+    "key": "KEY_1",
+    "tecla": ["shift", "f9"]
+  },
+  {
+    "nombre": "Ocultar",
+    "key": "KEY_2",
+    "tecla": ["ctrl", "f9"]
+  },
+  {
+    "nombre": "Desacer",
+    "key": "KEY_3",
+    "tecla": ["f10"]
+  },
+  {
+    "nombre": "Reacer",
+    "key": "KEY_4",
+    "tecla": ["shift", "f10"]
+  },
+  {
+    "nombre": "Reiniciar",
+    "key": "KEY_F9",
+    "deck": "reiniciar"
+  },
+  {
+    "nombre": "Salir",
+    "key": "KEY_F10",
+    "opcion": "salir"
+  },
+  {
+    "nombre": "Regresar",
+    "key": "KEY_ESC",
+    "opcion": "regresar"
+  }
+]

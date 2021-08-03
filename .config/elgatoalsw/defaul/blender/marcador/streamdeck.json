@@ -1,30 +1,39 @@
-[{
-  "nombre": "Agregar",
-  "titulo": "Agregar",
-  "icono": "./maker.png",
-  "key": 0,
-  "macro": [{
+[
+  {
+    "nombre": "Agregar",
+    "titulo": "Agregar",
+    "icono": "./maker.png",
+    "key": 0,
+    "macro": [
+      {
+        "tecla": ["m"]
+      },
+      {
+        "tecla": ["ctrl", "m"]
+      },
+      {
+        "opcion": "regresar"
+      }
+    ]
+  },
+  {
+    "nombre": "Maker",
+    "titulo": "Crear",
+    "icono": "./maker.png",
+    "key": 1,
     "tecla": ["m"]
-  }, {
+  },
+  {
+    "nombre": "Edit Maker",
+    "titulo": "Editar",
+    "icono": "./edit_maker.png",
+    "key": 2,
     "tecla": ["ctrl", "m"]
-  }, {
-    "opcion": "regresar"
-  }]
-}, {
-  "nombre": "Maker",
-  "titulo": "Crear",
-  "icono": "./maker.png",
-  "key": 1,
-  "tecla": ["m"]
-}, {
-  "nombre": "Edit Maker",
-  "titulo": "Editar",
-  "icono": "./edit_maker.png",
-  "key": 2,
-  "tecla": ["ctrl", "m"]
-}, {
-  "nombre": "regresar",
-  "titulo": "Regresar",
-  "opcion": "regresar",
-  "key": 3
-}]
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 3
+  }
+]

@@ -1,42 +1,60 @@
-[{
-  "nombre": "X2",
-  "icono": "./../x2.png",
-  "key": 0,
-  "macro": [{
-    "tecla": ["alt", "2"]
-  }, {
-    "opcion": "regresar"
-  }]
-}, {
-  "nombre": "X3",
-  "icono": "./../x3.png",
-  "key": 1,
-  "macro": [{
-    "tecla": ["alt", "3"]
-  }, {
-    "opcion": "regresar"
-  }]
-}, {
-  "nombre": "X4",
-  "icono": "./../x4.png",
-  "key": 2,
-  "macro": [{
-    "tecla": ["alt", "4"]
-  }, {
-    "opcion": "regresar"
-  }]
-}, {
-  "nombre": "X10",
-  "icono": "./../x10.png",
-  "key": 3,
-  "macro": [{
-    "tecla": ["alt", "5"]
-  }, {
-    "opcion": "regresar"
-  }]
-}, {
-  "nombre": "regresar",
-  "titulo": "Regresar",
-  "opcion": "regresar",
-  "key": 4
-}]
+[
+  {
+    "nombre": "X2",
+    "icono": "./../x2.png",
+    "key": 0,
+    "macro": [
+      {
+        "tecla": ["alt", "2"]
+      },
+      {
+        "opcion": "regresar"
+      }
+    ]
+  },
+  {
+    "nombre": "X3",
+    "icono": "./../x3.png",
+    "key": 1,
+    "macro": [
+      {
+        "tecla": ["alt", "3"]
+      },
+      {
+        "opcion": "regresar"
+      }
+    ]
+  },
+  {
+    "nombre": "X4",
+    "icono": "./../x4.png",
+    "key": 2,
+    "macro": [
+      {
+        "tecla": ["alt", "4"]
+      },
+      {
+        "opcion": "regresar"
+      }
+    ]
+  },
+  {
+    "nombre": "X10",
+    "icono": "./../x10.png",
+    "key": 3,
+    "macro": [
+      {
+        "tecla": ["alt", "5"]
+      },
+      {
+        "opcion": "regresar"
+      }
+    ]
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 4
+  }
+]

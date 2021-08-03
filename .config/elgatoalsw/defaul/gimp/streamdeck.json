@@ -1,81 +1,98 @@
-[{
-  "nombre": "seleccion",
-  "icono": "./seleccion.png",
-  "key": 0,
-  "tecla": ["u"]
-}, {
-  "nombre": "seleccion color",
-  "icono": "./seleccion_color.png",
-  "key": 1,
-  "tecla": ["shift", "o"]
-}, {
-  "nombre": "añadir alfa",
-  "icono": "./anadir_alfa.png",
-  "key": 2,
-  "tecla": ["ctrl", "f12"]
-}, {
-  "nombre": "clonar",
-  "icono": "./clonar.png",
-  "key": 5,
-  "tecla": ["c"]
-}, {
-  "nombre": "cortar",
-  "icono": "./cortar.png",
-  "key": 6,
-  "tecla": ["ctrl", "x"]
-}, {
-  "nombre": "copiar visible",
-  "icono": "./copiar.png",
-  "key": 7,
-  "tecla": ["ctrl", "shift", "c"]
-}, {
-  "nombre": "pegar nuevo documento",
-  "icono": "./pegar.png",
-  "key": 8,
-  "tecla": ["ctrl", "shift", "v"]
-}, {
-  "nombre": "selecionar todo",
-  "icono": "./selecionar_todo.png",
-  "key": 10,
-  "tecla": ["ctrl", "a"]
-}, {
-  "nombre": "selecionar nada",
-  "icono": "./selecionar_nada.png",
-  "key": 11,
-  "tecla": ["ctrl", "shift", "a"]
-}, {
-  "nombre": "curva",
-  "icono": "./curvas.png",
-  "key": 15,
-  "tecla": ["ctrl", "shift", "m"]
-}, {
-  "nombre": "tono saturacion",
-  "icono": "./tono.png",
-  "key": 16,
-  "tecla": ["ctrl", ":"]
-}, {
-  "nombre": "Incrementar",
-  "titulo": "Incrementar",
-  "key": 26,
-  "tecla_on": ["]"]
-}, {
-  "nombre": "Reducir",
-  "titulo": "Reducir",
-  "key": 27,
-  "tecla_on": ["["]
-}, {
-  "nombre": "Anterior",
-  "titulo": "Anterior",
-  "opcion": "anterior",
-  "key": 19
-}, {
-  "nombre": "siquiente",
-  "titulo": "Siquiente",
-  "opcion": "siquiente",
-  "key": 24
-}, {
-  "nombre": "regresar",
-  "titulo": "Regresar",
-  "opcion": "regresar",
-  "key": 29
-}]
+[
+  {
+    "nombre": "seleccion",
+    "icono": "./seleccion.png",
+    "key": 0,
+    "tecla": ["u"]
+  },
+  {
+    "nombre": "seleccion color",
+    "icono": "./seleccion_color.png",
+    "key": 1,
+    "tecla": ["shift", "o"]
+  },
+  {
+    "nombre": "añadir alfa",
+    "icono": "./anadir_alfa.png",
+    "key": 2,
+    "tecla": ["ctrl", "f12"]
+  },
+  {
+    "nombre": "clonar",
+    "icono": "./clonar.png",
+    "key": 5,
+    "tecla": ["c"]
+  },
+  {
+    "nombre": "cortar",
+    "icono": "./cortar.png",
+    "key": 6,
+    "tecla": ["ctrl", "x"]
+  },
+  {
+    "nombre": "copiar visible",
+    "icono": "./copiar.png",
+    "key": 7,
+    "tecla": ["ctrl", "shift", "c"]
+  },
+  {
+    "nombre": "pegar nuevo documento",
+    "icono": "./pegar.png",
+    "key": 8,
+    "tecla": ["ctrl", "shift", "v"]
+  },
+  {
+    "nombre": "selecionar todo",
+    "icono": "./selecionar_todo.png",
+    "key": 10,
+    "tecla": ["ctrl", "a"]
+  },
+  {
+    "nombre": "selecionar nada",
+    "icono": "./selecionar_nada.png",
+    "key": 11,
+    "tecla": ["ctrl", "shift", "a"]
+  },
+  {
+    "nombre": "curva",
+    "icono": "./curvas.png",
+    "key": 15,
+    "tecla": ["ctrl", "shift", "m"]
+  },
+  {
+    "nombre": "tono saturacion",
+    "icono": "./tono.png",
+    "key": 16,
+    "tecla": ["ctrl", ":"]
+  },
+  {
+    "nombre": "Incrementar",
+    "titulo": "Incrementar",
+    "key": 26,
+    "tecla_on": ["]"]
+  },
+  {
+    "nombre": "Reducir",
+    "titulo": "Reducir",
+    "key": 27,
+    "tecla_on": ["["]
+  },
+  {
+    "nombre": "Anterior",
+    "titulo": "Anterior",
+    "opcion": "anterior",
+    "key": 19
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "Siquiente",
+    "opcion": "siquiente",
+    "key": 24
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 29
+  }
+]

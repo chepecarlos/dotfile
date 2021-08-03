@@ -1,28 +1,34 @@
-[{
-  "nombre": "Aumentar Brillo",
-  "titulo": "Brillo++",
-  "deck": "brillo",
-  "cantidad": 5,
-  "key": 0
-}, {
-  "nombre": "Bajar Brillo",
-  "titulo": "Brillo--",
-  "deck": "brillo",
-  "cantidad": -5,
-  "key": 1
-}, {
-  "nombre": "Reiniciar",
-  "titulo": "Reiniciar",
-  "deck": "reiniciar",
-  "key": 2
-}, {
-  "nombre": "regresar",
-  "titulo": "Regresar",
-  "opcion": "regresar",
-  "key": 4
-}, {
-  "nombre": "regresar",
-  "titulo": "Regresar",
-  "opcion": "regresar",
-  "key": 29
-}]
+[
+  {
+    "nombre": "Aumentar Brillo",
+    "titulo": "Brillo++",
+    "deck": "brillo",
+    "cantidad": 5,
+    "key": 0
+  },
+  {
+    "nombre": "Bajar Brillo",
+    "titulo": "Brillo--",
+    "deck": "brillo",
+    "cantidad": -5,
+    "key": 1
+  },
+  {
+    "nombre": "Reiniciar",
+    "titulo": "Reiniciar",
+    "deck": "reiniciar",
+    "key": 2
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 4
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 29
+  }
+]

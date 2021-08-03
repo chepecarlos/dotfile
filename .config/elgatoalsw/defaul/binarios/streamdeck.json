@@ -1,21 +1,26 @@
-[{
-  "nombre": "blender",
-  "titulo": "blender",
-  "key": 0,
-  "os": "blender &"
-  },{
-  "nombre": "Firefox",
-  "titulo": "Firefox",
-  "key": 1,
-  "os": "firefox &"
-  },{
-  "nombre": "regresar",
-  "titulo": "Regresar",
-  "opcion": "regresar",
-  "key": 14
-}, {
-  "nombre": "regresar",
-  "titulo": "Regresar",
-  "opcion": "regresar",
-  "key": 29
-}]
+[
+  {
+    "nombre": "blender",
+    "titulo": "blender",
+    "key": 0,
+    "os": "blender &"
+  },
+  {
+    "nombre": "Firefox",
+    "titulo": "Firefox",
+    "key": 1,
+    "os": "firefox &"
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 14
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 29
+  }
+]

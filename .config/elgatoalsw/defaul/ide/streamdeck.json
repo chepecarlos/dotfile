@@ -1,44 +1,52 @@
-[{
-  "nombre": "Arduino",
-  "titulo": "Arduino",
-  "key": 0,
-  "icono": "defaul/ide/arduino/arduino.png",
-  "opcion": "folder",
-  "path": "defaul/ide/arduino"
-}, {
-  "nombre": "Code",
-  "titulo": "Code",
-  "key": 1,
-  "icono": "defaul/ide/code/code.png",
-  "opcion": "folder",
-  "path": "defaul/ide/code"
-}, {
-  "nombre": "Processing",
-  "titulo": "Processing",
-  "key": 2,
-  "icono": "defaul/ide/processing/processing.png",
-  "opcion": "folder",
-  "path": "defaul/ide/processing"
-}, {
-  "nombre": "Atom",
-  "titulo": "Atom",
-  "key": 3,
-  "icono": "defaul/ide/atom/atom.png",
-  "opcion": "folder",
-  "path": "defaul/ide/atom"
-}, {
-  "nombre": "Anterior",
-  "titulo": "Anterior",
-  "opcion": "anterior",
-  "key": 19
-}, {
-  "nombre": "siquiente",
-  "titulo": "Siquiente",
-  "opcion": "siquiente",
-  "key": 24
-}, {
-  "nombre": "regresar",
-  "titulo": "Regresar",
-  "opcion": "regresar",
-  "key": 29
-}]
+[
+  {
+    "nombre": "Arduino",
+    "titulo": "Arduino",
+    "key": 0,
+    "icono": "defaul/ide/arduino/arduino.png",
+    "opcion": "folder",
+    "path": "defaul/ide/arduino"
+  },
+  {
+    "nombre": "Code",
+    "titulo": "Code",
+    "key": 1,
+    "icono": "defaul/ide/code/code.png",
+    "opcion": "folder",
+    "path": "defaul/ide/code"
+  },
+  {
+    "nombre": "Processing",
+    "titulo": "Processing",
+    "key": 2,
+    "icono": "defaul/ide/processing/processing.png",
+    "opcion": "folder",
+    "path": "defaul/ide/processing"
+  },
+  {
+    "nombre": "Atom",
+    "titulo": "Atom",
+    "key": 3,
+    "icono": "defaul/ide/atom/atom.png",
+    "opcion": "folder",
+    "path": "defaul/ide/atom"
+  },
+  {
+    "nombre": "Anterior",
+    "titulo": "Anterior",
+    "opcion": "anterior",
+    "key": 19
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "Siquiente",
+    "opcion": "siquiente",
+    "key": 24
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 29
+  }
+]

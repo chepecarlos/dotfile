@@ -1,9 +1,12 @@
-[{
-  "Nombre": "Beautify",
-  "Boton": "KEY_1",
-  "tecla": ["alt", "ctrl", "b"]
-},{
-  "Nombre": "Salvar",
-  "Boton": "KEY_2",
-  "tecla": ["ctrl", "s"]
-}]
+[
+  {
+    "Nombre": "Beautify",
+    "Boton": "KEY_1",
+    "tecla": ["alt", "ctrl", "b"]
+  },
+  {
+    "Nombre": "Salvar",
+    "Boton": "KEY_2",
+    "tecla": ["ctrl", "s"]
+  }
+]

@@ -1,5 +1,7 @@
-[{
-  "nombre": "salvar",
-  "key": "KEY_3",
-  "tecla": ["ctrl", "s"]
-}]
+[
+  {
+    "nombre": "salvar",
+    "key": "KEY_3",
+    "tecla": ["ctrl", "s"]
+  }
+]
