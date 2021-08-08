@@ -56,6 +56,13 @@
     "texto": "https://nocheprogramacion.com/series/arduino/basico"
   },
   {
+    "nombre": "Python",
+    "titulo": "Python",
+    "solo_titulo": true,
+    "key": 8,
+    "texto": "https://nocheprogramacion.com/series/python"
+  },
+  {
     "nombre": "regresar",
     "titulo": "Regresar",
     "opcion": "regresar",

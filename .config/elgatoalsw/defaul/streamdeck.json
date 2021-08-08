@@ -47,11 +47,18 @@
     "path": "defaul/ide/code"
   },
   {
+    "nombre": "Youtube",
+    "titulo": "Youtube",
+    "gif": "./youtube/youtube2.gif",
+    "key": 6,
+    "opcion": "folder",
+    "path": "./youtube"
+  },
+  {
     "nombre": "Link",
     "titulo": "Link's",
     "key": 7,
     "gif": "./link/link.gif",
-    "icono": "./link/link.png",
     "opcion": "folder",
     "path": "./link"
   },
