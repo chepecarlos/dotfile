@@ -1,0 +1,220 @@
+[
+  {
+    "nombre": "JuegoVida",
+    "titulo": "JuegoVida",
+    "solo_titulo": true,
+    "key": 0,
+    "mqtt": "mensaje",
+    "topic": "fondo/animacion",
+    "mensaje": "juegovida"
+  },
+  {
+    "nombre": "Terreno3D",
+    "titulo": "Terreno3D",
+    "solo_titulo": true,
+    "key": 1,
+    "mqtt": "mensaje",
+    "topic": "fondo/animacion",
+    "mensaje": "tereno3d"
+  },
+  {
+    "nombre": "WavyField",
+    "titulo": "WavyField",
+    "solo_titulo": true,
+    "key": 2,
+    "mqtt": "mensaje",
+    "topic": "fondo/animacion",
+    "mensaje": "wavyfield"
+  },
+  {
+    "nombre": "reiniciar",
+    "titulo": "reiniciar",
+    "solo_titulo": true,
+    "key": 4,
+    "mqtt": "mensaje",
+    "topic": "fondo/reiniciar",
+    "mensaje": "1"
+  },
+  {
+    "nombre": "Color Defaul",
+    "titulo": "Color\nDefaul",
+    "solo_titulo": true,
+    "key": 9,
+    "macro": [
+      {
+        "mqtt": "mensaje",
+        "topic": "fondo/color/base",
+        "mensaje": "aqua"
+      },
+      {
+        "mqtt": "mensaje",
+        "topic": "fondo/color/secundario",
+        "mensaje": "negro"
+      },
+      {
+        "mqtt": "mensaje",
+        "topic": "fondo/reiniciar",
+        "mensaje": "1"
+      }
+    ]
+  },
+  {
+    "nombre": "Normal",
+    "titulo": "Normal",
+    "solo_titulo": true,
+    "key": 5,
+    "mqtt": "mensaje",
+    "topic": "fondo/modo",
+    "mensaje": "normal"
+  },
+  {
+    "nombre": "Ruido",
+    "titulo": "Ruido",
+    "solo_titulo": true,
+    "key": 6,
+    "mqtt": "mensaje",
+    "topic": "fondo/modo",
+    "mensaje": "ruido"
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 14
+  },
+  {
+    "nombre": "color aqua",
+    "titulo": "B\naqua",
+    "solo_titulo": true,
+    "key": 15,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/base",
+    "mensaje": "aqua"
+  },
+  {
+    "nombre": "color rojo",
+    "titulo": "B\nrojo",
+    "solo_titulo": true,
+    "key": 16,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/base",
+    "mensaje": "rojo"
+  },
+  {
+    "nombre": "color Amarillo",
+    "titulo": "B\nAmarillo",
+    "solo_titulo": true,
+    "key": 17,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/base",
+    "mensaje": "amarillo"
+  },
+  {
+    "nombre": "color Verde",
+    "titulo": "B\nVerde",
+    "solo_titulo": true,
+    "key": 18,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/base",
+    "mensaje": "verde"
+  },
+  {
+    "nombre": "color Negro",
+    "titulo": "B\nNegro",
+    "solo_titulo": true,
+    "key": 19,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/base",
+    "mensaje": "negro"
+  },
+  {
+    "nombre": "Linea Aqua",
+    "titulo": "L\nAqua",
+    "solo_titulo": true,
+    "key": 20,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/linea",
+    "mensaje": "aqua"
+  },
+  {
+    "nombre": "Linea Rojo",
+    "titulo": "L\nRojo",
+    "solo_titulo": true,
+    "key": 21,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/linea",
+    "mensaje": "rojo"
+  },
+  {
+    "nombre": "Linea Amarillo",
+    "titulo": "L\nAmarillo",
+    "solo_titulo": true,
+    "key": 22,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/linea",
+    "mensaje": "amarillo"
+  },
+  {
+    "nombre": "Linea Verde",
+    "titulo": "L\nVerde",
+    "solo_titulo": true,
+    "key": 23,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/linea",
+    "mensaje": "verde"
+  },
+  {
+    "nombre": "Linea Negro",
+    "titulo": "L\nNegro",
+    "solo_titulo": true,
+    "key": 24,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/linea",
+    "mensaje": "negro"
+  },
+  {
+    "nombre": "Fondo Acua",
+    "titulo": "F\nAcua",
+    "solo_titulo": true,
+    "key": 25,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/secundario",
+    "mensaje": "aqua"
+  },
+  {
+    "nombre": "Fondo Rojo",
+    "titulo": "F\nRojo",
+    "solo_titulo": true,
+    "key": 26,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/secundario",
+    "mensaje": "rojo"
+  },
+  {
+    "nombre": "Fondo Amarillo",
+    "titulo": "F\nAmarillo",
+    "solo_titulo": true,
+    "key": 27,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/secundario",
+    "mensaje": "amarillo"
+  },
+  {
+    "nombre": "Fondo verde",
+    "titulo": "F\nverde",
+    "solo_titulo": true,
+    "key": 28,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/secundario",
+    "mensaje": "verde"
+  },
+  {
+    "nombre": "Fondo Negro",
+    "titulo": "F\nNegro",
+    "solo_titulo": true,
+    "key": 29,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/secundario",
+    "mensaje": "negro"
+  }
+]

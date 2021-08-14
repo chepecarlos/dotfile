@@ -2,6 +2,7 @@
   {
     "nombre": "blender",
     "titulo": "blender",
+    "icono": "./blender.png",
     "key": 0,
     "os": "blender &"
   },
@@ -10,6 +11,18 @@
     "titulo": "Firefox",
     "key": 1,
     "os": "firefox &"
+  },
+  {
+    "nombre": "OBS",
+    "titulo": "OBS",
+    "icono": "./obs.png",
+    "key": 2,
+    "os": "obs &"
+  },{
+    "nombre": "Discord",
+    "titulo": "Discord",
+    "key": 3,
+    "os": "discord &"
   },
   {
     "nombre": "regresar",

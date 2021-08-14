@@ -30,6 +30,12 @@
     "texto": "https://github.com/chepecarlos/MonitorChat"
   },
   {
+    "nombre": "FondoOBS",
+    "titulo": "FondoOBS",
+    "key": 5,
+    "texto": "https://github.com/alswnet/FondoOBS"
+  },
+  {
     "nombre": "regresar",
     "titulo": "Regresar",
     "opcion": "regresar",

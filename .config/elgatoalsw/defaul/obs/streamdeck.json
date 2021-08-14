@@ -39,10 +39,18 @@
     "path": "./juego"
   },
   {
+    "nombre": "FondoOBS",
+    "titulo": "FondoOBS",
+    "icono": "defaul/fondoobs/fondoobs.png",
+    "key": 4,
+    "opcion": "folder",
+    "path": "defaul/fondoobs"
+  },
+  {
     "nombre": "regresar",
     "titulo": "Regresar",
     "opcion": "regresar",
-    "key": 4
+    "key": 9
   },
   {
     "nombre": "grabar",

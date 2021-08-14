@@ -117,12 +117,19 @@
     "path": "./notion"
   },
   {
-    "nombre": "Recursos",
-    "titulo": "Recursos",
-    "gif": "./recursos/ryuk_pc.gif",
-    "key": 22,
+    "nombre": "FondoOBS",
+    "titulo": "FondoOBS",
+    "icono": "./fondoobs/fondoobs.png",
+    "key": 20,
     "opcion": "folder",
-    "path": "./recursos"
+    "path": "./fondoobs"
+  },
+  {
+    "nombre": "Insync",
+    "titulo": "Insync",
+    "key": 25,
+    "opcion": "folder",
+    "path": "./insync"
   },
   {
     "nombre": "FreeCAD",

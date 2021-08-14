@@ -2,24 +2,28 @@
   {
     "nombre": "Cambiar Panel",
     "titulo": "Panel",
+    "solo_titulo": true,
     "key": 0,
     "tecla": ["ctrl", "b"]
   },
   {
     "nombre": "Salvar",
     "titulo": "Salvar",
+    "solo_titulo": true,
     "key": 1,
     "tecla": ["ctrl", "s"]
   },
   {
     "nombre": "Duplicar",
     "titulo": "Duplicar",
+    "solo_titulo": true,
     "key": 2,
     "tecla": ["alt", "d"]
   },
   {
     "nombre": "Zen Mode",
     "titulo": "Zen Mode",
+    "solo_titulo": true,
     "key": 5,
     "macro": [
       {
@@ -33,18 +37,21 @@
   {
     "nombre": "Auto Formato",
     "titulo": "Auto Formato",
+    "solo_titulo": true,
     "key": 6,
     "tecla": ["ctrl", "shift", "i"]
   },
   {
     "nombre": "Palette",
     "titulo": "Palette",
+    "solo_titulo": true,
     "key": 7,
     "tecla": ["ctrl", "shift", "p"]
   },
   {
     "nombre": "Buscar File",
     "titulo": "Buscar File",
+    "solo_titulo": true,
     "key": 8,
     "tecla": ["ctrl", "p"]
   },

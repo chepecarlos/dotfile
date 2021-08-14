@@ -2,47 +2,55 @@
   {
     "nombre": "Inicio",
     "titulo": "Inicio",
+    "solo_titulo": true,
     "key": 0,
     "tecla": ["0"]
   },{
     "nombre": "MiniRepo",
     "titulo": "MiniRepo",
+    "solo_titulo": true,
     "key": 1,
     "tecla": ["i"]
   },
   {
     "nombre": "Retroceder",
     "titulo": "Retroceder",
+    "solo_titulo": true,
     "key": 6,
     "tecla": ["j"]
   },
   {
     "nombre": "Play",
     "titulo": "Play",
+    "solo_titulo": true,
     "key": 7,
     "tecla": ["k"]
   },
   {
     "nombre": "Adelantar",
     "titulo": "Adelantar",
+    "solo_titulo": true,
     "key": 8,
     "tecla": ["l"]
   },
   {
     "nombre": "Bajar Velocidad",
     "titulo": "Bajar Velocidad",
+    "solo_titulo": true,
     "key": 11,
     "tecla": ["shift", ","]
   },
   {
     "nombre": "Subir Velocidad",
     "titulo": "Subir Velocidad",
+    "solo_titulo": true,
     "key": 13,
     "tecla": ["shift", "."]
   },
   {
     "nombre": "Adelantar",
     "titulo": "Adelantar",
+    "solo_titulo": true,
     "key": 8,
     "tecla": ["l"]
   },
