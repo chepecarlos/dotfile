@@ -125,6 +125,14 @@
     "path": "./fondoobs"
   },
   {
+    "nombre": "Gromit",
+    "titulo": "Gromit",
+    "icono": "./gromit/dibujar.png",
+    "key": 23,
+    "opcion": "folder",
+    "path": "./gromit"
+  },
+  {
     "nombre": "Insync",
     "titulo": "Insync",
     "key": 25,

@@ -87,8 +87,8 @@
     "obs": "esena",
     "esena": "Apoyo",
     "estado": false,
-    "icono_true": "defaul/obs/codigo_on.png",
-    "icono_false": "defaul/obs/codigo_off.png"
+    "icono_true": "defaul/obs/apoyo_on.png",
+    "icono_false": "defaul/obs/apoyo_off.png"
   },
   {
     "nombre": "grabar",

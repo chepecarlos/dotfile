@@ -45,24 +45,47 @@
     "tecla": ["shift", "f9"]
   },
   {
-    "nombre": "Ocultar",
-    "key": "KEY_2",
-    "tecla": ["ctrl", "f9"]
-  },
-  {
-    "nombre": "Desacer",
-    "key": "KEY_3",
-    "tecla": ["f10"]
-  },
-  {
-    "nombre": "Reacer",
+    "nombre": "Camara",
     "key": "KEY_4",
-    "tecla": ["shift", "f10"]
+    "obs": "fuente",
+    "fuente": "Esena_Camara",
+    "estado": false
   },
   {
-    "nombre": "Reiniciar",
-    "key": "KEY_F9",
-    "deck": "reiniciar"
+    "nombre": "Mic",
+    "key": "KEY_5",
+    "obs": "fuente",
+    "fuente": "Esena_Mic"
+  },
+  {
+    "nombre": "Error",
+    "key": "KEY_6",
+    "obs": "esena",
+    "esena": "Umaru"
+  },
+  {
+    "nombre": "Camara",
+    "key": "KEY_Q",
+    "obs": "esena",
+    "esena": "Camara"
+  },
+  {
+    "nombre": "Umaru",
+    "key": "KEY_W",
+    "obs": "esena",
+    "esena": "Umaru"
+  },
+  {
+    "nombre": "Zoon",
+    "key": "KEY_E",
+    "obs": "esena",
+    "esena": "Zoon"
+  },
+  {
+    "nombre": "Apoyo",
+    "key": "KEY_E",
+    "obs": "esena",
+    "esena": "Apoyo"
   },
   {
     "nombre": "Salir",
@@ -73,5 +96,20 @@
     "nombre": "Regresar",
     "key": "KEY_ESC",
     "opcion": "regresar"
+  },
+  {
+    "nombre": "Anterior",
+    "opcion": "anterior",
+    "key": "KEY_N"
+  },
+  {
+    "nombre": "siquiente",
+    "opcion": "siquiente",
+    "key": "KEY_P"
+  },
+  {
+    "nombre": "Reiniciar",
+    "deck": "reiniciar",
+    "key": "KEY_F9"
   }
 ]
