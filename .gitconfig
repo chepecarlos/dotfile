@@ -8,9 +8,11 @@
 	tool = meld
 [core]
 	editor = nano
-[alias]
-	#############
-	l = log --oneline
-	lg = log --oneline --graph --decorate
 [submodule]
 	recurse = true
+[credential]
+	helper = store
+[alias]
+	# Alias Extras 
+	l = log --oneline
+	lg = log --oneline --graph --decorate
