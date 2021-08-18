@@ -14,7 +14,8 @@ alias miandroid="scrcpy"
 
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve'
-alias midescripcion="npm run yt-descriptions"
+alias midescripcion="npm run yt-generar-descripcion"
+alias miyoutube="npm run yt-actualizar"
 alias mitag="npm run tags-generate"
 alias mihtml="npm run test-html"
 
