@@ -3,9 +3,13 @@
 # Codigo: https://github.com/chepecarlos/dotfile
 
 # Generales
-alias p='ping 8.8.8.8'
 alias ..='cd ..'
+alias ...='cd ../..'
 alias df='df -h'
+alias resetshell='exec $SHELL'
+
+# Red
+alias p='ping 8.8.8.8'
 alias miip='hostname -I'
 alias miippublica='curl ifconfig.me'
 
@@ -58,3 +62,21 @@ alias l.='exa -a | egrep "^\."' # Solo ocultos
 alias li='exa -a --git-ignore --group-directories-first' # ignorar archivos de .gitignore
 alias lg='exa -al --header --git --group-directories-first' # Formato Largo mas Git data
 alias lp='exa -al --header --octal-permissions --group-directories-first' # Formato Largo mas Permisos en octal
+
+# Arte
+alias midibujo='jp2a --colors'
+# Muestra JPEG con ASCII en color
+# USO: midibujo archivo1, Archivo2
+
+# Gives you a bunch of info about your machine, using uname.
+function computer-info
+{
+  echo "kernel-name: $(uname --kernel-name)"
+  echo "nodename: $(uname --nodename)"
+  echo "kernel-release: $(uname --kernel-release)"
+  echo "kernel-version: $(uname --kernel-version)"
+  echo "machine: $(uname --machine)"
+  echo "processor: $(uname --processor)"
+  echo "hardware-platform: $(uname --hardware-platform)"
+  echo "operating-system: $(uname --operating-system)"
+}
