@@ -22,6 +22,12 @@ alias midescripcion="npm run yt-descriptions"
 alias mitag="npm run tags-generate"
 alias mihtml="npm run test-html"
 
+# ElGatoALSW
+alias EditarElGato="code $HOME/.config/elgatoalsw"
+
+# CNC
+alias chitubox='export LD_LIBRARY_PATH=~/5.Programas/4.CNC/5.CHITUBOX_V1.8.1/lib; ~/5.Programas/4.CNC/5.CHITUBOX_V1.8.1/AppRun &'
+
 # Raspberry Pi
 alias mipi="ssh pi@raspberrypi.local"
 
