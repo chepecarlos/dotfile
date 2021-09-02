@@ -56,6 +56,34 @@
     "tecla": ["ctrl", "p"]
   },
   {
+    "nombre": "Mantener Abierto",
+    "titulo": "Mantener\nAbierto",
+    "solo_titulo": true,
+    "key": 16,
+    "macro": [
+      {
+        "tecla": ["ctrl", "k"]
+      },
+      {
+        "tecla": ["enter"]
+      }
+    ]
+  },
+  {
+    "nombre": "Anclar",
+    "titulo": "Anclar",
+    "solo_titulo": true,
+    "key": 17,
+    "macro": [
+      {
+        "tecla": ["ctrl", "k"]
+      },
+      {
+        "tecla": ["shift", "enter"]
+      }
+    ]
+  },
+  {
     "nombre": "Anterior",
     "titulo": "Anterior",
     "opcion": "anterior",

@@ -2,26 +2,31 @@
   {
     "nombre": "Aumentar Brillo",
     "titulo": "Brillo++",
-    "deck": "brillo",
-    "cantidad": 5,
-    "key": 0
+    "key": 0,
+    "accion": "deck_brillo",
+    "opciones": {
+      "cantidad": 5
+    }
   },
   {
-    "nombre": "Bajar Brillo",
-    "titulo": "Brillo--",
-    "deck": "brillo",
-    "cantidad": -5,
-    "key": 1
+    "nombre": "Aumentar Brillo",
+    "titulo": "Brillo++",
+    "key": 1,
+    "accion": "deck_brillo",
+    "opciones": {
+      "cantidad": -5
+    }
   },
   {
     "nombre": "Reiniciar",
     "titulo": "Reiniciar",
-    "deck": "reiniciar",
-    "key": 2
+    "key": 2,
+    "accion": "reiniciar_data"
   },
   {
     "nombre": "regresar",
     "titulo": "Regresar",
+
     "opcion": "regresar",
     "key": 4
   },

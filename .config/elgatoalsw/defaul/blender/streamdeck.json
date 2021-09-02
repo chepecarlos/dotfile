@@ -241,5 +241,47 @@
     "titulo": "Regresar",
     "opcion": "regresar",
     "key": 59
+  },
+  {
+    "nombre": "Cursor",
+    "titulo": "Cursor",
+    "solo_titulo": true,
+    "key": 35,
+    "macro": [
+      {
+        "tecla": ["shift", "space"]
+      },
+      {
+        "tecla": ["w"]
+      }
+    ]
+  },
+  {
+    "nombre": "Nabaja",
+    "titulo": "Nabaja",
+    "solo_titulo": true,
+    "key": 36,
+    "macro": [
+      {
+        "tecla": ["shift", "space"]
+      },
+      {
+        "tecla": ["k"]
+      }
+    ]
+  },
+  {
+    "nombre": "Trim",
+    "titulo": "Trim",
+    "solo_titulo": true,
+    "key": 37,
+    "macro": [
+      {
+        "tecla": ["shift", "space"]
+      },
+      {
+        "tecla": ["shift", "ctrl", "alt", "T"]
+      }
+    ]
   }
 ]

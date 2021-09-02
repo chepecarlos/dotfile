@@ -1,48 +1,83 @@
 [
   {
-    "nombre": "Parar",
+    "nombre": "Salir",
+    "key": "KEY_F10",
+    "accion": "salir"
+  },
+  {
+    "nombre": "Reiniciar Data",
+    "accion": "reiniciar_data",
+    "key": "KEY_F9"
+  },
+  {
+    "nombre": "Parar Reproducion",
     "key": "KEY_SPACE",
-    "sonido": "parar"
+    "accion": "parar_reproducion"
   },
   {
     "nombre": "Golpe",
     "key": "KEY_F1",
-    "sonido": "defaul/sonidos/golpe.wav"
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/golpe.wav",
+      "ganancia": -5
+    }
   },
   {
     "nombre": "Musica_ALSW",
     "key": "KEY_F2",
-    "sonido": "defaul/sonidos/musica_ALSW.wav"
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/musica_ALSW.wav"
+    }
   },
   {
     "nombre": "Mr_Tea",
     "key": "KEY_F3",
-    "sonido": "defaul/sonidos/mr_tea.wav"
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/mr_tea.wav"
+    }
   },
   {
     "nombre": "Aplausos",
     "key": "KEY_F4",
-    "sonido": "defaul/sonidos/aplausos.wav"
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/aplausos.wav"
+    }
   },
   {
     "nombre": "Chan",
     "key": "KEY_F5",
-    "sonido": "defaul/sonidos/chan.wav"
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/chan.wav"
+    }
   },
   {
     "nombre": "Pokemon",
     "key": "KEY_LEFTCTRL",
-    "sonido": "defaul/sonidos/pokemon.wav"
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/pokemon.wav"
+    }
   },
   {
     "nombre": "Activar",
     "key": "KEY_GRAVE",
-    "tecla": ["f9"]
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f9"]
+    }
   },
   {
     "nombre": "Limpiar",
     "key": "KEY_1",
-    "tecla": ["shift", "f9"]
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["shift", "f9"]
+    }
   },
   {
     "nombre": "Camara",
@@ -76,6 +111,12 @@
     "esena": "Umaru"
   },
   {
+    "nombre": "Ryuk",
+    "key": "KEY_S",
+    "obs": "esena",
+    "esena": "Ryuk"
+  },
+  {
     "nombre": "Zoon",
     "key": "KEY_E",
     "obs": "esena",
@@ -83,33 +124,36 @@
   },
   {
     "nombre": "Apoyo",
-    "key": "KEY_E",
+    "key": "KEY_R",
     "obs": "esena",
     "esena": "Apoyo"
   },
   {
-    "nombre": "Salir",
-    "key": "KEY_F10",
-    "opcion": "salir"
-  },
-  {
     "nombre": "Regresar",
     "key": "KEY_ESC",
-    "opcion": "regresar"
+    "accion": "regresar_folder"
   },
   {
-    "nombre": "Anterior",
-    "opcion": "anterior",
-    "key": "KEY_N"
+    "nombre": "Anterior Pagina",
+    "key": "KEY_N",
+    "accion": "anterior_pagina"
   },
   {
-    "nombre": "siquiente",
-    "opcion": "siquiente",
-    "key": "KEY_P"
+    "nombre": "Siquiente Pagina",
+    "key": "KEY_P",
+    "accion": "siquiente_pagina"
   },
   {
-    "nombre": "Reiniciar",
-    "deck": "reiniciar",
-    "key": "KEY_F9"
+    "nombre": "Conectar OBS",
+    "key": "KEY_M",
+    "accion": "obs_conectar"
+  },
+
+  {
+    "nombre": "Verde",
+    "key": "KEY_3",
+    "obs": "filtro",
+    "fuente": "Esena_Camara",
+    "filtro": "Verde"
   }
 ]

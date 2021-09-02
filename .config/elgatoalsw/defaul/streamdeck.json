@@ -87,6 +87,32 @@
     "path": "./gimp"
   },
   {
+    "nombre": "demo",
+    "titulo": "demo",
+    "key": 13,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "obs_grabar",
+        "opciones": {}
+      },
+      {
+        "accion": "leer_valor",
+        "opciones": {
+          "archivo": "data/tiempo.json",
+          "atributo": "espera"
+        }
+      },
+      {
+        "accion": "delay",
+        "opciones": {
+          "data_in": "tiempo",
+          "tiempo": 1
+        }
+      }
+    ]
+  },
+  {
     "nombre": "FanPage",
     "titulo": "FanPage",
     "key": 15,
@@ -178,6 +204,14 @@
     "titulo": "Regresar",
     "opcion": "regresar",
     "key": 29
+  },
+  {
+    "nombre": "Crecetube",
+    "titulo": "Crecetube",
+    "solo_titulo": true,
+    "key": 30,
+    "opcion": "folder",
+    "path": "./crecetube"
   },
   {
     "nombre": "Anterior",

@@ -9,13 +9,13 @@
     "mensaje": "juegovida"
   },
   {
-    "nombre": "Terreno3D",
-    "titulo": "Terreno3D",
+    "nombre": "StartField",
+    "titulo": "StartField",
     "solo_titulo": true,
     "key": 1,
     "mqtt": "mensaje",
     "topic": "fondo/animacion",
-    "mensaje": "tereno3d"
+    "mensaje": "startfield"
   },
   {
     "nombre": "WavyField",
@@ -27,14 +27,24 @@
     "mensaje": "wavyfield"
   },
   {
-    "nombre": "reiniciar",
-    "titulo": "reiniciar",
+    "nombre": "PerlinNoise",
+    "titulo": "PerlinNoise",
+    "solo_titulo": true,
+    "key": 3,
+    "mqtt": "mensaje",
+    "topic": "fondo/animacion",
+    "mensaje": "perlinnoise"
+  },
+  {
+    "nombre": "Random",
+    "titulo": "Random",
     "solo_titulo": true,
     "key": 4,
     "mqtt": "mensaje",
-    "topic": "fondo/reiniciar",
-    "mensaje": "1"
+    "topic": "fondo/animacion",
+    "mensaje": "random"
   },
+
   {
     "nombre": "Color Defaul",
     "titulo": "Color\nDefaul",
@@ -48,7 +58,7 @@
       },
       {
         "mqtt": "mensaje",
-        "topic": "fondo/color/secundario",
+        "topic": "fondo/color/fondo",
         "mensaje": "negro"
       },
       {
@@ -75,6 +85,15 @@
     "mqtt": "mensaje",
     "topic": "fondo/modo",
     "mensaje": "ruido"
+  },
+  {
+    "nombre": "reiniciar",
+    "titulo": "reiniciar",
+    "solo_titulo": true,
+    "key": 10,
+    "mqtt": "mensaje",
+    "topic": "fondo/reiniciar",
+    "mensaje": "1"
   },
   {
     "nombre": "regresar",
@@ -178,7 +197,7 @@
     "solo_titulo": true,
     "key": 25,
     "mqtt": "mensaje",
-    "topic": "fondo/color/secundario",
+    "topic": "fondo/color/fondo",
     "mensaje": "aqua"
   },
   {
@@ -187,7 +206,7 @@
     "solo_titulo": true,
     "key": 26,
     "mqtt": "mensaje",
-    "topic": "fondo/color/secundario",
+    "topic": "fondo/color/fondo",
     "mensaje": "rojo"
   },
   {
@@ -196,7 +215,7 @@
     "solo_titulo": true,
     "key": 27,
     "mqtt": "mensaje",
-    "topic": "fondo/color/secundario",
+    "topic": "fondo/color/fondo",
     "mensaje": "amarillo"
   },
   {
@@ -205,7 +224,7 @@
     "solo_titulo": true,
     "key": 28,
     "mqtt": "mensaje",
-    "topic": "fondo/color/secundario",
+    "topic": "fondo/color/fondo",
     "mensaje": "verde"
   },
   {
@@ -214,7 +233,34 @@
     "solo_titulo": true,
     "key": 29,
     "mqtt": "mensaje",
-    "topic": "fondo/color/secundario",
+    "topic": "fondo/color/fondo",
     "mensaje": "negro"
+  },
+  {
+    "nombre": "Base Randon",
+    "titulo": "B\nRandon",
+    "solo_titulo": true,
+    "key": 30,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/base",
+    "mensaje": "random"
+  },
+  {
+    "nombre": "Linea Randon",
+    "titulo": "L\nRandon",
+    "solo_titulo": true,
+    "key": 35,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/linea",
+    "mensaje": "random"
+  },
+  {
+    "nombre": "Fondo Randon",
+    "titulo": "F\nRandon",
+    "solo_titulo": true,
+    "key": 40,
+    "mqtt": "mensaje",
+    "topic": "fondo/color/fondo",
+    "mensaje": "random"
   }
 ]

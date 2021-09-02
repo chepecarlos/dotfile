@@ -243,9 +243,91 @@
     ]
   },
   {
+    "nombre": "+0.01",
+    "key": 17,
+    "titulo": "+0.01",
+    "solo_titulo": true,
+    "macro": [
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "movimiento_horizontal",
+          "valor": 0.01
+        }
+      },
+      {
+        "tecla": ["ctrl", "k"]
+      }
+    ]
+  },
+  {
+    "nombre": "-0.01",
+    "key": 21,
+    "titulo": "-0.01",
+    "solo_titulo": true,
+    "macro": [
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "movimiento_vertical",
+          "valor": -0.01
+        }
+      },
+      {
+        "tecla": ["ctrl", "k"]
+      }
+    ]
+  },
+  {
+    "nombre": "+0.01",
+    "key": 23,
+    "titulo": "+0.01",
+    "solo_titulo": true,
+    "macro": [
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "movimiento_vertical",
+          "valor": 0.01
+        }
+      },
+      {
+        "tecla": ["ctrl", "k"]
+      }
+    ]
+  },
+  {
+    "nombre": "-0.01",
+    "key": 27,
+    "titulo": "-0.01",
+    "solo_titulo": true,
+    "macro": [
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "movimiento_horizontal",
+          "valor": -0.01
+        }
+      },
+      {
+        "tecla": ["ctrl", "k"]
+      }
+    ]
+  },
+  {
     "nombre": "regresar",
     "titulo": "Regresar",
     "opcion": "regresar",
     "key": 14
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 29
   }
 ]

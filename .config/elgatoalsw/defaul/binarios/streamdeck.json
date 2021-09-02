@@ -18,17 +18,26 @@
     "icono": "./obs.png",
     "key": 2,
     "os": "obs &"
-  },{
+  },
+  {
     "nombre": "Discord",
     "titulo": "Discord",
+    "icono": "./discord.png",
     "key": 3,
     "os": "discord &"
+  },
+  {
+    "nombre": "Inskcape",
+    "titulo": "Inskcape",
+    "icono": "./inkscape.png",
+    "key": 4,
+    "os": "inkscape &"
   },
   {
     "nombre": "regresar",
     "titulo": "Regresar",
     "opcion": "regresar",
-    "key": 14
+    "key": 9
   },
   {
     "nombre": "regresar",
