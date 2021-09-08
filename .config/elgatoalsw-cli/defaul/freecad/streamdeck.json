@@ -1,0 +1,121 @@
+[
+  {
+    "nombre": "Isometrica",
+    "titulo": "Isometrica",
+    "key": 0,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["0"]
+    }
+  },
+  {
+    "nombre": "Frente",
+    "titulo": "Frente",
+    "key": 1,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["1"]
+    }
+  },
+  {
+    "nombre": "Ariba",
+    "titulo": "Ariba",
+    "key": 2,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["2"]
+    }
+  },
+  {
+    "nombre": "Derecha",
+    "titulo": "Derecha",
+    "key": 3,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["3"]
+    }
+  },
+  {
+    "nombre": "Izquieda",
+    "titulo": "Izquieda",
+    "key": 4,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["6"]
+    }
+  },
+  {
+    "nombre": "Abajo",
+    "titulo": "Abajo",
+    "key": 5,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["5"]
+    }
+  },
+  {
+    "nombre": "Atras",
+    "titulo": "Atras",
+    "key": 6,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["4"]
+    }
+  },
+  {
+    "nombre": "zoom",
+    "titulo": "zoom",
+    "key": 7,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["v"]
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["f"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Anterior",
+    "titulo": "Anterior",
+    "opcion": "anterior",
+    "key": 19
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "Siquiente",
+    "opcion": "siquiente",
+    "key": 24
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 29
+  },
+  {
+    "nombre": "Anterior",
+    "titulo": "Anterior",
+    "opcion": "anterior",
+    "key": 49
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "Siquiente",
+    "opcion": "siquiente",
+    "key": 54
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 59
+  }
+]

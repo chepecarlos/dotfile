@@ -1,0 +1,10 @@
+[
+  {
+    "nombre": "salvar",
+    "key": "KEY_3",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "s"]
+    }
+  }
+]

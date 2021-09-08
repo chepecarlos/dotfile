@@ -1,0 +1,35 @@
+[
+  {
+    "nombre": "Salir",
+    "key": 0,
+    "accion": "salir"
+  },
+  {
+    "nombre": "nombre macro 0",
+    "key": 0,
+    "accion": "delay",
+    "opciones": {
+      "tiempo": 1000
+    }
+  },
+  {
+    "nombre": "nombre macro 1",
+    "key": 1,
+    "titulo": "Macro 1",
+    "titulo_opciones": {},
+    "imagen": "./imagen.png",
+    "imagen_opciones": {
+    },
+    "accion": "delay",
+    "opciones": {}
+  },
+  {
+    "nombre": "nombre macro 1",
+    "key": 1,
+    "titulo": "nombre",
+    "titulo_opciones":{
+      "centrado": true,
+      "color": "red"
+    }
+  }
+]

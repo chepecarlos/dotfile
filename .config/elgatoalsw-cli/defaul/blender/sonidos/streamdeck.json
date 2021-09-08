@@ -1,0 +1,138 @@
+[
+  {
+    "nombre": "Aplausos",
+    "titulo": "Aplausos",
+
+    "key": 0,
+    "accion": "macro",
+    "opciones": [
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "sonido",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/aplausos.mp3"
+        }
+      },
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "volumen",
+          "valor": 0.5
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "shift", "y"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Rebobinar",
+    "titulo": "Rebobinar",
+
+    "key": 1,
+    "accion": "macro",
+    "opciones": [
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "sonido",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/rebobinar.mp3"
+        }
+      },
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "volumen",
+          "valor": 1
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "shift", "y"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Grito Mujer",
+    "titulo": "Grito Mujer",
+
+    "key": 2,
+    "accion": "macro",
+    "opciones": [
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "sonido",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/grito_mujer.mp3"
+        }
+      },
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "volumen",
+          "valor": 1
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "shift", "y"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Golpe",
+    "titulo": "Golpe",
+
+    "key": 3,
+    "accion": "macro",
+    "opciones": [
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "sonido",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/golpe.mp3"
+        }
+      },
+      {
+        "data_archivo": {
+          "opcion": "asignar",
+          "archivo": "data/blender.json",
+          "atributo": "volumen",
+          "valor": 0.6
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "shift", "y"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 4
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 29
+  }
+]

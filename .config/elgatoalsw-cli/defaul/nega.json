@@ -1,0 +1,10 @@
+[
+  {
+    "nombre": "Terminal",
+    "key": "KEY_3",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f12"]
+    }
+  }
+]

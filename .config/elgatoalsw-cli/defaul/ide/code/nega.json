@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Salvar",
+    "key": "KEY_1",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "s"]
+    }
+  },
+  {
+    "nombre": "Terminal",
+    "key": "KEY_3",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["F12"]
+    }
+  },
+  {
+    "nombre": "Auto Formato",
+    "titulo": "Auto Formato",
+    "key": "KEY_7",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "shift", "i"]
+    }
+  }
+]

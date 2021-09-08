@@ -1,0 +1,48 @@
+[
+  {
+    "nombre": "blender",
+    "titulo": "blender",
+    "imagen": "./blender.png",
+    "key": 0,
+    "os": "blender &"
+  },
+  {
+    "nombre": "Firefox",
+    "titulo": "Firefox",
+    "key": 1,
+    "os": "firefox &"
+  },
+  {
+    "nombre": "OBS",
+    "titulo": "OBS",
+    "imagen": "./obs.png",
+    "key": 2,
+    "os": "obs &"
+  },
+  {
+    "nombre": "Discord",
+    "titulo": "Discord",
+    "imagen": "./discord.png",
+    "key": 3,
+    "os": "discord &"
+  },
+  {
+    "nombre": "Inskcape",
+    "titulo": "Inskcape",
+    "imagen": "./inkscape.png",
+    "key": 4,
+    "os": "inkscape &"
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 9
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 29
+  }
+]

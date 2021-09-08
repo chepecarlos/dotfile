@@ -1,0 +1,35 @@
+[
+  {
+    "nombre": "MostarAudio",
+    "imagen": "./../mostar_audio.png",
+    "key": 0,
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["alt", "w"]
+    }
+  },
+  {
+    "nombre": "Expandir",
+    "imagen": "./../expandir.png",
+    "key": 1,
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["ctrl", "e"]
+    }
+  },
+  {
+    "nombre": "AjusTime",
+    "imagen": "./../ajuste_time.png",
+    "key": 2,
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["ctrl", "alt", "p"]
+    }
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "opcion": "regresar",
+    "key": 3
+  }
+]

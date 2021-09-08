@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "inkscape",
+    "titulo": "Inkscape",
+    "key": 0,
+    "imagen": "./../inkscape/inkscape.png",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./../inkscape"
+    }
+  },
+  {
+    "nombre": "gimp",
+    "titulo": "Gimp",
+    "key": 1,
+    "imagen": "./../gimp/gimp.png",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./../gimp"
+    }
+  }
+]

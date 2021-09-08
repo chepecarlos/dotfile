@@ -1,0 +1,119 @@
+[
+  {
+    "nombre": "Inicio",
+    "key": 0,
+    "titulo": "Inicio",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["0"]
+    }
+  },
+  {
+    "nombre": "50%",
+    "titulo": "50%",
+    "key": 1,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["5"]
+    }
+  },
+  {
+    "nombre": "Pantalla Completa",
+    "titulo": "P Completa",
+    "key": 2,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f"]
+    }
+  },
+  {
+    "nombre": "MiniRepo",
+    "titulo": "MiniRepo",
+    "key": 4,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["i"]
+    }
+  },
+  {
+    "nombre": "Volumen up",
+    "titulo": "+10%",
+    "key": 5,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["up"]
+    }
+  },
+  {
+    "nombre": "Volumen down",
+    "titulo": "-10%",
+    "key": 10,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["down"]
+    }
+  },
+  {
+    "nombre": "Retroceder",
+    "key": 6,
+    "titulo": "-10 S",
+    "imagen_opciones": {
+      "fondo": "#00ffaa"
+    },
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["j"]
+    }
+  },
+  {
+    "nombre": "Play",
+    "titulo": "Play",
+    "imagen_opciones": {
+      "fondo": "#ff0000"
+    },
+    "key": 7,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["k"]
+    }
+  },
+  {
+    "nombre": "Adelantar",
+    "key": 8,
+    "titulo": "+10 S",
+    "imagen_opciones": {
+      "fondo": "#00ffaa"
+    },
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["l"]
+    }
+  },
+  {
+    "nombre": "Subir Velocidad",
+    "titulo": "+0.25V",
+    "key": 9,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["shift", "."]
+    }
+  },
+  {
+    "nombre": "Bajar Velocidad",
+    "titulo": "-0.25V",
+    "key": 14,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["shift", ","]
+    }
+  },
+  {
+    "nombre": "Adelantar",
+    "titulo": "Adelantar",
+    "key": 8,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["l"]
+    }
+  }
+]

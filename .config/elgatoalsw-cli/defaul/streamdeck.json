@@ -1,0 +1,257 @@
+[
+  {
+    "nombre": "OBS",
+    "key": 0,
+    "titulo": "OBS",
+    "imagen": "./obs/obs.png",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./obs"
+    }
+  },
+  {
+    "nombre": "Arte",
+    "key": 1,
+    "titulo": "Arte",
+    "imagen": "./arte/arte.png",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./arte"
+    }
+  },
+  {
+    "nombre": "IDE's",
+    "titulo": "IDE's",
+    "key": 2,
+    "imagen": "./ide/ide.png",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./ide"
+    }
+  },
+  {
+    "nombre": "Recurso",
+    "titulo": "Recurso",
+    "key": 3,
+    "imagen": "./recurso/ryuk_pc.gif",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./recurso"
+    }
+  },
+  {
+    "nombre": "Binarios",
+    "titulo": "Binarios",
+    "key": 4,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./binarios"
+    }
+  },
+  {
+    "nombre": "Code",
+    "titulo": "Code",
+    "key": 5,
+    "imagen": "defaul/ide/code/code.png",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "defaul/ide/code"
+    }
+  },
+  {
+    "nombre": "Youtube",
+    "titulo": "Youtube",
+    "imagen": "./youtube/youtube2.gif",
+    "key": 6,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./youtube"
+    }
+  },
+  {
+    "nombre": "Link",
+    "titulo": "Link's",
+    "key": 7,
+    "imagen": "./link/link.gif",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./link"
+    }
+  },
+  {
+    "nombre": "Blender",
+    "titulo": "Blender",
+    "key": 10,
+    "imagen": "./blender/blender.png",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./blender"
+    }
+  },
+  {
+    "nombre": "inkscape",
+    "titulo": "Inkscape",
+    "key": 11,
+    "imagen": "./inkscape/inkscape.png",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./inkscape"
+    }
+  },
+  {
+    "nombre": "gimp",
+    "titulo": "Gimp",
+    "key": 12,
+    "imagen": "./gimp/gimp.png",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./gimp"
+    }
+  },
+  {
+    "nombre": "demo",
+    "titulo": "demo",
+    "key": 13,
+    "accion": "actualizar_folder"
+  },
+  {
+    "nombre": "FanPage",
+    "titulo": "FanPage",
+    "key": 15,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./fanpage"
+    }
+  },
+  {
+    "nombre": "MQTT",
+    "key": 16,
+    "titulo": "MQTT",
+    "titulo_opciones": {
+      "color": "red",
+      "borde_color": "white"
+    },
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./mqtt"
+    }
+  },
+  {
+    "nombre": "Sonidos",
+    "titulo": "Sonidos",
+    "imagen": "./sonidos/sonidos.png",
+    "key": 17,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./sonidos"
+    }
+  },
+  {
+    "nombre": "Notion",
+    "titulo": "Notion",
+    "imagen": "./notion/notion.png",
+    "key": 18,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./notion"
+    }
+  },
+  {
+    "nombre": "FondoOBS",
+    "titulo": "FondoOBS",
+    "imagen": "./fondoobs/fondoobs.png",
+    "key": 20,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./fondoobs"
+    }
+  },
+  {
+    "nombre": "Gromit",
+    "titulo": "Gromit",
+    "imagen": "./gromit/dibujar.png",
+    "key": 23,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./gromit"
+    }
+  },
+
+  {
+    "nombre": "FreeCAD",
+    "titulo": "FreeCAD",
+    "imagen": "./freecad/freecad.png",
+    "key": 26,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./freecad"
+    }
+  },
+  {
+    "nombre": "Salir",
+    "titulo": "Salir",
+    "imagen_opciones": {
+      "fondo": "#3c8a23"
+    },
+    "accion": "salir",
+    "imagen": "./salir.gif",
+    "key": 28
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "Siquiente",
+    "accion": "siquiente_pagina",
+    "key": 29
+  },
+  {
+    "nombre": "Crecetube",
+    "titulo": "Crecetube",
+    "imagen_opciones": {
+      "fondo": "#990000"
+    },
+    "key": 30,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./crecetube"
+    }
+  },
+  {
+    "nombre": "OS",
+    "titulo": "OS",
+    "key": 31,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./os"
+    }
+  },
+  {
+    "nombre": "Insync",
+    "titulo": "Insync",
+    "key": 32,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./insync"
+    }
+  },
+  {
+    "nombre": "Config",
+    "titulo": "Config",
+    "key": 33,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./config"
+    }
+  },
+  {
+    "nombre": "Anterior",
+    "titulo": "Anterior",
+    "accion": "anterior_pagina",
+    "key": 49
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "Siquiente",
+    "accion": "siquiente_pagina",
+    "key": 54
+  }
+]

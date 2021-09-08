@@ -1,0 +1,12 @@
+[
+  {
+    "nombre": "nega_trinity",
+    "input": "/dev/input/by-id/usb-Razer_Razer_Naga_Trinity_00000000001A-if02-event-kbd",
+    "file": "nega.json"
+  },
+  {
+    "nombre": "red_dragon",
+    "input": "/dev/input/by-id/usb-SONiX_USB_DEVICE-event-kbd",
+    "file": "hander.json"
+  }
+]

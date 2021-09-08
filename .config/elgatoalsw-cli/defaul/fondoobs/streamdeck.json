@@ -1,0 +1,292 @@
+[
+  {
+    "nombre": "JuegoVida",
+    "titulo": "JuegoVida",
+    "key": 0,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/animacion",
+      "mensaje": "juegovida"
+    }
+  },
+  {
+    "nombre": "StartField",
+    "titulo": "StartField",
+    "key": 1,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/animacion",
+      "mensaje": "startfield"
+    }
+  },
+  {
+    "nombre": "WavyField",
+    "titulo": "WavyField",
+    "key": 2,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/animacion",
+      "mensaje": "wavyfield"
+    }
+  },
+  {
+    "nombre": "PerlinNoise",
+    "titulo": "PerlinNoise",
+    "key": 3,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/animacion",
+      "mensaje": "perlinnoise"
+    }
+  },
+  {
+    "nombre": "Random",
+    "titulo": "Random",
+    "key": 4,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/animacion",
+      "mensaje": "random"
+    }
+  },
+
+  {
+    "nombre": "Color Defaul",
+    "titulo": "Color\nDefaul",
+    "key": 9,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "mqtt",
+        "opciones": {
+          "topic": "fondo/color/base",
+          "mensaje": "aqua"
+        }
+      },
+      {
+        "accion": "mqtt",
+        "opciones": {
+          "topic": "fondo/color/fondo",
+          "mensaje": "negro"
+        }
+      },
+      {
+        "accion": "mqtt",
+        "opciones": {
+          "topic": "fondo/reiniciar",
+          "mensaje": "1"
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Normal",
+    "titulo": "Normal",
+    "key": 5,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/modo",
+      "mensaje": "normal"
+    }
+  },
+  {
+    "nombre": "Ruido",
+    "titulo": "Ruido",
+    "key": 6,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/modo",
+      "mensaje": "ruido"
+    }
+  },
+  {
+    "nombre": "reiniciar",
+    "titulo": "reiniciar",
+    "key": 10,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/reiniciar",
+      "mensaje": "1"
+    }
+  },
+  {
+    "nombre": "color aqua",
+    "titulo": "B\naqua",
+    "key": 15,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/base",
+      "mensaje": "aqua"
+    }
+  },
+  {
+    "nombre": "color rojo",
+    "titulo": "B\nrojo",
+    "key": 16,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/base",
+      "mensaje": "rojo"
+    }
+  },
+  {
+    "nombre": "color Amarillo",
+    "titulo": "B\nAmarillo",
+    "key": 17,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/base",
+      "mensaje": "amarillo"
+    }
+  },
+  {
+    "nombre": "color Verde",
+    "titulo": "B\nVerde",
+    "key": 18,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/base",
+      "mensaje": "verde"
+    }
+  },
+  {
+    "nombre": "color Negro",
+    "titulo": "B\nNegro",
+    "key": 19,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/base",
+      "mensaje": "negro"
+    }
+  },
+  {
+    "nombre": "Linea Aqua",
+    "titulo": "L\nAqua",
+    "key": 20,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/linea",
+      "mensaje": "aqua"
+    }
+  },
+  {
+    "nombre": "Linea Rojo",
+    "titulo": "L\nRojo",
+    "key": 21,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/linea",
+      "mensaje": "rojo"
+    }
+  },
+  {
+    "nombre": "Linea Amarillo",
+    "titulo": "L\nAmarillo",
+    "key": 22,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/linea",
+      "mensaje": "amarillo"
+    }
+  },
+  {
+    "nombre": "Linea Verde",
+    "titulo": "L\nVerde",
+    "key": 23,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/linea",
+      "mensaje": "verde"
+    }
+  },
+  {
+    "nombre": "Linea Negro",
+    "titulo": "L\nNegro",
+    "key": 24,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/linea",
+      "mensaje": "negro"
+    }
+  },
+  {
+    "nombre": "Fondo Acua",
+    "titulo": "F\nAcua",
+    "key": 25,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/fondo",
+      "mensaje": "aqua"
+    }
+  },
+  {
+    "nombre": "Fondo Rojo",
+    "titulo": "F\nRojo",
+    "key": 26,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/fondo",
+      "mensaje": "rojo"
+    }
+  },
+  {
+    "nombre": "Fondo Amarillo",
+    "titulo": "F\nAmarillo",
+    "key": 27,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/fondo",
+      "mensaje": "amarillo"
+    }
+  },
+  {
+    "nombre": "Fondo verde",
+    "titulo": "F\nverde",
+    "key": 28,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/fondo",
+      "mensaje": "verde"
+    }
+  },
+  {
+    "nombre": "Fondo Negro",
+    "titulo": "F\nNegro",
+    "key": 29,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/fondo",
+      "mensaje": "negro"
+    }
+  },
+  {
+    "nombre": "Base Randon",
+    "titulo": "B\nRandon",
+    "key": 30,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/base",
+      "mensaje": "random"
+    }
+  },
+  {
+    "nombre": "Linea Randon",
+    "titulo": "L\nRandon",
+    "key": 35,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/linea",
+      "mensaje": "random"
+    }
+  },
+  {
+    "nombre": "Fondo Randon",
+    "titulo": "F\nRandon",
+    "key": 40,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "fondo/color/fondo",
+      "mensaje": "random"
+    }
+  }
+]

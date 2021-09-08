@@ -1,0 +1,200 @@
+[
+  {
+    "nombre": "Grabar OBS",
+    "key": "KEY_TAB",
+    "accion": "obs_grabar"
+  },
+  {
+    "nombre": "Salir",
+    "key": "KEY_F10",
+    "accion": "salir"
+  },
+  {
+    "nombre": "Reiniciar Data",
+    "accion": "reiniciar_data",
+    "key": "KEY_F9"
+  },
+  {
+    "nombre": "Parar Reproducion",
+    "key": "KEY_SPACE",
+    "accion": "parar_reproducion"
+  },
+  {
+    "nombre": "Golpe",
+    "key": "KEY_F1",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/golpe.wav",
+      "ganancia": -5
+    }
+  },
+  {
+    "nombre": "Cerrar Ventna",
+    "key": "KEY_F2",
+    "accion": "cerrar_ventana"
+  },
+  {
+    "nombre": "Cambiar Twitch",
+    "key": "KEY_F4",
+    "accion": "mostar_ventana",
+    "opciones": {
+      "titulo": "Twitch - Mozilla"
+    }
+  },
+  {
+    "nombre": "Cambiar OBS",
+    "key": "KEY_F5",
+    "accion": "mostar_ventana",
+    "opciones": {
+      "titulo": "OBS"
+    }
+  },
+  {
+    "nombre": "Cambiar Musica Youtube",
+    "key": "KEY_T",
+    "accion": "mostar_ventana",
+    "opciones": {
+      "titulo": "YouTube Music"
+    }
+  },
+  {
+    "nombre": "Musica_ALSW",
+    "key": "KEY_Z",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/musica_ALSW.wav"
+    }
+  },
+  {
+    "nombre": "Mr_Tea",
+    "key": "KEY_F3",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/mr_tea.wav"
+    }
+  },
+  {
+    "nombre": "Aplausos",
+    "key": "KEY_C",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/aplausos.wav"
+    }
+  },
+  {
+    "nombre": "Chan",
+    "key": "KEY_F5",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/chan.wav"
+    }
+  },
+  {
+    "nombre": "Pokemon",
+    "key": "KEY_LEFTCTRL",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/pokemon.wav"
+    }
+  },
+  {
+    "nombre": "Activar",
+    "key": "KEY_GRAVE",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f9"]
+    }
+  },
+  {
+    "nombre": "Limpiar",
+    "key": "KEY_1",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["shift", "f9"]
+    }
+  },
+  {
+    "nombre": "Camara",
+    "key": "KEY_4",
+    "obs": "fuente",
+    "fuente": "Esena_Camara",
+    "estado": false
+  },
+  {
+    "nombre": "Mic",
+    "key": "KEY_5",
+    "obs": "fuente",
+    "fuente": "Esena_Mic"
+  },
+  {
+    "nombre": "Error",
+    "key": "KEY_6",
+    "obs": "esena",
+    "esena": "Umaru"
+  },
+  {
+    "nombre": "Camara",
+    "key": "KEY_Q",
+    "obs": "esena",
+    "esena": "Camara"
+  },
+  {
+    "nombre": "Umaru",
+    "key": "KEY_W",
+    "obs": "esena",
+    "esena": "Umaru"
+  },
+  {
+    "nombre": "Ryuk",
+    "key": "KEY_S",
+    "obs": "esena",
+    "esena": "Ryuk"
+  },
+  {
+    "nombre": "Zoon",
+    "key": "KEY_E",
+    "obs": "esena",
+    "esena": "Zoon"
+  },
+  {
+    "nombre": "Apoyo",
+    "key": "KEY_R",
+    "obs": "esena",
+    "esena": "Apoyo"
+  },
+  {
+    "nombre": "Regresar",
+    "key": "KEY_ESC",
+    "accion": "regresar_folder"
+  },
+  {
+    "nombre": "Anterior Pagina",
+    "key": "KEY_N",
+    "accion": "anterior_pagina"
+  },
+  {
+    "nombre": "Siquiente Pagina",
+    "key": "KEY_P",
+    "accion": "siquiente_pagina"
+  },
+  {
+    "nombre": "Conectar OBS",
+    "key": "KEY_M",
+    "accion": "obs_conectar"
+  },
+  {
+    "nombre": "Verde",
+    "key": "KEY_3",
+    "obs": "filtro",
+    "fuente": "Esena_Camara",
+    "filtro": "Verde"
+  },
+  {
+    "nombre": "Fodo OBS",
+    "key": "KEY_CAPSLOCK",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "defaul/fondoobs"
+    }
+  }
+]

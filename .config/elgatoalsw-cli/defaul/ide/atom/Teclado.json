@@ -1,0 +1,18 @@
+[
+  {
+    "Nombre": "Beautify",
+    "Boton": "KEY_1",
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["alt", "ctrl", "b"]
+    }
+  },
+  {
+    "Nombre": "Salvar",
+    "Boton": "KEY_2",
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["ctrl", "s"]
+    }
+  }
+]

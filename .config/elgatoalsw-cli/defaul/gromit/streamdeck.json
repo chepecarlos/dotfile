@@ -1,0 +1,49 @@
+[
+  {
+    "nombre": "Dibujar",
+    "titulo": "Dibujar",
+    "imagen": "./dibujar.png",
+    "key": 0,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f9"]
+    }
+  },
+  {
+    "nombre": "Limpiar",
+    "titulo": "Limpiar",
+    "imagen": "./borrar.png",
+    "key": 1,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["shift", "f9"]
+    }
+  },
+  {
+    "nombre": "Ocultar",
+    "titulo": "Ocultar",
+    "key": 2,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "f9"]
+    }
+  },
+  {
+    "nombre": "Desacer",
+    "titulo": "Desacer",
+    "key": 3,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f10"]
+    }
+  },
+  {
+    "nombre": "Reacer",
+    "titulo": "Reacer",
+    "key": 4,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["shift", "f10"]
+    }
+  }
+]
