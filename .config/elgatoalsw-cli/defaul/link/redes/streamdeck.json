@@ -4,78 +4,78 @@
     "titulo": "Youtube",
     "key": 0,
     "imagen": "./../youtube.png",
-    "texto": "https://youtube.com/alswnet?sub_confirmation=1"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://youtube.com/alswnet?sub_confirmation=1"
+    }
   },
   {
     "nombre": "Facebook",
     "titulo": "Facebook",
     "key": 1,
     "imagen": "./../facebook.png",
-    "texto": "https://www.facebook.com/alswnet/"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://www.facebook.com/alswnet/"
+    }
   },
   {
     "nombre": "Instagram",
     "titulo": "Instagram",
     "key": 2,
     "imagen": "./../instagram.png",
-    "texto": "https://www.instagram.com/alswnet/"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://www.instagram.com/alswnet/"
+    }
   },
   {
     "nombre": "Twitter",
     "titulo": "Twitter",
     "key": 3,
     "imagen": "./../twitter.png",
-    "texto": "https://twitter.com/alswnet"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://twitter.com/alswnet"
+    }
   },
   {
     "nombre": "ChepeCarlos",
     "titulo": "ChepeCarlos",
     "key": 4,
-    "texto": "https://chepecarlos.com/"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://chepecarlos.com/"
+    }
   },
   {
     "nombre": "Github",
     "titulo": "Github",
     "imagen": "./../github.png",
     "key": 5,
-    "texto": "https://github.com/chepecarlos"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://github.com/chepecarlos"
+    }
   },
   {
     "nombre": "Cafe",
     "titulo": "Cafe",
     "key": 6,
     "imagen": "./../cafe.png",
-    "texto": "https://www.buymeacoffee.com/alswnet"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://www.buymeacoffee.com/alswnet"
+    }
   },
   {
     "nombre": "Twitch",
     "titulo": "Twitch",
     "key": 7,
     "imagen": "./../twitch.png",
-    "texto": "https://www.twitch.tv/alswnet"
-  },
-  {
-    "nombre": "regresar",
-    "titulo": "Regresar",
-    "opcion": "regresar",
-    "key": 9
-  },
-  {
-    "nombre": "Anterior",
-    "titulo": "Anterior",
-    "opcion": "anterior",
-    "key": 19
-  },
-  {
-    "nombre": "siquiente",
-    "titulo": "Siquiente",
-    "opcion": "siquiente",
-    "key": 24
-  },
-  {
-    "nombre": "regresar",
-    "titulo": "Regresar",
-    "opcion": "regresar",
-    "key": 29
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://www.twitch.tv/alswnet"
+    }
   }
 ]

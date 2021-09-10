@@ -220,7 +220,7 @@
   {
     "nombre": "siquiente",
     "titulo": "Siquiente",
-    "opcion": "siquiente",
+    "accion": "siquiente_pagina",
     "key": 29
   },
   {
@@ -271,7 +271,7 @@
   {
     "nombre": "Anterior",
     "titulo": "Anterior",
-    "opcion": "anterior",
+    "accion": "anterior_pagina",
     "key": 59
   }
 ]

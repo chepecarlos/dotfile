@@ -7,16 +7,16 @@
     "accion": "macro",
     "opciones": [
       {
-        "data_archivo": {
-          "opcion": "asignar",
+       "accion": "escrivir_valor",
+        "opciones": {
           "archivo": "data/blender.json",
           "atributo": "sonido",
           "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/aplausos.mp3"
         }
       },
       {
-        "data_archivo": {
-          "opcion": "asignar",
+       "accion": "escrivir_valor",
+        "opciones": {
           "archivo": "data/blender.json",
           "atributo": "volumen",
           "valor": 0.5
@@ -38,16 +38,16 @@
     "accion": "macro",
     "opciones": [
       {
-        "data_archivo": {
-          "opcion": "asignar",
+       "accion": "escrivir_valor",
+        "opciones": {
           "archivo": "data/blender.json",
           "atributo": "sonido",
           "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/rebobinar.mp3"
         }
       },
       {
-        "data_archivo": {
-          "opcion": "asignar",
+       "accion": "escrivir_valor",
+        "opciones": {
           "archivo": "data/blender.json",
           "atributo": "volumen",
           "valor": 1
@@ -69,16 +69,16 @@
     "accion": "macro",
     "opciones": [
       {
-        "data_archivo": {
-          "opcion": "asignar",
+       "accion": "escrivir_valor",
+        "opciones": {
           "archivo": "data/blender.json",
           "atributo": "sonido",
           "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/grito_mujer.mp3"
         }
       },
       {
-        "data_archivo": {
-          "opcion": "asignar",
+       "accion": "escrivir_valor",
+        "opciones": {
           "archivo": "data/blender.json",
           "atributo": "volumen",
           "valor": 1
@@ -100,16 +100,16 @@
     "accion": "macro",
     "opciones": [
       {
-        "data_archivo": {
-          "opcion": "asignar",
+       "accion": "escrivir_valor",
+        "opciones": {
           "archivo": "data/blender.json",
           "atributo": "sonido",
           "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/golpe.mp3"
         }
       },
       {
-        "data_archivo": {
-          "opcion": "asignar",
+       "accion": "escrivir_valor",
+        "opciones": {
           "archivo": "data/blender.json",
           "atributo": "volumen",
           "valor": 0.6
@@ -126,13 +126,13 @@
   {
     "nombre": "regresar",
     "titulo": "Regresar",
-    "opcion": "regresar",
+    "accion": "regresar_folder",
     "key": 4
   },
   {
     "nombre": "regresar",
     "titulo": "Regresar",
-    "opcion": "regresar",
+    "accion": "regresar_folder",
     "key": 29
   }
 ]

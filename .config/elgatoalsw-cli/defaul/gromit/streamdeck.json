@@ -3,6 +3,9 @@
     "nombre": "Dibujar",
     "titulo": "Dibujar",
     "imagen": "./dibujar.png",
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
     "key": 0,
     "accion": "teclas",
     "opciones": {
@@ -11,9 +14,12 @@
   },
   {
     "nombre": "Limpiar",
+    "key": 1,
     "titulo": "Limpiar",
     "imagen": "./borrar.png",
-    "key": 1,
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
     "accion": "teclas",
     "opciones": {
       "teclas": ["shift", "f9"]
@@ -23,6 +29,9 @@
     "nombre": "Ocultar",
     "titulo": "Ocultar",
     "key": 2,
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
     "accion": "teclas",
     "opciones": {
       "teclas": ["ctrl", "f9"]
@@ -32,6 +41,9 @@
     "nombre": "Desacer",
     "titulo": "Desacer",
     "key": 3,
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
     "accion": "teclas",
     "opciones": {
       "teclas": ["f10"]
@@ -41,9 +53,17 @@
     "nombre": "Reacer",
     "titulo": "Reacer",
     "key": 4,
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
     "accion": "teclas",
     "opciones": {
       "teclas": ["shift", "f10"]
     }
+  },
+  {
+    "nombre": "Regresar",
+    "key": 9,
+    "accion": "regresar_folder"
   }
 ]

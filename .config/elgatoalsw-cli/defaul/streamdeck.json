@@ -61,7 +61,7 @@
   {
     "nombre": "Youtube",
     "titulo": "Youtube",
-    "imagen": "./youtube/youtube2.gif",
+    "imagen": "./youtube/youtube.gif",
     "key": 6,
     "accion": "entrar_folder",
     "opciones": {
@@ -169,8 +169,11 @@
   {
     "nombre": "Gromit",
     "titulo": "Gromit",
-    "imagen": "./gromit/dibujar.png",
     "key": 23,
+    "imagen": "./gromit/dibujar.png",
+    "imagen_opciones":{
+      "fondo":"#ffffff"
+    },
     "accion": "entrar_folder",
     "opciones": {
       "folder": "./gromit"

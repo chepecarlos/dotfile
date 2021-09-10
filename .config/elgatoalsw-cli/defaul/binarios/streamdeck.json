@@ -4,45 +4,48 @@
     "titulo": "blender",
     "imagen": "./blender.png",
     "key": 0,
-    "os": "blender &"
+    "accion": "os",
+    "opciones": {
+      "comando": "blender &"
+    }
   },
   {
     "nombre": "Firefox",
     "titulo": "Firefox",
     "key": 1,
-    "os": "firefox &"
+    "accion": "os",
+    "opciones": {
+      "comando": "firefox &"
+    }
   },
   {
     "nombre": "OBS",
     "titulo": "OBS",
     "imagen": "./obs.png",
     "key": 2,
-    "os": "obs &"
+    "accion": "os",
+    "opciones": {
+      "comando": "obs &"
+    }
   },
   {
     "nombre": "Discord",
     "titulo": "Discord",
     "imagen": "./discord.png",
     "key": 3,
-    "os": "discord &"
+    "accion": "os",
+    "opciones": {
+      "comando": "discord &"
+    }
   },
   {
     "nombre": "Inskcape",
     "titulo": "Inskcape",
     "imagen": "./inkscape.png",
     "key": 4,
-    "os": "inkscape &"
-  },
-  {
-    "nombre": "regresar",
-    "titulo": "Regresar",
-    "opcion": "regresar",
-    "key": 9
-  },
-  {
-    "nombre": "regresar",
-    "titulo": "Regresar",
-    "opcion": "regresar",
-    "key": 29
+    "accion": "os",
+    "opciones": {
+      "comando": "inkscape &"
+    }
   }
 ]

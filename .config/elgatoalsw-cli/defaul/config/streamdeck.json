@@ -27,13 +27,13 @@
     "nombre": "regresar",
     "titulo": "Regresar",
 
-    "opcion": "regresar",
+    "accion": "regresar_folder",
     "key": 4
   },
   {
     "nombre": "regresar",
     "titulo": "Regresar",
-    "opcion": "regresar",
+    "accion": "regresar_folder",
     "key": 29
   }
 ]

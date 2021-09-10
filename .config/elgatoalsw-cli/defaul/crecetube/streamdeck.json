@@ -2,7 +2,6 @@
   {
     "nombre": "Grabar CreceTube",
     "titulo": "Grabar",
-    
     "key": 0,
     "accion": "macro",
     "opciones": [
@@ -13,7 +12,7 @@
         }
       },
       {
-        "accion": "notification",
+        "accion": "notificacion",
         "opciones": {
           "texto": "Empezando a Grabar"
         }
@@ -39,7 +38,7 @@
         "accion": "obs_grabar"
       },
       {
-        "accion": "notification",
+        "accion": "notificacion",
         "opciones": {
           "texto": "Termino de Grabar"
         }
@@ -49,18 +48,20 @@
   {
     "nombre": "grabar",
     "key": 10,
-    "obs": "grabando",
-    "estado": false,
-    "icono_true": "./grabar_on.png",
-    "icono_false": "./grabar_off.png"
+    "accion": "obs_grabar",
+    "imagen_estado": {
+      "imagen_true": "./grabar_on.png",
+      "imagen_false": "./grabar_off.png"
+    }
   },
   {
     "nombre": "Conectar",
     "titulo": "Conectar",
     "key": 11,
-    "obs": "conectar",
-    "estado": false,
-    "icono_true": "./conectar_on.png",
-    "icono_false": "./conectar_off.png"
+    "accion": "obs_conectar",
+    "imagen_estado": {
+      "imagen_true": "./conectar_on.png",
+      "imagen_false": "./conectar_off.png"
+    }
   }
 ]

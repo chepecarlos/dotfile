@@ -86,50 +86,55 @@
     "nombre": "fade",
     "imagen": "./fade_in.png",
     "key": 9,
-    "opcion": "folder",
-    "path": "./fade"
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./fade"
+    }
   },
   {
-    "nombre": "aliniacion",
+    "nombre": "aliniacion y zoon",
     "imagen": "./aliniar.png",
     "key": 10,
-    "opcion": "folder",
-    "path": "./aliniacion"
-  },
-  {
-    "nombre": "Zoon",
-    "imagen": "./zoon.png",
-    "key": 11,
-    "opcion": "folder",
-    "path": "./zoon"
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./alineacion_zoon"
+    }
   },
   {
     "nombre": "Sonido",
     "imagen": "./sonido.png",
     "key": 12,
-    "opcion": "folder",
-    "path": "./sonidos"
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./sonidos"
+    }
   },
   {
     "nombre": "Musica",
     "imagen": "./musica.png",
     "key": 13,
-    "opcion": "folder",
-    "path": "./musica"
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./musica"
+    }
   },
   {
     "nombre": "Velocidad",
     "imagen": "./velocidad.png",
     "key": 14,
-    "opcion": "folder",
-    "path": "./velocidad"
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./velocidad"
+    }
   },
   {
     "nombre": "config",
     "titulo": "config",
     "key": 15,
-    "opcion": "folder",
-    "path": "./config"
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./config"
+    }
   },
   {
     "nombre": "Menu",
@@ -176,8 +181,10 @@
     "titulo": "Maker",
     "imagen": "./marcador/maker.png",
     "key": 21,
-    "opcion": "folder",
-    "path": "./marcador"
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./marcador"
+    }
   },
   {
     "nombre": "Guardar",
@@ -237,7 +244,7 @@
   {
     "nombre": "siquiente",
     "titulo": "Siquiente",
-    "opcion": "siquiente",
+    "accion": "siquiente_pagina",
     "key": 29
   },
   {
@@ -289,13 +296,13 @@
   {
     "nombre": "Anterior",
     "titulo": "Anterior",
-    "opcion": "anterior",
+    "accion": "anterior_pagina",
     "key": 54
   },
   {
     "nombre": "siquiente",
     "titulo": "Siquiente",
-    "opcion": "siquiente",
+    "accion": "siquiente_pagina",
     "key": 59
   },
   {

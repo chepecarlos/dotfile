@@ -10,8 +10,8 @@
     "accion": "macro",
     "opciones": [
       {
-        "data_archivo": {
-          "opcion": "asignar",
+       "accion": "escrivir_valor",
+        "opciones": {
           "archivo": "data/fanpage.json",
           "atributo": "id",
           "valor": 0
@@ -139,13 +139,13 @@
   {
     "nombre": "regresar",
     "titulo": "Regresar",
-    "opcion": "regresar",
+    "accion": "regresar_folder",
     "key": 5
   },
   {
     "nombre": "regresar",
     "titulo": "Regresar",
-    "opcion": "regresar",
+    "accion": "regresar_folder",
     "key": 29
   }
 ]

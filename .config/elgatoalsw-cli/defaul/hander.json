@@ -17,7 +17,7 @@
   {
     "nombre": "Parar Reproducion",
     "key": "KEY_SPACE",
-    "accion": "parar_reproducion"
+    "accion": "detener_reproducion"
   },
   {
     "nombre": "Golpe",
@@ -135,32 +135,50 @@
   {
     "nombre": "Camara",
     "key": "KEY_Q",
-    "obs": "esena",
-    "esena": "Camara"
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Camara"
+    }
   },
   {
     "nombre": "Umaru",
     "key": "KEY_W",
-    "obs": "esena",
-    "esena": "Umaru"
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Umaru"
+    }
   },
   {
     "nombre": "Ryuk",
     "key": "KEY_S",
-    "obs": "esena",
-    "esena": "Ryuk"
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Ryuk"
+    }
+  },
+  {
+    "nombre": "Solo_Umaru",
+    "key": "KEY_D",
+    "accion": "obs_escena",
+    "opciones":{
+      "escena": "Solo_Umaru"
+    }
   },
   {
     "nombre": "Zoon",
     "key": "KEY_E",
-    "obs": "esena",
-    "esena": "Zoon"
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Zoon"
+    }
   },
   {
     "nombre": "Apoyo",
     "key": "KEY_R",
-    "obs": "esena",
-    "esena": "Apoyo"
+    "accion": "obs_escena",
+    "opciones":{
+      "escena": "Apoyo"
+    }
   },
   {
     "nombre": "Regresar",

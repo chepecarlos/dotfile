@@ -29,7 +29,7 @@
   {
     "nombre": "regresar",
     "titulo": "Regresar",
-    "opcion": "regresar",
+    "accion": "regresar_folder",
     "key": 3
   }
 ]

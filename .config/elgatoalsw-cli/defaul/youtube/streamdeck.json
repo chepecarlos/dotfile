@@ -99,6 +99,15 @@
     }
   },
   {
+    "nombre": "Mute",
+    "titulo": "Mute",
+    "key": 12,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["m"]
+    }
+  },
+  {
     "nombre": "Bajar Velocidad",
     "titulo": "-0.25V",
     "key": 14,

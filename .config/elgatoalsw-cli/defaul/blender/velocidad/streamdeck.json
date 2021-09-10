@@ -12,7 +12,7 @@
         }
       },
       {
-        "opcion": "regresar"
+        "accion": "regresar_folder"
       }
     ]
   },
@@ -29,7 +29,7 @@
         }
       },
       {
-        "opcion": "regresar"
+        "accion": "regresar_folder"
       }
     ]
   },
@@ -46,7 +46,7 @@
         }
       },
       {
-        "opcion": "regresar"
+        "accion": "regresar_folder"
       }
     ]
   },
@@ -63,14 +63,14 @@
         }
       },
       {
-        "opcion": "regresar"
+        "accion": "regresar_folder"
       }
     ]
   },
   {
     "nombre": "regresar",
     "titulo": "Regresar",
-    "opcion": "regresar",
+    "accion": "regresar_folder",
     "key": 4
   }
 ]

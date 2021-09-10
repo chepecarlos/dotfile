@@ -124,19 +124,19 @@
   {
     "nombre": "Anterior",
     "titulo": "Anterior",
-    "opcion": "anterior",
+    "accion": "anterior_pagina",
     "key": 19
   },
   {
     "nombre": "siquiente",
     "titulo": "Siquiente",
-    "opcion": "siquiente",
+    "accion": "siquiente_pagina",
     "key": 24
   },
   {
     "nombre": "regresar",
     "titulo": "Regresar",
-    "opcion": "regresar",
+    "accion": "regresar_folder",
     "key": 29
   }
 ]

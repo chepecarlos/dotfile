@@ -4,116 +4,145 @@
     "titulo": "Bot",
     "key": 0,
     "imagen": "./bot.gif",
-    "texto": "https://nocheprogramacion.com/bot"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/bot"
+    }
   },
   {
     "nombre": "Ayuda Discord",
     "titulo": "Ayuda",
     "key": 1,
     "imagen": "./discord.png",
-    "texto": "si quieres apoyo entra a Discord de la comunidad de ALSW nos vemos en Ayuda-chat https://nocheprogramacion.com/discord y hablamos :) "
+    "accion": "escribir",
+    "opciones": {
+      "texto": "si quieres apoyo entra a Discord de la comunidad de ALSW nos vemos en Ayuda-chat https://nocheprogramacion.com/discord y hablamos :) "
+    }
   },
   {
     "nombre": "Discord Link",
     "titulo": "Link",
     "key": 2,
     "imagen": "./discord.png",
-    "texto": "https://nocheprogramacion.com/discord"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/discord"
+    }
   },
   {
     "nombre": "Donar",
     "titulo": "Donar",
     "key": 4,
-    "texto": "https://nocheprogramacion.com/donar"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/donar"
+    }
   },
   {
     "nombre": "NocheProgramacion",
     "titulo": "NocheProgr",
     "key": 5,
-    "texto": "https://nocheprogramacion.com"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com"
+    }
   },
   {
     "nombre": "ProgramacionNews",
     "titulo": "P News",
     "key": 6,
-    "texto": "https://programacion.news"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://programacion.news"
+    }
   },
   {
     "nombre": "Gist",
     "titulo": "Gist",
     "key": 7,
-    "texto": "Para apoyarte con tu codigo puede pasar tu codigo por git o gist asi https://youtu.be/RmQuRzzK4e8"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "Para apoyarte con tu codigo puede pasar tu codigo por git o gist asi https://youtu.be/RmQuRzzK4e8"
+    }
   },
   {
     "nombre": "Series",
     "titulo": "Series",
     "imagen": "./series.png",
     "key": 8,
-    "opcion": "folder",
-    "path": "./series"
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./series"
+    }
   },
   {
     "nombre": "Redes",
     "titulo": "Redes",
     "key": 9,
     "imagen": "./redes.png",
-    "opcion": "folder",
-    "path": "./redes"
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./redes"
+    }
   },
   {
     "nombre": "Sorteo",
     "titulo": "Sorteo",
     "key": 10,
-    "texto": "https://nocheprogramacion.com/sorteo"
-  }, 
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/sorteo"
+    }
+  },
   {
     "nombre": "proyectos",
     "titulo": "proyectos",
     "key": 11,
-    "opcion": "folder",
-    "path": "./proyectos"
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./proyectos"
+    }
   },
   {
     "nombre": "Stream Manager",
     "titulo": "Stream\nManager",
-    
     "key": 12,
-    "texto": "https://dashboard.twitch.tv/u/alswnet/stream-manager"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://dashboard.twitch.tv/u/alswnet/stream-manager"
+    }
   },
   {
     "nombre": "Apoyar",
     "titulo": "Apoyar",
     "key": 20,
-    "texto": "https://nocheprogramacion.com/apoyar"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/apoyar"
+    }
   },
   {
     "nombre": "FindingTube",
     "titulo": "FindingTube",
     "key": 25,
-    "texto": "https://alswnet.github.io/FindingTube"
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://alswnet.github.io/FindingTube"
+    }
   },
   {
     "nombre": "ElGatoALSW",
     "titulo": "ElGatoALSW",
     "key": 26,
-    "texto": ""
-  },
-  {
-    "nombre": "Anterior",
-    "titulo": "Anterior",
-    "opcion": "anterior",
-    "key": 19
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://github.com/chepecarlos/ElGatoALSW"
+    }
   },
   {
     "nombre": "siquiente",
     "titulo": "Siquiente",
-    "opcion": "siquiente",
-    "key": 24
-  },
-  {
-    "nombre": "regresar",
-    "titulo": "Regresar",
-    "opcion": "regresar",
+    "accion": "siquiente_pagina",
     "key": 29
   }
 ]
