@@ -43,6 +43,10 @@
     "nombre": "Binarios",
     "titulo": "Binarios",
     "key": 4,
+    "imagen": "./binarios/cammy.gif",
+    "imagen_opciones": {
+      "fondo": "#FFFFFF"
+    },
     "accion": "entrar_folder",
     "opciones": {
       "folder": "./binarios"
@@ -111,8 +115,8 @@
   {
     "nombre": "demo",
     "titulo": "demo",
-    "key": 13,
-    "accion": "actualizar_folder"
+    "key": 14,
+    "accion": "actualizar_pagina"
   },
   {
     "nombre": "FanPage",
@@ -171,15 +175,14 @@
     "titulo": "Gromit",
     "key": 23,
     "imagen": "./gromit/dibujar.png",
-    "imagen_opciones":{
-      "fondo":"#ffffff"
+    "imagen_opciones": {
+      "fondo": "#ffffff"
     },
     "accion": "entrar_folder",
     "opciones": {
       "folder": "./gromit"
     }
   },
-
   {
     "nombre": "FreeCAD",
     "titulo": "FreeCAD",

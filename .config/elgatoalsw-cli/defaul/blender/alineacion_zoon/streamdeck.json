@@ -281,21 +281,24 @@
     "titulo": "+0.01",
     "accion": "macro",
     "opciones": [
-      {
-        "accion": "escrivir_valor",
-        "opciones": {
-          "archivo": "data/blender.json",
-          "atributo": "movimiento_horizontal",
-          "valor": 0.01
-        }
-      },
-      {
-        "accion": "teclas",
-        "opciones": {
-          "teclas": ["ctrl", "k"]
-        }
-      }
-    ]
+  {
+    "accion": "escrivir_valor",
+    "opciones": {
+      "archivo": "data/blender.json",
+      "atributo": "movimiento_horizontal",
+      "valor": 0.01
+    }
+  },
+  {
+    "accion": "teclas",
+    "opciones": {
+      "teclas": [
+        "ctrl",
+        "j"
+      ]
+    }
+  }
+]
   },
   {
     "nombre": "-0.01",
@@ -314,7 +317,7 @@
       {
         "accion": "teclas",
         "opciones": {
-          "teclas": ["ctrl", "k"]
+          "teclas": ["ctrl", "j"]
         }
       }
     ]
@@ -336,7 +339,7 @@
       {
         "accion": "teclas",
         "opciones": {
-          "teclas": ["ctrl", "k"]
+          "teclas": ["ctrl", "j"]
         }
       }
     ]
@@ -358,7 +361,7 @@
       {
         "accion": "teclas",
         "opciones": {
-          "teclas": ["ctrl", "k"]
+          "teclas": ["ctrl", "j"]
         }
       }
     ]

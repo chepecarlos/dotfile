@@ -20,13 +20,30 @@
   },
   {
     "nombre": "OBS",
-    "titulo": "OBS",
+    "titulo": "Full OBS",
     "imagen": "./obs.png",
     "key": 2,
-    "accion": "os",
-    "opciones": {
-      "comando": "obs &"
-    }
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "os",
+        "opciones": {
+          "comando": "obs > /dev/null &"
+        }
+      },
+      {
+        "accion": "mqtt",
+        "opciones": {
+          "opciones": {
+            "accion": "os",
+            "opciones": {
+              "comando": "obs --minimize-to-tray --startvirtualcam > /dev/null &"
+            }
+          },
+          "topic": "alsw/evento/ryuk"
+        }
+      }
+    ]
   },
   {
     "nombre": "Discord",

@@ -1,23 +1,77 @@
 [
   {
-    "nombre": "Grabar OBS",
-    "key": "KEY_TAB",
-    "accion": "obs_grabar"
+    "nombre": "Limpiar",
+    "key": "KEY_1",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["shift", "f9"]
+    }
   },
   {
-    "nombre": "Salir",
-    "key": "KEY_F10",
-    "accion": "salir"
+    "nombre": "Verde",
+    "key": "KEY_3",
+    "obs": "filtro",
+    "fuente": "Esena_Camara",
+    "filtro": "Verde"
   },
   {
-    "nombre": "Reiniciar Data",
-    "accion": "reiniciar_data",
-    "key": "KEY_F9"
+    "nombre": "Camara",
+    "key": "KEY_4",
+    "accion": "obs_fuente",
+    "opciones": {
+      "fuente": "Esena_Camara"
+    }
   },
   {
-    "nombre": "Parar Reproducion",
-    "key": "KEY_SPACE",
-    "accion": "detener_reproducion"
+    "nombre": "Mic",
+    "key": "KEY_5",
+    "accion": "obs_fuente",
+    "opciones": {
+      "fuente": "Esena_Mic"
+    }
+  },
+  {
+    "nombre": "Error",
+    "key": "KEY_6",
+    "obs": "esena",
+    "esena": "Umaru"
+  },
+  {
+    "nombre": "Aplausos",
+    "key": "KEY_C",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/aplausos.wav"
+    }
+  },
+  {
+    "nombre": "Fodo OBS",
+    "key": "KEY_CAPSLOCK",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "defaul/fondoobs"
+    }
+  },
+  {
+    "nombre": "Apoyo",
+    "key": "KEY_D",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Apoyo"
+    }
+  },
+  {
+    "nombre": "Ryuk",
+    "key": "KEY_E",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Ryuk"
+    }
+  },
+  {
+    "nombre": "Regresar",
+    "key": "KEY_ESC",
+    "accion": "regresar_folder"
   },
   {
     "nombre": "Golpe",
@@ -29,9 +83,22 @@
     }
   },
   {
+    "nombre": "Salir",
+    "key": "KEY_F10",
+    "accion": "salir"
+  },
+  {
     "nombre": "Cerrar Ventna",
     "key": "KEY_F2",
     "accion": "cerrar_ventana"
+  },
+  {
+    "nombre": "Mr_Tea",
+    "key": "KEY_F3",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/mr_tea.wav"
+    }
   },
   {
     "nombre": "Cambiar Twitch",
@@ -50,43 +117,24 @@
     }
   },
   {
-    "nombre": "Cambiar Musica Youtube",
-    "key": "KEY_T",
-    "accion": "mostar_ventana",
-    "opciones": {
-      "titulo": "YouTube Music"
-    }
-  },
-  {
-    "nombre": "Musica_ALSW",
-    "key": "KEY_Z",
-    "accion": "reproducion",
-    "opciones": {
-      "sonido": "defaul/sonidos/musica_ALSW.wav"
-    }
-  },
-  {
-    "nombre": "Mr_Tea",
-    "key": "KEY_F3",
-    "accion": "reproducion",
-    "opciones": {
-      "sonido": "defaul/sonidos/mr_tea.wav"
-    }
-  },
-  {
-    "nombre": "Aplausos",
-    "key": "KEY_C",
-    "accion": "reproducion",
-    "opciones": {
-      "sonido": "defaul/sonidos/aplausos.wav"
-    }
-  },
-  {
     "nombre": "Chan",
     "key": "KEY_F5",
     "accion": "reproducion",
     "opciones": {
       "sonido": "defaul/sonidos/chan.wav"
+    }
+  },
+  {
+    "nombre": "Reiniciar Data",
+    "accion": "reiniciar_data",
+    "key": "KEY_F9"
+  },
+  {
+    "nombre": "Activar",
+    "key": "KEY_GRAVE",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f9"]
     }
   },
   {
@@ -98,92 +146,9 @@
     }
   },
   {
-    "nombre": "Activar",
-    "key": "KEY_GRAVE",
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["f9"]
-    }
-  },
-  {
-    "nombre": "Limpiar",
-    "key": "KEY_1",
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["shift", "f9"]
-    }
-  },
-  {
-    "nombre": "Camara",
-    "key": "KEY_4",
-    "obs": "fuente",
-    "fuente": "Esena_Camara",
-    "estado": false
-  },
-  {
-    "nombre": "Mic",
-    "key": "KEY_5",
-    "obs": "fuente",
-    "fuente": "Esena_Mic"
-  },
-  {
-    "nombre": "Error",
-    "key": "KEY_6",
-    "obs": "esena",
-    "esena": "Umaru"
-  },
-  {
-    "nombre": "Camara",
-    "key": "KEY_Q",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Camara"
-    }
-  },
-  {
-    "nombre": "Umaru",
-    "key": "KEY_W",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Umaru"
-    }
-  },
-  {
-    "nombre": "Ryuk",
-    "key": "KEY_S",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Ryuk"
-    }
-  },
-  {
-    "nombre": "Solo_Umaru",
-    "key": "KEY_D",
-    "accion": "obs_escena",
-    "opciones":{
-      "escena": "Solo_Umaru"
-    }
-  },
-  {
-    "nombre": "Zoon",
-    "key": "KEY_E",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Zoon"
-    }
-  },
-  {
-    "nombre": "Apoyo",
-    "key": "KEY_R",
-    "accion": "obs_escena",
-    "opciones":{
-      "escena": "Apoyo"
-    }
-  },
-  {
-    "nombre": "Regresar",
-    "key": "KEY_ESC",
-    "accion": "regresar_folder"
+    "nombre": "Conectar OBS",
+    "key": "KEY_M",
+    "accion": "obs_conectar"
   },
   {
     "nombre": "Anterior Pagina",
@@ -196,23 +161,61 @@
     "accion": "siquiente_pagina"
   },
   {
-    "nombre": "Conectar OBS",
-    "key": "KEY_M",
-    "accion": "obs_conectar"
-  },
-  {
-    "nombre": "Verde",
-    "key": "KEY_3",
-    "obs": "filtro",
-    "fuente": "Esena_Camara",
-    "filtro": "Verde"
-  },
-  {
-    "nombre": "Fodo OBS",
-    "key": "KEY_CAPSLOCK",
-    "accion": "entrar_folder",
+    "nombre": "Camara",
+    "key": "KEY_Q",
+    "accion": "obs_escena",
     "opciones": {
-      "folder": "defaul/fondoobs"
+      "escena": "Camara"
+    }
+  },
+  {
+    "nombre": "Zoon",
+    "key": "KEY_R",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Zoon"
+    }
+  },
+  {
+    "nombre": "Solo Umaru",
+    "key": "KEY_S",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Solo_Umaru"
+    }
+  },
+  {
+    "nombre": "Parar Reproducion",
+    "key": "KEY_SPACE",
+    "accion": "detener_reproducion"
+  },
+  {
+    "nombre": "Cambiar Musica Youtube",
+    "key": "KEY_T",
+    "accion": "mostar_ventana",
+    "opciones": {
+      "titulo": "YouTube Music"
+    }
+  },
+  {
+    "nombre": "Grabar OBS",
+    "key": "KEY_TAB",
+    "accion": "obs_grabar"
+  },
+  {
+    "nombre": "Umaru",
+    "key": "KEY_W",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Umaru"
+    }
+  },
+  {
+    "nombre": "Musica_ALSW",
+    "key": "KEY_Z",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/musica_ALSW.wav"
     }
   }
 ]

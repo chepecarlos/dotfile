@@ -72,15 +72,7 @@
     "imagen": "./ordenar_vertical.png",
     "key": 8
   },
-  {
-    "nombre": "selector_color",
-    "imagen": "./selector_color.png",
-    "key": 9,
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["F7"]
-    }
-  },
+
   {
     "nombre": "Bajar Fondo",
     "imagen": "./bajar_fondo.png",
@@ -153,7 +145,8 @@
     "opciones": {
       "folder": "./jessyink"
     }
-  }, {
+  },
+  {
     "nombre": "Trajectorias",
     "titulo": "Trajecto",
     "key": 18,
@@ -232,15 +225,7 @@
       "teclas": ["ctrl", "s"]
     }
   },
-  {
-    "nombre": "Selecion",
-    "imagen": "./selecion.png",
-    "key": 31,
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["f1"]
-    }
-  },
+
   {
     "nombre": "Nodo",
     "imagen": "./nodo.png",
@@ -266,6 +251,24 @@
     "accion": "teclas",
     "opciones": {
       "teclas": ["shift", "ctrl", "a"]
+    }
+  },
+  {
+    "nombre": "Selecion",
+    "imagen": "./selecion.png",
+    "key": 37,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f1"]
+    }
+  },
+  {
+    "nombre": "selector_color",
+    "imagen": "./selector_color.png",
+    "key": 38,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["F7"]
     }
   },
   {

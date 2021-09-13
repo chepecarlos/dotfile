@@ -8,8 +8,8 @@
       "fuente": "Esena_Camara"
     },
     "imagen_estado": {
-      "imagen_true": "defaul/obs/camara_on.png",
-      "imagen_false": "defaul/obs/camara_off.png"
+      "imagen_true": "defaul/obs/esena_camara_on.png",
+      "imagen_false": "defaul/obs/esena_camara_off.png"
     }
   },
   {
@@ -21,7 +21,7 @@
       "fuente": "Esena_Mic"
     },
     "imagen_estado": {
-      "imagen_true": "defaul/obs/MicOn.gif",
+      "imagen_true": "defaul/obs/mic_on.png",
       "imagen_false": "defaul/obs/mic_off.png"
     }
   },
@@ -74,8 +74,8 @@
       "escena": "Camara"
     },
     "imagen_estado": {
-      "imagen_true": "defaul/obs/chepecarlos_on.png",
-      "imagen_false": "defaul/obs/chepecarlos_off.png"
+      "imagen_true": "defaul/obs/camara_on.png",
+      "imagen_false": "defaul/obs/camara_off.png"
     }
   },
   {
@@ -87,14 +87,27 @@
       "escena": "Umaru"
     },
     "imagen_estado": {
-      "imagen_true": "defaul/obs/codigo_on.png",
-      "imagen_false": "defaul/obs/codigo_off.png"
+      "imagen_true": "defaul/obs/umaru_on.png",
+      "imagen_false": "defaul/obs/umaru_off.png"
+    }
+  },
+  {
+    "nombre": "Ryuk",
+    "titulo": "Ryuk",
+    "key": 8,
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Ryuk"
+    },
+    "imagen_estado": {
+      "imagen_true": "defaul/obs/ryuk_on.png",
+      "imagen_false": "defaul/obs/ryuk_off.png"
     }
   },
   {
     "nombre": "Zoon",
     "titulo": "Zoon",
-    "key": 8,
+    "key": 9,
     "accion": "obs_escena",
     "opciones": {
       "escena": "Zoon"
@@ -102,19 +115,6 @@
     "imagen_estado": {
       "imagen_true": "defaul/obs/zoon_on.png",
       "imagen_false": "defaul/obs/zoon_off.png"
-    }
-  },
-  {
-    "nombre": "Apoyo",
-    "titulo": "Apoyo",
-    "key": 9,
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Apoyo"
-    },
-    "imagen_estado": {
-      "imagen_true": "defaul/obs/apoyo_on.png",
-      "imagen_false": "defaul/obs/apoyo_off.png"
     }
   },
   {
@@ -136,12 +136,12 @@
     }
   },
   {
-    "nombre": "Ryuk",
-    "titulo": "Ryuk",
+    "nombre": "Solo Umaru",
+    "titulo": "Full Umaru",
     "key": 12,
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Ryuk"
+      "escena": "Solo_Umaru"
     },
     "imagen_estado": {
       "imagen_true": "defaul/obs/codigo_on.png",
@@ -149,29 +149,16 @@
     }
   },
   {
-    "nombre": "Movil",
-    "titulo": "Movil",
+    "nombre": "Apoyo",
+    "titulo": "Apoyo",
     "key": 13,
     "accion": "obs_escena",
     "opciones": {
-      "escena": "movil"
+      "escena": "Apoyo"
     },
     "imagen_estado": {
-      "imagen_true": "defaul/obs/codigo_on.png",
-      "imagen_false": "defaul/obs/codigo_off.png"
-    }
-  },
-  {
-    "nombre": "Fin",
-    "titulo": "Fin",
-    "key": 14,
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Fin"
-    },
-    "imagen_estado": {
-      "imagen_true": "defaul/obs/fin_on.png",
-      "imagen_false": "defaul/obs/fin_off.png"
+      "imagen_true": "defaul/obs/apoyo_on.png",
+      "imagen_false": "defaul/obs/apoyo_off.png"
     }
   },
   {
@@ -187,7 +174,6 @@
   {
     "nombre": "Color Defaul",
     "titulo": "Color\nDefaul",
-
     "key": 16,
     "accion": "macro",
     "opciones": [
@@ -235,12 +221,6 @@
     }
   },
   {
-    "nombre": "Desconectar",
-    "titulo": "Desconectar",
-    "key": 24,
-    "accion": "obs_desconectar"
-  },
-  {
     "nombre": "Patreon",
     "titulo": "Patreon",
     "key": 20,
@@ -279,7 +259,12 @@
       "imagen_false": "defaul/obs/regresamos_off.png"
     }
   },
-
+  {
+    "nombre": "Desconectar",
+    "titulo": "Desconectar",
+    "key": 24,
+    "accion": "obs_desconectar"
+  },
   {
     "nombre": "Celular",
     "titulo": "Celular",
@@ -294,9 +279,35 @@
     }
   },
   {
+    "nombre": "Fin",
+    "titulo": "Fin",
+    "key": 27,
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Fin"
+    },
+    "imagen_estado": {
+      "imagen_true": "defaul/obs/fin_on.png",
+      "imagen_false": "defaul/obs/fin_off.png"
+    }
+  },
+  {
     "nombre": "Siquiente",
     "titulo": "Siquiente",
     "accion": "siquiente_pagina",
     "key": 29
+  },
+  {
+    "nombre": "Zoon",
+    "titulo": "Zoon",
+    "key": 30,
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Zoon"
+    },
+    "imagen_estado": {
+      "imagen_true": "defaul/obs/zoon_on.png",
+      "imagen_false": "defaul/obs/zoon_off.png"
+    }
   }
 ]
