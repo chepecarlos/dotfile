@@ -2,3 +2,5 @@ logs
 plugins
 plugin_config
 profiler_data
+service.json
+*.bak
