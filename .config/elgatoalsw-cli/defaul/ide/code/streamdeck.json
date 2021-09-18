@@ -27,6 +27,26 @@
     }
   },
   {
+    "nombre": "Duplicar",
+    "titulo": "Cerrar\nTodo",
+    "key": 4,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "k"]
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "w"]
+        }
+      }
+    ]
+  },
+  {
     "nombre": "Zen Mode",
     "titulo": "Zen Mode",
     "key": 5,

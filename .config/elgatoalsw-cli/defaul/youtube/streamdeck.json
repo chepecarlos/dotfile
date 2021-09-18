@@ -124,5 +124,32 @@
     "opciones": {
       "teclas": ["l"]
     }
+  },
+  {
+    "nombre": "Anterior",
+    "titulo": "Anterior",
+    "key": 21,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["prevtrack"]
+    }
+  },
+  {
+    "nombre": "Play",
+    "titulo": "Play",
+    "key": 22,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["playpause"]
+    }
+  },
+  {
+    "nombre": "Siquiente",
+    "titulo": "Siquiente",
+    "key": 23,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["nexttrack"]
+    }
   }
 ]

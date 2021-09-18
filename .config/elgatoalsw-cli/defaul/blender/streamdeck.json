@@ -240,7 +240,6 @@
       "teclas": ["shift", "s"]
     }
   },
-
   {
     "nombre": "siquiente",
     "titulo": "Siquiente",
@@ -292,18 +291,6 @@
     "opciones": {
       "teclas": ["num0"]
     }
-  },
-  {
-    "nombre": "Anterior",
-    "titulo": "Anterior",
-    "accion": "anterior_pagina",
-    "key": 54
-  },
-  {
-    "nombre": "siquiente",
-    "titulo": "Siquiente",
-    "accion": "siquiente_pagina",
-    "key": 59
   },
   {
     "nombre": "Cursor",
@@ -364,5 +351,17 @@
         }
       }
     ]
+  },
+  {
+    "nombre": "Anterior",
+    "titulo": "Anterior",
+    "accion": "anterior_pagina",
+    "key": 54
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "Siquiente",
+    "accion": "siquiente_pagina",
+    "key": 59
   }
 ]

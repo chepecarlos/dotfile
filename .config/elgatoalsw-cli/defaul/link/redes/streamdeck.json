@@ -49,10 +49,20 @@
     }
   },
   {
+    "nombre": "ALSW2Game",
+    "titulo": "ALSW2Game",
+    "key": 5,
+    "imagen": "./../youtube.png",
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/alsw2game"
+    }
+  },
+  {
     "nombre": "Github",
     "titulo": "Github",
     "imagen": "./../github.png",
-    "key": 5,
+    "key": 6,
     "accion": "escribir",
     "opciones": {
       "texto": "https://github.com/chepecarlos"
@@ -61,17 +71,17 @@
   {
     "nombre": "Cafe",
     "titulo": "Cafe",
-    "key": 6,
+    "key": 7,
     "imagen": "./../cafe.png",
     "accion": "escribir",
     "opciones": {
-      "texto": "https://www.buymeacoffee.com/alswnet"
+      "texto": "https://nocheprogramacion.com/cafe"
     }
   },
   {
     "nombre": "Twitch",
     "titulo": "Twitch",
-    "key": 7,
+    "key": 8,
     "imagen": "./../twitch.png",
     "accion": "escribir",
     "opciones": {

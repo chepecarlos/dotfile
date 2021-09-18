@@ -1,12 +1,12 @@
 [
   {
-    "nombre": "blender",
-    "titulo": "blender",
-    "imagen": "./blender.png",
+    "nombre": "Discord Ryuk",
+    "titulo": "Ryuk",
+    "imagen": "./discord.png",
     "key": 0,
     "accion": "os",
     "opciones": {
-      "comando": "blender &"
+      "comando": "discord &"
     }
   },
   {
@@ -46,13 +46,13 @@
     ]
   },
   {
-    "nombre": "Discord",
-    "titulo": "Discord",
-    "imagen": "./discord.png",
+    "nombre": "blender",
+    "titulo": "blender",
+    "imagen": "./blender.png",
     "key": 3,
     "accion": "os",
     "opciones": {
-      "comando": "discord &"
+      "comando": "blender &"
     }
   },
   {
@@ -63,6 +63,22 @@
     "accion": "os",
     "opciones": {
       "comando": "inkscape &"
+    }
+  },
+  {
+    "nombre": "Discord",
+    "titulo": "Umaru",
+    "imagen": "./discord.png",
+    "key": 5,
+    "accion": "mqtt",
+    "opciones": {
+      "opciones": {
+        "accion": "os",
+        "opciones": {
+          "comando": "discord &"
+        }
+      },
+      "topic": "alsw/evento/ryuk"
     }
   }
 ]
