@@ -28,7 +28,7 @@
       {
         "accion": "os",
         "opciones": {
-          "comando": "obs > /dev/null &"
+          "comando": "obs --profile 'Youtube_ALSW' --collection '1.Tutoriales' > /dev/null &"
         }
       },
       {
@@ -79,6 +79,36 @@
         }
       },
       "topic": "alsw/evento/ryuk"
+    }
+  },
+  {
+    "nombre": "OBS Tutorial",
+    "titulo": "16:9",
+    "imagen": "./obs.png",
+    "key": 10,
+    "accion": "os",
+    "opciones": {
+      "comando": "obs --profile 'Youtube_ALSW' --collection '1.Tutoriales' > /dev/null &"
+    }
+  },
+  {
+    "nombre": "OBS Cuadrado",
+    "titulo": "Cuadrado",
+    "imagen": "./obs.png",
+    "key": 11,
+    "accion": "os",
+    "opciones": {
+      "comando": "obs --profile 'Youtube_Cuadrado' --collection '3.Cuadrado' > /dev/null &"
+    }
+  },
+  {
+    "nombre": "OBS Tutorial",
+    "titulo": "Shorts",
+    "imagen": "./obs.png",
+    "key": 12,
+    "accion": "os",
+    "opciones": {
+      "comando": "obs --profile 'Youtube_Shorts' --collection '2.Shorts' > /dev/null &"
     }
   }
 ]

@@ -4,7 +4,10 @@
     "key": "KEY_1",
     "accion": "teclas",
     "opciones": {
-      "teclas": ["shift", "f9"]
+      "teclas": [
+        "shift",
+        "f9"
+      ]
     }
   },
   {
@@ -35,6 +38,14 @@
     "key": "KEY_6",
     "obs": "esena",
     "esena": "Umaru"
+  },
+  {
+    "nombre": "Mr_Tea",
+    "key": "KEY_B",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/mr_tea.wav"
+    }
   },
   {
     "nombre": "Aplausos",
@@ -93,11 +104,11 @@
     "accion": "cerrar_ventana"
   },
   {
-    "nombre": "Mr_Tea",
+    "nombre": "Ventana Youtube Live",
     "key": "KEY_F3",
-    "accion": "reproducion",
+    "accion": "mostar_ventana",
     "opciones": {
-      "sonido": "defaul/sonidos/mr_tea.wav"
+      "titulo": "Youtube Studio"
     }
   },
   {
@@ -117,14 +128,6 @@
     }
   },
   {
-    "nombre": "Chan",
-    "key": "KEY_F5",
-    "accion": "reproducion",
-    "opciones": {
-      "sonido": "defaul/sonidos/chan.wav"
-    }
-  },
-  {
     "nombre": "Reiniciar Data",
     "accion": "reiniciar_data",
     "key": "KEY_F9"
@@ -134,7 +137,9 @@
     "key": "KEY_GRAVE",
     "accion": "teclas",
     "opciones": {
-      "teclas": ["f9"]
+      "teclas": [
+        "f9"
+      ]
     }
   },
   {
@@ -201,6 +206,14 @@
     "nombre": "Grabar OBS",
     "key": "KEY_TAB",
     "accion": "obs_grabar"
+  },
+  {
+    "nombre": "Chan",
+    "key": "KEY_V",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/chan.wav"
+    }
   },
   {
     "nombre": "Umaru",
