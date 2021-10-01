@@ -1,9 +1,0 @@
-[
-  {
-    "nombre": "Comandos teclado",
-    "titulo": "Comandos",
-    "solo_titulo": true,
-    "key": 1,
-    "tecla": ["ctrl", "/"]
-  }
-]
