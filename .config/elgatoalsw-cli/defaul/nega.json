@@ -6,5 +6,21 @@
     "opciones": {
       "teclas": ["f12"]
     }
+  },
+  {
+    "nombre": "Mostar Escritorios",
+    "key": "KEY_2",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "alt", "up"]
+    }
+  },
+  {
+    "nombre": "Mostar Ventanas",
+    "key": "KEY_1",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "alt", "down"]
+    }
   }
 ]
