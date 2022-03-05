@@ -1,6 +1,6 @@
 [
   {
-    "nombre": "Reiniciar",
+    "nombre": "Salir",
     "key": "KEY_1",
     "accion": "salir"
   },
@@ -11,7 +11,7 @@
   },
   {
     "nombre": "Verde",
-    "key": "KEY_3",
+    "key": "KEY_R",
     "obs": "filtro",
     "fuente": "Esena_Camara",
     "filtro": "Verde"
@@ -57,8 +57,8 @@
     }
   },
   {
-    "nombre": "Fodo OBS",
-    "key": "KEY_CAPSLOCK",
+    "nombre": "FondoOBS",
+    "key": "KEY_3",
     "accion": "entrar_folder",
     "opciones": {
       "folder": "defaul/fondoobs"
@@ -226,6 +226,14 @@
     "accion": "reproducion",
     "opciones": {
       "sonido": "defaul/sonidos/musica_ALSW.wav"
+    }
+  },
+  {
+    "nombre": "Pulse",
+    "key": "KEY_LEFTALT",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "defaul/pulse"
     }
   }
 ]

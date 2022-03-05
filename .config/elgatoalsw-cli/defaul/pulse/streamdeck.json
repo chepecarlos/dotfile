@@ -1,0 +1,676 @@
+[
+  {
+    "nombre": "+5% MicLimpio",
+    "titulo": "+5%",
+    "key": 0,
+    "imagen": "./mic.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Mic_Limpio",
+      "opcion": "incremento",
+      "valor": 5
+    }
+  },
+  {
+    "nombre": "+5% Audiencia",
+    "titulo": "+5%",
+    "key": 1,
+    "imagen": "./discord.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Microfono_Audiencia",
+      "opcion": "incremento",
+      "valor": 5
+    }
+  },
+  {
+    "nombre": "+5% UmaruRed",
+    "titulo": "+5%",
+    "key": 2,
+    "imagen": "./umaru.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "UmaruRed",
+      "opcion": "incremento",
+      "valor": 5
+    }
+  },
+  {
+    "nombre": "+5% Firefox",
+    "titulo": "+5%",
+    "key": 3,
+    "imagen": "./firefox.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Firefox",
+      "opcion": "incremento",
+      "valor": 5
+    }
+  },
+  {
+    "nombre": "+5% ElGatoALSW",
+    "titulo": "+5%",
+    "key": 4,
+    "imagen": "./derpy.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "ElGatoALSW",
+      "opcion": "incremento",
+      "valor": 5
+    }
+  },
+  {
+    "nombre": "Mute MicLimpio",
+    "titulo": "Mute",
+    "cargar_titulo": {
+      "archivo": "data/pulse.json",
+      "atributo": "Mic_Limpio"
+    },
+    "key": 5,
+    "accion": "mute",
+    "opciones": {
+      "dispositivo": "Mic_Limpio"
+    }
+  },
+  {
+    "nombre": "Mute Audiencia",
+    "cargar_titulo": {
+      "archivo": "data/pulse.json",
+      "atributo": "Microfono_Audiencia"
+    },
+    "key": 6,
+    "accion": "mute",
+    "opciones": {
+      "dispositivo": "Microfono_Audiencia"
+    }
+  },
+  {
+    "nombre": "Mute UmaruRed",
+    "cargar_titulo": {
+      "archivo": "data/pulse.json",
+      "atributo": "UmaruRed"
+    },
+    "key": 7,
+    "accion": "mute",
+    "opciones": {
+      "dispositivo": "UmaruRed"
+    }
+  },
+  {
+    "nombre": "Mute Firefox",
+    "cargar_titulo": {
+      "archivo": "data/pulse.json",
+      "atributo": "Firefox"
+    },
+    "key": 8,
+    "accion": "mute",
+    "opciones": {
+      "dispositivo": "Firefox"
+    }
+  },
+  {
+    "nombre": "Mute ElGatoALSW",
+    "cargar_titulo": {
+      "archivo": "data/pulse.json",
+      "atributo": "ElGatoALSW"
+    },
+    "key": 9,
+    "accion": "mute",
+    "opciones": {
+      "dispositivo": "ElGatoALSW"
+    }
+  },
+  {
+    "nombre": "-5% MicLimpio",
+    "titulo": "-5%",
+    "key": 10,
+    "imagen": "./mic.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Mic_Limpio",
+      "opcion": "incremento",
+      "valor": -5
+    }
+  },
+  {
+    "nombre": "-5% Audiencia",
+    "titulo": "-5%",
+    "key": 11,
+    "imagen": "./discord.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Microfono_Audiencia",
+      "opcion": "incremento",
+      "valor": -5
+    }
+  },
+  {
+    "nombre": "-5% UmaruRed",
+    "titulo": "-5%",
+    "key": 12,
+    "imagen": "./umaru.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "UmaruRed",
+      "opcion": "incremento",
+      "valor": -5
+    }
+  },
+  {
+    "nombre": "-5% Firefox",
+    "titulo": "-5%",
+    "key": 13,
+    "imagen": "./firefox.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Firefox",
+      "opcion": "incremento",
+      "valor": -5
+    }
+  },
+  {
+    "nombre": "-5% ElGatoALSW",
+    "titulo": "-5%",
+    "key": 14,
+    "accion": "volumen",
+    "imagen": "./derpy.png",
+    "opciones": {
+      "dispositivo": "ElGatoALSW",
+      "opcion": "incremento",
+      "valor": -5
+    }
+  },
+  {
+    "nombre": "+5% SoloYo",
+    "titulo": "+5%",
+    "key": 15,
+    "imagen": "./wrestling.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "SoloYo",
+      "opcion": "incremento",
+      "valor": 5
+    }
+  },
+  {
+    "nombre": "+5% MisAudifonos",
+    "titulo": "+5%",
+    "key": 16,
+    "imagen": "./audifonos.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "MisAudifonos",
+      "opcion": "incremento",
+      "valor": 5
+    }
+  },
+  {
+    "nombre": "+5% SoloOBS",
+    "titulo": "+5%",
+    "key": 17,
+    "imagen": "./obs.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "SoloOBS",
+      "opcion": "incremento",
+      "valor": 5
+    }
+  },
+  {
+    "nombre": "+5% Audifno Audiencia",
+    "titulo": "+5%",
+    "key": 19,
+    "imagen": "./solo_audiencia.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Audifonos_Audiencia",
+      "opcion": "incremento",
+      "valor": 5
+    }
+  },
+  {
+    "nombre": "Mute SoloYo",
+    "cargar_titulo": {
+      "archivo": "data/pulse.json",
+      "atributo": "SoloYo"
+    },
+    "key": 20,
+    "accion": "mute",
+    "opciones": {
+      "dispositivo": "SoloYo"
+    }
+  },
+  {
+    "nombre": "Mute SoloYo",
+    "cargar_titulo": {
+      "archivo": "data/pulse.json",
+      "atributo": "MisAudifonos"
+    },
+    "key": 21,
+    "accion": "mute",
+    "opciones": {
+      "dispositivo": "MisAudifonos"
+    }
+  },
+  {
+    "nombre": "Mute MisAudifonos",
+    "cargar_titulo": {
+      "archivo": "data/pulse.json",
+      "atributo": "SoloOBS"
+    },
+    "key": 22,
+    "accion": "mute",
+    "opciones": {
+      "dispositivo": "SoloOBS"
+    }
+  },
+  {
+    "nombre": "Mute Audifno Audiencia",
+    "cargar_titulo": {
+      "archivo": "data/pulse.json",
+      "atributo": "Audifonos_Audiencia"
+    },
+    "key": 24,
+    "accion": "mute",
+    "opciones": {
+      "dispositivo": "Audifonos_Audiencia"
+    }
+  },
+  {
+    "nombre": "-5% SoloYo",
+    "titulo": "-5%",
+    "key": 25,
+    "imagen": "./wrestling.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "SoloYo",
+      "opcion": "incremento",
+      "valor": -5
+    }
+  },
+  {
+    "nombre": "-5% MisAudifonos",
+    "titulo": "-5%",
+    "key": 26,
+    "imagen": "./audifonos.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "MisAudifonos",
+      "opcion": "incremento",
+      "valor": -5
+    }
+  },
+  {
+    "nombre": "-5% SoloOBS",
+    "titulo": "-5%",
+    "key": 27,
+    "imagen": "./obs.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "SoloOBS",
+      "opcion": "incremento",
+      "valor": -5
+    }
+  },
+  {
+    "nombre": "-5% Audifonos_Audiencia",
+    "titulo": "-5%",
+    "key": 29,
+    "accion": "volumen",
+    "imagen": "./solo_audiencia.png",
+    "opciones": {
+      "dispositivo": "Audifonos_Audiencia",
+      "opcion": "incremento",
+      "valor": -5
+    }
+  },
+  {
+    "nombre": "100% Mic_Limpio",
+    "titulo": "100%",
+    "key": 30,
+    "imagen": "./mic.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Mic_Limpio",
+      "opcion": "asignar",
+      "valor": 100
+    }
+  },
+  {
+    "nombre": "100% Microfono_Audiencia",
+    "titulo": "100%",
+    "key": 31,
+    "imagen": "./discord.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Microfono_Audiencia",
+      "opcion": "asignar",
+      "valor": 100
+    }
+  },
+  {
+    "nombre": "100% UmaruRed",
+    "titulo": "100%",
+    "key": 32,
+    "imagen": "./umaru.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "UmaruRed",
+      "opcion": "asignar",
+      "valor": 100
+    }
+  },
+  {
+    "nombre": "100% Firefox",
+    "titulo": "100%",
+    "key": 33,
+    "imagen": "./firefox.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Firefox",
+      "opcion": "asignar",
+      "valor": 100
+    }
+  },
+  {
+    "nombre": "100% ElGatoALSW",
+    "titulo": "100%",
+    "key": 34,
+    "imagen": "./derpy.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "ElGatoALSW",
+      "opcion": "asignar",
+      "valor": 100
+    }
+  },
+  {
+    "nombre": "50% Mic_Limpio",
+    "titulo": "50%",
+    "key": 35,
+    "imagen": "./mic.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Mic_Limpio",
+      "opcion": "asignar",
+      "valor": 50
+    }
+  },
+  {
+    "nombre": "50% Microfono_Audiencia",
+    "titulo": "50%",
+    "key": 36,
+    "imagen": "./discord.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Microfono_Audiencia",
+      "opcion": "asignar",
+      "valor": 50
+    }
+  },
+  {
+    "nombre": "50% UmaruRed",
+    "titulo": "50%",
+    "key": 37,
+    "imagen": "./umaru.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "UmaruRed",
+      "opcion": "asignar",
+      "valor": 50
+    }
+  },
+  {
+    "nombre": "50% Firefox",
+    "titulo": "50%",
+    "key": 38,
+    "imagen": "./firefox.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Firefox",
+      "opcion": "asignar",
+      "valor": 50
+    }
+  },
+  {
+    "nombre": "50% ElGatoALSW",
+    "titulo": "50%",
+    "key": 39,
+    "imagen": "./derpy.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "ElGatoALSW",
+      "opcion": "asignar",
+      "valor": 50
+    }
+  },
+  {
+    "nombre": "0% Mic_Limpio",
+    "titulo": "0%",
+    "key": 40,
+    "imagen": "./mic.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Mic_Limpio",
+      "opcion": "asignar",
+      "valor": 0
+    }
+  },
+  {
+    "nombre": "0% Microfono_Audiencia",
+    "titulo": "0%",
+    "key": 41,
+    "imagen": "./discord.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Microfono_Audiencia",
+      "opcion": "asignar",
+      "valor": 0
+    }
+  },
+  {
+    "nombre": "0% UmaruRed",
+    "titulo": "0%",
+    "key": 42,
+    "imagen": "./umaru.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "UmaruRed",
+      "opcion": "asignar",
+      "valor": 0
+    }
+  },
+  {
+    "nombre": "0% Firefox",
+    "titulo": "0%",
+    "key": 43,
+    "imagen": "./firefox.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Firefox",
+      "opcion": "asignar",
+      "valor": 0
+    }
+  },
+  {
+    "nombre": "0% ElGatoALSW",
+    "titulo": "0%",
+    "key": 44,
+    "imagen": "./derpy.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "ElGatoALSW",
+      "opcion": "asignar",
+      "valor": 0
+    }
+  },
+  {
+    "nombre": "100% SoloYo",
+    "titulo": "100%",
+    "key": 45,
+    "imagen": "./wrestling.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "SoloYo",
+      "opcion": "asignar",
+      "valor": 100
+    }
+  },
+  {
+    "nombre": "50% SoloYo",
+    "titulo": "50%",
+    "key": 50,
+    "imagen": "./wrestling.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "SoloYo",
+      "opcion": "asignar",
+      "valor": 50
+    }
+  },
+  {
+    "nombre": "0% SoloYo",
+    "titulo": "0%",
+    "key": 55,
+    "imagen": "./wrestling.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "SoloYo",
+      "opcion": "asignar",
+      "valor": 0
+    }
+  },
+  {
+    "nombre": "100% MisAudifonos",
+    "titulo": "100%",
+    "key": 46,
+    "imagen": "./audifonos.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "MisAudifonos",
+      "opcion": "asignar",
+      "valor": 100
+    }
+  },
+  {
+    "nombre": "50% MisAudifonos",
+    "titulo": "50%",
+    "key": 51,
+    "imagen": "./audifonos.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "MisAudifonos",
+      "opcion": "asignar",
+      "valor": 50
+    }
+  },
+  {
+    "nombre": "0% MisAudifonos",
+    "titulo": "0%",
+    "key": 56,
+    "imagen": "./audifonos.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "MisAudifonos",
+      "opcion": "asignar",
+      "valor": 0
+    }
+  },
+
+  {
+    "nombre": "100% SoloOBS",
+    "titulo": "100%",
+    "key": 47,
+    "imagen": "./obs.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "SoloOBS",
+      "opcion": "asignar",
+      "valor": 100
+    }
+  },
+  {
+    "nombre": "50% SoloOBS",
+    "titulo": "50%",
+    "key": 52,
+    "imagen": "./obs.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "SoloOBS",
+      "opcion": "asignar",
+      "valor": 50
+    }
+  },
+  {
+    "nombre": "0% SoloOBS",
+    "titulo": "0%",
+    "key": 57,
+    "imagen": "./obs.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "SoloOBS",
+      "opcion": "asignar",
+      "valor": 0
+    }
+  },
+  {
+    "nombre": "100% Audifonos_Audiencia",
+    "titulo": "100%",
+    "key": 49,
+    "imagen": "./solo_audiencia.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Audifonos_Audiencia",
+      "opcion": "asignar",
+      "valor": 100
+    }
+  },
+  {
+    "nombre": "50% Audifonos_Audiencia",
+    "titulo": "50%",
+    "key": 54,
+    "imagen": "./solo_audiencia.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Audifonos_Audiencia",
+      "opcion": "asignar",
+      "valor": 50
+    }
+  },
+  {
+    "nombre": "0% Audifonos_Audiencia",
+    "titulo": "0%",
+    "key": 59,
+    "imagen": "./solo_audiencia.png",
+    "accion": "volumen",
+    "opciones": {
+      "dispositivo": "Audifonos_Audiencia",
+      "opcion": "asignar",
+      "valor": 0
+    }
+  },
+  {
+    "nombre": "cambiar Audiencia",
+    "titulo": "Cambiar",
+    "key": 23,
+    "imagen": "./antonio.png",
+    "imagen_opciones": {
+      "fondo": "#800080"
+    },
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "mute",
+        "opciones": {
+          "dispositivo": "Microfono_Audiencia"
+        }
+      },
+      {
+        "accion": "mute",
+        "opciones": {
+          "dispositivo": "Audifonos_Audiencia"
+        }
+      }
+    ]
+  }
+]
