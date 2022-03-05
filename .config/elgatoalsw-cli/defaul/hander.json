@@ -130,6 +130,14 @@
     }
   },
   {
+    "nombre": "Cuack",
+    "key": "KEY_F5",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/cuack.wav"
+    }
+  },
+  {
     "nombre": "Reiniciar Data",
     "accion": "reiniciar_data",
     "key": "KEY_F9"
