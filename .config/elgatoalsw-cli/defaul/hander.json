@@ -1,14 +1,13 @@
 [
   {
-    "nombre": "Limpiar",
+    "nombre": "Reiniciar",
     "key": "KEY_1",
-    "accion": "teclas",
-    "opciones": {
-      "teclas": [
-        "shift",
-        "f9"
-      ]
-    }
+    "accion": "salir"
+  },
+  {
+    "nombre": "Reiniciar",
+    "key": "KEY_2",
+    "accion": "reiniciar_data"
   },
   {
     "nombre": "Verde",
@@ -26,6 +25,11 @@
     }
   },
   {
+    "nombre": "Conectar OBS",
+    "key": "KEY_5",
+    "accion": "obs_conectar"
+  },
+  {
     "nombre": "Mic",
     "key": "KEY_5",
     "accion": "obs_fuente",
@@ -40,12 +44,9 @@
     "esena": "Umaru"
   },
   {
-    "nombre": "Mr_Tea",
+    "nombre": "Anterior Pagina",
     "key": "KEY_B",
-    "accion": "reproducion",
-    "opciones": {
-      "sonido": "defaul/sonidos/mr_tea.wav"
-    }
+    "accion": "anterior_pagina"
   },
   {
     "nombre": "Aplausos",
@@ -62,6 +63,11 @@
     "opciones": {
       "folder": "defaul/fondoobs"
     }
+  },
+  {
+    "nombre": "Grabar OBS",
+    "key": "KEY_CAPSLOCK",
+    "accion": "obs_grabar"
   },
   {
     "nombre": "Apoyo",
@@ -133,16 +139,6 @@
     "key": "KEY_F9"
   },
   {
-    "nombre": "Activar",
-    "key": "KEY_GRAVE",
-    "accion": "teclas",
-    "opciones": {
-      "teclas": [
-        "f9"
-      ]
-    }
-  },
-  {
     "nombre": "Pokemon",
     "key": "KEY_LEFTCTRL",
     "accion": "reproducion",
@@ -151,18 +147,8 @@
     }
   },
   {
-    "nombre": "Conectar OBS",
-    "key": "KEY_M",
-    "accion": "obs_conectar"
-  },
-  {
-    "nombre": "Anterior Pagina",
-    "key": "KEY_N",
-    "accion": "anterior_pagina"
-  },
-  {
     "nombre": "Siquiente Pagina",
-    "key": "KEY_P",
+    "key": "KEY_M",
     "accion": "siquiente_pagina"
   },
   {
@@ -171,6 +157,14 @@
     "accion": "obs_escena",
     "opciones": {
       "escena": "Camara"
+    }
+  },
+  {
+    "nombre": "Dibujar Limpiar",
+    "key": "KEY_Q",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["shift", "f9"]
     }
   },
   {
@@ -203,9 +197,12 @@
     }
   },
   {
-    "nombre": "Grabar OBS",
+    "nombre": "Dibujar Activar/Desactivar",
     "key": "KEY_TAB",
-    "accion": "obs_grabar"
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f9"]
+    }
   },
   {
     "nombre": "Chan",
