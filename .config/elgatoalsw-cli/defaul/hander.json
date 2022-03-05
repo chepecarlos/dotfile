@@ -10,11 +10,12 @@
     "accion": "reiniciar_data"
   },
   {
-    "nombre": "Verde",
-    "key": "KEY_R",
-    "obs": "filtro",
-    "fuente": "Esena_Camara",
-    "filtro": "Verde"
+    "nombre": "FondoOBS",
+    "key": "KEY_3",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "defaul/fondoobs"
+    }
   },
   {
     "nombre": "Camara",
@@ -57,14 +58,6 @@
     }
   },
   {
-    "nombre": "FondoOBS",
-    "key": "KEY_3",
-    "accion": "entrar_folder",
-    "opciones": {
-      "folder": "defaul/fondoobs"
-    }
-  },
-  {
     "nombre": "Grabar OBS",
     "key": "KEY_CAPSLOCK",
     "accion": "obs_grabar"
@@ -91,12 +84,11 @@
     "accion": "regresar_folder"
   },
   {
-    "nombre": "Golpe",
+    "nombre": "Cambiar Musica Youtube",
     "key": "KEY_F1",
-    "accion": "reproducion",
+    "accion": "mostrar_ventana",
     "opciones": {
-      "sonido": "defaul/sonidos/golpe.wav",
-      "ganancia": -5
+      "titulo": "YouTube Music"
     }
   },
   {
@@ -105,32 +97,36 @@
     "accion": "salir"
   },
   {
-    "nombre": "Cerrar Ventna",
-    "key": "KEY_F2",
-    "accion": "cerrar_ventana"
-  },
-  {
     "nombre": "Ventana Youtube Live",
-    "key": "KEY_F3",
-    "accion": "mostar_ventana",
+    "key": "KEY_F2",
+    "accion": "mostrar_ventana",
     "opciones": {
-      "titulo": "Youtube Studio"
+      "titulo": "YouTube Studio"
     }
   },
   {
     "nombre": "Cambiar Twitch",
-    "key": "KEY_F4",
-    "accion": "mostar_ventana",
+    "key": "KEY_F3",
+    "accion": "mostrar_ventana",
     "opciones": {
-      "titulo": "Twitch - Mozilla"
+      "titulo": "Google Chrome"
     }
   },
   {
     "nombre": "Cambiar OBS",
-    "key": "KEY_F5",
-    "accion": "mostar_ventana",
+    "key": "KEY_F4",
+    "accion": "mostrar_ventana",
     "opciones": {
       "titulo": "OBS"
+    }
+  },
+  {
+    "nombre": "Golpe",
+    "key": "KEY_F6",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/golpe.wav",
+      "ganancia": -5
     }
   },
   {
@@ -139,11 +135,27 @@
     "key": "KEY_F9"
   },
   {
+    "nombre": "Pulse",
+    "key": "KEY_LEFTALT",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "defaul/pulse"
+    }
+  },
+  {
     "nombre": "Pokemon",
     "key": "KEY_LEFTCTRL",
     "accion": "reproducion",
     "opciones": {
       "sonido": "defaul/sonidos/pokemon.wav"
+    }
+  },
+  {
+    "nombre": "Cambiar Twitch",
+    "key": "KEY_LEFTSHIFT",
+    "accion": "mostrar_ventana",
+    "opciones": {
+      "titulo": "Discord"
     }
   },
   {
@@ -168,6 +180,13 @@
     }
   },
   {
+    "nombre": "Verde",
+    "key": "KEY_R",
+    "obs": "filtro",
+    "fuente": "Esena_Camara",
+    "filtro": "Verde"
+  },
+  {
     "nombre": "Zoon",
     "key": "KEY_R",
     "accion": "obs_escena",
@@ -187,14 +206,6 @@
     "nombre": "Parar Reproducion",
     "key": "KEY_SPACE",
     "accion": "detener_reproducion"
-  },
-  {
-    "nombre": "Cambiar Musica Youtube",
-    "key": "KEY_T",
-    "accion": "mostar_ventana",
-    "opciones": {
-      "titulo": "YouTube Music"
-    }
   },
   {
     "nombre": "Dibujar Activar/Desactivar",
@@ -226,14 +237,6 @@
     "accion": "reproducion",
     "opciones": {
       "sonido": "defaul/sonidos/musica_ALSW.wav"
-    }
-  },
-  {
-    "nombre": "Pulse",
-    "key": "KEY_LEFTALT",
-    "accion": "entrar_folder",
-    "opciones": {
-      "folder": "defaul/pulse"
     }
   }
 ]
