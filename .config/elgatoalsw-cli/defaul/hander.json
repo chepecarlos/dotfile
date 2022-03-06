@@ -63,19 +63,35 @@
     "accion": "obs_grabar"
   },
   {
-    "nombre": "Apoyo",
+    "nombre": "Escena Ryuk",
     "key": "KEY_D",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Ryuk"
+    }
+  },
+  {
+    "nombre": "Escena Solo Ryuk",
+    "key": "KEY_E",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Solo_Ryuk"
+    }
+  },
+  {
+    "nombre": "Escena Apoyo",
+    "key": "KEY_G",
     "accion": "obs_escena",
     "opciones": {
       "escena": "Apoyo"
     }
   },
   {
-    "nombre": "Ryuk",
-    "key": "KEY_E",
+    "nombre": "Escena Apoyo Zoon",
+    "key": "KEY_T",
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Ryuk"
+      "escena": "Apoyo_Zoon"
     }
   },
   {
@@ -208,6 +224,14 @@
     "accion": "obs_escena",
     "opciones": {
       "escena": "Solo_Umaru"
+    }
+  },
+  {
+    "nombre": "Escena Zoon",
+    "key": "KEY_F",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Zoon"
     }
   },
   {
