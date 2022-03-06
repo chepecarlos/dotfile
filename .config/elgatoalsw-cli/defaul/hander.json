@@ -203,11 +203,19 @@
     }
   },
   {
-    "nombre": "Solo Umaru",
-    "key": "KEY_S",
+    "nombre": "Escena Solo Umaru",
+    "key": "KEY_W",
     "accion": "obs_escena",
     "opciones": {
       "escena": "Solo_Umaru"
+    }
+  },
+  {
+    "nombre": "Escena Camara",
+    "key": "KEY_A",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Camara"
     }
   },
   {
@@ -224,27 +232,35 @@
     }
   },
   {
-    "nombre": "Chan",
+    "nombre": "Sonido Kawai",
     "key": "KEY_V",
     "accion": "reproducion",
     "opciones": {
-      "sonido": "defaul/sonidos/chan.wav"
+      "sonido": "defaul/sonidos/kawai.wav"
     }
   },
   {
     "nombre": "Umaru",
-    "key": "KEY_W",
+    "key": "KEY_S",
     "accion": "obs_escena",
     "opciones": {
       "escena": "Umaru"
     }
   },
   {
-    "nombre": "Musica_ALSW",
+    "nombre": "Sonido Chan",
     "key": "KEY_Z",
     "accion": "reproducion",
     "opciones": {
-      "sonido": "defaul/sonidos/musica_ALSW.wav"
+      "sonido": "defaul/sonidos/chan.wav"
+    }
+  },
+  {
+    "nombre": "Sonido Rebobinar",
+    "key": "KEY_X",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/rebobinar.wav"
     }
   }
 ]
