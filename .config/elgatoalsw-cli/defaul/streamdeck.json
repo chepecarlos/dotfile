@@ -113,6 +113,15 @@
     }
   },
   {
+    "nombre": "Respuestas",
+    "titulo": "Respuestas",
+    "key": 13,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./respuestas"
+    }
+  },
+  {
     "nombre": "demo",
     "titulo": "demo",
     "key": 14,
