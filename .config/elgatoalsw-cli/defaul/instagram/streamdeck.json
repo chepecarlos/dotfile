@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "activar",
+    "titulo": "activar",
+    "key": 0,
+    "accion": "raton",
+    "opciones": {
+      "boton": "left",
+      "estado": true
+    }
+  },
+  {
+    "nombre": "desactivar",
+    "titulo": "desactivar",
+    "key": 1,
+    "accion": "raton",
+    "opciones": {
+      "boton": "left",
+      "estado": false
+    }
+  }
+]
