@@ -16,6 +16,9 @@ alias miippublica='curl ifconfig.me'
 # Android
 alias miandroid="scrcpy"
 
+# Microfono
+alias mimicrofono="noisetorch -i AT2023.monitor -t 80 && pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
+
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve'
 alias midescripcion="npm run yt-generar-descripcion"
@@ -77,12 +80,12 @@ alias midibujo='jp2a --colors'
 # Gives you a bunch of info about your machine, using uname.
 function computer-info
 {
-  echo "kernel-name: $(uname --kernel-name)"
-  echo "nodename: $(uname --nodename)"
-  echo "kernel-release: $(uname --kernel-release)"
-  echo "kernel-version: $(uname --kernel-version)"
-  echo "machine: $(uname --machine)"
-  echo "processor: $(uname --processor)"
-  echo "hardware-platform: $(uname --hardware-platform)"
-  echo "operating-system: $(uname --operating-system)"
+    echo "kernel-name: $(uname --kernel-name)"
+    echo "nodename: $(uname --nodename)"
+    echo "kernel-release: $(uname --kernel-release)"
+    echo "kernel-version: $(uname --kernel-version)"
+    echo "machine: $(uname --machine)"
+    echo "processor: $(uname --processor)"
+    echo "hardware-platform: $(uname --hardware-platform)"
+    echo "operating-system: $(uname --operating-system)"
 }
