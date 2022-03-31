@@ -137,15 +137,6 @@
     "accion": "actualizar_pagina"
   },
   {
-    "nombre": "FanPage",
-    "titulo": "FanPage",
-    "key": 15,
-    "accion": "entrar_folder",
-    "opciones": {
-      "folder": "./fanpage"
-    }
-  },
-  {
     "nombre": "MQTT",
     "key": 16,
     "titulo": "MQTT",
@@ -233,7 +224,7 @@
     "imagen_opciones": {
       "fondo": "#990000"
     },
-    "key": 30,
+    "key": 15,
     "accion": "entrar_folder",
     "opciones": {
       "folder": "./crecetube"
