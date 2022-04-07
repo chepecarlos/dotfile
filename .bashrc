@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
-      *) return;;
+    *) return;;
 esac
 
 # don't put duplicate lines or lines starting with space in the history.
@@ -18,6 +18,7 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
+HISTTIMEFORMAT="%Y-%m-%d %T "
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -32,12 +33,12 @@ shopt -s checkwinsize
 
 
 # enable color support of ls and also add handy aliases
-if [ -x /usr/bin/dircolors ]; then
+if [ -x /usr/bin/dircolors ];
+then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
-
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
@@ -50,60 +51,54 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
+if ! shopt -oq posix;
+then
+    if [ -f /usr/share/bash-completion/bash_completion ];
+    then
+        . /usr/share/bash-completion/bash_completion
+    elif [ -f /etc/bash_completion ];
+    then
+        . /etc/bash_completion
+    fi
 fi
 
 # Innorar MAYUSCULAS o minusculas en auto TAB
 bind "set completion-ignore-case on"
 
-## Agregando binarios
-
 # Agregando binanios locales
 if [ -d "$HOME/.local/bin" ] ;
-    then PATH="$HOME/.local/bin:$PATH"
+then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
+# Agregar de Alias
+if [ -f ~/.bash_aliases ];
+then
+    . ~/.bash_aliases
 fi
 
 # Agregando binanios gems
 if [ -d "$HOME/gems" ] ;
-    then GEM_HOME="$HOME/gems"
+then
+    GEM_HOME="$HOME/gems"
 fi
+
+# Agregar gems
 if [ -d "$HOME/gems/bin" ] ;
-    then PATH="$HOME/gems/bin:$PATH"
-fi
-
-# Agregando ElGatoALSW
-if [ -d "$HOME/5.Programas/2.Heramientas/1.ElGatoALSW" ] ;
-    then PATH="$HOME/5.Programas/2.Heramientas/1.ElGatoALSW:$PATH"
-fi
-
-# Agregando Tooltube
-if [ -d "$HOME/5.Programas/2.Heramientas/5.tooltube" ] ;
-    then PATH="$HOME/5.Programas/2.Heramientas/5.tooltube:$PATH"
-fi
-
-# Agregando Basket
-if [ -d "$HOME/5.Programas/2.Heramientas/3.Basket" ] ;
-    then PATH="$HOME/5.Programas/2.Heramientas/3.Basket:$PATH"
+then
+    PATH="$HOME/gems/bin:$PATH"
 fi
 
 # Agregando Arduino-cli
 if [ -d "$HOME/5.Programas/3.Desarrollo/1.Arduino/Arduino-cli" ] ;
-    then PATH="$HOME/5.Programas/3.Desarrollo/1.Arduino/Arduino-cli:$PATH"
+then
+    PATH="$HOME/5.Programas/3.Desarrollo/1.Arduino/Arduino-cli:$PATH"
 fi
 
 # Agregando Blender
 if [ -d "$HOME/5.Programas/1.Edicion/1.Blender/blender-2.92.0" ] ;
-    then PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-2.92.0:$PATH"
-fi
-
-# Documentos de Alias
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+then
+    PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-2.92.0:$PATH"
 fi
 
 # Pront de Terminal
