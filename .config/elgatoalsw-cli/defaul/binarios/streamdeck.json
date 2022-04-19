@@ -1,68 +1,22 @@
 [
   {
-    "nombre": "Discord Ryuk",
-    "titulo": "Ryuk",
-    "imagen": "./discord.png",
+    "nombre": "OBS Tutorial",
+    "titulo": "Tutorial",
+    "imagen": "./obs.png",
     "key": 0,
     "accion": "os",
     "opciones": {
-      "comando": "discord &"
+      "comando": "(obs --profile Youtube_ALSW --collection 1.Tutoriales --scene Umaru > /dev/null 2>&1 )&"
     }
   },
   {
-    "nombre": "Firefox",
-    "titulo": "Firefox",
+    "nombre": "OBS Tutorial",
+    "titulo": "WebCamara",
+    "imagen": "./obs.png",
     "key": 1,
     "accion": "os",
     "opciones": {
-      "comando": "firefox &"
-    }
-  },
-  {
-    "nombre": "OBS",
-    "titulo": "Full OBS",
-    "imagen": "./obs.png",
-    "key": 2,
-    "accion": "macro",
-    "opciones": [
-      {
-        "accion": "os",
-        "opciones": {
-          "comando": "obs --profile 'Youtube_ALSW' --collection '1.Tutoriales' > /dev/null &"
-        }
-      },
-      {
-        "accion": "mqtt",
-        "opciones": {
-          "opciones": {
-            "accion": "os",
-            "opciones": {
-              "comando": "obs --minimize-to-tray --startvirtualcam > /dev/null &"
-            }
-          },
-          "topic": "alsw/evento/ryuk"
-        }
-      }
-    ]
-  },
-  {
-    "nombre": "blender",
-    "titulo": "blender",
-    "imagen": "./blender.png",
-    "key": 3,
-    "accion": "os",
-    "opciones": {
-      "comando": "blender &"
-    }
-  },
-  {
-    "nombre": "Inskcape",
-    "titulo": "Inskcape",
-    "imagen": "./inkscape.png",
-    "key": 4,
-    "accion": "os",
-    "opciones": {
-      "comando": "inkscape &"
+      "comando": "(obs --startvirtualcam --profile Youtube_ALSW --collection 1.Tutoriales --scene Umaru > /dev/null 2>&1 )&"
     }
   },
   {
@@ -79,6 +33,16 @@
         }
       },
       "topic": "alsw/evento/ryuk"
+    }
+  },
+  {
+    "nombre": "blender",
+    "titulo": "blender",
+    "imagen": "./blender.png",
+    "key": 6,
+    "accion": "os",
+    "opciones": {
+      "comando": "blender &"
     }
   },
   {
@@ -109,6 +73,62 @@
     "accion": "os",
     "opciones": {
       "comando": "obs --profile 'Youtube_Shorts' --collection '2.Shorts' > /dev/null &"
+    }
+  },
+  {
+    "nombre": "Discord Ryuk",
+    "titulo": "Ryuk",
+    "imagen": "./discord.png",
+    "key": 15,
+    "accion": "os",
+    "opciones": {
+      "comando": "discord &"
+    }
+  },
+  {
+    "nombre": "Firefox",
+    "titulo": "Firefox",
+    "key": 16,
+    "accion": "os",
+    "opciones": {
+      "comando": "firefox &"
+    }
+  },
+  {
+    "nombre": "OBS",
+    "titulo": "Full OBS",
+    "imagen": "./obs.png",
+    "key": 17,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "os",
+        "opciones": {
+          "comando": "obs --profile 'Youtube_ALSW' --collection '1.Tutoriales' > /dev/null &"
+        }
+      },
+      {
+        "accion": "mqtt",
+        "opciones": {
+          "opciones": {
+            "accion": "os",
+            "opciones": {
+              "comando": "obs --minimize-to-tray --startvirtualcam > /dev/null &"
+            }
+          },
+          "topic": "alsw/evento/ryuk"
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Inskcape",
+    "titulo": "Inskcape",
+    "imagen": "./inkscape.png",
+    "key": 19,
+    "accion": "os",
+    "opciones": {
+      "comando": "inkscape &"
     }
   }
 ]
