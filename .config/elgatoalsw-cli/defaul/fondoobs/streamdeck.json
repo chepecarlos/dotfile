@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Mostrar Alerta",
-    "titulo": "Mostrar",
+    "titulo": "Alerta\nMostrar",
     "key": 10,
     "accion": "mqtt",
     "opciones": {
@@ -11,11 +11,31 @@
   },
   {
     "nombre": "Ocultar Alerta",
-    "titulo": "Ocultar",
+    "titulo": "Alerta\nOcultar",
     "key": 11,
     "accion": "mqtt",
     "opciones": {
       "topic": "alsw/notificacion/dibujar",
+      "mensaje": false
+    }
+  },
+  {
+    "nombre": "Mostrar Presente",
+    "titulo": "Presente\nMostrar",
+    "key": 13,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/notificacion/presente_mostar",
+      "mensaje": true
+    }
+  },
+  {
+    "nombre": "Ocultar Presente",
+    "titulo": "Presente\nOcultar",
+    "key": 14,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/notificacion/presente_mostar",
       "mensaje": false
     }
   },
@@ -26,7 +46,7 @@
     "imagen": "./fondoobs.png",
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/animacion",
+      "topic": "alsw/fondoOBS/animacion",
       "mensaje": "juegovida"
     }
   },
@@ -36,7 +56,7 @@
     "key": 1,
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/animacion",
+      "topic": "alsw/fondoOBS/animacion",
       "mensaje": "startfield"
     }
   },
@@ -46,7 +66,7 @@
     "key": 5,
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/animacion",
+      "topic": "alsw/fondoOBS/animacion",
       "mensaje": "dvd"
     }
   },
@@ -56,7 +76,7 @@
     "key": 2,
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/animacion",
+      "topic": "alsw/fondoOBS/animacion",
       "mensaje": "wavyfield"
     }
   },
@@ -66,7 +86,7 @@
     "key": 3,
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/animacion",
+      "topic": "alsw/fondoOBS/animacion",
       "mensaje": "perlinnoise"
     }
   },
@@ -76,27 +96,27 @@
     "key": 4,
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/animacion",
+      "topic": "alsw/fondoOBS/animacion",
       "mensaje": "random"
     }
   },
   {
     "nombre": "Normal",
     "titulo": "Normal",
-    "key": 13,
+    "key": 6,
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/modo",
+      "topic": "alsw/fondoOBS/modo",
       "mensaje": "normal"
     }
   },
   {
     "nombre": "Ruido",
     "titulo": "Ruido",
-    "key": 14,
+    "key": 7,
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/modo",
+      "topic": "alsw/fondoOBS/modo",
       "mensaje": "ruido"
     }
   },
@@ -109,21 +129,21 @@
       {
         "accion": "mqtt",
         "opciones": {
-          "topic": "fondo/color/base",
+          "topic": "alsw/fondoOBS/color/base",
           "mensaje": "aqua"
         }
       },
       {
         "accion": "mqtt",
         "opciones": {
-          "topic": "fondo/color/fondo",
+          "topic": "alsw/fondoOBS/color/fondo",
           "mensaje": "negro"
         }
       },
       {
         "accion": "mqtt",
         "opciones": {
-          "topic": "fondo/reiniciar",
+          "topic": "alsw/fondoOBS/reiniciar",
           "mensaje": "1"
         }
       }
@@ -135,7 +155,7 @@
     "key": 8,
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/reiniciar",
+      "topic": "alsw/fondoOBS/reiniciar",
       "mensaje": "1"
     }
   },
@@ -148,7 +168,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "random"
     }
   },
@@ -161,7 +181,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#008080"
     }
   },
@@ -174,7 +194,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#ff0000"
     }
   },
@@ -187,7 +207,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#00ff00"
     }
   },
@@ -200,7 +220,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#0000ff"
     }
   },
@@ -213,7 +233,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "random"
     }
   },
@@ -226,7 +246,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#008080"
     }
   },
@@ -239,7 +259,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#ff0000"
     }
   },
@@ -252,7 +272,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#00ff00"
     }
   },
@@ -265,7 +285,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#0000ff"
     }
   },
@@ -278,7 +298,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "random"
     }
   },
@@ -291,7 +311,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "aqua"
     }
   },
@@ -304,7 +324,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "rojo"
     }
   },
@@ -317,7 +337,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#00ff00"
     }
   },
@@ -330,7 +350,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#0000ff"
     }
   },
@@ -343,7 +363,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#000000"
     }
   },
@@ -356,7 +376,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#ffffff"
     }
   },
@@ -369,7 +389,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#808080"
     }
   },
@@ -382,7 +402,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#000000"
     }
   },
@@ -395,7 +415,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#ffffff"
     }
   },
@@ -408,7 +428,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#808080"
     }
   },
@@ -421,7 +441,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#000000"
     }
   },
@@ -434,7 +454,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#ffffff"
     }
   },
@@ -447,7 +467,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#808080"
     }
   },
@@ -460,7 +480,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#800080"
     }
   },
@@ -473,7 +493,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#ffff00"
     }
   },
@@ -486,7 +506,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#ff00ff"
     }
   },
@@ -499,7 +519,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#fb6312"
     }
   },
@@ -512,7 +532,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/base",
+      "topic": "alsw/fondoOBS/color/base",
       "mensaje": "#00b500"
     }
   },
@@ -525,7 +545,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#800080"
     }
   },
@@ -538,7 +558,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#ffff00"
     }
   },
@@ -551,7 +571,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#ff00ff"
     }
   },
@@ -564,7 +584,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#fb6312"
     }
   },
@@ -577,7 +597,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/linea",
+      "topic": "alsw/fondoOBS/color/linea",
       "mensaje": "#00b500"
     }
   },
@@ -590,7 +610,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#800080"
     }
   },
@@ -603,7 +623,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#ffff00"
     }
   },
@@ -616,7 +636,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#ff00ff"
     }
   },
@@ -629,7 +649,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#fb6312"
     }
   },
@@ -642,7 +662,7 @@
     },
     "accion": "mqtt",
     "opciones": {
-      "topic": "fondo/color/fondo",
+      "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#00b500"
     }
   }
