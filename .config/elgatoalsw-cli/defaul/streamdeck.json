@@ -131,10 +131,71 @@
     }
   },
   {
-    "nombre": "demo",
-    "titulo": "demo",
+    "nombre": "concatenar",
+    "titulo": "concatenar",
+    "key": 9,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "asignar",
+        "opciones": {
+          "valor": "Mensaje: "
+        },
+        "macro_opciones": {
+          "respuesta": "inicio"
+        }
+      },
+      {
+        "accion": "concatenar",
+        "opciones": {
+          "texto_1": "Hola ",
+          "texto_2": "mundo",
+          "texto_3": ", soy ChepeCarlos"
+        },
+        "macro_opciones": {
+          "respuesta": "respuesta"
+        }
+      },
+      {
+        "accion": "concatenar",
+        "macro_opciones": {
+          "solisita": ["inicio", "respuesta"],
+          "solisita_cambiar": ["texto_1", "texto_2"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "demo\nOBS",
+    "titulo": "demo\nOBS",
     "key": 14,
-    "accion": "actualizar_pagina"
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "obs_tiempo_grabando",
+        "macro_opciones": {
+          "respuesta": "tiempo"
+        }
+      },
+      {
+        "accion": "concatenar",
+        "opciones": {
+          "texto_1": "Tiempo: "
+        },
+        "macro_opciones": {
+          "solisita": "tiempo",
+          "solisita_cambiar": "texto_2",
+          "respuesta": "tiempo"
+        }
+      },
+      {
+        "accion": "portapapeles",
+        "macro_opciones": {
+          "solisita": "tiempo",
+          "solisita_cambiar": "texto"
+        }
+      }
+    ]
   },
   {
     "nombre": "MQTT",
