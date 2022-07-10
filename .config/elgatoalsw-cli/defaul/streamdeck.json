@@ -83,6 +83,24 @@
     }
   },
   {
+    "nombre": "Clip's",
+    "titulo": "Clip's",
+    "key": 8,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./clips"
+    }
+  },
+  {
+    "nombre": "Demo's",
+    "titulo": "Demo's",
+    "key": 9,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./demos"
+    }
+  },
+  {
     "nombre": "Blender",
     "titulo": "Blender",
     "key": 10,
@@ -113,15 +131,6 @@
     }
   },
   {
-    "nombre": "instagram",
-    "titulo": "Instagram",
-    "key": 25,
-    "accion": "entrar_folder",
-    "opciones": {
-      "folder": "./instagram"
-    }
-  },
-  {
     "nombre": "Respuestas",
     "titulo": "Respuestas",
     "key": 13,
@@ -131,71 +140,25 @@
     }
   },
   {
-    "nombre": "concatenar",
-    "titulo": "concatenar",
-    "key": 9,
-    "accion": "macro",
-    "opciones": [
-      {
-        "accion": "asignar",
-        "opciones": {
-          "valor": "Mensaje: "
-        },
-        "macro_opciones": {
-          "respuesta": "inicio"
-        }
-      },
-      {
-        "accion": "concatenar",
-        "opciones": {
-          "texto_1": "Hola ",
-          "texto_2": "mundo",
-          "texto_3": ", soy ChepeCarlos"
-        },
-        "macro_opciones": {
-          "respuesta": "respuesta"
-        }
-      },
-      {
-        "accion": "concatenar",
-        "macro_opciones": {
-          "solisita": ["inicio", "respuesta"],
-          "solisita_cambiar": ["texto_1", "texto_2"]
-        }
-      }
-    ]
+    "nombre": "emoji",
+    "titulo": "emoji",
+    "key": 14,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./emoji"
+    }
   },
   {
-    "nombre": "demo\nOBS",
-    "titulo": "demo\nOBS",
-    "key": 14,
-    "accion": "macro",
-    "opciones": [
-      {
-        "accion": "obs_tiempo_grabando",
-        "macro_opciones": {
-          "respuesta": "tiempo"
-        }
-      },
-      {
-        "accion": "concatenar",
-        "opciones": {
-          "texto_1": "Tiempo: "
-        },
-        "macro_opciones": {
-          "solisita": "tiempo",
-          "solisita_cambiar": "texto_2",
-          "respuesta": "tiempo"
-        }
-      },
-      {
-        "accion": "portapapeles",
-        "macro_opciones": {
-          "solisita": "tiempo",
-          "solisita_cambiar": "texto"
-        }
-      }
-    ]
+    "nombre": "Crecetube",
+    "titulo": "Crecetube",
+    "imagen_opciones": {
+      "fondo": "#990000"
+    },
+    "key": 15,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./crecetube"
+    }
   },
   {
     "nombre": "MQTT",
@@ -254,6 +217,15 @@
     }
   },
   {
+    "nombre": "instagram",
+    "titulo": "Instagram",
+    "key": 25,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./instagram"
+    }
+  },
+  {
     "nombre": "FreeCAD",
     "titulo": "FreeCAD",
     "imagen": "./freecad/freecad.png",
@@ -278,18 +250,6 @@
     "titulo": "Siquiente",
     "accion": "siquiente_pagina",
     "key": 29
-  },
-  {
-    "nombre": "Crecetube",
-    "titulo": "Crecetube",
-    "imagen_opciones": {
-      "fondo": "#990000"
-    },
-    "key": 15,
-    "accion": "entrar_folder",
-    "opciones": {
-      "folder": "./crecetube"
-    }
   },
   {
     "nombre": "OS",

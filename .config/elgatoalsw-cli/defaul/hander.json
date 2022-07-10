@@ -39,10 +39,12 @@
     }
   },
   {
-    "nombre": "Error",
-    "key": "KEY_6",
-    "obs": "esena",
-    "esena": "Umaru"
+    "nombre": "Escena Camara",
+    "key": "KEY_A",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Camara"
+    }
   },
   {
     "nombre": "Anterior Pagina",
@@ -58,9 +60,12 @@
     }
   },
   {
-    "nombre": "Grabar OBS",
+    "nombre": "Esena PrusaMini",
     "key": "KEY_CAPSLOCK",
-    "accion": "obs_grabar"
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "PrusaMini"
+    }
   },
   {
     "nombre": "Escena Ryuk",
@@ -79,25 +84,17 @@
     }
   },
   {
-    "nombre": "Escena Apoyo",
-    "key": "KEY_G",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Apoyo"
-    }
-  },
-  {
-    "nombre": "Escena Apoyo Zoon",
-    "key": "KEY_T",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Apoyo_Zoon"
-    }
-  },
-  {
     "nombre": "Regresar",
     "key": "KEY_ESC",
     "accion": "regresar_folder"
+  },
+  {
+    "nombre": "Escena Zoon",
+    "key": "KEY_F",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Zoon"
+    }
   },
   {
     "nombre": "Cambiar Musica Youtube",
@@ -137,6 +134,14 @@
     }
   },
   {
+    "nombre": "Cuack",
+    "key": "KEY_F5",
+    "accion": "reproducion",
+    "opciones": {
+      "sonido": "defaul/sonidos/cuack.wav"
+    }
+  },
+  {
     "nombre": "Golpe",
     "key": "KEY_F6",
     "accion": "reproducion",
@@ -146,17 +151,17 @@
     }
   },
   {
-    "nombre": "Cuack",
-    "key": "KEY_F5",
-    "accion": "reproducion",
-    "opciones": {
-      "sonido": "defaul/sonidos/cuack.wav"
-    }
-  },
-  {
     "nombre": "Reiniciar Data",
     "accion": "reiniciar_data",
     "key": "KEY_F9"
+  },
+  {
+    "nombre": "Escena Apoyo",
+    "key": "KEY_G",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Apoyo"
+    }
   },
   {
     "nombre": "Pulse",
@@ -188,14 +193,6 @@
     "accion": "siquiente_pagina"
   },
   {
-    "nombre": "Camara",
-    "key": "KEY_Q",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Camara"
-    }
-  },
-  {
     "nombre": "Dibujar Limpiar",
     "key": "KEY_Q",
     "accion": "teclas",
@@ -219,7 +216,15 @@
     }
   },
   {
-    "nombre": "Escena Solo Umaru",
+    "nombre": "Esena Umaru",
+    "key": "KEY_S",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Umaru"
+    }
+  },
+  {
+    "nombre": "Esena Solo Umaru",
     "key": "KEY_W",
     "accion": "obs_escena",
     "opciones": {
@@ -227,25 +232,17 @@
     }
   },
   {
-    "nombre": "Escena Zoon",
-    "key": "KEY_F",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Zoon"
-    }
-  },
-  {
-    "nombre": "Escena Camara",
-    "key": "KEY_A",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Camara"
-    }
-  },
-  {
     "nombre": "Parar Reproducion",
     "key": "KEY_SPACE",
     "accion": "detener_reproducion"
+  },
+  {
+    "nombre": "Escena Apoyo Zoon",
+    "key": "KEY_T",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Apoyo_Zoon"
+    }
   },
   {
     "nombre": "Dibujar Activar/Desactivar",
@@ -264,11 +261,11 @@
     }
   },
   {
-    "nombre": "Umaru",
-    "key": "KEY_S",
-    "accion": "obs_escena",
+    "nombre": "Sonido Rebobinar",
+    "key": "KEY_X",
+    "accion": "reproducion",
     "opciones": {
-      "escena": "Umaru"
+      "sonido": "defaul/sonidos/rebobinar.wav"
     }
   },
   {
@@ -277,14 +274,6 @@
     "accion": "reproducion",
     "opciones": {
       "sonido": "defaul/sonidos/chan.wav"
-    }
-  },
-  {
-    "nombre": "Sonido Rebobinar",
-    "key": "KEY_X",
-    "accion": "reproducion",
-    "opciones": {
-      "sonido": "defaul/sonidos/rebobinar.wav"
     }
   }
 ]
