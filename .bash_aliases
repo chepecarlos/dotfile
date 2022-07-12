@@ -7,11 +7,13 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias df='df -h'
 alias resetshell='exec $SHELL'
+alias mitinta='ink -p usb'
 
 # Red
 alias p='ping 8.8.8.8'
 alias miip='hostname -I'
 alias miippublica='curl ifconfig.me'
+alias mired='nmap -sP 192.168.50.0/24'
 
 # Android
 alias miandroid="scrcpy"
@@ -61,6 +63,7 @@ alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
 alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 alias ytt-thumbnail="youtube-dl --write-thumbnail --skip-download "
+alias yt-file="youtube-dl -f bestvideo+bestaudio --download-archive archive.txt"
 
 # Cambiando "ls" a "exa"
 alias ls='exa -a --group-directories-first' # Nuevo ls con opciones preferidas

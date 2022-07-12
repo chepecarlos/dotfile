@@ -96,9 +96,16 @@ then
 fi
 
 # Agregando Blender
-if [ -d "$HOME/5.Programas/1.Edicion/1.Blender/blender-2.92.0" ] ;
+if [ -d "$HOME/5.Programas/1.Edicion/1.Blender/blender-3.0.0" ] ;
 then
-    PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-2.92.0:$PATH"
+    PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-3.0.0:$PATH"
+fi
+
+# Agregando gifgen
+# https://github.com/lukechilds/gifgen
+if [ -d "$HOME/5.Programas/8.Extras/gifgen" ] ;
+then
+    PATH="$HOME/5.Programas/8.Extras/gifgen:$PATH"
 fi
 
 # Pront de Terminal
