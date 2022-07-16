@@ -1,5 +1,86 @@
 [
   {
+    "nombre": "Cambiar Algoritmo",
+    "titulo": "Algoritmo",
+    "key": 0,
+    "imagen": "./fondoobs.png",
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./algoritmo"
+    }
+  },
+  {
+    "nombre": "Cambiar FPS",
+    "titulo": "FPS",
+    "key": 1,
+    "imagen_opciones": {
+      "fondo": "#00b500"
+    },
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./fps"
+    }
+  },
+  {
+    "nombre": "Normal",
+    "titulo": "Normal",
+    "key": 6,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/modo",
+      "mensaje": "normal"
+    }
+  },
+  {
+    "nombre": "Ruido",
+    "titulo": "Ruido",
+    "key": 7,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/modo",
+      "mensaje": "ruido"
+    }
+  },
+  {
+    "nombre": "reiniciar",
+    "titulo": "reiniciar",
+    "key": 8,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/reiniciar",
+      "mensaje": "1"
+    }
+  },
+  {
+    "nombre": "Color Defaul",
+    "titulo": "Color\nDefaul",
+    "key": 9,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "mqtt",
+        "opciones": {
+          "topic": "alsw/fondoOBS/color/base",
+          "mensaje": "aqua"
+        }
+      },
+      {
+        "accion": "mqtt",
+        "opciones": {
+          "topic": "alsw/fondoOBS/color/fondo",
+          "mensaje": "negro"
+        }
+      },
+      {
+        "accion": "mqtt",
+        "opciones": {
+          "topic": "alsw/fondoOBS/reiniciar",
+          "mensaje": "1"
+        }
+      }
+    ]
+  },
+  {
     "nombre": "Mostrar Alerta",
     "titulo": "Alerta\nMostrar",
     "key": 10,
@@ -37,126 +118,6 @@
     "opciones": {
       "topic": "alsw/notificacion/presente_mostar",
       "mensaje": false
-    }
-  },
-  {
-    "nombre": "JuegoVida",
-    "titulo": "JuegoVida",
-    "key": 0,
-    "imagen": "./fondoobs.png",
-    "accion": "mqtt",
-    "opciones": {
-      "topic": "alsw/fondoOBS/animacion",
-      "mensaje": "juegovida"
-    }
-  },
-  {
-    "nombre": "StartField",
-    "titulo": "StartField",
-    "key": 1,
-    "accion": "mqtt",
-    "opciones": {
-      "topic": "alsw/fondoOBS/animacion",
-      "mensaje": "startfield"
-    }
-  },
-  {
-    "nombre": "DVD",
-    "titulo": "DVD",
-    "key": 5,
-    "accion": "mqtt",
-    "opciones": {
-      "topic": "alsw/fondoOBS/animacion",
-      "mensaje": "dvd"
-    }
-  },
-  {
-    "nombre": "WavyField",
-    "titulo": "WavyField",
-    "key": 2,
-    "accion": "mqtt",
-    "opciones": {
-      "topic": "alsw/fondoOBS/animacion",
-      "mensaje": "wavyfield"
-    }
-  },
-  {
-    "nombre": "PerlinNoise",
-    "titulo": "PerlinNoise",
-    "key": 3,
-    "accion": "mqtt",
-    "opciones": {
-      "topic": "alsw/fondoOBS/animacion",
-      "mensaje": "perlinnoise"
-    }
-  },
-  {
-    "nombre": "Random",
-    "titulo": "Random",
-    "key": 4,
-    "accion": "mqtt",
-    "opciones": {
-      "topic": "alsw/fondoOBS/animacion",
-      "mensaje": "random"
-    }
-  },
-  {
-    "nombre": "Normal",
-    "titulo": "Normal",
-    "key": 6,
-    "accion": "mqtt",
-    "opciones": {
-      "topic": "alsw/fondoOBS/modo",
-      "mensaje": "normal"
-    }
-  },
-  {
-    "nombre": "Ruido",
-    "titulo": "Ruido",
-    "key": 7,
-    "accion": "mqtt",
-    "opciones": {
-      "topic": "alsw/fondoOBS/modo",
-      "mensaje": "ruido"
-    }
-  },
-  {
-    "nombre": "Color Defaul",
-    "titulo": "Color\nDefaul",
-    "key": 9,
-    "accion": "macro",
-    "opciones": [
-      {
-        "accion": "mqtt",
-        "opciones": {
-          "topic": "alsw/fondoOBS/color/base",
-          "mensaje": "aqua"
-        }
-      },
-      {
-        "accion": "mqtt",
-        "opciones": {
-          "topic": "alsw/fondoOBS/color/fondo",
-          "mensaje": "negro"
-        }
-      },
-      {
-        "accion": "mqtt",
-        "opciones": {
-          "topic": "alsw/fondoOBS/reiniciar",
-          "mensaje": "1"
-        }
-      }
-    ]
-  },
-  {
-    "nombre": "reiniciar",
-    "titulo": "reiniciar",
-    "key": 8,
-    "accion": "mqtt",
-    "opciones": {
-      "topic": "alsw/fondoOBS/reiniciar",
-      "mensaje": "1"
     }
   },
   {
@@ -664,6 +625,97 @@
     "opciones": {
       "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#00b500"
+    }
+  },
+  {
+    "nombre": "Fondo 60 fps",
+    "titulo": "60 fps",
+    "key": 60,
+    "imagen_opciones": {
+      "fondo": "#00b500"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/color/fondo",
+      "mensaje": "#00b500"
+    }
+  },
+  {
+    "nombre": "Fondo +1 fps",
+    "titulo": "+1 fps",
+    "key": 65,
+    "imagen_opciones": {
+      "fondo": "#ff0000"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "1"
+    }
+  },
+  {
+    "nombre": "Fondo +5 fps",
+    "titulo": "+5 fps",
+    "key": 66,
+    "imagen_opciones": {
+      "fondo": "#ff9b00"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "5"
+    }
+  },
+  {
+    "nombre": "Fondo +10 fps",
+    "titulo": "+10 fps",
+    "key": 67,
+    "imagen_opciones": {
+      "fondo": "#ffff00"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "10"
+    }
+  },
+  {
+    "nombre": "Fondo -1 fps",
+    "titulo": "-1 fps",
+    "key": 70,
+    "imagen_opciones": {
+      "fondo": "#ff0000"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "-1"
+    }
+  },
+  {
+    "nombre": "Fondo -5 fps",
+    "titulo": "-5 fps",
+    "key": 71,
+    "imagen_opciones": {
+      "fondo": "#ff9b00"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "-5"
+    }
+  },
+  {
+    "nombre": "Fondo -10 fps",
+    "titulo": "-10 fps",
+    "key": 72,
+    "imagen_opciones": {
+      "fondo": "#ffff00"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "-10"
     }
   }
 ]
