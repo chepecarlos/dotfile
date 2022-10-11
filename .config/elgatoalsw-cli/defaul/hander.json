@@ -60,11 +60,11 @@
     }
   },
   {
-    "nombre": "Esena PrusaMini",
+    "nombre": "Control OBS",
     "key": "KEY_CAPSLOCK",
     "accion": "obs_escena",
     "opciones": {
-      "escena": "PrusaMini"
+      "escena": "Movil"
     }
   },
   {
@@ -156,11 +156,11 @@
     "key": "KEY_F9"
   },
   {
-    "nombre": "Escena Apoyo",
+    "nombre": "Escena Cenital",
     "key": "KEY_G",
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Apoyo"
+      "escena": "Cenital"
     }
   },
   {
@@ -237,11 +237,11 @@
     "accion": "detener_reproducion"
   },
   {
-    "nombre": "Escena Apoyo Zoon",
+    "nombre": "Escena Cenital Zoon",
     "key": "KEY_T",
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Apoyo_Zoon"
+      "escena": "Cenital_Zoon"
     }
   },
   {

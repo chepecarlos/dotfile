@@ -87,5 +87,15 @@
     "opciones": {
       "texto": "https://www.twitch.tv/alswnet"
     }
+  },
+  {
+    "nombre": "Miembro",
+    "titulo": "Miembro",
+    "key": 10,
+    "imagen": "./../youtube.png",
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://www.youtube.com/alswnet/join"
+    }
   }
 ]

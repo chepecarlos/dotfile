@@ -2,7 +2,7 @@
   {
     "nombre": "Concatenar",
     "imagen": "./concatenar.png",
-    "key": 0,
+    "key": 1,
     "accion": "teclas",
     "opciones": {
       "teclas": ["shift", "c"]
@@ -11,7 +11,7 @@
   {
     "nombre": "Borrar",
     "imagen": "./borrar.png",
-    "key": 1,
+    "key": 0,
     "accion": "teclas",
     "opciones": {
       "teclas": ["x"]
@@ -50,10 +50,19 @@
       {
         "accion": "teclas",
         "opciones": {
-          "teclas": ["ctrl", "m"]
+          "teclas": ["f2"]
         }
       }
     ]
+  },
+  {
+    "nombre": "Hueva",
+    "imagen": "./hueva.png",
+    "key": 5,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "shift", "U"]
+    }
   },
   {
     "nombre": "Desacer",
@@ -92,21 +101,52 @@
     }
   },
   {
-    "nombre": "aliniacion y zoon",
-    "imagen": "./aliniar.png",
+    "nombre": "Puntero",
+    "titulo": "Puntero",
     "key": 10,
-    "accion": "entrar_folder",
-    "opciones": {
-      "folder": "./alineacion_zoon"
-    }
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["shift", "space"]
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["w"]
+        }
+      }
+    ]
   },
   {
-    "nombre": "Sonido",
-    "imagen": "./sonido.png",
+    "nombre": "Nabaja",
+    "titulo": "Nabaja",
+    "key": 11,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["shift", "space"]
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["k"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Salvar",
+    "imagen": "./guardar.png",
     "key": 12,
-    "accion": "entrar_folder",
+    "accion": "teclas",
     "opciones": {
-      "folder": "./sonidos"
+      "teclas": ["ctrl", "s"]
     }
   },
   {
@@ -119,12 +159,12 @@
     }
   },
   {
-    "nombre": "Velocidad",
-    "imagen": "./velocidad.png",
+    "nombre": "AjusTime",
+    "imagen": "./ajuste_time.png",
     "key": 14,
-    "accion": "entrar_folder",
+    "accion": "teclas",
     "opciones": {
-      "folder": "./velocidad"
+      "teclas": ["ctrl", "alt", "p"]
     }
   },
   {
@@ -167,6 +207,15 @@
     }
   },
   {
+    "nombre": "aliniacion y zoon",
+    "imagen": "./aliniar.png",
+    "key": 19,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./alineacion_zoon"
+    }
+  },
+  {
     "nombre": "Duplicar",
     "titulo": "Duplicar",
     "imagen": "./duplicar.png",
@@ -202,6 +251,15 @@
     "accion": "teclas",
     "opciones": {
       "teclas": ["ctrl", "shift", "i"]
+    }
+  },
+  {
+    "nombre": "Navegación",
+    "titulo": "Navegación",
+    "key": 24,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./navegacion"
     }
   },
   {
@@ -351,6 +409,24 @@
         }
       }
     ]
+  },
+  {
+    "nombre": "Sonido",
+    "imagen": "./sonido.png",
+    "key": 38,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./sonidos"
+    }
+  },
+  {
+    "nombre": "Velocidad",
+    "imagen": "./velocidad.png",
+    "key": 40,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./velocidad"
+    }
   },
   {
     "nombre": "Anterior",
