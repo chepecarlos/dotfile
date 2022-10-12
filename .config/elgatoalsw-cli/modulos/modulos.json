@@ -1,0 +1,10 @@
+{
+  "deck": true,
+  "teclado": true,
+  "mqtt": true,
+  "pulse": true,
+  "obs": true,
+  "obs_notificacion": true,
+  "monitor_esp": true,
+  "super": true
+}
