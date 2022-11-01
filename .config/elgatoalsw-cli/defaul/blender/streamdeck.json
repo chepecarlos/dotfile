@@ -102,7 +102,7 @@
   },
   {
     "nombre": "Puntero",
-    "titulo": "Puntero",
+    "imagen": "./puntero.png",
     "key": 10,
     "accion": "macro",
     "opciones": [
@@ -122,7 +122,7 @@
   },
   {
     "nombre": "Nabaja",
-    "titulo": "Nabaja",
+    "imagen": "./corta_duro.png",
     "key": 11,
     "accion": "macro",
     "opciones": [

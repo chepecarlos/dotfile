@@ -92,6 +92,15 @@
     }
   },
   {
+    "nombre": "Numerico",
+    "titulo": "Numerico",
+    "key": 9,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./numerico"
+    }
+  },
+  {
     "nombre": "Demo's",
     "titulo": "Demo's",
     "key": 9,

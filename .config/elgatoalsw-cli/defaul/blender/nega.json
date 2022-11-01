@@ -8,11 +8,11 @@
     }
   },
   {
-    "nombre": "TrimAll",
-    "key": "KEY_5",
+    "nombre": "Borrar",
+    "key": "KEY_2",
     "accion": "teclas",
     "opciones": {
-      "teclas": ["shift", "t"]
+      "teclas": ["x"]
     }
   },
   {
@@ -32,11 +32,11 @@
     }
   },
   {
-    "nombre": "Borrar",
-    "key": "KEY_2",
+    "nombre": "TrimAll",
+    "key": "KEY_5",
     "accion": "teclas",
     "opciones": {
-      "teclas": ["x"]
+      "teclas": ["shift", "t"]
     }
   },
   {
