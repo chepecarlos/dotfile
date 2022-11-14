@@ -60,14 +60,6 @@
     }
   },
   {
-    "nombre": "Control OBS",
-    "key": "KEY_CAPSLOCK",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Movil"
-    }
-  },
-  {
     "nombre": "Escena Ryuk",
     "key": "KEY_D",
     "accion": "obs_escena",
@@ -89,19 +81,19 @@
     "accion": "regresar_folder"
   },
   {
-    "nombre": "Escena Zoon",
+    "nombre": "Movil",
     "key": "KEY_F",
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Zoon"
+      "escena": "Movil"
     }
   },
   {
-    "nombre": "Cambiar Musica Youtube",
+    "nombre": "Folder Tutorial",
     "key": "KEY_F1",
-    "accion": "mostrar_ventana",
+    "accion": "entrar_folder",
     "opciones": {
-      "titulo": "YouTube Music"
+      "folder": "defaul/tutorial"
     }
   },
   {
@@ -193,26 +185,35 @@
     "accion": "siquiente_pagina"
   },
   {
+    "nombre": "Dibujar Activar/Desactivar",
+    "key": "KEY_TAB",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f9"]
+    }
+  },
+  {
     "nombre": "Dibujar Limpiar",
-    "key": "KEY_Q",
+    "key": "KEY_CAPSLOCK",
     "accion": "teclas",
     "opciones": {
       "teclas": ["shift", "f9"]
     }
   },
   {
-    "nombre": "Verde",
-    "key": "KEY_R",
-    "obs": "filtro",
-    "fuente": "Esena_Camara",
-    "filtro": "Verde"
-  },
-  {
-    "nombre": "Zoon",
-    "key": "KEY_R",
+    "nombre": "Escena Zoon",
+    "key": "KEY_Q",
     "accion": "obs_escena",
     "opciones": {
       "escena": "Zoon"
+    }
+  },
+  {
+    "nombre": "Movil Zoom",
+    "key": "KEY_R",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Movil_Zoon"
     }
   },
   {
@@ -221,14 +222,6 @@
     "accion": "obs_escena",
     "opciones": {
       "escena": "Umaru"
-    }
-  },
-  {
-    "nombre": "Esena Solo Umaru",
-    "key": "KEY_W",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Solo_Umaru"
     }
   },
   {
@@ -245,19 +238,19 @@
     }
   },
   {
-    "nombre": "Dibujar Activar/Desactivar",
-    "key": "KEY_TAB",
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["f9"]
-    }
-  },
-  {
     "nombre": "Sonido Kawai",
     "key": "KEY_V",
     "accion": "reproducion",
     "opciones": {
       "sonido": "defaul/sonidos/kawai.wav"
+    }
+  },
+  {
+    "nombre": "Esena Solo Umaru",
+    "key": "KEY_W",
+    "accion": "obs_escena",
+    "opciones": {
+      "escena": "Solo_Umaru"
     }
   },
   {
