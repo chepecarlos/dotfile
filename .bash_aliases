@@ -20,6 +20,7 @@ alias miandroid="scrcpy"
 
 # Microfono
 alias mimicrofono="noisetorch -i AT2023.monitor -t 80 && pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
+alias mimicrofono2="pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
 
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve'
