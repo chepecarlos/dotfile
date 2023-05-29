@@ -1,15 +1,5 @@
 [
   {
-    "nombre": "Salir",
-    "key": "KEY_1",
-    "accion": "salir"
-  },
-  {
-    "nombre": "Reiniciar",
-    "key": "KEY_2",
-    "accion": "reiniciar_data"
-  },
-  {
     "nombre": "FondoOBS",
     "key": "KEY_3",
     "accion": "entrar_folder",

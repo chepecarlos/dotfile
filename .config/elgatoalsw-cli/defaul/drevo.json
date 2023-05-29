@@ -1,0 +1,12 @@
+[
+  {
+    "nombre": "Salir",
+    "key": "KEY_ESC",
+    "accion": "salir"
+  },
+  {
+    "nombre": "Reiniciar",
+    "key": "KEY_F1",
+    "accion": "reiniciar_data"
+  }
+]

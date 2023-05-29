@@ -8,5 +8,10 @@
     "nombre": "red_dragon",
     "input": "/dev/input/by-id/usb-SONiX_USB_DEVICE-event-kbd",
     "file": "hander.json"
+  },
+  {
+    "nombre": "drevo",
+    "input": "/dev/input/by-id/usb-DREVO.Inc_BladeMaster_TE_87K-event-kbd",
+    "file": "drevo.json"
   }
 ]
