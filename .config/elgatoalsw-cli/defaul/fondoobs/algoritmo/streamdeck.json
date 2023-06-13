@@ -59,5 +59,15 @@
       "topic": "alsw/fondoOBS/animacion",
       "mensaje": "dvd"
     }
+  },
+  {
+    "nombre": "Flocking",
+    "titulo": "Flocking",
+    "key": 6,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/animacion",
+      "mensaje": "flocking"
+    }
   }
 ]

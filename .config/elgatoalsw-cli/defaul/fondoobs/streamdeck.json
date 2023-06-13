@@ -22,23 +22,43 @@
     }
   },
   {
-    "nombre": "Normal",
-    "titulo": "Normal",
-    "key": 6,
+    "nombre": "Luces",
+    "titulo": "Luces",
+    "key": 4,
     "accion": "mqtt",
     "opciones": {
-      "topic": "alsw/fondoOBS/modo",
-      "mensaje": "normal"
+      "topic": "alsw/estudio/estado/t",
+      "mensaje": "c"
     }
   },
   {
-    "nombre": "Ruido",
-    "titulo": "Ruido",
+    "nombre": "Luces",
+    "titulo": "Luces\n   Izquierda",
+    "key": 5,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/estudio/estado/3",
+      "mensaje": "c"
+    }
+  },
+  {
+    "nombre": "Luces",
+    "titulo": "Luces\n  Centro",
+    "key": 6,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/estudio/estado/1",
+      "mensaje": "c"
+    }
+  },
+  {
+    "nombre": "Luces",
+    "titulo": "Luces\n  Derecha",
     "key": 7,
     "accion": "mqtt",
     "opciones": {
-      "topic": "alsw/fondoOBS/modo",
-      "mensaje": "ruido"
+      "topic": "alsw/estudio/estado/2",
+      "mensaje": "c"
     }
   },
   {
@@ -638,6 +658,26 @@
     "opciones": {
       "topic": "alsw/fondoOBS/color/fondo",
       "mensaje": "#00b500"
+    }
+  },
+  {
+    "nombre": "Normal",
+    "titulo": "Normal",
+    "key": 61,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/modo",
+      "mensaje": "normal"
+    }
+  },
+  {
+    "nombre": "Ruido",
+    "titulo": "Ruido",
+    "key": 62,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/modo",
+      "mensaje": "ruido"
     }
   },
   {
