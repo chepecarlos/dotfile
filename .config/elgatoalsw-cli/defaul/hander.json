@@ -1,5 +1,13 @@
 [
   {
+    "nombre": "Prueba Delay",
+    "key": "KEY_1",
+    "accion": "delay",
+    "opciones": {
+      "tiempo": "0:30"
+    }
+  },
+  {
     "nombre": "FondoOBS",
     "key": "KEY_3",
     "accion": "entrar_folder",
@@ -31,10 +39,21 @@
   {
     "nombre": "Escena Camara",
     "key": "KEY_A",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Camara"
-    }
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Camara"
+        }
+      },
+      {
+        "accion": "obs_escena_vertical",
+        "opciones": {
+          "escena": "Camara_V"
+        }
+      }
+    ]
   },
   {
     "nombre": "Anterior Pagina",
@@ -52,10 +71,21 @@
   {
     "nombre": "Escena Ryuk",
     "key": "KEY_D",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Ryuk"
-    }
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Ryuk"
+        }
+      },
+      {
+        "accion": "obs_escena_vertical",
+        "opciones": {
+          "escena": "Ryuk_V"
+        }
+      }
+    ]
   },
   {
     "nombre": "Escena Solo Ryuk",
@@ -71,12 +101,23 @@
     "accion": "regresar_folder"
   },
   {
-    "nombre": "Movil",
+    "nombre": "Escena apoyo",
     "key": "KEY_F",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Movil"
-    }
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Apoyo"
+        }
+      },
+      {
+        "accion": "obs_escena_vertical",
+        "opciones": {
+          "escena": "Apoyo_V"
+        }
+      }
+    ]
   },
   {
     "nombre": "Folder Tutorial",
@@ -140,10 +181,21 @@
   {
     "nombre": "Escena Cenital",
     "key": "KEY_G",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Cenital"
-    }
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Cenital"
+        }
+      },
+      {
+        "accion": "obs_escena_vertical",
+        "opciones": {
+          "escena": "Cenital_V"
+        }
+      }
+    ]
   },
   {
     "nombre": "Pulse",
@@ -209,10 +261,21 @@
   {
     "nombre": "Esena Umaru",
     "key": "KEY_S",
-    "accion": "obs_escena",
-    "opciones": {
-      "escena": "Umaru"
-    }
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Umaru"
+        }
+      },
+      {
+        "accion": "obs_escena_vertical",
+        "opciones": {
+          "escena": "Umaru_V"
+        }
+      }
+    ]
   },
   {
     "nombre": "Parar Reproducion",
@@ -220,11 +283,11 @@
     "accion": "detener_reproducion"
   },
   {
-    "nombre": "Escena Cenital Zoon",
+    "nombre": "Escena Cenital Zoom",
     "key": "KEY_T",
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Cenital_Zoon"
+      "escena": "Cenital_Zoom"
     }
   },
   {

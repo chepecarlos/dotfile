@@ -241,5 +241,15 @@
       "imagen_true": "defaul/obs/envivo_on.png",
       "imagen_false": "defaul/obs/envivo_off.png"
     }
+  },
+  {
+    "nombre": "WebCamara",
+    "titulo": "WebCamara",
+    "key": 29,
+    "accion": "obs_camara_virtual",
+    "imagen_estado": {
+      "imagen_true": "defaul/obs/grabar_on.png",
+      "imagen_false": "defaul/obs/grabar_off.png"
+    }
   }
 ]
