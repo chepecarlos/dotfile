@@ -1,10 +1,22 @@
 [
   {
-    "nombre": "Prueba Delay",
-    "key": "KEY_1",
-    "accion": "delay",
+    "nombre": "Camara Derecha",
+    "key": "KEY_2",
+    "accion": "obs_filtro",
     "opciones": {
-      "tiempo": "0:30"
+      "fuente": "Umaru",
+      "filtro": "Mover Derecha",
+      "estado": true
+    }
+  },
+  {
+    "nombre": "Camara Izquierda",
+    "key": "KEY_1",
+    "accion": "obs_filtro",
+    "opciones": {
+      "fuente": "Umaru",
+      "filtro": "Mover Izquierda",
+      "estado": true
     }
   },
   {
