@@ -199,6 +199,16 @@
     }
   },
   {
+    "nombre": "Grabar Vertical",
+    "titulo": "Vertical",
+    "key": 18,
+    "accion": "obs_grabar_vertical",
+    "imagen_estado": {
+      "imagen_true": "defaul/obs/grabar_on.png",
+      "imagen_false": "defaul/obs/grabar_off.png"
+    }
+  },
+  {
     "nombre": "Grabar",
     "key": 19,
     "accion": "obs_grabar",
