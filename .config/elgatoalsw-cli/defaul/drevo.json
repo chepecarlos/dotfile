@@ -1,12 +1,160 @@
 [
   {
-    "nombre": "Salir",
-    "key": "KEY_ESC",
-    "accion": "salir"
+    "accion": "macro",
+    "key": "KEY_A",
+    "nombre": "Escena Camara",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Camara"
+        }
+      },
+      {
+        "accion": "obs_escena_vertical",
+        "opciones": {
+          "escena": "Camara_V"
+        }
+      }
+    ]
   },
   {
-    "nombre": "Reiniciar",
+    "accion": "macro",
+    "key": "KEY_D",
+    "nombre": "Escena Ryuk",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Ryuk"
+        }
+      },
+      {
+        "accion": "obs_escena_vertical",
+        "opciones": {
+          "escena": "Ryuk_V"
+        }
+      }
+    ]
+  },
+  {
+    "accion": "macro",
+    "key": "KEY_F",
+    "nombre": "Escena apoyo",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Apoyo"
+        }
+      },
+      {
+        "accion": "obs_escena_vertical",
+        "opciones": {
+          "escena": "Apoyo_V"
+        }
+      }
+    ]
+  },
+  {
+    "accion": "macro",
+    "key": "KEY_G",
+    "nombre": "Escena Cenital",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Cenital"
+        }
+      },
+      {
+        "accion": "obs_escena_vertical",
+        "opciones": {
+          "escena": "Cenital_V"
+        }
+      }
+    ]
+  },
+  {
+    "accion": "macro",
+    "key": "KEY_H",
+    "nombre": "Escena Circuito",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Circuito"
+        }
+      }
+    ]
+  },
+  {
+    "accion": "macro",
+    "key": "KEY_S",
+    "nombre": "Esena Umaru",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Umaru"
+        }
+      },
+      {
+        "accion": "obs_escena_vertical",
+        "opciones": {
+          "escena": "Umaru_V"
+        }
+      }
+    ]
+  },
+  {
+    "accion": "mqtt",
+    "key": "KEY_F5",
+    "nombre": "Luces",
+    "opciones": {
+      "mensaje": "c",
+      "topic": "alsw/estudio/estado/3"
+    },
+    "titulo": "Luces\n   Izquierda"
+  },
+  {
+    "accion": "mqtt",
+    "key": "KEY_F6",
+    "nombre": "Luces",
+    "opciones": {
+      "mensaje": "c",
+      "topic": "alsw/estudio/estado/1"
+    },
+    "titulo": "Luces\n  Centro"
+  },
+  {
+    "accion": "mqtt",
+    "key": "KEY_F7",
+    "nombre": "Luces",
+    "opciones": {
+      "mensaje": "c",
+      "topic": "alsw/estudio/estado/2"
+    },
+    "titulo": "Luces\n  Derecha"
+  },
+  {
+    "accion": "mqtt",
+    "key": "KEY_F8",
+    "nombre": "Luces",
+    "opciones": {
+      "mensaje": "c",
+      "topic": "alsw/estudio/estado/t"
+    },
+    "titulo": "Luces"
+  },
+  {
+    "accion": "reiniciar_data",
     "key": "KEY_F1",
-    "accion": "reiniciar_data"
+    "nombre": "Reiniciar"
+  },
+  {
+    "accion": "salir",
+    "key": "KEY_ESC",
+    "nombre": "Salir"
   }
 ]

@@ -253,6 +253,20 @@
     }
   },
   {
+    "accion": "macro",
+    "titulo": "Circuito",
+    "key": 25,
+    "nombre": "Escena Circuito",
+    "opciones": [
+      {
+        "accion": "obs_escena",
+        "opciones": {
+          "escena": "Circuito"
+        }
+      }
+    ]
+  },
+  {
     "nombre": "WebCamara",
     "titulo": "WebCamara",
     "key": 29,
