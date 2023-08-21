@@ -5,6 +5,8 @@
   "pulse": true,
   "obs": true,
   "obs_notificacion": true,
+  "obs_monitor_audio": true,
   "monitor_esp": true,
+  "alias": true,
   "super": true
 }
