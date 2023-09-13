@@ -8,6 +8,7 @@ alias ...='cd ../..'
 alias df='df -h'
 alias resetshell='exec $SHELL'
 alias mitinta='ink -p usb'
+alias miOBS='(flatpak run com.obsproject.Studio > /dev/null 2>&1) &'
 
 # Red
 alias p='ping 8.8.8.8'

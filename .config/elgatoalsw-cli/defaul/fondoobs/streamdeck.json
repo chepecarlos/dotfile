@@ -22,6 +22,16 @@
     }
   },
   {
+    "nombre": "Sub",
+    "titulo": "Sub",
+    "key": 3,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/subreal/activo",
+      "mensaje": "c"
+    }
+  },
+  {
     "nombre": "Luces",
     "titulo": "Luces",
     "key": 4,
@@ -37,7 +47,7 @@
     "key": 5,
     "accion": "mqtt",
     "opciones": {
-      "topic": "alsw/estudio/estado/3",
+      "topic": "alsw/estudio/estado/1",
       "mensaje": "c"
     }
   },
@@ -47,7 +57,7 @@
     "key": 6,
     "accion": "mqtt",
     "opciones": {
-      "topic": "alsw/estudio/estado/1",
+      "topic": "alsw/estudio/estado/3",
       "mensaje": "c"
     }
   },
