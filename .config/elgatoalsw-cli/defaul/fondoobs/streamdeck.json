@@ -23,8 +23,8 @@
   },
   {
     "nombre": "Sub",
-    "titulo": "Sub",
     "key": 3,
+    "imagen": "./display.png",
     "accion": "mqtt",
     "opciones": {
       "topic": "alsw/subreal/activo",
@@ -33,8 +33,11 @@
   },
   {
     "nombre": "Luces",
-    "titulo": "Luces",
-    "key": 4,
+    "key": 8,
+    "imagen": "./Luces.png",
+    "imagen_opciones": {
+      "fondo": "#00ffff"
+    },
     "accion": "mqtt",
     "opciones": {
       "topic": "alsw/estudio/estado/t",
@@ -43,8 +46,11 @@
   },
   {
     "nombre": "Luces",
-    "titulo": "Luces\n   Izquierda",
     "key": 5,
+    "imagen": "./izquierda.png",
+    "imagen_opciones": {
+      "fondo": "#00ffff"
+    },
     "accion": "mqtt",
     "opciones": {
       "topic": "alsw/estudio/estado/1",
@@ -53,8 +59,11 @@
   },
   {
     "nombre": "Luces",
-    "titulo": "Luces\n  Centro",
     "key": 6,
+    "imagen": "./centro.png",
+    "imagen_opciones": {
+      "fondo": "#00ffff"
+    },
     "accion": "mqtt",
     "opciones": {
       "topic": "alsw/estudio/estado/3",
@@ -63,8 +72,11 @@
   },
   {
     "nombre": "Luces",
-    "titulo": "Luces\n  Derecha",
     "key": 7,
+    "imagen": "./derecha.png",
+    "imagen_opciones": {
+      "fondo": "#00ffff"
+    },
     "accion": "mqtt",
     "opciones": {
       "topic": "alsw/estudio/estado/2",
@@ -74,7 +86,7 @@
   {
     "nombre": "reiniciar",
     "titulo": "reiniciar",
-    "key": 8,
+    "key": 4,
     "accion": "mqtt",
     "opciones": {
       "topic": "alsw/fondoOBS/reiniciar",

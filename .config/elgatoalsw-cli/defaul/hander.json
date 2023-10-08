@@ -1,21 +1,21 @@
 [
   {
-    "nombre": "Camara Derecha",
-    "key": "KEY_2",
-    "accion": "obs_filtro",
-    "opciones": {
-      "fuente": "Umaru",
-      "filtro": "Mover Derecha",
-      "estado": true
-    }
-  },
-  {
     "nombre": "Camara Izquierda",
     "key": "KEY_1",
     "accion": "obs_filtro",
     "opciones": {
       "fuente": "Umaru",
       "filtro": "Mover Izquierda",
+      "estado": true
+    }
+  },
+  {
+    "nombre": "Camara Derecha",
+    "key": "KEY_2",
+    "accion": "obs_filtro",
+    "opciones": {
+      "fuente": "Umaru",
+      "filtro": "Mover Derecha",
       "estado": true
     }
   },
@@ -39,14 +39,6 @@
     "nombre": "Conectar OBS",
     "key": "KEY_5",
     "accion": "obs_conectar"
-  },
-  {
-    "nombre": "Mic",
-    "key": "KEY_5",
-    "accion": "obs_fuente",
-    "opciones": {
-      "fuente": "Esena_Mic"
-    }
   },
   {
     "nombre": "Escena Camara",
@@ -78,6 +70,17 @@
     "accion": "reproducion",
     "opciones": {
       "sonido": "defaul/sonidos/aplausos.wav"
+    }
+  },
+  {
+    "nombre": "Dibujar Limpiar",
+    "key": "KEY_CAPSLOCK",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": [
+        "shift",
+        "f9"
+      ]
     }
   },
   {
@@ -239,22 +242,6 @@
     "accion": "siquiente_pagina"
   },
   {
-    "nombre": "Dibujar Activar/Desactivar",
-    "key": "KEY_TAB",
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["f9"]
-    }
-  },
-  {
-    "nombre": "Dibujar Limpiar",
-    "key": "KEY_CAPSLOCK",
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["shift", "f9"]
-    }
-  },
-  {
     "nombre": "Escena Zoon",
     "key": "KEY_Q",
     "accion": "obs_escena",
@@ -300,6 +287,16 @@
     "accion": "obs_escena",
     "opciones": {
       "escena": "Cenital_Zoom"
+    }
+  },
+  {
+    "nombre": "Dibujar Activar/Desactivar",
+    "key": "KEY_TAB",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": [
+        "f9"
+      ]
     }
   },
   {
