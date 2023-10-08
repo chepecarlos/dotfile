@@ -1,20 +1,20 @@
 [
   {
-    "nombre": "Concatenar",
-    "imagen": "./concatenar.png",
-    "key": 1,
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["shift", "c"]
-    }
-  },
-  {
     "nombre": "Borrar",
     "imagen": "./borrar.png",
     "key": 0,
     "accion": "teclas",
     "opciones": {
       "teclas": ["x"]
+    }
+  },
+  {
+    "nombre": "Concatenar",
+    "imagen": "./concatenar.png",
+    "key": 1,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["shift", "c"]
     }
   },
   {
