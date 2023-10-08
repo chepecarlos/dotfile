@@ -148,6 +148,31 @@
     "titulo": "Luces"
   },
   {
+    "nombre": "Sub",
+    "key": "KEY_F9",
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/subreal/activo",
+      "mensaje": "c"
+    }
+  },
+  {
+    "nombre": "Encender Aro",
+    "key": "KEY_F10",
+    "accion": "os",
+    "opciones": {
+      "comando": "curl -s http://192.168.50.123/vivo"
+    }
+  },
+  {
+    "nombre": "Apagar Aro",
+    "key": "KEY_F11",
+    "accion": "os",
+    "opciones": {
+      "comando": "curl -s http://192.168.50.123/muerto"
+    }
+  },
+  {
     "accion": "reiniciar_data",
     "key": "KEY_F1",
     "nombre": "Reiniciar"
