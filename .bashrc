@@ -96,9 +96,9 @@ then
 fi
 
 # Agregando Blender
-if [ -d "$HOME/5.Programas/1.Edicion/1.Blender/blender-3.6.0" ] ;
+if [ -d "/var/lib/flatpak/app/org.blender.Blender/current/active/files/blender" ] ;
 then
-    PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-3.6.0:$PATH"
+    PATH="/var/lib/flatpak/app/org.blender.Blender/current/active/files/blender:$PATH"
 fi
 
 # Agregando gifgen
