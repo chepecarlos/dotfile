@@ -1,7 +1,22 @@
-
+# Actualizaciones generales
 sudo apt update
-sudo apt upgrade
+sudo apt -y upgrade
+flatpak --assumeyes -y update 
 
-sudo apt install -y git mint-meta-codecs dkms vlc filezilla audacity bleachbit cheese shutter meld okular openssh-server ffmpeg pavucontrol nmap gitg scrcpy barrier exa gromit-mpx
+# Generales
+sudo apt install -y barrier scrcpy okular mint-meta-codecs  vlc bleachbit cheese dconf-editor 
+flatpak install  --assumeyes -y -v  org.telegram.desktop com.discordapp.Discord com.github.tchx84.Flatseal io.github.mimbrero.WhatsAppDesktop io.missioncenter.MissionCenter 
+ 
+# Creacion de contenido
+sudo apt install -y ffmpeg gromit-mpx dkms audacity shutter
+flatpak install  --assumeyes -y -v  org.inkscape.inkscape org.gimp.GIMP com.obsproject.Studio org.blender.blender org.freecadweb.FreeCAD com.prusa3d.PrusaSlicer 
 
-flatpak install  --assumeyes -y -v com.visualstudio.code org.inkscape.inkscape org.gimp.GIMP com.obsproject.Studio org.telegram.desktop com.discordapp.Discord org.blender.blender com.github.tchx84.Flatseal io.github.mimbrero.WhatsAppDesktop com.prusa3d.PrusaSlicer io.missioncenter.MissionCenter org.freecadweb.FreeCAD 
+# Audio
+sudo apt install -y pavucontrol
+
+# Redes
+sudo apt install -y openssh-server nmap mdns-scan filezilla
+# Desarollo 
+sudo apt install -y git gitg python3-pip meld software-properties-common apt-transport-https ca-certificates gnupg2 curl build-essential exa tree
+flatpak install  --assumeyes -y -v com.visualstudio.code
+    
