@@ -1,0 +1,12 @@
+[Unit]
+Description=Barrier Client daemon
+After=network.target
+
+[Service]
+User=chepecarlos
+Group=chepecarlos
+ExecStart=barrierc -f --disable-crypto --name "umaru-3" "[Ryuk.local]:24800"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
