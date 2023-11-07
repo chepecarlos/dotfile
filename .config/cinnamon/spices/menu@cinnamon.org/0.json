@@ -231,7 +231,7 @@
         "default": false,
         "description": "Enable filesystem path entry in search box",
         "tooltip": "Allows path entry in the menu search box.",
-        "value": false
+        "value": true
     },
     "force-show-panel": {
         "type": "switch",
