@@ -12,11 +12,15 @@ sudo apt install -y ffmpeg gromit-mpx dkms audacity shutter
 flatpak install  --assumeyes -y -v  org.inkscape.inkscape org.gimp.GIMP com.obsproject.Studio org.blender.blender org.freecadweb.FreeCAD com.prusa3d.PrusaSlicer 
 
 # Audio
-sudo apt install -y pavucontrol
+sudo apt install -y pavucontrol paprefs
 
 # Redes
 sudo apt install -y openssh-server nmap mdns-scan filezilla
+flatpak install  --assumeyes -y -v com.protonvpn.www
 
 # Desarollo 
 sudo apt install -y git gitg python3-pip meld software-properties-common apt-transport-https ca-certificates gnupg2 curl build-essential exa tree
-flatpak install  --assumeyes -y -v com.visualstudio.code cc.arduino.IDE2
+flatpak install  --assumeyes -y -v com.visualstudio.code cc.arduino.IDE2 cc.arduino.arduinoide
+
+#fuentes
+sudo apt install -y ttf-mscorefonts-installer
