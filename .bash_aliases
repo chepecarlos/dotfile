@@ -24,8 +24,8 @@ alias miandroid="scrcpy"
 alias mimicrofono="pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
 
 # NocheProgramacion
-alias mijekyll='bundle exec jekyll serve'
-alias midescripcion="npm run yt-generar-descripcion"
+alias mijekyll='bundle exec jekyll serve --trace'
+alias midescripcion="npm run yt-generar-descripcion-2"
 alias miyoutube="npm run yt-actualizar"
 alias mitag="npm run tags-generate"
 alias mihtml="npm run test-html"
@@ -94,3 +94,6 @@ function computer-info
     echo "hardware-platform: $(uname --hardware-platform)"
     echo "operating-system: $(uname --operating-system)"
 }
+
+# Agregar flatpak
+alias code='/var/lib/flatpak/app/com.visualstudio.code/x86_64/stable/active/files/extra/vscode/code'
