@@ -1,0 +1,39 @@
+[general]
+copy-on-select=false
+display-n=0
+display-tab-names=0
+gtk-use-system-default-theme=true
+hide-tabs-if-one-tab=false
+history-size=1000
+infinite-history=true
+max-tab-name-length=100
+mouse-display=true
+open-tab-cwd=true
+prompt-on-quit=true
+quick-open-command-line='gedit %(file_path)s'
+quick-open-enable=true
+restore-tabs-notify=true
+restore-tabs-startup=true
+save-tabs-when-changed=true
+scroll-keystroke=true
+start-at-login=true
+tab-close-buttons=true
+use-default-font=false
+use-popup=true
+use-scrollbar=true
+use-trayicon=true
+window-halignment=0
+window-height=56
+window-losefocus=false
+window-refocus=false
+window-tabbar=true
+window-width=100
+
+[style/background]
+transparency=89
+
+[style/font]
+allow-bold=true
+palette='#000005050606:#D9D940408585:#2A2AB2B25050:#FFFFD1D16F6F:#88883C3CDCDC:#ECECECECECEC:#C1C1B8B8B7B7:#FFFFF8F8DDDD:#00009C9CC9C9:#DADA6B6BABAB:#F4F4DBDBA5A5:#EAEAC0C06666:#2F2F8B8BB9B9:#AEAE63636B6B:#FFFF91919D9D:#E4E483838D8D:#D9D9FAFAFFFF:#1F1F16162626'
+palette-name='Wild Cherry'
+style='Comic Code Ligatures Bold 17'
