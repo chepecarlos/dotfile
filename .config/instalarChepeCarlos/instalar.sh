@@ -5,11 +5,11 @@ flatpak --assumeyes -y update
 
 # Generales
 sudo apt install -y rar barrier scrcpy okular mint-meta-codecs vlc bleachbit cheese dconf-editor
-flatpak install --assumeyes -y -v com.basemark.BasemarkGPU com.ktechpit.ultimate-media-downloader io.github.JakubMelka.Pdf4qt org.linux_hardware.hw-probe org.gabmus.whatip org.telegram.desktop com.discordapp.Discord com.github.tchx84.Flatseal io.github.mimbrero.WhatsAppDesktop io.missioncenter.MissionCenter io.github.flattool.Warehouse
+flatpak install --assumeyes -y -v io.github.prateekmedia.appimagepool com.basemark.BasemarkGPU com.ktechpit.ultimate-media-downloader io.github.JakubMelka.Pdf4qt org.linux_hardware.hw-probe org.gabmus.whatip org.telegram.desktop com.discordapp.Discord com.github.tchx84.Flatseal io.github.mimbrero.WhatsAppDesktop io.missioncenter.MissionCenter io.github.flattool.Warehouse
 
 # Creacion de contenido
 sudo apt install -y ffmpeg gromit-mpx dkms audacity shutter
-flatpak install --assumeyes -y -v io.gitlab.adhami3310.Converter org.inkscape.inkscape org.gimp.GIMP com.obsproject.Studio org.blender.blender org.freecadweb.FreeCAD com.prusa3d.PrusaSlicer
+flatpak install --assumeyes -y -v com.ktechpit.ultimate-media-downloader io.gitlab.adhami3310.Converter org.inkscape.inkscape org.gimp.GIMP com.obsproject.Studio org.blender.blender org.freecadweb.FreeCAD com.prusa3d.PrusaSlicer
 pip install bpsrender
 
 # Audio
