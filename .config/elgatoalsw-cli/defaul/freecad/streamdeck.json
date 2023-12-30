@@ -1,121 +1,41 @@
 [
   {
-    "nombre": "Isometrica",
-    "titulo": "Isometrica",
+    "nombre": "Geometría",
+    "titulo": "Geometría",
     "key": 0,
-    "accion": "teclas",
+    "imagen": "./geometria/linea.png",
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
+    "accion": "entrar_folder",
     "opciones": {
-      "teclas": ["0"]
+      "folder": "./geometria"
     }
   },
   {
-    "nombre": "Frente",
-    "titulo": "Frente",
+    "nombre": "Restricciones",
+    "titulo": "Restricciones",
+    "imagen": "./restricciones/distancia.png",
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
     "key": 1,
-    "accion": "teclas",
+    "accion": "entrar_folder",
     "opciones": {
-      "teclas": ["1"]
+      "folder": "./restricciones"
     }
   },
   {
-    "nombre": "Ariba",
-    "titulo": "Ariba",
+    "nombre": "Vista",
+    "titulo": "Vista",
+    "imagen": "./restricciones/distancia.png",
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
     "key": 2,
-    "accion": "teclas",
+    "accion": "entrar_folder",
     "opciones": {
-      "teclas": ["2"]
+      "folder": "./restricciones"
     }
-  },
-  {
-    "nombre": "Derecha",
-    "titulo": "Derecha",
-    "key": 3,
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["3"]
-    }
-  },
-  {
-    "nombre": "Izquieda",
-    "titulo": "Izquieda",
-    "key": 4,
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["6"]
-    }
-  },
-  {
-    "nombre": "Abajo",
-    "titulo": "Abajo",
-    "key": 5,
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["5"]
-    }
-  },
-  {
-    "nombre": "Atras",
-    "titulo": "Atras",
-    "key": 6,
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["4"]
-    }
-  },
-  {
-    "nombre": "zoom",
-    "titulo": "zoom",
-    "key": 7,
-    "accion": "macro",
-    "opciones": [
-      {
-        "accion": "teclas",
-        "opciones": {
-          "teclas": ["v"]
-        }
-      },
-      {
-        "accion": "teclas",
-        "opciones": {
-          "teclas": ["f"]
-        }
-      }
-    ]
-  },
-  {
-    "nombre": "Anterior",
-    "titulo": "Anterior",
-    "accion": "anterior_pagina",
-    "key": 19
-  },
-  {
-    "nombre": "siquiente",
-    "titulo": "Siquiente",
-    "accion": "siquiente_pagina",
-    "key": 24
-  },
-  {
-    "nombre": "regresar",
-    "titulo": "Regresar",
-    "accion": "regresar_folder",
-    "key": 29
-  },
-  {
-    "nombre": "Anterior",
-    "titulo": "Anterior",
-    "accion": "anterior_pagina",
-    "key": 49
-  },
-  {
-    "nombre": "siquiente",
-    "titulo": "Siquiente",
-    "accion": "siquiente_pagina",
-    "key": 54
-  },
-  {
-    "nombre": "regresar",
-    "titulo": "Regresar",
-    "accion": "regresar_folder",
-    "key": 59
   }
 ]

@@ -142,7 +142,7 @@
   {
     "nombre": "Respuestas",
     "titulo": "Respuestas",
-    "key": 13,
+    "key": 28,
     "accion": "entrar_folder",
     "opciones": {
       "folder": "./respuestas"
@@ -238,7 +238,7 @@
     "nombre": "FreeCAD",
     "titulo": "FreeCAD",
     "imagen": "./freecad/freecad.png",
-    "key": 26,
+    "key": 13,
     "accion": "entrar_folder",
     "opciones": {
       "folder": "./freecad"
