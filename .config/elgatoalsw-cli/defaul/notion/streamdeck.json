@@ -100,11 +100,20 @@
   },
   {
     "nombre": "Nueva Pagina",
-    "titulo": "Nueva Pagina",
+    "titulo": "Nueva\nPagina",
     "key": 11,
     "accion": "teclas",
     "opciones": {
       "teclas": ["ctrl", "shift", "9"]
+    }
+  },
+  {
+    "nombre": "Copy Link Page",
+    "titulo": "Copy\nLink Page",
+    "key": 12,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "l"]
     }
   }
 ]

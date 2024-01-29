@@ -85,7 +85,7 @@
   {
     "nombre": "Clip's",
     "titulo": "Clip's",
-    "key": 8,
+    "key": 32,
     "accion": "entrar_folder",
     "opciones": {
       "folder": "./clips"
@@ -194,9 +194,8 @@
   },
   {
     "nombre": "Notion",
-    "titulo": "Notion",
     "imagen": "./notion/notion.png",
-    "key": 18,
+    "key": 8,
     "accion": "entrar_folder",
     "opciones": {
       "folder": "./notion"
@@ -242,6 +241,19 @@
     "accion": "entrar_folder",
     "opciones": {
       "folder": "./freecad"
+    }
+  },
+  {
+    "nombre": "Control",
+    "titulo": "Control",
+    "key": 27,
+    "accion": "control",
+    "opciones": {
+      "host": "ryuk",
+      "accion": "obs_escena",
+      "opciones": {
+        "escena": "Zoom"
+      }
     }
   },
   {
