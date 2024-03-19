@@ -207,12 +207,12 @@
     }
   },
   {
-    "nombre": "aliniacion y zoon",
+    "nombre": "aliniacion y zoom",
     "imagen": "./aliniar.png",
     "key": 19,
     "accion": "entrar_folder",
     "opciones": {
-      "folder": "./alineacion_zoon"
+      "folder": "./alineacion_zoom"
     }
   },
   {

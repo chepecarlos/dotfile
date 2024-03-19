@@ -115,5 +115,23 @@
     "opciones": {
       "teclas": ["ctrl", "l"]
     }
+  },
+  {
+    "nombre": "Subir",
+    "titulo": "Subir",
+    "key": 28,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "["]
+    }
+  },
+  {
+    "nombre": "Bajar",
+    "titulo": "Bajar",
+    "key": 29,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "]"]
+    }
   }
 ]

@@ -32,16 +32,13 @@
     }
   },
   {
-    "nombre": "Luces",
-    "key": 8,
-    "imagen": "./Luces.png",
-    "imagen_opciones": {
-      "fondo": "#00ffff"
-    },
+    "nombre": "reiniciar",
+    "titulo": "reiniciar",
+    "key": 4,
     "accion": "mqtt",
     "opciones": {
-      "topic": "alsw/estudio/estado/t",
-      "mensaje": "c"
+      "topic": "alsw/fondoOBS/reiniciar",
+      "mensaje": "1"
     }
   },
   {
@@ -84,13 +81,16 @@
     }
   },
   {
-    "nombre": "reiniciar",
-    "titulo": "reiniciar",
-    "key": 4,
+    "nombre": "Luces",
+    "key": 8,
+    "imagen": "./Luces.png",
+    "imagen_opciones": {
+      "fondo": "#00ffff"
+    },
     "accion": "mqtt",
     "opciones": {
-      "topic": "alsw/fondoOBS/reiniciar",
-      "mensaje": "1"
+      "topic": "alsw/estudio/estado/t",
+      "mensaje": "c"
     }
   },
   {
@@ -140,6 +140,16 @@
     "opciones": {
       "topic": "alsw/notificacion/dibujar",
       "mensaje": false
+    }
+  },
+  {
+    "nombre": "Arcoiris ",
+    "titulo": "Arcoiris",
+    "key": 12,
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/arcoiris",
+      "mensaje": "true"
     }
   },
   {

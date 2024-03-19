@@ -105,12 +105,12 @@
     }
   },
   {
-    "nombre": "Zoon",
-    "titulo": "Zoon",
+    "nombre": "Zoom",
+    "titulo": "Zoom",
     "key": 9,
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Zoon"
+      "escena": "Zoom"
     },
     "imagen_estado": {
       "imagen_true": "defaul/obs/zoon_on.png",
@@ -234,12 +234,12 @@
     }
   },
   {
-    "nombre": "Circuto",
-    "titulo": "Circuto",
+    "nombre": "Circuito",
+    "titulo": "Circuito",
     "key": 21,
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Circuto"
+      "escena": "Circuito"
     },
     "imagen_estado": {
       "imagen_true": "defaul/obs/circuito_on.png",
@@ -298,12 +298,12 @@
     "key": 29
   },
   {
-    "nombre": "Zoon",
-    "titulo": "Zoon",
+    "nombre": "Zoom",
+    "titulo": "Zoom",
     "key": 30,
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Zoon"
+      "escena": "Zoom"
     },
     "imagen_estado": {
       "imagen_true": "defaul/obs/zoon_on.png",

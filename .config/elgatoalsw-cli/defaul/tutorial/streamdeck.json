@@ -1,11 +1,11 @@
 [
   {
-    "nombre": "Zoon",
-    "titulo": "Zoon",
+    "nombre": "Zoom",
+    "titulo": "Zoom",
     "key": 0,
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Zoon"
+      "escena": "Zoom"
     },
     "imagen_estado": {
       "imagen_true": "./zoon_on.png",
@@ -39,12 +39,12 @@
     }
   },
   {
-    "nombre": "Movil Zoon",
-    "titulo": "Movil Zoon",
+    "nombre": "Movil Zoom",
+    "titulo": "Movil Zoom",
     "key": 3,
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Movil_Zoon"
+      "escena": "Movil_Zoom"
     },
     "imagen_estado": {
       "imagen_true": "./circuito_on.png",
@@ -52,12 +52,12 @@
     }
   },
   {
-    "nombre": "Cenital Zoon",
-    "titulo": "Cenital Zoon",
+    "nombre": "Cenital Zoom",
+    "titulo": "Cenital Zoom",
     "key": 4,
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Cenital_Zoon"
+      "escena": "Cenital_Zoom"
     },
     "imagen_estado": {
       "imagen_true": "./Cenital_zoon_on.png",

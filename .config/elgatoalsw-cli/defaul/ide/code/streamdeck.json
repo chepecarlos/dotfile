@@ -67,13 +67,24 @@
     ]
   },
   {
-    "nombre": "Auto Formato",
-    "titulo": "Auto Formato",
+    "nombre": "Anclar",
+    "titulo": "Anclar",
     "key": 6,
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["ctrl", "shift", "i"]
-    }
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "k"]
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["shift", "enter"]
+        }
+      }
+    ]
   },
   {
     "nombre": "Palette",
@@ -94,28 +105,26 @@
     }
   },
   {
-    "nombre": "Mantener Abierto",
-    "titulo": "Mantener\nAbierto",
-    "key": 16,
-    "accion": "macro",
-    "opciones": [
-      {
-        "accion": "teclas",
-        "opciones": {
-          "teclas": ["ctrl", "k"]
-        }
-      },
-      {
-        "accion": "teclas",
-        "opciones": {
-          "teclas": ["enter"]
-        }
-      }
-    ]
+    "nombre": "Refractario\nNombre",
+    "titulo": "Refractario\nNombre",
+    "key": 9,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["f2"]
+    }
   },
   {
-    "nombre": "Anclar",
-    "titulo": "Anclar",
+    "nombre": "Auto Formato",
+    "titulo": "Auto Formato",
+    "key": 16,
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "shift", "i"]
+    }
+  },
+  {
+    "nombre": "Mantener Abierto",
+    "titulo": "Mantener\nAbierto",
     "key": 17,
     "accion": "macro",
     "opciones": [
@@ -128,7 +137,7 @@
       {
         "accion": "teclas",
         "opciones": {
-          "teclas": ["shift", "enter"]
+          "teclas": ["enter"]
         }
       }
     ]

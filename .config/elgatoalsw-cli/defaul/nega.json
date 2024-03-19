@@ -1,18 +1,18 @@
 [
   {
-    "nombre": "Anterior Pestaña",
-    "key": "KEY_6",
+    "nombre": "Mover Anterior Escritorio",
+    "key": "KEY_11",
     "accion": "teclas",
     "opciones": {
-      "teclas": ["ctrl", "pageup"]
+      "teclas": ["ctrl", "alt", "shift", "left"]
     }
   },
   {
-    "nombre": "Siguiente Pestaña",
-    "key": "KEY_5",
+    "nombre": "Mover Anterior Escritorio",
+    "key": "KEY_12",
     "accion": "teclas",
     "opciones": {
-      "teclas": ["ctrl", "pagedown"]
+      "teclas": ["ctrl", "alt", "shift", "right"]
     }
   },
   {
@@ -24,27 +24,27 @@
     }
   },
   {
-    "nombre": "Mover Anterior Escritorio",
-    "key": "KEY_2",
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["ctrl", "alt", "shift", "right"]
-    }
-  },
-  {
-    "nombre": "Mover Anterior Escritorio",
-    "key": "KEY_1",
-    "accion": "teclas",
-    "opciones": {
-      "teclas": ["ctrl", "alt", "shift", "left"]
-    }
-  },
-  {
     "nombre": "Cerrar Pestaña",
     "key": "KEY_4",
     "accion": "teclas",
     "opciones": {
       "teclas": ["ctrl", "w"]
+    }
+  },
+  {
+    "nombre": "Siguiente Pestaña",
+    "key": "KEY_5",
+    "accion": "teclas",
+    "opciones": { 
+      "teclas": ["ctrl", "pagedown"]
+    }
+  },
+  {
+    "nombre": "Anterior Pestaña",
+    "key": "KEY_6",
+    "accion": "teclas",
+    "opciones": {
+      "teclas": ["ctrl", "pageup"]
     }
   }
 ]

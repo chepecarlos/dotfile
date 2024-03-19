@@ -6,7 +6,7 @@
     "key": 0,
     "accion": "os",
     "opciones": {
-      "comando": "(obs --profile Youtube_ALSW --collection 1.Tutoriales --scene Umaru > /dev/null 2>&1 )&"
+      "comando": "miOBS"
     }
   },
   {

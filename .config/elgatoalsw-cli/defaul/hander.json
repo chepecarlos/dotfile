@@ -242,11 +242,11 @@
     "accion": "siquiente_pagina"
   },
   {
-    "nombre": "Escena Zoon",
+    "nombre": "Escena Zoom",
     "key": "KEY_Q",
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Zoon"
+      "escena": "Zoom"
     }
   },
   {
@@ -254,7 +254,7 @@
     "key": "KEY_R",
     "accion": "obs_escena",
     "opciones": {
-      "escena": "Movil_Zoon"
+      "escena": "Movil_Zoom"
     }
   },
   {

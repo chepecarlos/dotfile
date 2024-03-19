@@ -30,6 +30,9 @@ alias miyoutube="npm run yt-actualizar"
 alias mitag="npm run tags-generate"
 alias mihtml="npm run test-html"
 
+# Contenido Tooltube
+alias videoGrabado='tooltube_analisis -e grabado'
+
 # ElGatoALSW
 alias EditarElGato="code $HOME/.config/elgatoalsw"
 
@@ -96,4 +99,4 @@ function computer-info
 }
 
 # Agregar flatpak
-alias code='/var/lib/flatpak/app/com.visualstudio.code/x86_64/stable/active/files/extra/vscode/code'
+# alias code='/var/lib/flatpak/app/com.visualstudio.code/x86_64/stable/active/files/extra/vscode/code'

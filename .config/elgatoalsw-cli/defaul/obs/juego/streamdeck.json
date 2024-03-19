@@ -71,11 +71,11 @@
     "icono_false": "defaul/obs/chepecarlos_off.png"
   },
   {
-    "nombre": "Zoon_Juego",
-    "titulo": "Zoon_Juego",
+    "nombre": "Zoom_Juego",
+    "titulo": "Zoom_Juego",
     "key": 8,
     "obs": "esena",
-    "esena": "Zoon_Juego",
+    "esena": "Zoom_Juego",
     "estado": false,
     "icono_true": "defaul/obs/chepecarlos_on.png",
     "icono_false": "defaul/obs/chepecarlos_off.png"
