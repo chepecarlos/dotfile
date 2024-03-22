@@ -19,9 +19,10 @@ alias mired='nmap -sP 192.168.50.0/24'
 # Android
 alias miandroid="scrcpy"
 
-# Microfono
+# Audio
 # alias mimicrofono="noisetorch -i AT2023.monitor -t 80 && pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
 alias mimicrofono="pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
+alias reiniciaraudio="pulseaudio -k && sudo alsa force-reload && sleep 2 && pulseaudio -k && sudo alsa force-reload"
 
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve --trace'
