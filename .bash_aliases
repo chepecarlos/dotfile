@@ -32,9 +32,10 @@ alias mitag="npm run tags-generate"
 alias mihtml="npm run test-html"
 
 # Contenido Tooltube 
+alias tooltubeCtrlZ="tooltube --canal ctrlz"
+
 alias subirChepeCarlos="basket-cli --blender_completo"
 alias subirCtrlZ="basket-cli --canal ctrlz --blender_completo"
-alias tooltubeCtrlZ="tooltube --canal ctrlz"
 
 alias asignadoChepeCarlos="tooltube_analisis --asignado chepecarlos"
 alias asignadoIngJuan="tooltube_analisis --asignado ingjuan"
@@ -50,6 +51,8 @@ alias estadoTomaB="tooltube_analisis --estado tomab"
 alias estadoRevision="tooltube_analisis --estado revision"
 alias estadoPreparando="tooltube_analisis --estado preparado"
 alias estadoPublicado="tooltube_analisis --estado publicado"
+alias actualizarEstados="tooltube_analisis --actualizar_estado"
+alias crearProyecto="basket-cli -p"
 
 # ElGatoALSW
 alias EditarElGato="code $HOME/.config/elgatoalsw"
@@ -74,10 +77,6 @@ alias push='git push origin'
 alias stat='git status'  # 'status' is protected name so using 'stat' instead
 alias tag='git tag'
 alias newtag='git tag -a'
-alias actualiar_modulos='git submodule foreach --recursive git pull origin master'
-alias actualizarSubmodule="git submodule update --remote --merge"
-
-
 
 # youtube-dl
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
