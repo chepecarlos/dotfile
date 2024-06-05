@@ -1,6 +1,6 @@
 [user]
 	name = chepecarlos
-	email = chepecarlos@alswblog.org
+	email = chepecarlos@alsw.net
 	username = chepecarlos
 [merge]
 	tool = meld
@@ -16,3 +16,5 @@
 	# Alias Extras 
 	l = log --oneline
 	lg = log --oneline --graph --decorate
+	pulll = pull --rebase
+	subupdate = submodule foreach --recursive git pull origin master
