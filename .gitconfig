@@ -13,8 +13,13 @@
 [credential]
 	helper = store
 [alias]
-	# Alias Extras 
-	l = log --oneline
-	lg = log --oneline --graph --decorate
+	# Alias Extras https://youtu.be/rpiUbhvVcok
+	l = log --oneline --graph --decorate
 	pulll = pull --rebase
+	nopulll = rebase --abort
 	subupdate = submodule foreach --recursive git pull origin master
+	estado = status -s
+	configurar = config --global --edit
+	destruir = checkout .
+	basurero = stash
+	enmendar = commint --amend --no-edit
