@@ -33,6 +33,7 @@ alias mihtml="npm run test-html"
 
 # Contenido Tooltube 
 alias tooltubeCtrlZ="tooltube --canal ctrlz"
+alias urlNotion="tooltube_get --notion"
 
 alias subirChepeCarlos="basket-cli --blender_completo"
 alias subirCtrlZ="basket-cli --canal ctrlz --blender_completo"
@@ -51,7 +52,10 @@ alias estadoTomaB="tooltube_analisis --estado tomab"
 alias estadoRevision="tooltube_analisis --estado revision"
 alias estadoPreparando="tooltube_analisis --estado preparado"
 alias estadoPublicado="tooltube_analisis --estado publicado"
+
 alias actualizarEstados="tooltube_analisis --actualizar_estado"
+alias actualizarEstadosCrear="tooltube_analisis --actualizar_estado --update"
+
 alias crearProyecto="basket-cli -p"
 
 # ElGatoALSW
