@@ -34,6 +34,7 @@ alias mihtml="npm run test-html"
 # Contenido Tooltube 
 alias tooltubeCtrlZ="tooltube --canal ctrlz"
 alias urlNotion="tooltube_get --notion"
+alias urlYoutube="tooltube_get -url"
 
 alias subirChepeCarlos="basket-cli --blender_completo"
 alias subirCtrlZ="basket-cli --canal ctrlz --blender_completo"
