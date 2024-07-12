@@ -23,6 +23,7 @@ alias miandroid="scrcpy"
 # alias mimicrofono="noisetorch -i AT2023.monitor -t 80 && pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
 alias mimicrofono="pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
 alias reiniciaraudio="pulseaudio -k && sudo alsa force-reload && sleep 2 && pulseaudio -k && sudo alsa force-reload"
+alias reiniciarAudio2="pulseaudio --start"
 
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve --trace'
@@ -31,7 +32,10 @@ alias miyoutube="npm run yt-actualizar"
 alias mitag="npm run tags-generate"
 alias mihtml="npm run test-html"
 
-# Contenido Tooltube 
+
+alias actualizarSub="mosquitto_pub -h test.mosquitto.org -t alsw/subreal -m"
+
+# Contenido Tooltube
 alias tooltubeCtrlZ="tooltube --canal ctrlz"
 alias urlNotion="tooltube_get --notion"
 alias urlYoutube="tooltube_get -url"
@@ -53,9 +57,12 @@ alias estadoTomaB="tooltube_analisis --estado tomab"
 alias estadoRevision="tooltube_analisis --estado revision"
 alias estadoPreparando="tooltube_analisis --estado preparado"
 alias estadoPublicado="tooltube_analisis --estado publicado"
+alias estadoAnalizando="tooltube_analisis --estado analizando"
 
 alias actualizarEstados="tooltube_analisis --actualizar_estado"
 alias actualizarEstadosCrear="tooltube_analisis --actualizar_estado --update"
+
+alias revisarVideo="tooltube_analisis --revisar"
 
 alias crearProyecto="basket-cli -p"
 
