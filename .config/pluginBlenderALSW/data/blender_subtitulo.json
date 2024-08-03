@@ -1,0 +1,16 @@
+{
+  "x": 0.5,
+  "y": 0.25,
+  "x_aliniacion": "CENTER",
+  "y_aliniacion": "TOP",
+  "tamanno": 60,
+  "t_rojo": 1,
+  "t_verde": 1,
+  "t_azul": 1,
+  "t_alfa": 1,
+  "f_rojo": 0,
+  "f_verde": 0,
+  "f_azul": 0,
+  "f_alfa": 0.7,
+  "canal": 10
+}
