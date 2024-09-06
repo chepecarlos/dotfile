@@ -9,6 +9,7 @@ alias df='df -h'
 alias resetshell='exec $SHELL'
 alias mitinta='ink -p usb'
 alias miOBS='(flatpak run com.obsproject.Studio > /dev/null 2>&1) &'
+alias blender='flatpak run org.blender.Blender'
 
 # Red
 alias p='ping 8.8.8.8'
@@ -65,6 +66,9 @@ alias actualizarEstadosCrear="tooltube_analisis --actualizar_estado --update"
 alias revisarVideo="tooltube_analisis --revisar"
 
 alias crearProyecto="basket-cli -p"
+alias crearArticulo="basket-cli -a"
+
+alias actualizarIcono="basket-cli -i"
 
 # ElGatoALSW
 alias EditarElGato="code $HOME/.config/elgatoalsw"
