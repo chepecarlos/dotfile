@@ -1,0 +1,16 @@
+{
+  "indice_duracion": 6,
+  "indice_tamanno": 60,
+  "indice_x": 0.09,
+  "indice_y": 0.91,
+  "fade_duracion": 3,
+  "fade_mode": "OUT",
+  "indice_texto_rojo": 0,
+  "indice_texto_azul": 0,
+  "indice_texto_verde": 0,
+  "indice_texto_alpha": 1,
+  "indice_box_rojo": 0,
+  "indice_box_azul": 0.79,
+  "indice_box_verde": 0.82,
+  "indice_box_alpha": 0.9
+}

@@ -1,4 +1,5 @@
 {
+  "fuente": "",
   "x": 0.5,
   "y": 0.25,
   "x_aliniacion": "CENTER",
@@ -8,9 +9,10 @@
   "t_verde": 1,
   "t_azul": 1,
   "t_alfa": 1,
-  "f_rojo": 0,
-  "f_verde": 0,
-  "f_azul": 0,
-  "f_alfa": 0.7,
-  "canal": 10
+  "borde": true,
+  "canal": 10,
+  "b_rojo": 1,
+  "b_verde": 1,
+  "b_azul": 1,
+  "b_alfa": 1
 }
