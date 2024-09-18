@@ -20,7 +20,7 @@ sudo apt install -y openssh-server nmap mdns-scan filezilla
 flatpak install --assumeyes -y -v com.protonvpn.www org.upnproutercontrol.UPnPRouterControl
 
 # Desarollo
-sudo apt install -y gnupg ruby-full build-essential zlib1g-dev mosquitto-clients ruby-bundler git gitg python3-pip meld software-properties-common apt-transport-https ca-certificates gnupg2 curl build-essential exa tree libxcb-cursor0
+sudo apt install -y gnupg ruby-full build-essential zlib1g-dev mosquitto-clients ruby-bundler git gitg python3-pip meld software-properties-common apt-transport-https ca-certificates gnupg2 curl build-essential tree libxcb-cursor0
 flatpak install --assumeyes -y -v libusb-1.0-0-dev com.visualstudio.code cc.arduino.IDE2 cc.arduino.arduinoide com.felipekinoshita.Wildcard
 pip install pyside6
 
