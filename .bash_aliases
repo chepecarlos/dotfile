@@ -28,11 +28,10 @@ alias reiniciarAudio2="pulseaudio --start"
 
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve --trace'
-alias midescripcion="npm run yt-generar-descripcion-2"
+alias midescripcion="npm run yt-generar-descripcion-py"
 alias miyoutube="npm run yt-actualizar"
 alias mitag="npm run tags-generate"
 alias mihtml="npm run test-html"
-
 
 alias actualizarSub="mosquitto_pub -h test.mosquitto.org -t alsw/subreal -m"
 
@@ -67,6 +66,7 @@ alias revisarVideo="tooltube_analisis --revisar"
 
 alias crearProyecto="basket-cli -p"
 alias crearArticulo="basket-cli -a"
+alias crearSubtitulos="basket-cli --blender_subtitulo"
 
 alias actualizarIcono="basket-cli -i"
 
@@ -108,14 +108,14 @@ alias ytt-thumbnail="youtube-dl --write-thumbnail --skip-download "
 alias yt-file="youtube-dl -f bestvideo+bestaudio --download-archive archive.txt"
 
 # Cambiando "ls" a "exa"
-alias ls='exa -a --group-directories-first' # Nuevo ls con opciones preferidas
-alias ld='exa -D --group-directories-first'  # Solo Folder
-alias ll='exa -l --header --group-directories-first' # Formato Largo
-alias lt='exa -aT --group-directories-first' # Mostar Dentro Folder
-alias l.='exa -a | egrep "^\."' # Solo ocultos
-alias li='exa -a --git-ignore --group-directories-first' # ignorar archivos de .gitignore
-alias lg='exa -al --header --git --group-directories-first' # Formato Largo mas Git data
-alias lp='exa -al --header --octal-permissions --group-directories-first' # Formato Largo mas Permisos en octal
+alias ls='exa --icons -a --group-directories-first' # Nuevo ls con opciones preferidas
+alias ld='exa --icons -D --group-directories-first'  # Solo Folder
+alias ll='exa --icons -l --header --group-directories-first' # Formato Largo
+alias lt='exa --icons -aT --group-directories-first' # Mostar Dentro Folder
+alias l.='exa --icons -a | egrep "^\."' # Solo ocultos
+alias li='exa --icons -a --git-ignore --group-directories-first' # ignorar archivos de .gitignore
+alias lg='exa --icons -al --header --git --group-directories-first' # Formato Largo mas Git data
+alias lp='exa --icons -al --header --octal-permissions --group-directories-first' # Formato Largo mas Permisos en octal
 
 # Arte
 alias midibujo='jp2a --colors'
