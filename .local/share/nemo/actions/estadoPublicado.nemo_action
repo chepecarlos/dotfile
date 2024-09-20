@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Estado Publicado
+Comment=Cambiar Estado Video a Grabado
+Exec=/home/chepecarlos/.local/bin/tooltube_analisis --estado publicado --folder %F
+Icon-Name=org.blender.Blender
+Selection=dir
+Extensions=any;
+Quote=double
