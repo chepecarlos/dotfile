@@ -59,6 +59,10 @@ alias estadoPreparando="tooltube_analisis --estado preparado"
 alias estadoPublicado="tooltube_analisis --estado publicado"
 alias estadoAnalizando="tooltube_analisis --estado analizando"
 
+alias canalChepecarlos="tooltube_analisis -c 'ChepeCarlos'"
+alias canalCursoVenta="tooltube_analisis -c 'Curso_Venta'"
+alias canalCtrlZ="tooltube_analisis -c 'CtrlZ'"
+
 alias actualizarEstados="tooltube_analisis --actualizar_estado"
 alias actualizarEstadosCrear="tooltube_analisis --actualizar_estado --update"
 
