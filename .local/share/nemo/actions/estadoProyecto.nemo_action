@@ -1,6 +1,6 @@
 [Nemo Action]
 Active=true
-Name=Asignar Estado
+Name=Cambiar Estado
 Comment=Cambiar Estado Video
 Exec=/home/chepecarlos/.local/bin/tooltube_gui --estado --folder %F
 Icon-Name=mail-attachment-symbolic

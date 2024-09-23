@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Cambiar Encargado
+Comment=Cambiar Asignado Video
+Exec=/home/chepecarlos/.local/bin/tooltube_gui --asignado --folder %F
+Icon-Name=mail-attachment-symbolic
+Selection=dir
+Extensions=any;
+Quote=double
