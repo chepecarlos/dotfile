@@ -5,5 +5,5 @@ Comment=Cambiar Estado Video
 Exec=/home/chepecarlos/.local/bin/tooltube_gui --estado --folder %F
 Icon-Name=mail-attachment-symbolic
 Selection=dir
-Extensions=any;
+Extensions=dir;
 Quote=double

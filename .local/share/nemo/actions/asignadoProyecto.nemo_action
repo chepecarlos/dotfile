@@ -5,5 +5,5 @@ Comment=Cambiar Asignado Video
 Exec=/home/chepecarlos/.local/bin/tooltube_gui --asignado --folder %F
 Icon-Name=mail-attachment-symbolic
 Selection=dir
-Extensions=any;
+Extensions=dir;
 Quote=double
