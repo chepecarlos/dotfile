@@ -2,8 +2,8 @@
 Active=true
 Name=Cambiar Encargado
 Comment=Cambiar Asignado Video
-Exec=/home/chepecarlos/.local/bin/tooltube_gui --asignado --folder %F
-Icon-Name=mail-attachment-symbolic
+Exec=<action_scripts/asignarProyecto.sh %F>
+Icon-Name=system-switch-user-symbolic
 Selection=dir
 Extensions=dir;
 Quote=double
