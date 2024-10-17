@@ -116,12 +116,6 @@
     - ctrl
     - s
   imagen: ./guardar.png
-- nombre: Musica
-  key: 40
-  accion: entrar_folder
-  opciones:
-    folder: ./musica
-  imagen: ./musica.png
 - nombre: AjusTime
   key: 14
   accion: teclas
@@ -143,37 +137,12 @@
   accion: entrar_folder
   opciones:
     folder: ./clips
-- nombre: config
-  titulo: config
-  key: 49
+- nombre: Animar
+  titulo: Animar
+  key: 17
   accion: entrar_folder
   opciones:
-    folder: ./config
-- nombre: Menu
-  titulo: Menu
-  key: 45
-  accion: teclas
-  opciones:
-    teclas:
-    - shift
-    - space
-  imagen: ./menu.png
-- nombre: TrimI
-  titulo: Trim I
-  key: 17
-  accion: teclas
-  opciones:
-    teclas:
-    - i
-  imagen: ./trim_i.png
-- nombre: TrimD
-  titulo: Trim D
-  key: 18
-  accion: teclas
-  opciones:
-    teclas:
-    - o
-  imagen: ./trim_d.png
+    folder: ./animar
 - nombre: aliniacion y zoom
   key: 19
   accion: entrar_folder
@@ -340,10 +309,70 @@
   opciones:
     folder: ./sonidos
   imagen: ./sonido.png
-- nombre: Velocidad
+- nombre: Musica
   key: 40
+  accion: entrar_folder
+  opciones:
+    folder: ./musica
+  imagen: ./musica.png
+- nombre: Menu
+  titulo: Menu
+  key: 45
+  accion: teclas
+  opciones:
+    teclas:
+    - shift
+    - space
+  imagen: ./menu.png
+- nombre: Velocidad
+  key: 46
   accion: entrar_folder
   opciones:
     folder: ./velocidad
   imagen: ./velocidad.png
+- nombre: config
+  titulo: config
+  key: 49
+  accion: entrar_folder
+  opciones:
+    folder: ./config
+- nombre: TrimI
+  titulo: Trim I
+  key: 56
+  accion: teclas
+  opciones:
+    teclas:
+    - i
+  imagen: ./trim_i.png
+- nombre: TrimD
+  titulo: Trim D
+  key: 57
+  accion: teclas
+  opciones:
+    teclas:
+    - o
+  imagen: ./trim_d.png
+- nombre: Inserta KeyFrame
+  titulo: Inserta\nKeyFrame
+  imagen_opciones:
+    fondo: #00b500
+  key: 13
+  accion: macro
+  opciones:
+    - accion: escribir_archivo
+      opciones:
+        archivo: /home/chepecarlos/.config/pluginBlenderALSW/data/animar.json
+        data:
+            - transform.scale_x: null
+              transform.scale_y: null
+              transform.offset_x: null
+              transform.offset_y: null
+              transform.rotation: null
+              cursor: 0
+    - accion: teclas
+      opciones:
+        teclas:
+        - ctrl
+        - shift
+        - Q
 ...
