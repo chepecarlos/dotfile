@@ -11,4 +11,5 @@ monitor_esp: false
 alias: true
 control: true
 super: true
+gui: true
 ---
