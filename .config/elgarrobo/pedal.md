@@ -1,6 +1,6 @@
 ---
 - id: 0
-  nombre: pedal
+  nombre: Pedal
   serial: FL20L1A03677
   file: pedal
 ---
