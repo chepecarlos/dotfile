@@ -116,6 +116,29 @@
     - ctrl
     - s
   imagen: ./guardar.png
+- nombre: Inserta KeyFrame
+  titulo: Inserta\nKeyFrame
+  key: 13
+  accion: macro
+  opciones:
+  - accion: escribir_archivo
+    opciones:
+      archivo: /home/chepecarlos/.config/pluginBlenderALSW/data/animar.json
+      data:
+      - transform.scale_x: null
+        transform.scale_y: null
+        transform.offset_x: null
+        transform.offset_y: null
+        transform.rotation: null
+        cursor: 0
+  - accion: teclas
+    opciones:
+      teclas:
+      - ctrl
+      - shift
+      - Q
+  imagen_opciones:
+    fondo: '#00ffaa'
 - nombre: AjusTime
   key: 14
   accion: teclas
@@ -352,27 +375,4 @@
     teclas:
     - o
   imagen: ./trim_d.png
-- nombre: Inserta KeyFrame
-  titulo: Inserta\nKeyFrame
-  imagen_opciones:
-    fondo: #00b500
-  key: 13
-  accion: macro
-  opciones:
-    - accion: escribir_archivo
-      opciones:
-        archivo: /home/chepecarlos/.config/pluginBlenderALSW/data/animar.json
-        data:
-            - transform.scale_x: null
-              transform.scale_y: null
-              transform.offset_x: null
-              transform.offset_y: null
-              transform.rotation: null
-              cursor: 0
-    - accion: teclas
-      opciones:
-        teclas:
-        - ctrl
-        - shift
-        - Q
 ...
