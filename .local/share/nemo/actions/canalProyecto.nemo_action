@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Cambiar Canal
+Comment=Cambiar Canal Video
+Exec=<action_scripts/canalProyecto.sh %F>
+Icon-Name=address-book-app-symbolic
+Selection=dir
+Extensions=dir;
+Quote=double

@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Cambiar Encargado
+Comment=Cambiar Asignado Video
+Exec=<action_scripts/asignarProyecto.sh %F>
+Icon-Name=system-switch-user-symbolic
+Selection=dir
+Extensions=dir;
+Quote=double

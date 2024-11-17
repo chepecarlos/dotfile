@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Cambiar Estado
+Comment=Cambiar Estado Video
+Exec=<action_scripts/estadoProyecto.sh %F>
+Icon-Name=mail-attachment-symbolic
+Selection=dir
+Extensions=dir;
+Quote=double

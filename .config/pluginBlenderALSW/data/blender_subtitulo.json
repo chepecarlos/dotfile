@@ -1,0 +1,18 @@
+{
+  "fuente": "",
+  "x": 0.5,
+  "y": 0.25,
+  "x_aliniacion": "CENTER",
+  "y_aliniacion": "TOP",
+  "tamanno": 60,
+  "t_rojo": 1,
+  "t_verde": 1,
+  "t_azul": 1,
+  "t_alfa": 1,
+  "borde": true,
+  "canal": 10,
+  "b_rojo": 1,
+  "b_verde": 1,
+  "b_azul": 1,
+  "b_alfa": 1
+}

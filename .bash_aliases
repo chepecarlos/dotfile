@@ -9,6 +9,7 @@ alias df='df -h'
 alias resetshell='exec $SHELL'
 alias mitinta='ink -p usb'
 alias miOBS='(flatpak run com.obsproject.Studio > /dev/null 2>&1) &'
+alias blender='flatpak run org.blender.Blender'
 
 # Red
 alias p='ping 8.8.8.8'
@@ -19,9 +20,11 @@ alias mired='nmap -sP 192.168.50.0/24'
 # Android
 alias miandroid="scrcpy"
 
-# Microfono
+# Audio
 # alias mimicrofono="noisetorch -i AT2023.monitor -t 80 && pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
 alias mimicrofono="pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
+alias reiniciaraudio="pulseaudio -k && sudo alsa force-reload && sleep 2 && pulseaudio -k && sudo alsa force-reload"
+alias reiniciarAudio2="pulseaudio --start"
 
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve --trace'
@@ -29,6 +32,47 @@ alias midescripcion="npm run yt-generar-descripcion-py"
 alias miyoutube="npm run yt-actualizar"
 alias mitag="npm run tags-generate"
 alias mihtml="npm run test-html"
+
+alias actualizarSub="mosquitto_pub -h test.mosquitto.org -t alsw/subreal -m"
+
+# Contenido Tooltube
+alias tooltubeCtrlZ="tooltube --canal ctrlz"
+alias urlNotion="tooltube_get --notion"
+alias urlYoutube="tooltube_get -url"
+
+alias subirChepeCarlos="basket-cli --blender_completo"
+alias subirCtrlZ="basket-cli --canal ctrlz --blender_completo"
+
+alias asignadoChepeCarlos="tooltube_analisis --asignado chepecarlos"
+alias asignadoIngJuan="tooltube_analisis --asignado ingjuan"
+alias asignadoPaty="tooltube_analisis --asignado paty"
+alias asignadoLuis="tooltube_analisis --asignado luis"
+
+alias estadoIdea="tooltube_analisis --estado idea"
+alias estadoDesarrollo="tooltube_analisis --estado desarrollo"
+alias estadoGuion="tooltube_analisis --estado guion"
+alias estadoGrabado="tooltube_analisis --estado grabado"
+alias estadoEdicion="tooltube_analisis --estado edicion"
+alias estadoTomaB="tooltube_analisis --estado tomab"
+alias estadoRevision="tooltube_analisis --estado revision"
+alias estadoPreparando="tooltube_analisis --estado preparado"
+alias estadoPublicado="tooltube_analisis --estado publicado"
+alias estadoAnalizando="tooltube_analisis --estado analizando"
+
+alias canalChepecarlos="tooltube_analisis -c 'ChepeCarlos'"
+alias canalCursoVenta="tooltube_analisis -c 'Curso_Venta'"
+alias canalCtrlZ="tooltube_analisis -c 'CtrlZ'"
+
+alias actualizarEstados="tooltube_analisis --actualizar_estado"
+alias actualizarEstadosCrear="tooltube_analisis --actualizar_estado --update"
+
+alias revisarVideo="tooltube_analisis --revisar"
+
+alias crearProyecto="basket-cli -p"
+alias crearArticulo="basket-cli -a"
+alias crearSubtitulos="basket-cli --blender_subtitulo"
+
+alias actualizarIcono="basket-cli -i"
 
 # ElGatoALSW
 alias EditarElGato="code $HOME/.config/elgatoalsw"
@@ -68,14 +112,14 @@ alias ytt-thumbnail="youtube-dl --write-thumbnail --skip-download "
 alias yt-file="youtube-dl -f bestvideo+bestaudio --download-archive archive.txt"
 
 # Cambiando "ls" a "exa"
-alias ls='exa -a --group-directories-first' # Nuevo ls con opciones preferidas
-alias ld='exa -D --group-directories-first'  # Solo Folder
-alias ll='exa -l --header --group-directories-first' # Formato Largo
-alias lt='exa -aT --group-directories-first' # Mostar Dentro Folder
-alias l.='exa -a | egrep "^\."' # Solo ocultos
-alias li='exa -a --git-ignore --group-directories-first' # ignorar archivos de .gitignore
-alias lg='exa -al --header --git --group-directories-first' # Formato Largo mas Git data
-alias lp='exa -al --header --octal-permissions --group-directories-first' # Formato Largo mas Permisos en octal
+alias ls='exa --icons -a --group-directories-first' # Nuevo ls con opciones preferidas
+alias ld='exa --icons -D --group-directories-first'  # Solo Folder
+alias ll='exa --icons -l --header --group-directories-first' # Formato Largo
+alias lt='exa --icons -aT --group-directories-first' # Mostar Dentro Folder
+alias l.='exa --icons -a | egrep "^\."' # Solo ocultos
+alias li='exa --icons -a --git-ignore --group-directories-first' # ignorar archivos de .gitignore
+alias lg='exa --icons -al --header --git --group-directories-first' # Formato Largo mas Git data
+alias lp='exa --icons -al --header --octal-permissions --group-directories-first' # Formato Largo mas Permisos en octal
 
 # Arte
 alias midibujo='jp2a --colors'
@@ -96,4 +140,4 @@ function computer-info
 }
 
 # Agregar flatpak
-alias code='/var/lib/flatpak/app/com.visualstudio.code/x86_64/stable/active/files/extra/vscode/code'
+# alias code='/var/lib/flatpak/app/com.visualstudio.code/x86_64/stable/active/files/extra/vscode/code'

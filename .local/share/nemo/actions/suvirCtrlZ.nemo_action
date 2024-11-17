@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Subir a CtrlZ
+Comment=Renderisa y sube video al Canal de Youtube de Ctrlz 
+Exec=/home/chepecarlos/.local/bin/basket-cli --canal ctrlz --blender_completo %F
+Icon-Name=org.blender.Blender
+Selection=notnone
+Extensions=blend;
+Quote=double
