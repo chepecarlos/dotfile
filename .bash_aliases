@@ -25,7 +25,7 @@ alias mimicrofono="pactl load-module module-loopback source=nui_mic_denoised_out
 
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve --trace'
-alias midescripcion="npm run yt-generar-descripcion-2"
+alias midescripcion="npm run yt-generar-descripcion-py"
 alias miyoutube="npm run yt-actualizar"
 alias mitag="npm run tags-generate"
 alias mihtml="npm run test-html"
