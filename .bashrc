@@ -86,6 +86,7 @@ fi
 # Agregar gems
 if [ -d "$HOME/gems/bin" ] ;
 then
+    export GEM_HOME="$HOME/gems"
     PATH="$HOME/gems/bin:$PATH"
 fi
 
@@ -113,3 +114,6 @@ export PS1="\[\e[0;1m\]┌─(\[\e[31;1m\]\u@\H\[\e[0;1m\])»{\[\e[36;1m\]\w\[\e
 
 # git especial para dotfile
 alias config='/usr/bin/git --git-dir=/home/chepecarlos/.cfg --work-tree=/home/chepecarlos'
+
+
+. "$HOME/.cargo/env"
