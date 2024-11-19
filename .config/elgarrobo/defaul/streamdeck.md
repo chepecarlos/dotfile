@@ -7,7 +7,7 @@
     folder: ./obs
   imagen: ./obs/obs.png
 - nombre: Arte
-  titulo: Arte
+  titulo: Artes
   key: 1
   accion: entrar_folder
   opciones:
@@ -27,6 +27,7 @@
   opciones:
     folder: ./recurso
   imagen: ./recurso/ryuk_pc.gif
+  indice: 3
 - nombre: Binarios
   titulo: Binarios
   key: 4
@@ -36,6 +37,7 @@
   imagen: ./binarios/cammy.gif
   imagen_opciones:
     fondo: '#FFFFFF'
+  indice: 4
 - nombre: Code
   titulo: Code
   key: 5
@@ -50,6 +52,7 @@
   opciones:
     folder: ./youtube
   imagen: ./youtube/youtube.gif
+  indice: 6
 - nombre: Link
   titulo: Link's
   key: 7
@@ -57,6 +60,7 @@
   opciones:
     folder: ./link
   imagen: ./link/link.gif
+  indice: 7
 - nombre: Notion
   key: 8
   accion: entrar_folder
@@ -69,40 +73,39 @@
   accion: entrar_folder
   opciones:
     folder: ./numerico
+- nombre: Numerico
+  key: 9
+  accion: entrar_folder
+  titulo: Numérico
 - nombre: Blender
   titulo: Blender
   key: 10
   accion: entrar_folder
   opciones:
     folder: ./blender
+    __estado: true
   imagen: ./blender/blender.png
 - nombre: inkscape
   titulo: Inkscape
-  key: 11
+  key: 12
   accion: entrar_folder
   opciones:
     folder: ./inkscape
   imagen: ./inkscape/inkscape.png
 - nombre: gimp
   titulo: Gimp
-  key: 12
+  key: 13
   accion: entrar_folder
   opciones:
     folder: ./gimp
   imagen: ./gimp/gimp.png
 - nombre: FreeCAD
   titulo: FreeCAD
-  key: 13
+  key: 14
   accion: entrar_folder
   opciones:
     folder: ./freecad
   imagen: ./freecad/freecad.png
-- nombre: emoji
-  titulo: emoji
-  key: 14
-  accion: entrar_folder
-  opciones:
-    folder: ./emoji
 - nombre: Crecetube
   titulo: Crecetube
   key: 15
@@ -127,6 +130,22 @@
   opciones:
     folder: ./sonidos
   imagen: ./sonidos/sonidos.png
+- nombre: BMO
+  key: 18
+  accion: mqtt
+  titulo: BMO
+  opciones:
+    mensaje: cambiar
+    topic: bmo/despierto
+  imagen: ./tutorial/bmo.gif
+- nombre: Salir
+  titulo: Salir
+  key: 19
+  accion: salir
+  imagen_opciones:
+    fondo: '#3c8a23'
+  imagen: ./salir.gif
+  indice: 4
 - nombre: FondoOBS
   titulo: FondoOBS
   key: 20
@@ -186,19 +205,4 @@
   accion: entrar_folder
   opciones:
     folder: ./config
-- nombre: Anterior
-  titulo: Anterior
-  key: 49
-  accion: anterior_pagina
-- nombre: siquiente
-  titulo: Siquiente
-  key: 54
-  accion: siquiente_pagina
-- nombre: Salir
-  titulo: Salir
-  key: 60
-  accion: salir
-  imagen_opciones:
-    fondo: '#3c8a23'
-  imagen: ./salir.gif
 ...
