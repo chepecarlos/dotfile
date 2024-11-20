@@ -138,6 +138,7 @@
     mensaje: cambiar
     topic: bmo/despierto
   imagen: ./tutorial/bmo.gif
+  indice: 3
 - nombre: Salir
   titulo: Salir
   key: 19
@@ -153,6 +154,11 @@
   opciones:
     folder: ./fondoobs
   imagen: ./fondoobs/fondoobs.png
+- nombre: Abir GUI
+  key: 22
+  accion: abir_gui
+  titulo: Abrir\nGUI
+  opciones: {}
 - nombre: Gromit
   titulo: Gromit
   key: 23
