@@ -1,0 +1,9 @@
+{
+    "aspell.check": "on",
+    "aspell.dict": "hu",
+    "aspell.lang": "hu",
+    "colorscheme": "gotham",
+    "scrollbar": true,
+    "softwrap": true,
+    "wordwrap": true
+}
