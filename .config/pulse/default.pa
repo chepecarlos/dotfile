@@ -1,0 +1,49 @@
+
+# Archivo  en .config/pulse/default.pa
+
+.include /etc/pulse/default.pa
+
+## Documentación
+## https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/
+## Reiniciar pulseaudio
+## pulseaudio -k && pulseaudio --start
+## Depuracion 
+## journalctl --user -xe | grep pulseaudio
+## Lista sink
+## pactl list sinks short
+## Lista Input
+## pactl list sink-inputs
+## Reproducir en un Disposiito
+## paplay --device=ElGarrobo /usr/share/sounds/alsa/Front_Center.wav
+
+### Creando Null-Sink Base
+load-module module-null-sink sink_name=AT2035 sink_properties=device.description="AT2035"
+load-module module-null-sink sink_name=UmaruRed sink_properties=device.description="UmaruRed"
+load-module module-null-sink sink_name=RyukLocal sink_properties=device.description="RyukLocal"
+load-module module-null-sink sink_name=ElGarrobo sink_properties=device.description="ElGarrobo"
+load-module module-null-sink sink_name=MisBocinas sink_properties=device.description="MisBocinas"
+
+## Creando Sink para Zoon
+load-module module-null-sink sink_name=ZoonMic sink_properties=device.description="ZoonMic"
+load-module module-null-sink sink_name=ZoonBocina sink_properties=device.description="ZoonBocina"
+
+### Salida a MisAudifonos
+load-module module-loopback source=RyukLocal.monitor sink=MisBocinas
+load-module module-loopback source=UmaruRed.monitor sink=MisBocinas
+load-module module-loopback source=ElGarrobo.monitor sink=MisBocinas
+load-module module-loopback source=ZoonBocina.monitor sink=MisBocinas
+
+## Preparar Zoon
+load-module module-loopback source=AT2035.monitor sink=ZoonMic
+load-module module-loopback source=RyukLocal.monitor sink=ZoonMic
+load-module module-loopback source=UmaruRed.monitor sink=ZoonMic
+load-module module-loopback source=ElGarrobo.monitor sink=ZoonMic
+
+## Creando Microfono Virtual
+load-module module-virtual-source source_name=ZoonMic.mic master=ZoonMic.monitor source_properties=device.description=ZoonMic
+
+### Micrófono a Sink
+load-module module-loopback source=alsa_input.usb-Focusrite_Scarlett_Solo_USB_Y7UUJY521E598A-00.analog-stereo sink=AT2035
+
+### Sacando de Sink a bocinas
+load-module module-loopback source=MisBocinas.monitor sink=alsa_output.usb-Focusrite_Scarlett_Solo_USB_Y7UUJY521E598A-00.analog-stereo 
