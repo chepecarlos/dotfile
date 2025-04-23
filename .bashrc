@@ -96,9 +96,9 @@ then
 fi
 
 # Agregando Blender
-if [ -d "/var/lib/flatpak/app/org.blender.Blender/current/active/files/blender" ] ;
+if [ -d "$HOME/5.Programas/1.Edicion/1.Blender/blender-4.3.0-linux-x64" ] ;
 then
-    PATH="/var/lib/flatpak/app/org.blender.Blender/current/active/files/blender:$PATH"
+    PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-4.3.0-linux-x64:$PATH"
 fi
 
 # Agregando gifgen
@@ -108,8 +108,29 @@ then
     PATH="$HOME/5.Programas/8.Extras/gifgen:$PATH"
 fi
 
+# Agregando Go
+if [ -d "/usr/local/go/bin" ] ;
+then
+    PATH="$PATH:/usr/local/go/bin"
+fi
+
 # Pront de Terminal
 export PS1="\[\e[0;1m\]┌─(\[\e[31;1m\]\u@\H\[\e[0;1m\])»{\[\e[36;1m\]\w\[\e[0;1m\]}\n└──┤ \[\e[0m\]"
 
+# pip bash completion start
+_pip_completion()
+{
+    COMPREPLY=( $( COMP_WORDS="${COMP_WORDS[*]}" \
+                   COMP_CWORD=$COMP_CWORD \
+                   PIP_AUTO_COMPLETE=1 $1 2>/dev/null ) )
+}
+complete -o default -F _pip_completion pip
+# pip bash completion end
+
+# Added by LM Studio CLI (lms)
+if [ -d "$HOME/.lmstudio/bin" ] ;
+then
+    PATH="$PATH:/home/chepecarlos/.lmstudio/bin"
+fi
 # git especial para dotfile
 alias config='/usr/bin/git --git-dir=/home/chepecarlos/.cfg --work-tree=/home/chepecarlos'
