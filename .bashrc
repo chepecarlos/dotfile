@@ -86,6 +86,7 @@ fi
 # Agregar gems
 if [ -d "$HOME/gems/bin" ] ;
 then
+    export GEM_HOME="$HOME/gems"
     PATH="$HOME/gems/bin:$PATH"
 fi
 
@@ -132,5 +133,6 @@ if [ -d "$HOME/.lmstudio/bin" ] ;
 then
     PATH="$PATH:/home/chepecarlos/.lmstudio/bin"
 fi
+
 # git especial para dotfile
 alias config='/usr/bin/git --git-dir=/home/chepecarlos/.cfg --work-tree=/home/chepecarlos'
