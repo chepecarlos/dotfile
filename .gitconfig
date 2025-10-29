@@ -7,7 +7,7 @@
 [diff]
 	tool = meld
 [core]
-	editor = nano
+	editor = micro
 [submodule]
 	recurse = true
 [credential]

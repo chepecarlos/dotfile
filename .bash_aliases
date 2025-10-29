@@ -6,7 +6,7 @@
 alias ..='cd ..'
 alias ...='cd ../..'
 alias df='df -h'
-alias resetshell='exec $SHELL'
+alias reiniciarShell='exec $SHELL'
 alias mitinta='ink -p usb'
 alias miOBS='(flatpak run com.obsproject.Studio > /dev/null 2>&1) &'
 alias blender='flatpak run org.blender.Blender'
@@ -21,10 +21,6 @@ alias mired='nmap -sP 192.168.50.0/24'
 alias miandroid="scrcpy"
 
 # Audio
-# alias mimicrofono="noisetorch -i AT2023.monitor -t 80 && pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
-alias mimicrofono="pactl load-module module-loopback source=nui_mic_denoised_out.monitor sink=Mic_Limpio latency_msec=1"
-alias reiniciaraudio="pulseaudio -k && sudo alsa force-reload && sleep 2 && pulseaudio -k && sudo alsa force-reload"
-alias reiniciarAudio2="pulseaudio --start"
 
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve --trace'
@@ -75,7 +71,7 @@ alias crearSubtitulos="basket-cli --blender_subtitulo"
 alias actualizarIcono="basket-cli -i"
 
 # ElGatoALSW
-alias EditarElGato="code $HOME/.config/elgatoalsw"
+alias editarElGato="code $HOME/.config/elgatoalsw"
 
 # CNC
 alias chitubox='export LD_LIBRARY_PATH=~/5.Programas/4.CNC/5.CHITUBOX_V1.8.1/lib; ~/5.Programas/4.CNC/5.CHITUBOX_V1.8.1/AppRun &'
