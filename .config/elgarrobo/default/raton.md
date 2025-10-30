@@ -30,14 +30,10 @@
   key: KEY_5
   accion: teclas
   opciones:
-    teclas:
-    - ctrl
-    - pagedown
+    teclas: ctrl + pagedown
 - nombre: Anterior Pestaña
   key: KEY_6
   accion: teclas
   opciones:
-    teclas:
-    - ctrl
-    - pageup
+    teclas: ctrl + pageup
 ...

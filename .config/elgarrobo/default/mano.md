@@ -1,4 +1,15 @@
 ---
+- nombre: animar clip
+  key: KEY_1
+  accion: macro
+  opciones:
+  - accion: entrar_folder
+    opciones:
+      folder: /animaciones/animarclip
+  - accion: mqtt
+    opciones:
+      topic: monitor
+      mensaje: Animar Clip
 - nombre: Camara Izquierda
   key: KEY_1
   accion: obs_filtro
@@ -13,11 +24,11 @@
     fuente: Umaru
     filtro: Mover Derecha
     estado: true
-- nombre: FondoOBS
+- nombre: Fondo OBS
   key: KEY_3
   accion: entrar_folder
   opciones:
-    folder: defaul/fondoobs
+    folder: /fondoobs
 - nombre: Camara
   key: KEY_4
   accion: obs_fuente
@@ -43,7 +54,7 @@
   key: KEY_C
   accion: reproducion
   opciones:
-    sonido: defaul/sonidos/aplausos.wav
+    archivo: /sonidos/aplausos.wav
 - nombre: Dibujar Limpiar
   key: KEY_CAPSLOCK
   accion: teclas
@@ -83,35 +94,46 @@
   key: KEY_F1
   accion: entrar_folder
   opciones:
-    folder: defaul/tutorial
+    folder: /tutorial
 - nombre: Salir
   key: KEY_F10
   accion: salir
 - nombre: Ventana Youtube Live
-  key: KEY_F2
+  key: KEY_F12
   accion: mostrar_ventana
   opciones:
     titulo: YouTube Studio
+- nombre: Jugar Pedal
+  key: KEY_F2
+  accion: entrar_folder
+  opciones:
+    folder: /jugar
+    dispositivo: pedal
+- nombre: Folder Tutorial
+  key: KEY_F1
+  accion: entrar_folder
+  opciones:
+    folder: /tutorial
 - nombre: Cambiar Twitch
   key: KEY_F3
   accion: mostrar_ventana
   opciones:
     titulo: Google Chrome
-- nombre: Cambiar OBS
+- nombre: Cambiar Ventana Proyección OBS
   key: KEY_F4
   accion: mostrar_ventana
   opciones:
-    titulo: OBS
+    titulo: Proyector
 - nombre: Cuack
   key: KEY_F5
   accion: reproducion
   opciones:
-    sonido: defaul/sonidos/cuack.wav
+    archivo: /sonidos/cuack.wav
 - nombre: Golpe
   key: KEY_F6
   accion: reproducion
   opciones:
-    sonido: defaul/sonidos/golpe.wav
+    archivo: /sonidos/golpe.wav
     ganancia: -5
 - nombre: Reiniciar Data
   key: KEY_F9
@@ -130,12 +152,12 @@
   key: KEY_LEFTALT
   accion: entrar_folder
   opciones:
-    folder: defaul/pulse
+    folder: /pulse
 - nombre: Pokemon
   key: KEY_LEFTCTRL
   accion: reproducion
   opciones:
-    sonido: defaul/sonidos/pokemon.wav
+    archivo: /sonidos/pokemon.wav
 - nombre: Cambiar Twitch
   key: KEY_LEFTSHIFT
   accion: mostrar_ventana
@@ -146,9 +168,14 @@
   accion: siquiente_pagina
 - nombre: Escena Zoom
   key: KEY_Q
-  accion: obs_escena
+  accion: macro
   opciones:
-    escena: Zoom
+  - accion: obs_escena
+    opciones:
+      escena: Zoom
+  - accion: obs_escena_vertical
+    opciones:
+      escena: Zoom_V
 - nombre: Apoyo Zoon
   key: KEY_R
   accion: obs_escena
@@ -169,9 +196,14 @@
   accion: detener_reproducion
 - nombre: Escena Cenital Zoom
   key: KEY_T
-  accion: obs_escena
+  accion: macro
   opciones:
-    escena: Cenital_Zoom
+  - accion: obs_escena
+    opciones:
+      escena: Cenital_Zoom
+  - accion: obs_escena_vertical
+    opciones:
+      escena: Cenital_Zoom_V
 - nombre: Dibujar Activar/Desactivar
   key: KEY_TAB
   accion: teclas
@@ -182,7 +214,7 @@
   key: KEY_V
   accion: reproducion
   opciones:
-    sonido: defaul/sonidos/kawai.wav
+    archivo: /sonidos/kawai.wav
 - nombre: Esena Solo Umaru
   key: KEY_W
   accion: obs_escena
@@ -192,10 +224,10 @@
   key: KEY_X
   accion: reproducion
   opciones:
-    sonido: defaul/sonidos/rebobinar.wav
+    archivo: /sonidos/rebobinar.wav
 - nombre: Sonido Chan
   key: KEY_Z
   accion: reproducion
   opciones:
-    sonido: defaul/sonidos/chan.wav
+    archivo: /sonidos/chan.wav
 ...

@@ -20,7 +20,7 @@
     opciones:
       escena: Ryuk_V
 - nombre: Salir
-  key: KEY_DELETE
+  key: KEY_ESC
   accion: salir
 - nombre: Escena apoyo
   key: KEY_F
@@ -43,7 +43,7 @@
 - nombre: Apagar Aro
   key: KEY_F11
   accion: os
-  opciones:
+  opciones:  
     comando: curl -s http://192.168.50.123/muerto
 - nombre: Luces
   titulo: "Luces\n   Izquierda"
@@ -193,4 +193,10 @@
         - ctrl
         - shift
         - Y
+- nombre: Comer Minecraft
+  key: KEY_UP
+  accion: reproducion
+  opciones:
+    archivo: /sonidos/Comer-Minecraft.mp3
+    ganancia: 5
 ...
