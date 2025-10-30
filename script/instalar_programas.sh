@@ -4,7 +4,8 @@ sudo apt -y upgrade
 flatpak --assumeyes -y update
 
 # Generales
-sudo apt install -y rar eza scrcpy okular mint-meta-codecs vlc bleachbit cheese dconf-editor
+echo "Instalando programas generales..."
+sudo apt install -y rar eza scrcpy guake okular mint-meta-codecs vlc bleachbit cheese dconf-editor gparted
 flatpak install --assumeyes -y -v re.sonny.OhMySVG om.github.joseexposito.touche io.github.fabrialberio.pinapp io.github.prateekmedia.appimagepool com.basemark.BasemarkGPU com.ktechpit.ultimate-media-downloader io.github.JakubMelka.Pdf4qt org.linux_hardware.hw-probe org.gabmus.whatip org.telegram.desktop com.discordapp.Discord com.github.tchx84.Flatseal io.github.mimbrero.WhatsAppDesktop io.missioncenter.MissionCenter io.github.flattool.Warehouse
 
 # Creacion de contenido
