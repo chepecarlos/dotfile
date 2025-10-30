@@ -1,5 +1,10 @@
 .cfg
-.config/Code/*
 
+# Ignorar ElGarrobo
+.config/elgarrobo/logs
+.config/elgarrobo/data
+
+# Ignorar Visual Estudio Code
+.config/Code/*
 !.config/Code/User/settings.json
 !.config/Code/User/keybindings.json
