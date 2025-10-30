@@ -1,0 +1,100 @@
+---
+- nombre: '7'
+  titulo: '7'
+  key: 1
+  accion: teclas
+  opciones:
+    teclas:
+    - num7
+- nombre: '8'
+  titulo: '8'
+  key: 2
+  accion: teclas
+  opciones:
+    teclas:
+    - num8
+- nombre: '9'
+  titulo: '9'
+  key: 3
+  accion: teclas
+  opciones:
+    teclas:
+    - num9
+- nombre: +
+  titulo: +
+  key: 4
+  accion: teclas
+  opciones:
+    teclas:
+    - add
+- nombre: /
+  titulo: /
+  key: 5
+  accion: teclas
+  opciones:
+    teclas:
+    - divide
+- nombre: '4'
+  titulo: '4'
+  key: 6
+  accion: teclas
+  opciones:
+    teclas:
+    - num4
+- nombre: '5'
+  titulo: '5'
+  key: 7
+  accion: teclas
+  opciones:
+    teclas:
+    - num5
+- nombre: '6'
+  titulo: '6'
+  key: 8
+  accion: teclas
+  opciones:
+    teclas:
+    - num6
+- nombre: '-'
+  titulo: '-'
+  key: 9
+  accion: teclas
+  opciones:
+    teclas:
+    - subtract
+- nombre: '1'
+  titulo: '1'
+  key: 11
+  accion: teclas
+  opciones:
+    teclas:
+    - num1
+- nombre: '2'
+  titulo: '2'
+  key: 12
+  accion: teclas
+  opciones:
+    teclas:
+    - num2
+- nombre: '3'
+  titulo: '3'
+  key: 13
+  accion: teclas
+  opciones:
+    teclas:
+    - num3
+- nombre: .
+  titulo: .
+  key: 14
+  accion: teclas
+  opciones:
+    teclas:
+    - decimal
+- nombre: '0'
+  titulo: '0'
+  key: 15
+  accion: teclas
+  opciones:
+    teclas:
+    - num0
+...

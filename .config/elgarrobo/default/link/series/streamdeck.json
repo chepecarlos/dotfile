@@ -1,0 +1,83 @@
+[
+  {
+    "nombre": "Git",
+    "titulo": "GIT",
+    "key": 0,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/git"
+    }
+  },
+  {
+    "nombre": "Blender",
+    "titulo": "Blender",
+    "key": 1,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/blender"
+    }
+  },
+  {
+    "nombre": "MQTT",
+    "titulo": "MQTT",
+    "key": 2,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/mqtt"
+    }
+  },
+  {
+    "nombre": "Bluetooth",
+    "titulo": "Bluetooth",
+    "key": 3,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/bluetooth"
+    }
+  },
+  {
+    "nombre": "FreeCAD",
+    "titulo": "FreeCAD",
+    "key": 4,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/freecad"
+    }
+  },
+  {
+    "nombre": "OBS",
+    "titulo": "OBS",
+    "key": 5,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/obs"
+    }
+  },
+  {
+    "nombre": "Arduino Avanzado",
+    "titulo": "Arduino\nAvanzado",
+    "key": 6,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/series/arduino/avanzado/"
+    }
+  },
+  {
+    "nombre": "Arduino Basico",
+    "titulo": "Arduino\nBasico",
+    "key": 7,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/series/arduino/basico"
+    }
+  },
+  {
+    "nombre": "Python",
+    "titulo": "Python",
+    "key": 8,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "https://nocheprogramacion.com/series/python"
+    }
+  }
+]

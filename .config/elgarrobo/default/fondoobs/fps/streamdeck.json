@@ -1,0 +1,171 @@
+[
+  {
+    "nombre": "Fondo 60 fps",
+    "titulo": "60 fps",
+    "key": 0,
+    "imagen_opciones": {
+      "fondo": "#00b500"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/asignar",
+      "mensaje": "60"
+    }
+  },
+  {
+    "nombre": "Fondo 30 fps",
+    "titulo": "30 fps",
+    "key": 1,
+    "imagen_opciones": {
+      "fondo": "#00b500"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/asignar",
+      "mensaje": "30"
+    }
+  },
+  {
+    "nombre": "Fondo 15 fps",
+    "titulo": "15 fps",
+    "key": 2,
+    "imagen_opciones": {
+      "fondo": "#00b500"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/asignar",
+      "mensaje": "15"
+    }
+  },
+  {
+    "nombre": "Fondo 5 fps",
+    "titulo": "5 fps",
+    "key": 3,
+    "imagen_opciones": {
+      "fondo": "#00b500"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/asignar",
+      "mensaje": "5"
+    }
+  },
+  {
+    "nombre": "Fondo 0 fps",
+    "titulo": "0 fps",
+    "key": 4,
+    "imagen_opciones": {
+      "fondo": "#00b500"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/asignar",
+      "mensaje": "0"
+    }
+  },
+  {
+    "nombre": "Fondo +1 fps",
+    "titulo": "+1",
+    "key": 5,
+    "imagen_opciones": {
+      "fondo": "#ff0000"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "1"
+    }
+  },
+  {
+    "nombre": "Fondo +5 fps",
+    "titulo": "+5",
+    "key": 6,
+    "imagen_opciones": {
+      "fondo": "#ff9b00"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "5"
+    }
+  },
+  {
+    "nombre": "Fondo +10 fps",
+    "titulo": "+10",
+    "key": 7,
+    "imagen_opciones": {
+      "fondo": "#ffff00"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "10"
+    }
+  },
+  {
+    "nombre": "Fondo +25 fps",
+    "titulo": "+25",
+    "key": 8,
+    "imagen_opciones": {
+      "fondo": "#ffff7e"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "+25"
+    }
+  },
+  {
+    "nombre": "Fondo -1 fps",
+    "titulo": "-1",
+    "key": 10,
+    "imagen_opciones": {
+      "fondo": "#ff0000"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "-1"
+    }
+  },
+  {
+    "nombre": "Fondo -5 fps",
+    "titulo": "-5",
+    "key": 11,
+    "imagen_opciones": {
+      "fondo": "#ff9b00"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "-5"
+    }
+  },
+  {
+    "nombre": "Fondo -10 fps",
+    "titulo": "-10",
+    "key": 12,
+    "imagen_opciones": {
+      "fondo": "#ffff00"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "-10"
+    }
+  },
+  {
+    "nombre": "Fondo -25 fps",
+    "titulo": "-25",
+    "key": 13,
+    "imagen_opciones": {
+      "fondo": "#ffff7e"
+    },
+    "accion": "mqtt",
+    "opciones": {
+      "topic": "alsw/fondoOBS/fps/cambio",
+      "mensaje": "-25"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+---
+Dispositivos:
+    - Mic_Limpio
+    - Microfono_Audiencia
+    - UmaruRed
+    - Firefox
+    - ElGatoALSW
+    - SoloYo
+    - Audifonos_Audiencia
+    - SoloOBS
+    - ZoonMic
+---

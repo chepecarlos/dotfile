@@ -1,0 +1,76 @@
+[
+  {
+    "nombre": "X2",
+    "imagen": "./../x2.png",
+    "key": 0,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["alt", "2"]
+        }
+      },
+      {
+        "accion": "regresar_folder"
+      }
+    ]
+  },
+  {
+    "nombre": "X3",
+    "imagen": "./../x3.png",
+    "key": 1,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["alt", "3"]
+        }
+      },
+      {
+        "accion": "regresar_folder"
+      }
+    ]
+  },
+  {
+    "nombre": "X4",
+    "imagen": "./../x4.png",
+    "key": 2,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["alt", "4"]
+        }
+      },
+      {
+        "accion": "regresar_folder"
+      }
+    ]
+  },
+  {
+    "nombre": "X10",
+    "imagen": "./../x10.png",
+    "key": 3,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["alt", "5"]
+        }
+      },
+      {
+        "accion": "regresar_folder"
+      }
+    ]
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "accion": "regresar_folder",
+    "key": 4
+  }
+]

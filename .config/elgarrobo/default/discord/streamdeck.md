@@ -1,0 +1,10 @@
+---
+- nombre: Comandos teclado
+  titulo: Comandos
+  key: 1
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - /
+...

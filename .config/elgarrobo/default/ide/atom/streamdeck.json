@@ -1,0 +1,74 @@
+[
+  {
+    "nombre": "Beautify",
+    "titulo": "Beautify",
+    "key": 0,
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["alt", "ctrl", "b"]
+    }
+  },
+  {
+    "nombre": "Salvar",
+    "titulo": "Salvar",
+    "key": 1,
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["ctrl", "s"]
+    }
+  },
+  {
+    "nombre": "TODO",
+    "titulo": "TODO",
+    "key": 2,
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["shift", "alt", "t"]
+    }
+  },
+  {
+    "nombre": "Live Server",
+    "titulo": "Live Server",
+    "key": 3,
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["ctrl", "alt", "l"]
+    }
+  },
+  {
+    "nombre": "goto-definition",
+    "titulo": "goto-definition",
+    "key": 4,
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["ctrl", "alt", "g"]
+    }
+  },
+  {
+    "nombre": "Markdown P",
+    "titulo": "Markdown",
+    "key": 5,
+    "accion": "teclas", 
+        "opciones":{
+          "teclas": ["ctrl", "shift", "m"]
+    }
+  },
+  {
+    "nombre": "Anterior",
+    "titulo": "Anterior",
+    "accion": "anterior_pagina",
+    "key": 19
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "Siquiente",
+    "accion": "siquiente_pagina",
+    "key": 24
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "accion": "regresar_folder",
+    "key": 29
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "nombre": "MrTee",
+    "titulo": "MrTee",
+    "key": 0,
+    "accion": "macro",
+    "opciones": [
+      {
+       "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "clip",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/3.Musica/1.Mr_Tea.mp3"
+        }
+      },
+      {
+        "accion": "teclas", 
+        "opciones":{
+          "teclas": ["ctrl", "shift", "o"]
+    }
+      },
+      {
+        "accion": "regresar_folder"
+      }
+    ]
+  },
+  {
+    "nombre": "ALSW",
+    "titulo": "ALSW",
+    
+    "key": 1,
+    "accion": "macro",
+    "opciones": [
+      {
+       "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "clip",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/3.Musica/2.Musica_ALSW.mp3"
+        }
+      },
+      {
+        "accion": "teclas", 
+        "opciones":{
+          "teclas": ["ctrl", "shift", "o"]
+    }
+      },
+      {
+        "accion": "regresar_folder"
+      }
+    ]
+  },
+  {
+    "nombre": "Snack Time",
+    "titulo": "Snack Time",
+    
+    "key": 2,
+    "accion": "macro",
+    "opciones": [
+      {
+       "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "clip",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/3.Musica/3.Snack_Time.mp3"
+        }
+      },
+      {
+        "accion": "teclas", 
+        "opciones":{
+          "teclas": ["ctrl", "shift", "o"]
+    }
+      },
+      {
+        "accion": "regresar_folder"
+      }
+    ]
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "accion": "regresar_folder",
+    "key": 4
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "Regresar",
+    "accion": "regresar_folder",
+    "key": 29
+  }
+]

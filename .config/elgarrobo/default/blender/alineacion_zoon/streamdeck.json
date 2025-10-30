@@ -1,0 +1,697 @@
+[
+  {
+    "nombre": "izquierda Ariba",
+    "key": 1,
+    "titulo": "Izquierda\nAriba",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_horizontal",
+          "valor": "izquierda"
+        }
+      },
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_vertical",
+          "valor": "ariba"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "r"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "centro ariba",
+    "key": 2,
+    "titulo": "Ariba",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_horizontal",
+          "valor": "centro"
+        }
+      },
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_vertical",
+          "valor": "ariba"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "r"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "derecha ariba",
+    "key": 3,
+    "titulo": "Derecha\nAriba",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_horizontal",
+          "valor": "derecha"
+        }
+      },
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_vertical",
+          "valor": "ariba"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "r"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "centro izquierda",
+    "key": 6,
+    "titulo": "izquierda",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_horizontal",
+          "valor": "izquierda"
+        }
+      },
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_vertical",
+          "valor": "centro"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "r"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "centro",
+    "key": 7,
+    "titulo": "Centro",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_horizontal",
+          "valor": "centro"
+        }
+      },
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_vertical",
+          "valor": "centro"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "r"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "derecha abajo ",
+    "key": 8,
+    "titulo": "Derecha",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_horizontal",
+          "valor": "derecha"
+        }
+      },
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_vertical",
+          "valor": "centro"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "r"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "izquierda abajo",
+    "key": 11,
+    "titulo": "Izquierda\nAbajo",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_horizontal",
+          "valor": "izquierda"
+        }
+      },
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_vertical",
+          "valor": "abajo"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "r"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "centro abajo",
+    "key": 12,
+    "titulo": "Abajo",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_horizontal",
+          "valor": "centro"
+        }
+      },
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_vertical",
+          "valor": "abajo"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "r"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "derecha abajo",
+    "key": 13,
+    "titulo": "Derecha\nAbajo",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_horizontal",
+          "valor": "derecha"
+        }
+      },
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "alineacion_vertical",
+          "valor": "abajo"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "r"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "siquiente",
+    "key": 14,
+    "accion": "siquiente_pagina"
+  },
+  {
+    "nombre": "+0.01",
+    "key": 17,
+    "titulo": "+0.01",
+    "accion": "macro",
+    "opciones": [
+  {
+    "accion": "escrivir_valor",
+    "opciones": {
+      "archivo": "data/blender.json",
+      "atributo": "movimiento_horizontal",
+      "valor": 0.01
+    }
+  },
+  {
+    "accion": "teclas",
+    "opciones": {
+      "teclas": [
+        "ctrl",
+        "j"
+      ]
+    }
+  }
+]
+  },
+  {
+    "nombre": "-0.01",
+    "key": 21,
+    "titulo": "-0.01",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "movimiento_vertical",
+          "valor": -0.01
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "j"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "+0.01",
+    "key": 23,
+    "titulo": "+0.01",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "movimiento_vertical",
+          "valor": 0.01
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "j"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "-0.01",
+    "key": 27,
+    "titulo": "-0.01",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "movimiento_horizontal",
+          "valor": -0.01
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "j"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "siquiente",
+    "titulo": "siquiente",
+    "key": 29,
+    "accion": "siquiente_pagina"
+  },
+  {
+    "nombre": "X1",
+    "key": 30,
+    "titulo": "X1",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "zoon",
+          "valor": 1
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "p"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "X2",
+    "key": 31,
+    "titulo": "X2",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "zoon",
+          "valor": 2
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "p"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "X3",
+    "key": 32,
+    "titulo": "X3",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "zoon",
+          "valor": 3
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "p"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "X4",
+    "key": 33,
+    "titulo": "X4",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "zoon",
+          "valor": 4
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "p"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "X5",
+    "key": 34,
+    "titulo": "X5",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "zoon",
+          "valor": 5
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "p"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "X0.10",
+    "key": 35,
+    "titulo": "X0.10",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "zoon",
+          "valor": 0.1
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "p"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "X0.25",
+    "key": 36,
+    "titulo": "X0.25",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "zoon",
+          "valor": 0.25
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "p"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "X0.50",
+    "key": 37,
+    "titulo": "X0.50",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "zoon",
+          "valor": 0.5
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "p"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "X0.75",
+    "key": 38,
+    "titulo": "X0.75",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "zoon",
+          "valor": 0.75
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "p"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "X0.90",
+    "key": 39,
+    "titulo": "X0.90",
+
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "zoon",
+          "valor": 0.9
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "p"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "-0.10",
+    "key": 40,
+    "titulo": "-0.10",
+
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "aumentar",
+          "valor": -0.1
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "u"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "-0.05",
+    "key": 41,
+    "titulo": "-0.05",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "aumentar",
+          "valor": -0.05
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "u"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "+0.05",
+    "key": 42,
+    "titulo": "+0.05",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "aumentar",
+          "valor": 0.05
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "u"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "+0.10",
+    "key": 43,
+    "titulo": "+0.10",
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escrivir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "aumentar",
+          "valor": 0.1
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "u"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "regresar",
+    "key": 44,
+    "titulo": "Regresar",
+    "accion": "anterior_pagina"
+  },
+  {
+    "nombre": "regresar",
+    "titulo": "regresar",
+    "key": 59,
+    "accion": "anterior_pagina"
+  }
+]

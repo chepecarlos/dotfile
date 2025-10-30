@@ -1,0 +1,41 @@
+[
+  {
+    "nombre": "Geometría",
+    "titulo": "Geometría",
+    "key": 0,
+    "imagen": "./geometria/linea.png",
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./geometria"
+    }
+  },
+  {
+    "nombre": "Restricciones",
+    "titulo": "Restricciones",
+    "imagen": "./restricciones/distancia.png",
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
+    "key": 1,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./restricciones"
+    }
+  },
+  {
+    "nombre": "Vista",
+    "titulo": "Vista",
+    "imagen": "./restricciones/distancia.png",
+    "imagen_opciones": {
+      "fondo": "#ffffff"
+    },
+    "key": 2,
+    "accion": "entrar_folder",
+    "opciones": {
+      "folder": "./restricciones"
+    }
+  }
+]

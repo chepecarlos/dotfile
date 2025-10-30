@@ -1,0 +1,113 @@
+[{
+  "nombre": "Reiniciar",
+  "titulo": "Reiniciar",
+  "key": 0,
+  "icono_texto": {
+    "archivo": "data/news.json",
+    "atributo": "id"
+  },
+  "accion": "macro",
+    "opciones": [{
+    "news": "asignar",
+    "valor": 0
+  }, {
+    "news": "actualizar"
+  }, {
+    "opcion": "actualizar"
+  }]
+}, {
+  "nombre": "Anterior",
+  "titulo": "i--",
+  "imagen": "defaul/obs/news/anterior.png",
+  "key": 1,
+  "accion": "macro",
+    "opciones": [{
+    "data_archivo": {
+      "opcion": "agregar",
+      "archivo": "data/news.json",
+      "atributo": "id",
+      "valor": -1
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "minimo",
+      "archivo": "data/news.json",
+      "atributo": "id",
+      "valor": 0
+    }
+  }, {
+    "news": "actualizar"
+  }, {
+    "opcion": "actualizar"
+  }]
+}, {
+  "nombre": "Siquiente",
+  "titulo": "i++",
+  "imagen": "defaul/obs/news/siquiente.png",
+  "key": 2,
+  "accion": "macro",
+    "opciones": [{
+    "data_archivo": {
+      "opcion": "agregar",
+      "archivo": "data/news.json",
+      "atributo": "id",
+      "valor": 1
+    }
+  }, {
+    "data_archivo": {
+      "opcion": "maximo",
+      "archivo": "data/news.json",
+      "atributo": "id",
+      "valor": "max"
+    }
+  }, {
+    "news": "actualizar"
+  }, {
+    "opcion": "actualizar"
+  }]
+}, {
+  "nombre": "LinkNews",
+  "titulo": "Link",
+  "estado": false,
+  "icono_true": "defaul/obs/news/link.png",
+  "icono_false": "defaul/obs/alerta_off.png",
+  "key": 3,
+  "news": "pegar"
+}, {
+  "nombre": "Total",
+  "titulo": "Total",
+  "key": 5,
+  "icono_texto": {
+    "archivo": "data/news.json",
+    "atributo": "max"
+  }
+}, {
+  "nombre": "grabar",
+  "key": 10,
+  "obs": "grabando",
+  "estado": false,
+  "icono_true": "defaul/obs/grabar_on.png",
+  "icono_false": "defaul/obs/grabar_off.png"
+}, {
+  "nombre": "EnVivo",
+  "key": 11,
+  "obs": "envivo",
+  "estado": false,
+  "icono_true": "defaul/obs/envivo_on.png",
+  "icono_false": "defaul/obs/envivo_off.png"
+}, {
+  "nombre": "Anterior",
+  "titulo": "Anterior",
+  "accion": "anterior_pagina",
+  "key": 19
+}, {
+  "nombre": "siquiente",
+  "titulo": "Siquiente",
+  "accion": "siquiente_pagina",
+  "key": 24
+}, {
+  "nombre": "regresar",
+  "titulo": "Regresar",
+  "accion": "regresar_folder",
+  "key": 29
+}]

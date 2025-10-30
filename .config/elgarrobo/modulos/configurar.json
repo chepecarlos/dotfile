@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "StreamDeck",
+    "tipo": "dispositivo",
+    "atributo": "deck",
+    "descripcion": "Permite usa StreamDeck como dispositivo de entrada"
+  },
+  {
+    "nombre": "Teclado",
+    "tipo": "dispositivo",
+    "atributo": "teclado",
+    "descripcion": "Permite usar teclados USB como dispositivo de entrada"
+  },
+  {
+    "nombre": "MQTT",
+    "tipo": "dispositivo",
+    "atributo": "mqtt",
+    "descripcion": "Permite usar Mensajes MQTT como dispositivo de entrada"
+  },
+  {
+    "nombre": "OBS Websocket",
+    "tipo": "modulo",
+    "atributo": "obs",
+    "descripcion": "Agrega acciones y funciones para controlar OBS Estudio"
+  },
+  {
+    "nombre": "Pulse",
+    "tipo": "modulo",
+    "atributo": "mqtt",
+    "descripcion": "Agrega acciones y funciones para controlar Pulse Audio"
+  },
+  {
+    "nombre": "Monitor ESP",
+    "tipo": "modulo",
+    "atributo": "monitor_esp",
+    "descripcion": "Envia mensaje MQTT "
+  },
+  {
+    "nombre": "Super",
+    "tipo": "modulo",
+    "atributo": "super",
+    "descripcion": "Test"
+  }
+]

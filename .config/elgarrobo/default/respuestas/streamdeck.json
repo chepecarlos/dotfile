@@ -1,0 +1,29 @@
+[
+  {
+    "nombre": "Ayuda Discord",
+    "titulo": "Ayuda\nDiscord",
+    "key": 0,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "si quieres apoyo entra a Discord de la comunidad de ALSW nos vemos en CANAL Ayuda https://nocheprogramacion.com/discord y hablamos :) "
+    }
+  },
+  {
+    "nombre": "Codigo en descripcion",
+    "titulo": "Codigo\nDescripcion",
+    "key": 1,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "Codigo y Diagrama estan en Sitio Web NocheProgramacion link en descripcion"
+    }
+  },
+  {
+    "nombre": "Serial",
+    "titulo": "Serial.println",
+    "key": 3,
+    "accion": "escribir",
+    "opciones": {
+      "texto": "Serial.println(\" Hola Mundo\" );"
+    }
+  }
+]
