@@ -5,8 +5,9 @@
         "strings": "on"
     },
     "git.confirmSync": false,
-    "cSpell.language": "en,es",
-    "cSpell.userWords": [
+    "cSpell.language": "en,es",// Agregado soporte para español para el corrector ortográfico
+    "cSpell.userWords": [// Agregado palabras personalizadas para el corrector ortográfico
         "ChepeCarlos"
     ],
+    "files.autoSave": "afterDelay",
 }
