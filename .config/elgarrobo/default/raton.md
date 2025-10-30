@@ -1,4 +1,12 @@
 ---
+- nombre: Mostrar Areas de Trabajo
+  key: KEY_1
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - alt
+    - up
 - nombre: Clip medio
   key: KEY_2
   accion: presionar
