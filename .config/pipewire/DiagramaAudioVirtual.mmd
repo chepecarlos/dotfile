@@ -1,0 +1,80 @@
+---
+title: Diagrama Audio Virtual de ChepeCarlos
+config:
+    layout: elk
+    look: handDrawn
+    theme: dark
+---
+flowchart LR
+    %% USB
+        MicrofonoUSB@{shape: lean-r, label: "Micrófono\nUSB"}
+        MicrofonoUSB:::rojo
+        BocinaUSB@{shape: lean-l, label: "Bocina\nUSB"}
+        BocinaUSB:::rojo
+    %% Zoom
+        BocinaZoom@{shape: lean-r, label: "Bocina\nZoom"}
+
+
+    %% Bocinas Virtual
+        AT2035@{shape: curv-trap, label: "AT2035"}
+        MicrófonoZoom@{shape: curv-trap, label: "Microfono Zoom"}
+        Bocina@{shape: curv-trap, label: "Bocina\nVirtual"}
+        Ryuk@{shape: curv-trap, label: "Ryuk"}
+        Umaru@{shape: curv-trap, label: "Umaru"}
+        ElGarrobo@{shape: curv-trap, label: "ElGarrobo"}
+        ElGarrobo:::verde
+        SoloYo@{shape: curv-trap, label: "Solo Yo"}
+        SoloOBS@{shape: curv-trap, label: "Solo OBS"}
+
+    %% APP
+        Discord
+        Zoom
+        Meet
+        OBS("OBS Studio"):::azul
+        Chrome("Google Chrome")
+        VLC
+        ChromeRed("Google Chrome Red")
+        ElGarroboCLI[fa:fa-terminal ElGarrobo CLI]:::verde
+        %% <i class="fa-brands fa-python"></i>
+
+    %% Conecciones
+        SoloYo --> Bocina
+        MicrófonoZoom --> Bocina & OBS
+        SoloOBS --> OBS
+        BocinaAudiencia == Convertir a Mic ==> BocinaZoom
+        %% APP ()
+        subgraph VideoLlamada [Video Llamada]
+            Zoom --> MicrófonoZoom
+            Discord --> MicrófonoZoom
+            Meet --> MicrófonoZoom
+        end
+        Chrome --> Ryuk
+        VLC --> Ryuk
+        ChromeRed -. Ethernet .-> Umaru
+        ElGarroboCLI --> ElGarrobo
+
+        %% Todos
+        AT2035 --> OBS & BocinaAudiencia
+        Ryuk --> Bocina & OBS & BocinaAudiencia
+        Umaru --> Bocina & OBS & BocinaAudiencia
+        ElGarrobo --> Bocina & OBS & BocinaAudiencia
+
+        %% USB
+        Bocina --USB --> BocinaUSB
+        MicrofonoUSB -- USB --> AT2035
+
+
+        %% click C href "https://www.github.com" _blank
+
+
+        classDef verde stroke:#0f0
+        classDef azul stroke:#00f
+        classDef rojo stroke:#f00
+
+
+    %% Estilo
+        style MicrófonoZoom color:#FFFFFF, fill:#630067, stroke:#AA00FF
+        style BocinaZoom color:#FFFFFF, fill:#630067, stroke:#AA00FF
+        %% style ElGarrobo color:#FFFFFF, stroke:#00C853, fill:#006703ff
+        %% style ElGarroboCLI stroke: #00C853
+        %% style OBS color:#FFFFFF, stroke:#80b3ffff, fill:#000080ff
