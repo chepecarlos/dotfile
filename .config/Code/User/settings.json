@@ -1,0 +1,12 @@
+{
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "git.confirmSync": false,
+    "cSpell.language": "en,es",
+    "cSpell.userWords": [
+        "ChepeCarlos"
+    ],
+}
