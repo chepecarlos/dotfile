@@ -1,7 +1,0 @@
-{
-    "bitrate": 4000,
-    "keyint_sec": 2,
-    "max_bitrate": 4000,
-    "preset": "default",
-    "rate_control": "CBR"
-}

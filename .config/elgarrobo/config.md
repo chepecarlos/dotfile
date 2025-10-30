@@ -1,9 +1,8 @@
 ---
 deck_file: deck
-teclados_file: teclados
-pedal_file: pedal
 alias_file: alias/alias.json
 folder_path: defaul
+folder_perfil: defaul
 fuente: base/Roboto-Black.ttf
 broker_mqtt: test.mosquitto.org
 global:

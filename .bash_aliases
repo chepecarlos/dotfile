@@ -11,6 +11,8 @@ alias mitinta='ink -p usb'
 alias miOBS='(flatpak run com.obsproject.Studio > /dev/null 2>&1) &'
 alias blender='flatpak run org.blender.Blender'
 
+alias entrarNas='cd ~/NasRed/ChepeCarlos@alsw.net'
+
 # Red
 alias p='ping 8.8.8.8'
 alias miip='hostname -I'
@@ -21,6 +23,7 @@ alias mired='nmap -sP 192.168.50.0/24'
 alias miandroid="scrcpy"
 
 # Audio
+alias conectarAudio="~/.config/pipewire/scripts/links.sh"
 
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve --trace'
@@ -77,7 +80,7 @@ alias editarElGato="code $HOME/.config/elgatoalsw"
 alias chitubox='export LD_LIBRARY_PATH=~/5.Programas/4.CNC/5.CHITUBOX_V1.8.1/lib; ~/5.Programas/4.CNC/5.CHITUBOX_V1.8.1/AppRun &'
 
 # Raspberry Pi
-alias mipi="ssh pi@raspberrypi.local"
+alias mipi="ssh chepecarlos@docker.local"
 
 # Git
 alias add='git add'

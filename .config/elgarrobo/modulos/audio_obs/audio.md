@@ -1,8 +1,8 @@
 ---
-- 1_Mic_Limpio
-- 2_Mic_Audiencia
+- 1_AT2035
+- 2_ZoonBocina
 - 3_UmaruRed
-- 4_Firefox
-- 5_ElGatoALSW
+- 4_RyukLocal
+- 5_ElGarrobo
 - 6_SoloOBS
 ---

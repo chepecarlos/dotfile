@@ -1,9 +1,0 @@
-[Nemo Action]
-Active=true
-Name=Abrir Notion
-Comment=Abre el proyecto en Notion
-Exec=<action_scripts/abirNotion.sh %F>
-Icon-Name=address-book-app-symbolic
-Selection=dir
-Extensions=dir;
-Quote=double

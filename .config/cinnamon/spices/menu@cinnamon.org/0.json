@@ -71,7 +71,7 @@
     "overlay-key": {
         "type": "keybinding",
         "description": "Keyboard shortcut to open and close the menu",
-        "default": "Super_R",
+        "default": "Super_L::Super_R",
         "value": "Super_R"
     },
     "menu-custom": {
@@ -287,5 +287,5 @@
         "description": "Restore the menu to its original size",
         "callback": "_reset_menu_size"
     },
-    "__md5__": "36f4cf68caa760374f15c00ea69aa20d0a188a8ff9c3d3f4fa2c1cd14fe0d0a0"
+    "__md5__": "4795fe5ccdb24e51e3d4434908c26bd50a188a8ff9c3d3f4fa2c1cd14fe0d0a0"
 }

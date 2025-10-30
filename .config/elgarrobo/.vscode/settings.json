@@ -8,6 +8,6 @@
     "activityBar.activeBackground": "#2ca430",
   },
   "workbench.editor.customLabels.patterns": {
-    "*/defaul/**/*.md": "/${dirname}-${filename}.${extname}"
+    "**/defaul/**/*.md": "/${dirname}-${filename}.${extname}"
   }
 }

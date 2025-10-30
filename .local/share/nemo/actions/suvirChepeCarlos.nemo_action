@@ -1,9 +1,0 @@
-[Nemo Action]
-Active=true
-Name=Subir a Chepecarlos
-Comment=Renderisa y sube video al Canal de Youtube de ChepeCarlos 
-Exec=/home/chepecarlos/.local/bin/basket-cli --blender_completo %F
-Icon-Name=org.blender.Blender
-Selection=notnone
-Extensions=blend;
-Quote=double

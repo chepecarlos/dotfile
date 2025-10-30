@@ -97,9 +97,9 @@ then
 fi
 
 # Agregando Blender
-if [ -d "$HOME/5.Programas/1.Edicion/1.Blender/blender-4.3.0-linux-x64" ] ;
+if [ -d "$HOME/5.Programas/1.Edicion/1.Blender/blender-4.4.3-linux-x64" ] ;
 then
-    PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-4.3.0-linux-x64:$PATH"
+    PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-4.4.3-linux-x64:$PATH"
 fi
 
 # Agregando gifgen

@@ -1,13 +1,123 @@
 {
-    "editor.quickSuggestions": {
-        "other": "on",
-        "comments": "off",
-        "strings": "on"
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "prettier.printWidth": 200,
+  "git.autofetch": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "git.confirmSync": false,
+  "cSpell.language": "en,es", // Agregado soporte para español para el corrector ortográfico
+  "cSpell.userWords": [
+    // Agregado palabras personalizadas para el corrector ortográfico
+    "ChepeCarlos"
+  ],
+  "files.autoSave": "afterDelay",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "blender.executables": [
+    {
+      "path": "/home/chepecarlos/5.Programas/1.Edicion/1.Blender/blender-4.2.0-linux-x64/blender",
+      "name": "",
+      "isDebug": false,
+      "linuxInode": 3316457
     },
-    "git.confirmSync": false,
-    "cSpell.language": "en,es",// Agregado soporte para español para el corrector ortográfico
-    "cSpell.userWords": [// Agregado palabras personalizadas para el corrector ortográfico
-        "ChepeCarlos"
-    ],
-    "files.autoSave": "afterDelay",
+    {
+      "path": "/home/chepecarlos/5.Programas/1.Edicion/1.Blender/blender-3.5.0/blender",
+      "name": "",
+      "isDebug": false
+    },
+    {
+      "path": "/home/chepecarlos/5.Programas/1.Edicion/1.Blender/blender-4.2.2-linux-x64/blender",
+      "name": "",
+      "isDebug": false,
+      "linuxInode": 3290479
+    },
+    {
+      "path": "/home/chepecarlos/5.Programas/1.Edicion/1.Blender/blender-4.3.0-linux-x64/blender",
+      "name": "",
+      "isDebug": false,
+      "linuxInode": 3967859
+    },
+    {
+      "path": "/home/chepecarlos/5.Programas/1.Edicion/1.Blender/blender-4.4.0-linux-x64/blender",
+      "name": "",
+      "isDebug": false,
+      "linuxInode": 4087413
+    },
+    {
+      "path": "/home/chepecarlos/5.Programas/1.Edicion/1.Blender/blender-4.4.3-linux-x64/blender",
+      "name": "",
+      "isDebug": false,
+      "linuxInode": 4770335
+    },
+    {
+      "path": "/home/chepecarlos/5.Programas/1.Edicion/1.Blender/blender-4.5.0-linux-x64/blender",
+      "name": "",
+      "isDebug": false
+    }
+  ],
+  "cSpell.language": "en,es",
+  // "[python]": {
+  //     "editor.defaultFormatter": "ms-python.black-formatter"
+  // },
+  "git.confirmSync": false,
+  // "python.formatting.autopep8Args": [
+  //     "--line-length",
+  //     "119"
+  // ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "[python]": {
+  //   "editor.defaultFormatter": "ms-python.autopep8"
+  // },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "hediet.vscode-drawio.resizeImages": null,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "stlViewer.showAxes": true,
+  "stlViewer.meshMaterialType": "normal",
+  "workbench.colorTheme": "Default Dark+",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.wordWrap": "on",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "python": true
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "bodil.prettier-toml"
+  },
+  "makefile.configureOnOpen": true,
+  "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+  "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+  "python.defaultInterpreterPath": "/home/chepecarlos/5.Programas/6.Librerias/blender-sequencer-multithreaded-render/venv"
+  // "[python]": {
+  //   "editor.defaultFormatter": "ms-python.autopep8"
+  // },
+  // "python.analysis.typeEvaluation.analyzeUnannotatedFunctions": false,
+  // "python.analysis.typeCheckingMode": "off"
 }
