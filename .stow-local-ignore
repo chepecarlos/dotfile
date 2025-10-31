@@ -23,3 +23,6 @@ _darcs
 ^/COPYING
 
 script
+
+README.md
+makefile
