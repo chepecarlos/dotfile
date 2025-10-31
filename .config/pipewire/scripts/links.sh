@@ -3,6 +3,13 @@ set -euo pipefail
 
 echo "iniciando Bocinas Virtuales"
 
+nombre_maquina=$(hostname | tr '[:upper:]' '[:lower:]')
+
+if [ "$nombre_maquina" != "ryuk" ]; then
+    echo "No es la máquina ryuk, saliendo del script de bocinas virtuales."
+    return 0
+fi
+
 # Nombres exactos de tus nodos (ajústalo si cambian en tu máquina)
 InputUSB="alsa_input.usb-Focusrite_Scarlett_Solo_USB_Y7UUJY521E598A-00.analog-stereo"
 OutputUSB="alsa_output.usb-Focusrite_Scarlett_Solo_USB_Y7UUJY521E598A-00.analog-stereo"
@@ -91,5 +98,9 @@ conectar_bocina "$ElGarrobo" "$BocinaAudiencia"
 # Bocina --> BocinaUSB
 pw-link "$BocinaVirtual:monitor_FL" "$OutputUSB:playback_FL" || true
 pw-link "$BocinaVirtual:monitor_FR" "$OutputUSB:playback_FR" || true
+
+# Activando Bocina por Audio
+
+pactl load-module module-native-protocol-tcp auth-anonymous=1 &
 
 echo "Sistema Sonido virtual: Conectado"
