@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/chepecarlos/.config/pipewire/scripts/links.sh
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[es_SV]=Links PipeWire
+Comment[es_SV]=Conecta Audio con PipeWire
+X-GNOME-Autostart-Delay=5
