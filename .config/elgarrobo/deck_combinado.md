@@ -1,5 +1,5 @@
 ---
-- nombre: StreamDecks
+- nombre: StreamDecks Combinado
   archivo: streamdeck
   fuente: base/Roboto-Black.ttf
   imagen_base:

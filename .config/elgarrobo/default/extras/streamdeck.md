@@ -38,7 +38,7 @@
 - nombre: Code ElGarrobo
   titulo: Code\nElGarrobo
   imagen_opciones:
-    fondo: '#051153ff'
+    fondo: '#004901ff'
   key: 11
   accion: os
   opciones:
@@ -46,15 +46,23 @@
 - nombre: Code Config ElGarrobo
   titulo: Code\nConfig\nElGarrobo
   imagen_opciones:
-    fondo: '#051153ff'
+    fondo: '#004901ff'
   key: 12
   accion: os
   opciones:
     comando: code ~/.config/elgarrobo &
+- nombre: DotFile
+  titulo: DotFile
+  imagen_opciones:
+    fondo: '#cce706ff'
+  key: 6
+  accion: os
+  opciones:
+    comando: code ~/dotfile/ &
 - nombre: Nemo Config ElGarrobo
   titulo: Nemo\nConfig\nElGarrobo
   imagen_opciones:
-    fondo: '#051153ff'
+    fondo: '#004901ff'
   key: 13
   accion: os
   opciones:

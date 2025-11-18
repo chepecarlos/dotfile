@@ -11,4 +11,10 @@
   accion: escribir
   opciones:
     texto: docker network ls
+- nombre: logs
+  titulo: logs
+  key: 2
+  accion: escribir
+  opciones:
+    texto: docker logs 
 ---

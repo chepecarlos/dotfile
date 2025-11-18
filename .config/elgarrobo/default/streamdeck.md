@@ -99,9 +99,37 @@
   accion: entrar_folder
   opciones:
     folder: ./docker
+- nombre: humedad Estudio
+  titulo: Cargando...
+  key: 16
+  imagen_opciones:
+    fondo: '#0003aeff'
+  titulo_opciones:
+    mqtt: estudio/humedad
+- nombre: humedad Estudio
+  titulo: Cargando...
+  key: 21
+  imagen_opciones:
+    fondo: '#0003aeff'
+  titulo_opciones:
+    mqtt: afuera/humedad
+- nombre: Temperatura Estudio
+  titulo: Cargando...
+  key: 17
+  imagen_opciones:
+    fondo: '#ae2900ff'
+  titulo_opciones:
+    mqtt: estudio/temperatura
+- nombre: Temperatura Estudio
+  titulo: Cargando...
+  key: 22
+  imagen_opciones:
+    fondo: '#ae2900ff'
+  titulo_opciones:
+    mqtt: afuera/temperatura
 - nombre: MQTT
   titulo: MQTT
-  key: 16
+  key: 45
   accion: entrar_folder
   opciones:
     folder: ./mqtt
@@ -110,7 +138,7 @@
     borde_color: white
 - nombre: Sonidos
   titulo: Sonidos
-  key: 17
+  key: 51
   accion: entrar_folder
   opciones:
     folder: ./sonidos
@@ -126,7 +154,7 @@
   indice: 3
 - nombre: Salir
   titulo: Salir
-  key: 19
+  key: 30
   accion: salir
   imagen_opciones:
     fondo: '#3c8a23'
@@ -141,13 +169,13 @@
   imagen: ./fondoobs/fondoobs.png
 - nombre: jugar
   titulo: Jugar
-  key: 21
+  key: 60
   accion: entrar_folder
   opciones:
     folder: ./jugar
 - nombre: Abir GUI
   titulo: Abrir\nGUI
-  key: 22
+  key: 62
   accion: abir_gui
   opciones: {}
 - nombre: Gromit
