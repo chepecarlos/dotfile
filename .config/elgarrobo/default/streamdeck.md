@@ -100,33 +100,33 @@
   opciones:
     folder: ./docker
 - nombre: humedad Estudio
-  titulo: Cargando...
+  titulo: "{}%"
   key: 16
   imagen_opciones:
     fondo: '#0003aeff'
   titulo_opciones:
-    mqtt: estudio/humedad
-- nombre: humedad Estudio
-  titulo: Cargando...
-  key: 21
-  imagen_opciones:
-    fondo: '#0003aeff'
-  titulo_opciones:
-    mqtt: afuera/humedad
+    mqtt: sensor/estudio/humedad
 - nombre: Temperatura Estudio
-  titulo: Cargando...
+  titulo: "{}⁰C"
   key: 17
   imagen_opciones:
     fondo: '#ae2900ff'
   titulo_opciones:
-    mqtt: estudio/temperatura
+    mqtt: sensor/estudio/temperatura
+- nombre: humedad Estudio
+  titulo: "{}%"
+  key: 21
+  imagen_opciones:
+    fondo: '#0003aeff'
+  titulo_opciones:
+    mqtt: sensor/afuera/humedad
 - nombre: Temperatura Estudio
-  titulo: Cargando...
+  titulo: "{}⁰C"
   key: 22
   imagen_opciones:
     fondo: '#ae2900ff'
   titulo_opciones:
-    mqtt: afuera/temperatura
+    mqtt: sensor/afuera/temperatura
 - nombre: MQTT
   titulo: MQTT
   key: 45
@@ -169,7 +169,7 @@
   imagen: ./fondoobs/fondoobs.png
 - nombre: jugar
   titulo: Jugar
-  key: 60
+  key: 63
   accion: entrar_folder
   opciones:
     folder: ./jugar
@@ -222,7 +222,7 @@
     folder: ./fritzing
 - nombre: OctoPrint
   titulo: OctoPrint
-  key: 30
+  key: 35
   accion: entrar_folder
   opciones:
     folder: ./octoprint
