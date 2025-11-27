@@ -21,12 +21,14 @@
       opciones:
         boton: centro
         estado: false
-- nombre: Terminal
+- nombre: Mostrar Ventanas
   key: KEY_3
   accion: teclas
   opciones:
     teclas:
-    - f12
+    - ctrl
+    - alt
+    - down
 - nombre: Cerrar Pestaña
   key: KEY_4
   accion: teclas
