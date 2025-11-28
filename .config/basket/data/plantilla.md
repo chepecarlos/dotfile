@@ -1,0 +1,4 @@
+---
+proyecto_ejemplo: /home/chepecarlos/NasRed/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/5.Ordenar/0.ProyectoEjemplo
+articulo_base: /home/chepecarlos/1.Proyectos/1.Oficiales/1.NocheProgramacion/assets/template/video.md
+---
