@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=ElGarrobo
+Exec=/home/chepecarlos/5.Programas/2.Heramientas/1.CLI/1.ElGarrobo/venv/bin/elgarrobo
+Comment=
+Terminal=false
+PrefersNonDefaultGPU=false
+Icon=cinnamon-panel-launcher
+Type=Application
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[es_SV]=ElGarrobo
+Comment[es_SV]=Inicia el Garrobo
+X-GNOME-Autostart-Delay=5
