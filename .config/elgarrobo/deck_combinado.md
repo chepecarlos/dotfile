@@ -2,6 +2,7 @@
 - nombre: StreamDecks Combinado
   archivo: streamdeck
   fuente: base/Roboto-Black.ttf
+  ordenar: 10
   imagen_base:
     base: base/icono.png
     siquiente_pagina: base/siquiente.png
