@@ -245,6 +245,12 @@
   opciones:
     folder: ./arte
   imagen: /arte/arte.png
+- nombre: PrusaSlicer
+  titulo: PrusaSlicer
+  key: 38
+  accion: entrar_folder
+  opciones:
+    folder: ./prusaslicer
 - nombre: Apaga Despertador
   titulo: Apaga\nDespertador
   key: 40
@@ -277,4 +283,10 @@
     folder: ./crecetube
   imagen_opciones:
     fondo: '#990000'
+- nombre: test Voz
+  titulo: test Voz
+  key: 59
+  accion: textovoz
+  opciones:
+    mensaje: "Hola Mundo, temperatura 20"
 ...
