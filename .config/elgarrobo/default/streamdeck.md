@@ -12,7 +12,7 @@
   accion: entrar_folder
   opciones:
     folder: ./link
-  imagen: ./link/link.gif
+  imagen: /link/link.gif
   indice: 7
 - nombre: APP
   titulo: APP
