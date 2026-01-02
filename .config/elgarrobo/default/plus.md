@@ -127,4 +127,10 @@
   imagen: /pulse/derpy.png
   titulo_opciones:
     tamanno_minimo: 30
+- nombre: Siquiente
+  key: deslizar_izquierda_1
+  accion: anterior_pagina
+- nombre: Derecha
+  key: deslizar_derecha_1
+  accion: siquiente_pagina
 ---
