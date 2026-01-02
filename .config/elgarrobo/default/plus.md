@@ -10,11 +10,44 @@
   accion: mute
   opciones:
     dispositivo: AT2035
+- nombre: Mute Umaru
+  key: dial_2
+  accion: mute
+  opciones:
+    dispositivo: Umaru
 - nombre: Mute Ryuk
   key: dial_3
   accion: mute
   opciones:
     dispositivo: Ryuk
+- nombre: +1% Umaru
+  key: dial_derecho_1
+  accion: volumen
+  opciones:
+    dispositivo: AT2035
+    opcion: incremento
+    valor: 1
+- nombre: -1% Umaru
+  key: dial_izquierdo_1
+  accion: volumen
+  opciones:
+    dispositivo: AT2035
+    opcion: incremento
+    valor: -1
+- nombre: +1% Umaru
+  key: dial_derecho_2
+  accion: volumen
+  opciones:
+    dispositivo: Umaru
+    opcion: incremento
+    valor: 1
+- nombre: -1% Umaru
+  key: dial_izquierdo_2
+  accion: volumen
+  opciones:
+    dispositivo: Umaru
+    opcion: incremento
+    valor: -1
 - nombre: +1% Ryuk
   key: dial_derecho_3
   accion: volumen
@@ -50,4 +83,40 @@
     dispositivo: Ryuk
     opcion: balance
     valor: 100
+- nombre: Mute Umaru
+  key: touchscreen_1
+  accion: mute
+  opciones:
+    dispositivo: AT2035
+  cargar_titulo:
+    archivo: data/pulse
+    atributo: AT2035
+  imagen: /pulse/mic.png
+- nombre: Mute Umaru
+  key: touchscreen_2
+  accion: mute
+  opciones:
+    dispositivo: Umaru
+  cargar_titulo:
+    archivo: data/pulse
+    atributo: Ryuk
+  imagen: /pulse/Umaru.png
+- nombre: Mute Ryuk
+  key: touchscreen_3
+  accion: mute
+  opciones:
+    dispositivo: Ryuk
+  cargar_titulo:
+    archivo: data/pulse
+    atributo: Ryuk
+  imagen: /pulse/Ryuk.png
+- nombre: Mute Ryuk
+  key: touchscreen_4
+  accion: mute
+  opciones:
+    dispositivo: ElGarrobo
+  cargar_titulo:
+    archivo: data/pulse
+    atributo: ElGarrobo
+  imagen: /pulse/derpy.png
 ---
