@@ -92,6 +92,8 @@
     archivo: data/pulse
     atributo: AT2035
   imagen: /pulse/mic.png
+  titulo_opciones:
+    tamanno_minimo: 30
 - nombre: Mute Umaru
   key: touchscreen_2
   accion: mute
@@ -99,8 +101,10 @@
     dispositivo: Umaru
   cargar_titulo:
     archivo: data/pulse
-    atributo: Ryuk
+    atributo: Umaru
   imagen: /pulse/Umaru.png
+  titulo_opciones:
+    tamanno_minimo: 30
 - nombre: Mute Ryuk
   key: touchscreen_3
   accion: mute
@@ -110,6 +114,8 @@
     archivo: data/pulse
     atributo: Ryuk
   imagen: /pulse/Ryuk.png
+  titulo_opciones:
+    tamanno_minimo: 30
 - nombre: Mute Ryuk
   key: touchscreen_4
   accion: mute
@@ -119,4 +125,6 @@
     archivo: data/pulse
     atributo: ElGarrobo
   imagen: /pulse/derpy.png
+  titulo_opciones:
+    tamanno_minimo: 30
 ---
