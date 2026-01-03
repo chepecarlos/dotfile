@@ -16,6 +16,7 @@
     - id: 1
       nombre: V1 Nuevo
       dispositivo: AL04I1C01204
+      rotar: -90
 - nombre: StreamDeck Plus
   archivo: plus
   fuente: base/Roboto-Black.ttf
