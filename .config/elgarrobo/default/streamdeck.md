@@ -98,51 +98,23 @@
   key: 15
   accion: entrar_folder
   opciones:
-    folder: ./docker
+    folder: /docker
+  imagen_opciones:
+    fondo: '#0606bbff'
 - nombre: humedad Estudio
-  titulo: "{}%"
+  titulo: '{}%'
   key: 16
   imagen_opciones:
     fondo: '#0003aeff'
   titulo_opciones:
     mqtt: sensor/estudio/humedad
 - nombre: Temperatura Estudio
-  titulo: "{}⁰C"
+  titulo: '{}⁰C'
   key: 17
   imagen_opciones:
     fondo: '#ae2900ff'
   titulo_opciones:
     mqtt: sensor/estudio/temperatura
-- nombre: humedad Estudio
-  titulo: "{}%"
-  key: 21
-  imagen_opciones:
-    fondo: '#0003aeff'
-  titulo_opciones:
-    mqtt: sensor/afuera/humedad
-- nombre: Temperatura Estudio
-  titulo: "{}⁰C"
-  key: 22
-  imagen_opciones:
-    fondo: '#ae2900ff'
-  titulo_opciones:
-    mqtt: sensor/afuera/temperatura
-- nombre: MQTT
-  titulo: MQTT
-  key: 45
-  accion: entrar_folder
-  opciones:
-    folder: ./mqtt
-  titulo_opciones:
-    color: red
-    borde_color: white
-- nombre: Sonidos
-  titulo: Sonidos
-  key: 51
-  accion: entrar_folder
-  opciones:
-    folder: ./sonidos
-  imagen: ./sonidos/sonidos.png
 - nombre: BMO
   titulo: BMO
   key: 18
@@ -152,14 +124,6 @@
     topic: bmo/despierto
   imagen: ./tutorial/bmo.gif
   indice: 3
-- nombre: Salir
-  titulo: Salir
-  key: 30
-  accion: salir
-  imagen_opciones:
-    fondo: '#3c8a23'
-  imagen: ./salir.gif
-  indice: 4
 - nombre: FondoOBS
   titulo: FondoOBS
   key: 20
@@ -167,17 +131,20 @@
   opciones:
     folder: ./fondoobs
   imagen: ./fondoobs/fondoobs.png
-- nombre: jugar
-  titulo: Jugar
-  key: 63
-  accion: entrar_folder
-  opciones:
-    folder: ./jugar
-- nombre: Abir GUI
-  titulo: Abrir\nGUI
-  key: 62
-  accion: abir_gui
-  opciones: {}
+- nombre: humedad Estudio
+  titulo: '{}%'
+  key: 21
+  imagen_opciones:
+    fondo: '#0003aeff'
+  titulo_opciones:
+    mqtt: sensor/afuera/humedad
+- nombre: Temperatura Estudio
+  titulo: '{}⁰C'
+  key: 22
+  imagen_opciones:
+    fondo: '#ae2900ff'
+  titulo_opciones:
+    mqtt: sensor/afuera/temperatura
 - nombre: Gromit
   titulo: Gromit
   key: 23
@@ -220,12 +187,20 @@
   accion: entrar_folder
   opciones:
     folder: ./fritzing
-- nombre: OctoPrint
-  titulo: OctoPrint
-  key: 35
+- nombre: Salir
+  titulo: Salir
+  key: 30
+  accion: salir
+  imagen_opciones:
+    fondo: '#3c8a23'
+  imagen: ./salir.gif
+  indice: 4
+- nombre: Numerico
+  titulo: Teclado\nNumerico
+  key: 31
   accion: entrar_folder
   opciones:
-    folder: ./octoprint
+    folder: ./numerico
 - nombre: Insync
   titulo: Insync
   key: 32
@@ -238,6 +213,12 @@
   accion: entrar_folder
   opciones:
     folder: ./config
+- nombre: OctoPrint
+  titulo: OctoPrint
+  key: 35
+  accion: entrar_folder
+  opciones:
+    folder: ./octoprint
 - nombre: Arte
   titulo: Artes
   key: 36
@@ -262,12 +243,15 @@
   Titulo: Cerrar\nVentana
   key: 42
   accion: cerrar_ventana
-- nombre: Numerico
-  titulo: Teclado\nNumerico
-  key: 31
+- nombre: MQTT
+  titulo: MQTT
+  key: 45
   accion: entrar_folder
   opciones:
-    folder: ./numerico
+    folder: ./mqtt
+  titulo_opciones:
+    color: red
+    borde_color: white
 - nombre: OBS
   titulo: OBS
   key: 50
@@ -275,6 +259,19 @@
   opciones:
     folder: ./obs
   imagen: /obs/obs.png
+- nombre: Sonidos
+  titulo: Sonidos
+  key: 51
+  accion: entrar_folder
+  opciones:
+    folder: ./sonidos
+  imagen: ./sonidos/sonidos.png
+- nombre: test Voz
+  titulo: test Voz
+  key: 59
+  accion: textovoz
+  opciones:
+    mensaje: Hola Mundo, temperatura 20
 - nombre: Crecetube
   titulo: Crecetube
   key: 60
@@ -283,10 +280,15 @@
     folder: ./crecetube
   imagen_opciones:
     fondo: '#990000'
-- nombre: test Voz
-  titulo: test Voz
-  key: 59
-  accion: textovoz
+- nombre: Abir GUI
+  titulo: Abrir\nGUI
+  key: 62
+  accion: abir_gui
+  opciones: {}
+- nombre: jugar
+  titulo: Jugar
+  key: 63
+  accion: entrar_folder
   opciones:
-    mensaje: "Hola Mundo, temperatura 20"
+    folder: ./jugar
 ...

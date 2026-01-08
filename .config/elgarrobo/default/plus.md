@@ -5,6 +5,26 @@
   accion: entrar_folder
   opciones:
     folder: /tutorial
+- nombre: Temperatura Estudio
+  titulo: '{}⁰C'
+  key: 4
+  imagen_opciones:
+    fondo: '#ae2900ff'
+  titulo_opciones:
+    mqtt: sensor/estudio/temperatura
+- nombre: humedad Estudio
+  titulo: '{}%'
+  key: 8
+  imagen_opciones:
+    fondo: '#0003aeff'
+  titulo_opciones:
+    mqtt: sensor/estudio/humedad
+- nombre: Derecha
+  key: deslizar_derecha_1
+  accion: siquiente_pagina
+- nombre: Siquiente
+  key: deslizar_izquierda_1
+  accion: anterior_pagina
 - nombre: Mute AT2035
   key: dial_1
   accion: mute
@@ -20,6 +40,13 @@
   accion: mute
   opciones:
     dispositivo: Ryuk
+- nombre: Umaru Centro
+  key: dial_4
+  accion: volumen
+  opciones:
+    dispositivo: Ryuk
+    opcion: balance
+    valor: 50
 - nombre: +1% Umaru
   key: dial_derecho_1
   accion: volumen
@@ -27,13 +54,6 @@
     dispositivo: AT2035
     opcion: incremento
     valor: 1
-- nombre: -1% Umaru
-  key: dial_izquierdo_1
-  accion: volumen
-  opciones:
-    dispositivo: AT2035
-    opcion: incremento
-    valor: -1
 - nombre: +1% Umaru
   key: dial_derecho_2
   accion: volumen
@@ -41,13 +61,6 @@
     dispositivo: Umaru
     opcion: incremento
     valor: 1
-- nombre: -1% Umaru
-  key: dial_izquierdo_2
-  accion: volumen
-  opciones:
-    dispositivo: Umaru
-    opcion: incremento
-    valor: -1
 - nombre: +1% Ryuk
   key: dial_derecho_3
   accion: volumen
@@ -55,6 +68,27 @@
     dispositivo: Ryuk
     opcion: incremento
     valor: 1
+- nombre: Ryuk Derecha
+  key: dial_derecho_4
+  accion: volumen
+  opciones:
+    dispositivo: Ryuk
+    opcion: balance
+    valor: 100
+- nombre: -1% Umaru
+  key: dial_izquierdo_1
+  accion: volumen
+  opciones:
+    dispositivo: AT2035
+    opcion: incremento
+    valor: -1
+- nombre: -1% Umaru
+  key: dial_izquierdo_2
+  accion: volumen
+  opciones:
+    dispositivo: Umaru
+    opcion: incremento
+    valor: -1
 - nombre: -1% Ryuk
   key: dial_izquierdo_3
   accion: volumen
@@ -69,20 +103,6 @@
     dispositivo: Ryuk
     opcion: balance
     valor: 0
-- nombre: Umaru Centro
-  key: dial_4
-  accion: volumen
-  opciones:
-    dispositivo: Ryuk
-    opcion: balance
-    valor: 50
-- nombre: Ryuk Derecha
-  key: dial_derecho_4
-  accion: volumen
-  opciones:
-    dispositivo: Ryuk
-    opcion: balance
-    valor: 100
 - nombre: Mute Umaru
   key: touchscreen_1
   accion: mute
@@ -127,10 +147,4 @@
   imagen: /pulse/derpy.png
   titulo_opciones:
     tamanno_minimo: 30
-- nombre: Siquiente
-  key: deslizar_izquierda_1
-  accion: anterior_pagina
-- nombre: Derecha
-  key: deslizar_derecha_1
-  accion: siquiente_pagina
----
+...
