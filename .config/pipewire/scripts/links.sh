@@ -32,15 +32,15 @@ have_port() {
 }
 
 buscar_puerto() {
-    local port="$1"
+    local puerto="$1"
     for i in {1..150}; do   # ~15s de espera
-        if have_port "$port"; then
-            echo "ok: $port"
+        if have_port "$puerto"; then
+            echo "Encontrado: $puerto"
             return 0
         fi
         sleep 0.1
     done
-    echo "ERROR: no apareció el puerto $port" >&2
+    echo "ERROR: no apareció el puerto $puerto" >&2
     exit 1
 }
 
@@ -50,20 +50,26 @@ buscar_bocina(){
     buscar_puerto "$port:playback_FR"
     buscar_puerto "$port:monitor_FL"
     buscar_puerto "$port:monitor_FR"
-    
 }
 
 conectar_bocina(){
     local Emizor="$1"
     local Receptor="$2"
-    pw-link "$Emizor:monitor_FL" "$Receptor:playback_FL" || true
-    pw-link "$Emizor:monitor_FR" "$Receptor:playback_FR" || true
+    if pw-link -l "$Emizor" | grep -i "$Receptor" | grep -q "|->"; then
+        echo "$Emizor y $Receptor: Conectadas"
+    else
+        echo "Conectando $Emizor a $Receptor"
+        pw-link "$Emizor:monitor_FL" "$Receptor:playback_FL" || true
+        pw-link "$Emizor:monitor_FR" "$Receptor:playback_FR" || true
+    fi
 }
 
 # Espera a que existan los puertos necesarios
+echo -e "\tBuscando puertos de micrófono USB"
 buscar_puerto "$InputUSB:capture_FL"
 buscar_puerto "$InputUSB:capture_FR"
 
+echo -e "\tConectar a Bocinas Virtuales"
 buscar_bocina "$AT2035"
 buscar_bocina "$BocinaAudiencia"
 buscar_bocina "$Umaru"
@@ -74,16 +80,15 @@ buscar_bocina "$BocinaVirtual"
 buscar_bocina "$ElGarrobo"
 buscar_bocina "$MicrofonoZoom"
 
+echo -e "\tBuscando puertos de salida USB"
 buscar_puerto "$OutputUSB:playback_FL"
 buscar_puerto "$OutputUSB:playback_FR"
 
-echo "empezando a conectar"
-
-# MicrófonoUSB --> AT2035
-pw-link "$InputUSB:capture_FL" "$AT2035:playback_FL" || true
-pw-link "$InputUSB:capture_FR" "$AT2035:playback_FR" || true
+echo -e "\tConectando Microfono a Bocina virtual"
+conectar_bocina "$InputUSB" "$AT2035"
 
 # Sacar a Bocina
+echo -e "\tEmpezando a conectar con $BocinaVirtual"
 conectar_bocina "$MicrofonoZoom" "$BocinaVirtual"
 conectar_bocina "$Ryuk" "$BocinaVirtual"
 conectar_bocina "$Umaru" "$BocinaVirtual"
@@ -95,9 +100,8 @@ conectar_bocina "$Umaru" "$BocinaAudiencia"
 conectar_bocina "$Ryuk" "$BocinaAudiencia"
 conectar_bocina "$ElGarrobo" "$BocinaAudiencia"
 
-# Bocina --> BocinaUSB
-pw-link "$BocinaVirtual:monitor_FL" "$OutputUSB:playback_FL" || true
-pw-link "$BocinaVirtual:monitor_FR" "$OutputUSB:playback_FR" || true
+echo -e "\tConectando Bocina Virtual a Salida USB"
+conectar_bocina "$BocinaVirtual" "$OutputUSB"
 
 # Activando Bocina por Audio
 
