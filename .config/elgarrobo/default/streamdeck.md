@@ -124,6 +124,12 @@
     topic: bmo/despierto
   imagen: ./tutorial/bmo.gif
   indice: 3
+- nombre: Fondo Escritorio
+  titulo: Fondo\nEscritorio
+  key: 19
+  accion: entrar_folder
+  opciones:
+    folder: /fondo
 - nombre: FondoOBS
   titulo: FondoOBS
   key: 20
