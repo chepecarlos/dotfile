@@ -79,10 +79,29 @@
   titulo: Reiniciar\nPulseAudio
   key: 16
   accion: os
+- nombre: Code Prusa Slicer
+  titulo: Code\nPrusaSlicer
+  key: 17
+  accion: os
+  opciones:
+    comando: code ~/.var/app/com.prusa3d.PrusaSlicer/config/PrusaSlicer/
 - nombre: Reinicar WebCamara
-  titulo: Reinicar\nWebCamara
+  titulo: Reinicar\nWebCamara\nDoker
   key: 21
   accion: escribir
   opciones:
     texto: pkill -f mjpg_streamer
+- nombre: Reinicar WebCamara
+  titulo: Reinicar\nWebCamara\nOctoPi
+  key: 22
+  accion: escribir
+  opciones:
+    texto: pkill -f mjpg_streamer
+- nombre: Aplicar Cambios Reglas udev
+  titulo: Aplicar\nCambios\nudev
+  comentario: Aplica cambios de archivo /etc/udev/rules.d/
+  key: 23
+  accion: escribir
+  opciones:
+    texto: sudo udevadm control --reload-rules && sudo udevadm trigger
 ...
