@@ -72,6 +72,14 @@
     teclas:
     - ctrl
     - e
+- nombre: Snap
+  titulo: Snap
+  key: 12
+  accion: teclas
+  opciones:
+    teclas:
+    - shift
+    - s
 - nombre: Transparente 
   titulo: Transparente
   key: 15
@@ -88,4 +96,11 @@
     teclas:
     - ctrl
     - a
+- nombre: Separar 
+  titulo: Separar
+  key: 17
+  accion: teclas
+  opciones:
+    teclas:
+    - p
 ---

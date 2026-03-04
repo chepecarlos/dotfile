@@ -1,20 +1,21 @@
 ---
 - key: propiedad_folder
   titulo_opciones:
-    tamanno_minimo: 40
-- nombre: Tutorial
-  titulo: Tutorial
-  key: 1
-  accion: entrar_folder
-  opciones:
-    folder: /tutorial
+    tamanno_maximo: 40
+- nombre: Uso CPU
+  titulo: '{}%\nCPU'
+  key: 2
+  imagen_opciones:
+    fondo: '#bcd100ff'
+  titulo_opciones:
+    mqtt: estado_pc/umaru/cpu
 - nombre: Uso CPU
   titulo: '{}%\nCPU'
   key: 3
   imagen_opciones:
     fondo: '#bcd100ff'
   titulo_opciones:
-    mqtt: umaru/cpu
+    mqtt: estado_pc/ryuk/cpu
 - nombre: Temperatura Estudio
   titulo: '{}⁰C'
   key: 4
@@ -26,11 +27,20 @@
     borde_color: "#340000ff"
 - nombre: Uso Ran
   titulo: '{}%\nRAM'
+  # imagen: /ram.gif
+  key: 6
+  imagen_opciones:
+    fondo: '#8100d1ff'
+  titulo_opciones:
+    mqtt: estado_pc/umaru/ram
+- nombre: Uso Ran
+  titulo: '{}%\nRAM'
+  # imagen: /ram.gif
   key: 7
   imagen_opciones:
     fondo: '#8100d1ff'
   titulo_opciones:
-    mqtt: umaru/ram
+    mqtt: estado_pc/ryuk/ram
 - nombre: humedad Estudio
   titulo: '{}%'
   imagen: /humedad.gif

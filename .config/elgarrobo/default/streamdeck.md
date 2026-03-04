@@ -47,6 +47,12 @@
     folder: ./youtube
   imagen: ./youtube/youtube.gif
   indice: 6
+- nombre: Respuesta
+  titulo: Respuesta
+  key: 7
+  accion: entrar_folder
+  opciones:
+    folder: ./respuesta
 - nombre: Notion
   key: 8
   accion: entrar_folder
@@ -99,22 +105,7 @@
   accion: entrar_folder
   opciones:
     folder: /docker
-  imagen_opciones:
-    fondo: '#0606bbff'
-- nombre: humedad Estudio
-  titulo: '{}%'
-  key: 16
-  imagen_opciones:
-    fondo: '#0003aeff'
-  titulo_opciones:
-    mqtt: sensor/estudio/humedad
-- nombre: Temperatura Estudio
-  titulo: '{}⁰C'
-  key: 17
-  imagen_opciones:
-    fondo: '#ae2900ff'
-  titulo_opciones:
-    mqtt: sensor/estudio/temperatura
+  imagen: ./docker/docker.png
 - nombre: BMO
   titulo: BMO
   key: 18
