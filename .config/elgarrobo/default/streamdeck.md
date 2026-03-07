@@ -41,20 +41,14 @@
   imagen: /ide/code/code.png
 - nombre: Youtube
   titulo: Youtube
-  key: 6
+  key: 8
   accion: entrar_folder
   opciones:
     folder: ./youtube
   imagen: ./youtube/youtube.gif
   indice: 6
-- nombre: Respuesta
-  titulo: Respuesta
-  key: 7
-  accion: entrar_folder
-  opciones:
-    folder: ./respuesta
 - nombre: Notion
-  key: 8
+  key: 6
   accion: entrar_folder
   opciones:
     folder: ./notion
@@ -106,6 +100,20 @@
   opciones:
     folder: /docker
   imagen: ./docker/docker.png
+- nombre: Respuesta
+  titulo: Respuesta
+  imagen_opciones:
+    fondo: '#2b7a10'
+  key: 16
+  accion: entrar_folder
+  opciones:
+    folder: ./respuesta
+- nombre: Scrcpy
+  titulo: Scrcpy
+  key: 17
+  accion: entrar_folder
+  opciones:
+    folder: ./scrcpy
 - nombre: BMO
   titulo: BMO
   key: 18
@@ -172,12 +180,6 @@
     accion: obs_escena
     opciones:
       escena: Zoom
-- nombre: Respuestas
-  titulo: Respuestas
-  key: 28
-  accion: entrar_folder
-  opciones:
-    folder: ./respuestas
 - nombre: fritzing
   titulo: Fritzing
   key: 29

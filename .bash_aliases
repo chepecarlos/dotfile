@@ -24,6 +24,11 @@ alias miandroid="scrcpy"
 
 # Audio
 alias conectarAudio="~/.config/pipewire/scripts/links.sh"
+alias reiniciarAudio="systemctl --user restart pipewire pipewire-pulse wireplumber"
+alias listadoAudio="pw-link -io"
+alias listadoAudioCompleto="pw-link -io -v"
+alias testBocinas="pw-play --target 'alsa_output.usb-Focusrite_Scarlett_Solo_USB_Y7UUJY521E598A-00.analog-stereo' /usr/share/sounds/alsa/Front_Left.wav"
+alias conectarBocinaVirtual="~/.config/pipewire/scripts/links.sh"
 
 # NocheProgramacion
 alias mijekyll='bundle exec jekyll serve --trace'
@@ -39,8 +44,8 @@ alias tooltubeCtrlZ="tooltube --canal ctrlz"
 alias urlNotion="tooltube_get --notion"
 alias urlYoutube="tooltube_get -url"
 
-alias subirChepeCarlos="basket-cli --blender_completo"
-alias subirCtrlZ="basket-cli --canal ctrlz --blender_completo"
+alias subirChepeCarlos="basket --blender_completo"
+alias subirCtrlZ="basket --canal ctrlz --blender_completo"
 
 alias asignadoChepeCarlos="tooltube_analisis --asignado chepecarlos"
 alias asignadoIngJuan="tooltube_analisis --asignado ingjuan"
@@ -67,20 +72,29 @@ alias actualizarEstadosCrear="tooltube_analisis --actualizar_estado --update"
 
 alias revisarVideo="tooltube_analisis --revisar"
 
-alias crearProyecto="basket-cli -p"
-alias crearArticulo="basket-cli -a"
-alias crearSubtitulos="basket-cli --blender_subtitulo"
+alias basket="/home/chepecarlos/5.Programas/2.Heramientas/1.CLI/2.Basket/venv/bin/basket"
 
-alias actualizarIcono="basket-cli -i"
+alias crearProyecto="basket -p"
+alias crearArticulo="basket -a"
 
-# ElGatoALSW
-alias editarElGato="code $HOME/.config/elgatoalsw"
+alias crearSubtitulos="/home/chepecarlos/5.Programas/2.Heramientas/1.CLI/2.Basket/venv/bin/basket --blender_subtitulo"
+
+alias actualizarIcono="basket -i"
+
+# elGarrobo
+alias elgarrobo="/home/chepecarlos/5.Programas/2.Heramientas/1.CLI/1.ElGarrobo/venv/bin/elgarrobo"
+alias elgarrobo-tool="/home/chepecarlos/5.Programas/2.Heramientas/1.CLI/1.ElGarrobo/venv/bin/elgarrobo-tool"
+alias printtool="/home/chepecarlos/5.Programas/2.Heramientas/1.CLI/4.PrintTool/venv/bin/printtool"
 
 # CNC
 alias chitubox='export LD_LIBRARY_PATH=~/5.Programas/4.CNC/5.CHITUBOX_V1.8.1/lib; ~/5.Programas/4.CNC/5.CHITUBOX_V1.8.1/AppRun &'
 
 # Raspberry Pi
+# Conectarme a las Raspberry Pi por SSH
 alias mipi="ssh chepecarlos@docker.local"
+alias mimmu="ssh chepecarlos@mmu3.local"
+alias migranja="ssh chepecarlos@192.168.50.129"
+alias mimini="ssh chepecarlos@prusamini.local"
 
 # Git
 alias add='git add'
