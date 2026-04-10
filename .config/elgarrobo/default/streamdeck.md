@@ -39,6 +39,12 @@
   opciones:
     folder: /ide/code
   imagen: /ide/code/code.png
+- nombre: Notion
+  key: 6
+  accion: entrar_folder
+  opciones:
+    folder: ./notion
+  imagen: ./notion/notion.png
 - nombre: Youtube
   titulo: Youtube
   key: 8
@@ -47,12 +53,6 @@
     folder: ./youtube
   imagen: ./youtube/youtube.gif
   indice: 6
-- nombre: Notion
-  key: 6
-  accion: entrar_folder
-  opciones:
-    folder: ./notion
-  imagen: ./notion/notion.png
 - nombre: Extras
   titulo: Extras
   key: 9
@@ -180,6 +180,15 @@
     accion: obs_escena
     opciones:
       escena: Zoom
+- nombre: PrusaSlicer
+  titulo: PrusaSlicer
+  imagen: ./prusaslicer/prusaslicer.png
+  imagen_opciones:
+    fondo: '#ffffff'
+  key: 28
+  accion: entrar_folder
+  opciones:
+    folder: ./prusaslicer
 - nombre: fritzing
   titulo: Fritzing
   key: 29
@@ -214,7 +223,8 @@
     folder: ./config
 - nombre: OctoPrint
   titulo: OctoPrint
-  key: 35
+  imagen: ./octoprint/octoprint.png
+  key: 38
   accion: entrar_folder
   opciones:
     folder: ./octoprint
@@ -225,12 +235,6 @@
   opciones:
     folder: ./arte
   imagen: /arte/arte.png
-- nombre: PrusaSlicer
-  titulo: PrusaSlicer
-  key: 38
-  accion: entrar_folder
-  opciones:
-    folder: ./prusaslicer
 - nombre: Apaga Despertador
   titulo: Apaga\nDespertador
   key: 40
