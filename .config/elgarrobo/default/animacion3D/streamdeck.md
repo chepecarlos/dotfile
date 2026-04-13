@@ -103,4 +103,19 @@
   opciones:
     teclas:
     - p
+- nombre: Select Linked 
+  titulo: Select\nLinked
+  key: 18
+  accion: teclas
+  opciones:
+    teclas:
+    - l
+- nombre: Centra Objeto 
+  titulo: Centrar\nObjeto
+  key: 22
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - decimal
 ---

@@ -18,24 +18,30 @@
   opciones:
     comando: curl -s http://192.168.50.123/nivel?valor=50
 - nombre: Reimprimir MK4s
-  titulo: Reimprimir\nMK4s
+  titulo: Ultimo\nMK4s
   key: 7
+  imagen_opciones:
+    fondo: '#042ec6'
   accion: reimprimir_octoprint
   opciones:
-    url: http://192.168.50.239
+    url: http://192.168.50.238
     token: qhMrz_URykjtBISSxqoF5RhHkPsYiPcx18MtxIbxi10
 - nombre: Reimprimir Maomao
-  titulo: Reimprimir
+  titulo: Ultimo
   imagen: ./maomao.png
   key: 8
+  imagen_opciones:
+    fondo: '#042ec6'
   accion: reimprimir_octoprint
   opciones:
     url: http://192.168.50.129:5001
     token: -FvrxMdU2UAmfkmuauFD-xQUX39AZ-qeoqtyQrm2jps
 - nombre: Reimprimir Jinshi
-  titulo: Reimprimir
+  titulo: Ultimo
   imagen: ./jinshi.png
   key: 9
+  imagen_opciones:
+    fondo: '#042ec6'
   accion: reimprimir_octoprint
   opciones:
     url: http://192.168.50.129:5000
@@ -47,7 +53,7 @@
     fondo: '#c60404'
   accion: cancelar_octoprint
   opciones:
-    url: http://192.168.50.239
+    url: http://192.168.50.238
     token: qhMrz_URykjtBISSxqoF5RhHkPsYiPcx18MtxIbxi10
 - nombre: Cancelar Maomao
   titulo: Cancelar

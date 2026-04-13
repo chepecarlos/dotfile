@@ -104,4 +104,11 @@
   accion: escribir
   opciones:
     texto: sudo udevadm control --reload-rules && sudo udevadm trigger
+- nombre: Lista de Camaras
+  titulo: Lista\nCámaras
+  comentario: Aplica cambios de archivo /etc/udev/rules.d/
+  key: 24
+  accion: escribir
+  opciones:
+    texto: v4l2-ctl --list-devices
 ...
