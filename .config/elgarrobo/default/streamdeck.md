@@ -221,13 +221,6 @@
   accion: entrar_folder
   opciones:
     folder: ./config
-- nombre: OctoPrint
-  titulo: OctoPrint
-  imagen: ./octoprint/octoprint.png
-  key: 38
-  accion: entrar_folder
-  opciones:
-    folder: ./octoprint
 - nombre: Arte
   titulo: Artes
   key: 36
@@ -235,6 +228,26 @@
   opciones:
     folder: ./arte
   imagen: /arte/arte.png
+- nombre: Raspberrypi
+  titulo: Raspberrypi
+  imagen: ./raspberrypi/raspberrypi.png
+  key: 37
+  accion: entrar_folder
+  opciones:
+    folder: ./raspberrypi
+- nombre: OctoPrint
+  titulo: OctoPrint
+  imagen: ./octoprint/octoprint.png
+  key: 38
+  accion: entrar_folder
+  opciones:
+    folder: ./octoprint
+- nombre: Zoom
+  imagen: ./zoom/zoom.png
+  key: 39
+  accion: entrar_folder
+  opciones:
+    folder: ./zoom
 - nombre: Apaga Despertador
   titulo: Apaga\nDespertador
   key: 40
