@@ -19,4 +19,15 @@
     teclas:
     - alt
     - v
+- nombre: Reacciones
+  titulo: Reacciones
+  key: 23
+  imagen_opciones:
+    fondo: '#2f00baff'
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - shift
+    - Y
 ---
