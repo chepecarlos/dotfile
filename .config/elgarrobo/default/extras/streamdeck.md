@@ -1,7 +1,7 @@
 ---
 - nombre: Grabar Escritorio
   titulo: Grabar\nEscritorio
-  key: 1
+  key: 26
   accion: teclas
   opciones:
     teclas:
@@ -11,7 +11,7 @@
     - r
 - nombre: Depurador Cinammon
   titulo: Depurador\nCinammon
-  key: 2
+  key: 25
   accion: teclas
   opciones:
     teclas:
@@ -33,7 +33,7 @@
   titulo: DotFile
   imagen_opciones:
     fondo: '#cce706ff'
-  key: 6
+  key: 1
   accion: os
   opciones:
     comando: code ~/dotfile/ &
@@ -43,6 +43,14 @@
   accion: os
   opciones:
     comando: bash ~/.config/pipewire/scripts/links.sh
+- nombre: Code ChepeCarlos3D
+  titulo: Code\nChepeCarlos\n3D
+  imagen_opciones:
+    fondo: 'rgb(16, 0, 73)'
+  key: 6
+  accion: os
+  opciones:
+    comando: code /home/SudoData/1.Proyectos/1.Oficial/5.ChepeCarlos3D &
 - nombre: Code ElGarrobo
   titulo: Code\nElGarrobo
   imagen_opciones:
@@ -58,7 +66,7 @@
   key: 12
   accion: os
   opciones:
-    comando: code ~/.config/elgarrobo &
+    comando: code ~/dotfile/.config/elgarrobo &
 - nombre: Nemo Config ElGarrobo
   titulo: Nemo\nConfig\nElGarrobo
   imagen_opciones:
@@ -66,7 +74,7 @@
   key: 13
   accion: os
   opciones:
-    comando: nemo ~/.config/elgarrobo &
+    comando: nemo ~/dotfile/.config/elgarrobo &
 - nombre: Code PipeWire
   titulo: Code\nPipeWire
   imagen_opciones:
@@ -85,6 +93,12 @@
   accion: os
   opciones:
     comando: code ~/.var/app/com.prusa3d.PrusaSlicer/config/PrusaSlicer/
+- nombre: Mantener Terminal abierta
+  titulo: Terminal\nAbierta
+  key: 18
+  accion: escribir
+  opciones:
+    texto: tmux new -s dokploy
 - nombre: Reinicar WebCamara
   titulo: Reinicar\nWebCamara\nDoker
   key: 21
