@@ -2,11 +2,11 @@
   "font_size": 125,
   "use_bold": true,
   "use_outline": true,
-  "outline_width": 0.3,
   "outline_color": [1, 1, 1, 1],
   "color": [0, 0, 0, 1],
   "location": [0.5, 0.28],
   "use_shadow": true,
+  "outline_width": 0.5,
   "shadow_offset": 0.2,
   "wrap_width": 1,
   "anchor_y": "CENTER"
