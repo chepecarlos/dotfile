@@ -96,7 +96,7 @@
     imagen_false: ./apoyo_off.png
 - nombre: BMO
   titulo: BMO
-  key: 11
+  key: 17
   accion: mqtt
   opciones:
     mensaje: cambiar
