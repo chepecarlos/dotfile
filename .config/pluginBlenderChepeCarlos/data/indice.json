@@ -1,0 +1,12 @@
+{
+  "font_size": 80,
+  "anchor_x": "LEFT",
+  "location": [0.03, 0.94],
+  "use_box": true,
+  "box_color": [0, 0.447188, 0.968248, 0.7],
+  "box_roundness": 1,
+  "use_outline": true,
+  "outline_width": 0.16,
+  "wrap_width": 0.9,
+  "anchor_y": "TOP"
+}

@@ -45,6 +45,12 @@
   opciones:
     folder: ./notion
   imagen: ./notion/notion.png
+- nombre: CheckList
+  titulo: CheckList
+  key: 7
+  accion: entrar_folder
+  opciones:
+    folder: ./checklist
 - nombre: Youtube
   titulo: Youtube
   key: 8
@@ -55,26 +61,27 @@
   indice: 6
 - nombre: Extras
   titulo: Extras
-  key: 9
-  accion: entrar_folder
-  opciones:
-    folder: ./extras
-- nombre: Blender
-  titulo: Blender
   key: 10
   accion: entrar_folder
   opciones:
-    folder: ./blender
-  imagen: ./blender/blender.png
+    folder: ./extras
+- nombre: Editor Video Blender
+  titulo: Sequencer
+  key: 11
+  accion: entrar_folder
+  opciones:
+    folder: ./sequencer
+  imagen: ./sequencer/blender.png
 - nombre: animacion3D
   titulo: animacion3D
-  key: 11
+  key: 12
+  imagen: ./sequencer/blender.png
   accion: entrar_folder
   opciones:
     folder: ./animacion3D
 - nombre: inkscape
   titulo: Inkscape
-  key: 12
+  key: 35
   accion: entrar_folder
   opciones:
     folder: ./inkscape
@@ -238,7 +245,7 @@
 - nombre: OctoPrint
   titulo: OctoPrint
   imagen: ./octoprint/octoprint.png
-  key: 38
+  key: 24
   accion: entrar_folder
   opciones:
     folder: ./octoprint
