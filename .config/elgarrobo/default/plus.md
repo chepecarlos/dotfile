@@ -1,48 +1,57 @@
 ---
-- key: propiedad_folder
+- nombre: Temperatura Estudio
+  titulo: '{:.0f}⁰C'
+  key: 1
+  imagen_opciones:
+    fondo: '#ae2900ff'
   titulo_opciones:
-    tamanno_maximo: 40
+    mqtt: sensor/afuera/temperatura
 - nombre: Uso CPU
-  titulo: '{}%\nCPU'
+  titulo: '{:.0f}%\nCPU'
   key: 2
   imagen_opciones:
     fondo: '#bcd100ff'
   titulo_opciones:
     mqtt: estado_pc/umaru/cpu
 - nombre: Uso CPU
-  titulo: '{}%\nCPU'
+  titulo: '{:.0f}%\nCPU'
   key: 3
   imagen_opciones:
     fondo: '#bcd100ff'
   titulo_opciones:
     mqtt: estado_pc/ryuk/cpu
 - nombre: Temperatura Estudio
-  titulo: '{}⁰C'
+  titulo: '{:.0f}⁰C'
   key: 4
   imagen: /calor.gif
   imagen_opciones:
     fondo: '#ae2900ff'
   titulo_opciones:
     mqtt: sensor/estudio/temperatura
-    borde_color: "#340000ff"
+    borde_color: '#340000ff'
+- nombre: humedad Estudio
+  titulo: '{:.0f}%'
+  key: 5
+  imagen_opciones:
+    fondo: '#0003aeff'
+  titulo_opciones:
+    mqtt: sensor/afuera/humedad
 - nombre: Uso Ran
-  titulo: '{}%\nRAM'
-  # imagen: /ram.gif
+  titulo: '{:.0f}%\nRAM'
   key: 6
   imagen_opciones:
     fondo: '#8100d1ff'
   titulo_opciones:
     mqtt: estado_pc/umaru/ram
 - nombre: Uso Ran
-  titulo: '{}%\nRAM'
-  # imagen: /ram.gif
+  titulo: '{:.0f}%\nRAM'
   key: 7
   imagen_opciones:
     fondo: '#8100d1ff'
   titulo_opciones:
     mqtt: estado_pc/ryuk/ram
 - nombre: humedad Estudio
-  titulo: '{}%'
+  titulo: '{:.0f}%'
   imagen: /humedad.gif
   key: 8
   imagen_opciones:
@@ -134,6 +143,9 @@
     dispositivo: Ryuk
     opcion: balance
     valor: 0
+- key: propiedad_folder
+  titulo_opciones:
+    tamanno_maximo: 40
 - nombre: Mute Umaru
   key: touchscreen_1
   accion: mute
