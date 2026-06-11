@@ -1,0 +1,26 @@
+{
+    "Filaments": [
+        {
+            "Brand": "Esun",
+            "Color": "#ffffff",
+            "Name": "White",
+            "Owned": true,
+            "Tags": [
+            ],
+            "Transmissivity": 2.8,
+            "Type": "PLA",
+            "uuid": "{d6f2487a-be62-47a1-a7a1-ff85014192ef}"
+        },
+        {
+            "Brand": "Onys",
+            "Color": "#ffffff",
+            "Name": "White",
+            "Owned": true,
+            "Tags": [
+            ],
+            "Transmissivity": 6.3,
+            "Type": "PLA",
+            "uuid": "{952f35b6-8967-4e0c-b62b-0f7e37651a77}"
+        }
+    ]
+}
