@@ -21,6 +21,18 @@
             "Transmissivity": 6.3,
             "Type": "PLA",
             "uuid": "{952f35b6-8967-4e0c-b62b-0f7e37651a77}"
+        },
+        {
+            "Brand": "IIID Max",
+            "Color": "#d2d5b4",
+            "Name": "Crema",
+            "Owned": true,
+            "Tags": [
+                "91"
+            ],
+            "Transmissivity": 4,
+            "Type": "PLA",
+            "uuid": "{325a445e-8d16-4322-bc84-f3160f9eed54}"
         }
     ]
 }
