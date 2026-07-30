@@ -33,6 +33,42 @@
             "Transmissivity": 4,
             "Type": "PLA",
             "uuid": "{325a445e-8d16-4322-bc84-f3160f9eed54}"
+        },
+        {
+            "Brand": "Kexcelled",
+            "Color": "#0000ff",
+            "Name": "Azul",
+            "Owned": true,
+            "Tags": [
+                "85"
+            ],
+            "Transmissivity": 2.2,
+            "Type": "PLA",
+            "uuid": "{5fe5006e-ed0c-4dea-b60b-b01027f50dbe}"
+        },
+        {
+            "Brand": "IIID Max",
+            "Color": "#ff0000",
+            "Name": "Rojo",
+            "Owned": true,
+            "Tags": [
+                "93"
+            ],
+            "Transmissivity": 6.2,
+            "Type": "PLA",
+            "uuid": "{0d64a425-6252-4d70-8467-f34d900a32fe}"
+        },
+        {
+            "Brand": "Onyx",
+            "Color": "#009600",
+            "Name": "Verde",
+            "Owned": true,
+            "Tags": [
+                "99"
+            ],
+            "Transmissivity": 1.8,
+            "Type": "PLA",
+            "uuid": "{3b277167-25f5-4abf-9c50-7e8d6728e413}"
         }
     ]
 }
