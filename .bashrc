@@ -97,9 +97,9 @@ then
 fi
 
 # Agregando Blender
-if [ -d "$HOME/5.Programas/1.Edicion/1.Blender/blender-4.4.3-linux-x64" ] ;
+if [ -d "$HOME/5.Programas/1.Edicion/1.Blender/blender-5.1.2-linux-x64" ] ;
 then
-    PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-4.4.3-linux-x64:$PATH"
+    PATH="$HOME/5.Programas/1.Edicion/1.Blender/blender-5.1.2-linux-x64:$PATH"
 fi
 
 # Agregando gifgen
@@ -137,11 +137,20 @@ complete -o default -F _pip_completion pip
 # Added by LM Studio CLI (lms)
 if [ -d "$HOME/.lmstudio/bin" ] ;
 then
-    PATH="$PATH:/home/chepecarlos/.lmstudio/bin"
+    PATH="$PATH:$HOME/.lmstudio/bin"
 fi
+
+source "$HOME/.bash_completions/proyectool.sh"
+
+source "$HOME/.bash_completions/printtool.sh"
 
 # git especial para dotfile
 # alias config='/usr/bin/git --git-dir=/home/chepecarlos/.cfg --work-tree=/home/chepecarlos'
 
 # mejora de cd con zoxide
 eval "$(zoxide init bash --cmd cd)"
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
