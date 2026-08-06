@@ -1,3 +1,6 @@
 {
-  "cSpell.words": ["accion", "streamdeck"]
+  "cSpell.words": ["accion", "Luffy", "streamdeck"],
+  "flake8.args": [
+    "--max-line-length=150" // Set to your desired maximum
+  ]
 }
