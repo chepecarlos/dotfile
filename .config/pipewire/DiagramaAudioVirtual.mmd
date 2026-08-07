@@ -7,24 +7,35 @@ config:
 ---
 flowchart LR
     %% USB
-        MicrofonoUSB@{shape: lean-r, label: "Micrófono\nUSB"}
+        MicrofonoUSB@{shape: lean-r
+label: "Micrófono\nUSB"}
         MicrofonoUSB:::rojo
-        BocinaUSB@{shape: lean-l, label: "Bocina\nUSB"}
+        BocinaUSB@{shape: lean-l
+label: "Bocina\nUSB"}
         BocinaUSB:::rojo
     %% Zoom
-        BocinaZoom@{shape: lean-r, label: "Bocina\nZoom"}
+        BocinaZoom@{shape: lean-r
+label: "Bocina\nZoom"}
 
 
     %% Bocinas Virtual
-        AT2035@{shape: curv-trap, label: "AT2035"}
-        MicrófonoZoom@{shape: curv-trap, label: "Microfono Zoom"}
-        Bocina@{shape: curv-trap, label: "Bocina\nVirtual"}
-        Ryuk@{shape: curv-trap, label: "Ryuk"}
-        Umaru@{shape: curv-trap, label: "Umaru"}
-        ElGarrobo@{shape: curv-trap, label: "ElGarrobo"}
+        AT2035@{shape: curv-trap
+label: "AT2035"}
+        MicrófonoZoom@{shape: curv-trap
+label: "Microfono Zoom"}
+        Bocina@{shape: curv-trap
+label: "Bocina\nVirtual"}
+        Ryuk@{shape: curv-trap
+label: "Ryuk"}
+        Umaru@{shape: curv-trap
+label: "Umaru"}
+        ElGarrobo@{shape: curv-trap
+label: "ElGarrobo"}
         ElGarrobo:::verde
-        SoloYo@{shape: curv-trap, label: "Solo Yo"}
-        SoloOBS@{shape: curv-trap, label: "Solo OBS"}
+        SoloYo@{shape: curv-trap
+label: "Solo Yo"}
+        SoloOBS@{shape: curv-trap
+label: "Solo OBS"}
 
     %% APP
         Discord
@@ -73,8 +84,16 @@ flowchart LR
 
 
     %% Estilo
-        style MicrófonoZoom color:#FFFFFF, fill:#630067, stroke:#AA00FF
-        style BocinaZoom color:#FFFFFF, fill:#630067, stroke:#AA00FF
-        %% style ElGarrobo color:#FFFFFF, stroke:#00C853, fill:#006703ff
+        style MicrófonoZoom color:#FFFFFF
+fill:#630067
+stroke:#AA00FF
+        style BocinaZoom color:#FFFFFF
+fill:#630067
+stroke:#AA00FF
+        %% style ElGarrobo color:#FFFFFF
+stroke:#00C853
+fill:#006703ff
         %% style ElGarroboCLI stroke: #00C853
-        %% style OBS color:#FFFFFF, stroke:#80b3ffff, fill:#000080ff
+        %% style OBS color:#FFFFFF
+stroke:#80b3ffff
+fill:#000080ff

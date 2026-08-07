@@ -21,7 +21,8 @@ pw-link -io | grep -E "AT2035|Focusrite" || echo "No hay conexiones detectadas"
 echo
 
 echo "5. Estado de los módulos PulseAudio:"
-pactl list modules 2>/dev/null | grep -E "AT2035|null-sink|BocinaVirtual" -A 2 || echo "pactl no disponible, intentando con pw"
+pactl list modules 2>/dev/null | grep -E "AT2035|null-sink|BocinaVirtual" -A 2 || echo "pactl no disponible
+intentando con pw"
 echo
 
 echo "6. Verificando si pipewire-pulse está activo:"

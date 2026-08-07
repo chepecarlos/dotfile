@@ -1,7 +1,8 @@
 # Sistema Audio virtual de ChepeCarlos
 
 Poder separar los audio y mezclarlo para mejorar la creación de contenido;
- en actividades de grabar, trasmitir y video conferencia
+ en actividades de grabar
+trasmitir y video conferencia
 
 # Cosas por hacer
 
