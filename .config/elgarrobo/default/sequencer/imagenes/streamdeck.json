@@ -1,0 +1,114 @@
+[
+  {
+    "nombre": "Pacha",
+    "titulo": "Pacha",
+    "key": 0,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escribir_valores",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "valores": {
+            "espejo_x": true,
+            "clip": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/7.Memes/pacha_perfecto.jpg"
+          }
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "shift", "y"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "FacePalm",
+    "titulo": "FacePalm",
+    "key": 1,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escribir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "clip",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/6.Memes/Epic facepalm.mp4"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "shift", "y"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Aplauso",
+    "titulo": "Aplauso",
+    "key": 2,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escribir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "clip",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/aplausos.mp3"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "shift", "y"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "PDF",
+    "titulo": "PDF",
+    "key": 3,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escribir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "clip",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/1.Video/4.Sonidos/1.Base/aplausos.pdf"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "shift", "y"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "No Pacha",
+    "titulo": "No Pacha",
+    "key": 5,
+    "accion": "macro",
+    "opciones": [
+      {
+        "accion": "escribir_valor",
+        "opciones": {
+          "archivo": "data/blender.json",
+          "atributo": "clip",
+          "valor": "/home/SudoData/ChepeCarlos@alsw.net/2.Contenido/1.Biblioteca/2.Miniaturas/7.Memes/pacha_perfecto2.jpg"
+        }
+      },
+      {
+        "accion": "teclas",
+        "opciones": {
+          "teclas": ["ctrl", "shift", "y"]
+        }
+      }
+    ]
+  }
+]
