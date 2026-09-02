@@ -20,6 +20,13 @@
     fondo: rgb(0, 139, 209)
   titulo_opciones:
     mqtt: estado_octoprint/jinshi/progreso
+- nombre: Estado Gyokuyou U1
+  titulo: '{:.0f}%'
+  key: 5
+  imagen_opciones:
+    fondo: rgb(0, 139, 209)
+  titulo_opciones:
+    mqtt: estado_klipper/gyokuyou/progreso
 - nombre: Reimprimir MK4s
   titulo: Ultimo\nMK4s
   key: 7

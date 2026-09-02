@@ -11,5 +11,8 @@ monitor_esp: true
 alias: true
 control: true
 super: true
-gui: true
+gui: false
+estado_pc: true
+estado_octoprint: true
+estado_klipper: true
 ---
