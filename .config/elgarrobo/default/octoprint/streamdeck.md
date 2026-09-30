@@ -56,6 +56,15 @@
   opciones:
     url: http://192.168.50.129:5000
     token: Jpto-xPq9kiMphedDUL-mJY2WxT8cpVS-SnwtzX68SQ
+- nombre: Reiniciar gyokuyou
+  key: 10
+  accion: reimprimir_klipper
+  titulo: Ultimo
+  imagen: ./gyokuyou.png
+  opciones:
+    url: http://192.168.50.193
+  imagen_opciones:
+    fondo: '#042ec6'
 - nombre: Cancelar MK4s
   titulo: Cancelar\nMK4s
   key: 12
@@ -85,57 +94,71 @@
   opciones:
     url: http://192.168.50.129:5000
     token: Jpto-xPq9kiMphedDUL-mJY2WxT8cpVS-SnwtzX68SQ
-- nombre: Estado mk4 tmp
+- nombre: Cancelar Gyokuyou
+  key: 15
+  accion: cancelar_klipper
+  titulo: Cancelar
+  opciones:
+    url: http://192.168.50.193
+  imagen: ./gyokuyou.png
+  imagen_opciones:
+    fondo: '#042ec6'
+- nombre: mk4 cama tmp
   titulo: '{:.0f}⁰C'
-  key: 17
+  key: 16
   imagen_opciones:
     fondo: rgb(226, 68, 0)
   titulo_opciones:
     mqtt: estado_octoprint/mk4s/temperatura/bed/actual
-- nombre: Estado mk4 cama
+- nombre: mk4 punta tmp
   titulo: '{:.0f}⁰C'
   key: 18
   imagen_opciones:
     fondo: rgb(0, 110, 13)
   titulo_opciones:
     mqtt: estado_octoprint/mk4s/temperatura/tool0/actual
-
-- nombre: Estado maomao
+- nombre: maomao cama tmp
+  titulo: '{:.0f}⁰C'
+  key: 19
+  imagen_opciones:
+    fondo: rgb(226, 68, 0)
+  titulo_opciones:
+    mqtt: estado_octoprint/maomao/temperatura/bed/actual
+- nombre: maomao punta tmp
+  titulo: '{:.0f}⁰C'
+  key: 21
+  imagen_opciones:
+    fondo: rgb(0, 110, 13)
+  titulo_opciones:
+    mqtt: estado_octoprint/maomao/temperatura/tool0/actual
+- nombre: maomao cama tmp
   titulo: '{:.0f}⁰C'
   key: 22
   imagen_opciones:
     fondo: rgb(226, 68, 0)
   titulo_opciones:
-    mqtt: estado_octoprint/maomao/temperatura/bed/actual
-- nombre: Estado maomao
-  titulo: '{:.0f}⁰C'
-  key: 23
-  imagen_opciones:
-    fondo: rgb(0, 110, 13)
-  titulo_opciones:
-    mqtt: estado_octoprint/maomao/temperatura/tool0/actual
-
-
-- nombre: Estado maomao
-  titulo: '{:.0f}⁰C'
-  key: 27
-  imagen_opciones:
-    fondo: rgb(226, 68, 0)
-  titulo_opciones:
     mqtt: estado_octoprint/jinshi/temperatura/bed/actual
-- nombre: Estado maomao
+- nombre: maomao punta tmp
   titulo: '{:.0f}⁰C'
-  key: 28
+  key: 24
   imagen_opciones:
     fondo: rgb(0, 110, 13)
   titulo_opciones:
     mqtt: estado_octoprint/jinshi/temperatura/tool0/actual
-- nombre: Aro Apagar
-  key: 50
-  accion: os
-  titulo: Aro\nApagar
-  opciones:
-    comando: curl -s http://192.168.50.123/muerto
+- nombre: gyokuyou cama tmp
+  titulo: '{:.0f}⁰C'
+  key: 25
+  imagen_opciones:
+    fondo: rgb(226, 68, 0)
+  titulo_opciones:
+    mqtt: estado_klipper/gyokuyou/temperatura/bed/actual
+- nombre: gyokuyou punta tmp
+  titulo: '{:.0f}⁰C'
+  key: 27
+  imagen_opciones:
+    fondo: rgb(0, 110, 13)
+  titulo_opciones:
+    mqtt: estado_klipper/gyokuyou/temperatura/extruder/actual
 - key: propiedad_folder
   titulo_opciones:
     tamanno_maximo: 30
