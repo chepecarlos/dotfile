@@ -1,20 +1,4 @@
 ---
-- nombre: Cambiar Panel
-  titulo: Panel
-  key: 0
-  accion: teclas
-  opciones:
-    teclas:
-    - ctrl
-    - b
-- nombre: Salvar
-  titulo: Salvar
-  key: 1
-  accion: teclas
-  opciones:
-    teclas:
-    - ctrl
-    - s
 - nombre: Duplicar
   titulo: Duplicar
   key: 2
@@ -29,10 +13,8 @@
   titulo: Saltar\nLinea
   opciones:
     teclas: ctrl+g
-- nombre: Duplicar
-  titulo: 'Cerrar
-
-    Todo'
+- nombre: Cerrar\nTodo
+  titulo: Cerrar\nTodo
   key: 4
   accion: macro
   opciones:
@@ -90,7 +72,7 @@
   accion: teclas
   opciones:
     teclas: ctrl + p
-- nombre: 'Refractario Nombre'
+- nombre: Refractario Nombre
   titulo: Refractario\nNombre
   key: 9
   accion: teclas
@@ -103,13 +85,45 @@
   titulo: GitHub\nCopilot
   opciones:
     teclas: ctrl + alt + i
-
-- nombre: Extensiones
-  titulo: Extensiones
-  key: 18
+- nombre: Cambiar Panel
+  titulo: Panel
+  key: 11
   accion: teclas
   opciones:
-    teclas: ctrl + alt + x
+    teclas:
+    - ctrl
+    - b
+- nombre: Terminal
+  titulo: Terminal
+  key: 12
+  imagen_opciones:
+    fondo: '#20009e'
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - '`'
+- nombre: Chat
+  titulo: Chat
+  key: 13
+  imagen_opciones:
+    fondo: '#209e00'
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - alt
+    - i
+- nombre: Chat\nLinea
+  titulo: Chat\nLinea
+  key: 14
+  imagen_opciones:
+    fondo: '#209e00'
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - i
 - nombre: Auto Formato
   titulo: Auto\nFormato
   key: 15
@@ -135,4 +149,18 @@
     opciones:
       teclas:
       - enter
+- nombre: Extensiones
+  titulo: Extensiones
+  key: 18
+  accion: teclas
+  opciones:
+    teclas: ctrl + alt + x
+- nombre: Salvar
+  titulo: Salvar
+  key: 21
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - s
 ...

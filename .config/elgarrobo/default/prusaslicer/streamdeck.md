@@ -11,6 +11,12 @@
   accion: teclas
   opciones:
     teclas: ctrl + 6
+- nombre: Seleccionar Todo
+  titulo: Seleccionar\nTodo
+  key: 5
+  accion: teclas
+  opciones:
+    teclas: ctrl + a
 - nombre: Mover
   titulo: Mover
   key: 6
@@ -71,4 +77,10 @@
   accion: teclas
   opciones:
     teclas: u
+- nombre: Ordenar Base
+  titulo: Ordenar\nBase
+  key: 23
+  accion: teclas
+  opciones:
+    teclas: d
 ---

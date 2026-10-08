@@ -1,40 +1,40 @@
 ---
-- nombre: Mover 
+- nombre: Mover
   titulo: Mover
-  key: 0
-  accion: teclas
-  opciones:
-    teclas:
-    - g
-- nombre: Rotar 
-  titulo: Rotar
   key: 1
   accion: teclas
   opciones:
     teclas:
-    - r
-- nombre: Escalar 
-  titulo: Escalar
+    - g
+- nombre: Rotar
+  titulo: Rotar
   key: 2
   accion: teclas
   opciones:
     teclas:
+    - r
+- nombre: Escalar
+  titulo: Escalar
+  key: 3
+  accion: teclas
+  opciones:
+    teclas:
     - s
-- nombre: Extrude 
+- nombre: Extrude
   titulo: Extrude
   key: 5
   accion: teclas
   opciones:
     teclas:
     - e
-- nombre: Inset 
+- nombre: Inset
   titulo: Inset
   key: 6
   accion: teclas
   opciones:
     teclas:
     - i
-- nombre: Bevel 
+- nombre: Bevel
   titulo: Bevel
   key: 7
   accion: teclas
@@ -42,29 +42,31 @@
     teclas:
     - ctrl
     - b
-- nombre: Loop Cut 
-  titulo: "Loop\nCut" 
+- nombre: Loop Cut
+  titulo: 'Loop
+
+    Cut'
   key: 8
   accion: teclas
   opciones:
     teclas:
     - ctrl
     - r
-- nombre: Knife 
+- nombre: Knife
   titulo: Knife
   key: 9
   accion: teclas
   opciones:
     teclas:
     - k
-- nombre: fill 
+- nombre: fill
   titulo: fill
   key: 10
   accion: teclas
   opciones:
     teclas:
     - f
-- nombre: Bridge 
+- nombre: Bridge
   titulo: Bridge
   key: 11
   accion: teclas
@@ -80,7 +82,7 @@
     teclas:
     - shift
     - s
-- nombre: Transparente 
+- nombre: Transparente
   titulo: Transparente
   key: 15
   accion: teclas
@@ -88,7 +90,7 @@
     teclas:
     - alt
     - z
-- nombre: Aplicar 
+- nombre: Aplicar
   titulo: Aplicar
   key: 16
   accion: teclas
@@ -96,21 +98,21 @@
     teclas:
     - ctrl
     - a
-- nombre: Separar 
+- nombre: Separar
   titulo: Separar
   key: 17
   accion: teclas
   opciones:
     teclas:
     - p
-- nombre: Select Linked 
+- nombre: Select Linked
   titulo: Select\nLinked
   key: 18
   accion: teclas
   opciones:
     teclas:
     - l
-- nombre: Centra Objeto 
+- nombre: Centra Objeto
   titulo: Centrar\nObjeto
   key: 22
   accion: teclas
@@ -118,4 +120,21 @@
     teclas:
     - ctrl
     - decimal
----
+- nombre: Join
+  titulo: Join
+  key: 25
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - j
+- nombre: Desimar
+  titulo: Des\nImar
+  key: 19
+  accion: teclas
+  opciones:
+    teclas: shift + tab
+- key: propiedad_folder
+  imagen_opciones:
+    fondo: '#f57b00'
+...

@@ -193,6 +193,15 @@
   imagen_estado:
     imagen_true: /obs/grabar_on.png
     imagen_false: /obs/grabar_off.png
+- nombre: Inicio
+  titulo: Inicio
+  key: 23
+  accion: obs_escena
+  opciones:
+    escena: Umaru_Sleep
+  imagen_estado:
+    imagen_true: ./empezar_on.png
+    imagen_false: ./empezar_off.png
 - nombre: Titulo
   titulo: Titulo\nEnVivo
   imagen_opciones:

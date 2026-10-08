@@ -4,5 +4,5 @@ deck_combinado: true
 teclado: true
 pedal: true
 mqtt: true
-gui: false
----
+gui: true
+...

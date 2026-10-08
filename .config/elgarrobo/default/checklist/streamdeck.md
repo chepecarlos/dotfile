@@ -30,6 +30,7 @@
     titulo: Mandar Imprimir
     tareas:
     - Confirmar Tipo Material(PLA, PTGE)
+    - Confirmar valores de Purga MMU3
     - Incluir etiqueta marca (ChepeCarlos3D)
     - Mirar Tiempo y gramos
     - Verificar no este sucia la máquina

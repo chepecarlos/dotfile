@@ -1,11 +1,4 @@
 ---
-- nombre: Borrar
-  key: 6
-  accion: teclas
-  opciones:
-    teclas:
-    - x
-  imagen: ./borrar.png
 - nombre: Concatenar
   key: 2
   accion: teclas
@@ -18,39 +11,9 @@
   accion: teclas
   opciones:
     teclas:
-      - ctrl
-      - 7
-  imagen: ./puntero.png
-- nombre: TrimAll
-  key: 7
-  imagen: ./trim_all.png
-  accion: teclas
-  opciones:
-    teclas:
-      - ctrl
-      - 8
-- nombre: Marka
-  key: 11
-  accion: macro
-  opciones:
-  - accion: teclas
-    opciones:
-      teclas:
-      - m
-  - accion: teclas
-    opciones:
-      teclas:
-      - f2
-  imagen: ./marcador/maker.png
-- nombre: Hueva
-  key: 30
-  accion: teclas
-  opciones:
-    teclas:
     - ctrl
-    - shift
-    - U
-  imagen: ./hueva.png
+    - 7
+  imagen: ./puntero.png
 - nombre: Desacer
   key: 5
   accion: teclas
@@ -59,6 +22,21 @@
     - ctrl
     - z
   imagen: ./desacer.png
+- nombre: Borrar
+  key: 6
+  accion: teclas
+  opciones:
+    teclas:
+    - x
+  imagen: ./borrar.png
+- nombre: Cortar
+  key: 7
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - 8
+  imagen: ./trim_all.png
 - nombre: Play
   key: 8
   accion: teclas
@@ -79,6 +57,19 @@
   opciones:
     folder: ./fade
   imagen: ./fade_in.png
+- nombre: Marka
+  key: 11
+  accion: macro
+  opciones:
+  - accion: teclas
+    opciones:
+      teclas:
+      - m
+  - accion: teclas
+    opciones:
+      teclas:
+      - f2
+  imagen: ./marcador/maker.png
 - nombre: Salvar
   key: 13
   accion: teclas
@@ -109,7 +100,7 @@
       - shift
       - Q
   imagen_opciones:
-    fondo: '#00ffaa'
+    fondo: '#d60000'
 - nombre: AjusTime
   key: 15
   accion: teclas
@@ -138,9 +129,9 @@
   opciones:
     folder: ./animar
 - nombre: Musica
+  titulo: Musica
   key: 19
   accion: entrar_folder
-  titulo: Musica
   opciones:
     folder: ./musica
 - nombre: aliniacion y zoom
@@ -220,6 +211,15 @@
     teclas:
     - shift
     - s
+- nombre: Hueva
+  key: 30
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - shift
+    - U
+  imagen: ./hueva.png
 - nombre: Panel
   key: 31
   accion: teclas

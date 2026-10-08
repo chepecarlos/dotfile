@@ -6,14 +6,16 @@
   opciones:
     folder: ./ide
   imagen: ./ide/ide.png
+  imagen_opciones:
+    fondo: '#002e5c'
 - nombre: Link
   titulo: Link's
   key: 2
+  descripcion: Links utiles para compartir
   accion: entrar_folder
   opciones:
     folder: ./link
   imagen: /link/link.gif
-  indice: 7
 - nombre: APP
   titulo: APP
   key: 3
@@ -23,7 +25,6 @@
   imagen: ./binarios/cammy.gif
   imagen_opciones:
     fondo: '#FFFFFF'
-  indice: 4
 - nombre: Recurso
   titulo: Recurso
   key: 4
@@ -31,7 +32,6 @@
   opciones:
     folder: ./recurso
   imagen: ./recurso/ryuk_pc.gif
-  indice: 3
 - nombre: Code
   titulo: Code
   key: 5
@@ -39,18 +39,12 @@
   opciones:
     folder: /ide/code
   imagen: /ide/code/code.png
-- nombre: Notion
-  key: 6
-  accion: entrar_folder
-  opciones:
-    folder: ./notion
-  imagen: ./notion/notion.png
-- nombre: CheckList
-  titulo: CheckList
+- nombre: Extras
+  titulo: Extras
   key: 7
   accion: entrar_folder
   opciones:
-    folder: ./checklist
+    folder: ./extras
 - nombre: Youtube
   titulo: Youtube
   key: 8
@@ -58,13 +52,12 @@
   opciones:
     folder: ./youtube
   imagen: ./youtube/youtube.gif
-  indice: 6
-- nombre: Extras
-  titulo: Extras
+- nombre: CheckList
+  titulo: CheckList
   key: 10
   accion: entrar_folder
   opciones:
-    folder: ./extras
+    folder: ./checklist
 - nombre: Editor Video Blender
   titulo: Sequencer
   key: 11
@@ -75,27 +68,13 @@
 - nombre: animacion3D
   titulo: animacion3D
   key: 12
-  imagen: ./sequencer/blender.png
   accion: entrar_folder
   opciones:
     folder: ./animacion3D
-- nombre: inkscape
-  titulo: Inkscape
-  key: 35
-  accion: entrar_folder
-  opciones:
-    folder: ./inkscape
-  imagen: ./inkscape/inkscape.png
-- nombre: gimp
-  titulo: Gimp
-  key: 13
-  accion: entrar_folder
-  opciones:
-    folder: ./gimp
-  imagen: ./gimp/gimp.png
+  imagen: ./sequencer/blender.png
 - nombre: FreeCAD
   titulo: FreeCAD
-  key: 14
+  key: 13
   accion: entrar_folder
   opciones:
     folder: ./freecad
@@ -107,35 +86,37 @@
   opciones:
     folder: /docker
   imagen: ./docker/docker.png
-- nombre: Respuesta
-  titulo: Respuesta
-  imagen_opciones:
-    fondo: '#2b7a10'
-  key: 16
-  accion: entrar_folder
-  opciones:
-    folder: ./respuesta
-- nombre: Scrcpy
-  titulo: Scrcpy
-  key: 17
-  accion: entrar_folder
-  opciones:
-    folder: ./scrcpy
 - nombre: BMO
   titulo: BMO
-  key: 18
+  key: 16
   accion: mqtt
   opciones:
     mensaje: cambiar
     topic: bmo/despierto
   imagen: ./tutorial/bmo.gif
-  indice: 3
+- nombre: Abrir GUI
+  titulo: Abrir\nGUI
+  key: 17
+  accion: abrir_gui
+  imagen_opciones:
+    fondo: '#66b3ff'
+- nombre: Respuesta ADS
+  titulo: Respuesta\nAds
+  key: 18
+  descripcion: Respuestas para campañas de publicidad
+  accion: entrar_folder
+  opciones:
+    folder: ./respuesta
+  imagen_opciones:
+    fondo: '#00ff00'
 - nombre: Fondo Escritorio
   titulo: Fondo\nEscritorio
   key: 19
   accion: entrar_folder
   opciones:
     folder: /fondo
+  imagen_opciones:
+    fondo: '#00005c'
 - nombre: FondoOBS
   titulo: FondoOBS
   key: 20
@@ -143,20 +124,6 @@
   opciones:
     folder: ./fondoobs
   imagen: ./fondoobs/fondoobs.png
-- nombre: humedad Estudio
-  titulo: '{}%'
-  key: 21
-  imagen_opciones:
-    fondo: '#0003aeff'
-  titulo_opciones:
-    mqtt: sensor/afuera/humedad
-- nombre: Temperatura Estudio
-  titulo: '{}⁰C'
-  key: 22
-  imagen_opciones:
-    fondo: '#ae2900ff'
-  titulo_opciones:
-    mqtt: sensor/afuera/temperatura
 - nombre: Gromit
   titulo: Gromit
   key: 23
@@ -164,8 +131,13 @@
   opciones:
     folder: ./gromit
   imagen: ./gromit/dibujar.png
-  imagen_opciones:
-    fondo: '#ffffff'
+- nombre: OctoPrint
+  titulo: OctoPrint
+  key: 24
+  accion: entrar_folder
+  opciones:
+    folder: ./octoprint
+  imagen: ./octoprint/octoprint.png
 - nombre: instagram
   titulo: Instagram
   key: 25
@@ -189,27 +161,26 @@
       escena: Zoom
 - nombre: PrusaSlicer
   titulo: PrusaSlicer
-  imagen: ./prusaslicer/prusaslicer.png
-  imagen_opciones:
-    fondo: '#ffffff'
   key: 28
   accion: entrar_folder
   opciones:
     folder: ./prusaslicer
-- nombre: fritzing
-  titulo: Fritzing
+  imagen: ./prusaslicer/prusaslicer.png
+  imagen_opciones:
+    fondo: '#ffffff'
+- nombre: Reiniciar App
+  titulo: Reiniciar\nApp
   key: 29
-  accion: entrar_folder
-  opciones:
-    folder: ./fritzing
+  accion: reiniciar_app
+  imagen_opciones:
+    fondo: '#ff0000'
 - nombre: Salir
   titulo: Salir
   key: 30
   accion: salir
+  imagen: ./salir.gif
   imagen_opciones:
     fondo: '#3c8a23'
-  imagen: ./salir.gif
-  indice: 4
 - nombre: Numerico
   titulo: Teclado\nNumerico
   key: 31
@@ -228,6 +199,12 @@
   accion: entrar_folder
   opciones:
     folder: ./config
+- nombre: Notion
+  key: 34
+  accion: entrar_folder
+  opciones:
+    folder: ./notion
+  imagen: ./notion/notion.png
 - nombre: Arte
   titulo: Artes
   key: 36
@@ -237,24 +214,17 @@
   imagen: /arte/arte.png
 - nombre: Raspberrypi
   titulo: Raspberrypi
-  imagen: ./raspberrypi/raspberrypi.png
   key: 37
   accion: entrar_folder
   opciones:
     folder: ./raspberrypi
-- nombre: OctoPrint
-  titulo: OctoPrint
-  imagen: ./octoprint/octoprint.png
-  key: 24
-  accion: entrar_folder
-  opciones:
-    folder: ./octoprint
+  imagen: ./raspberrypi/raspberrypi.png
 - nombre: Zoom
-  imagen: ./zoom/zoom.png
   key: 39
   accion: entrar_folder
   opciones:
     folder: ./zoom
+  imagen: ./zoom/zoom.png
 - nombre: Apaga Despertador
   titulo: Apaga\nDespertador
   key: 40
@@ -262,10 +232,30 @@
   opciones:
     mensaje: apagar
     topic: despertador/permiso
+- nombre: inkscape
+  titulo: Inkscape
+  key: 41
+  accion: entrar_folder
+  opciones:
+    folder: ./inkscape
+  imagen: ./inkscape/inkscape.png
+- nombre: gimp
+  titulo: Gimp
+  key: 42
+  accion: entrar_folder
+  opciones:
+    folder: ./gimp
+  imagen: ./gimp/gimp.png
 - nombre: Cerrar Ventana
-  Titulo: Cerrar\nVentana
   key: 42
   accion: cerrar_ventana
+  Titulo: Cerrar\nVentana
+- nombre: Scrcpy
+  titulo: Scrcpy
+  key: 43
+  accion: entrar_folder
+  opciones:
+    folder: ./scrcpy
 - nombre: MQTT
   titulo: MQTT
   key: 45
@@ -303,15 +293,21 @@
     folder: ./crecetube
   imagen_opciones:
     fondo: '#990000'
-- nombre: Abir GUI
-  titulo: Abrir\nGUI
-  key: 62
-  accion: abir_gui
-  opciones: {}
 - nombre: jugar
   titulo: Jugar
   key: 63
   accion: entrar_folder
   opciones:
     folder: ./jugar
+- nombre: fritzing
+  titulo: Fritzing
+  key: 80
+  accion: entrar_folder
+  opciones:
+    folder: ./fritzing
+- key: propiedad_folder
+  imagen_opciones:
+    fondo: '#00005c'
+  titulo_opciones:
+    tamanno_maximo: 20
 ...

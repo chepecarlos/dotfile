@@ -1,71 +1,26 @@
 ---
-- nombre: Mewtow
-  titulo: Mewtow
-  key: 1
-  accion: macro
-  opciones:
-  - accion: portapapeles
-    opciones:
-      texto: |-
-        ¡Hola! 👋 Soy José Carlos.
-
-        Tengo disponible Mewtwo en dos presentaciones:
-
-        🔑 Llavero (5cm) - $3
-        🗿 Figura (10cm) - $12
-
-        Puedes ver más fotos y detalles en nuestro catálogo:
-        https://chepecarlos3d.com/mewtwo.html
-
-        ¿Cuál te interesa? 😊'
-  - accion: teclas
-    opciones:
-      teclas: ctrl + v
-- nombre: Copa Mundial
-  titulo: Copa\nMundial
-  key: 2
-  accion: macro
-  opciones:
-  - accion: portapapeles
-    opciones:
-      texto: |-
-        ¡Hola! 👋 Soy José Carlos.
-
-        Tengo disponible la Copa Mundial tamaño real (36.8cm) impresa en 3D con acabado de calidad — $35
-
-        Puedes ver más fotos y detalles en el catálogo:
-        https://chepecarlos3d.com/copa-mundial-grande.html
-
-        ¿Te interesa? 😊
-  - accion: teclas
-    opciones:
-      teclas: ctrl + v
-
-- nombre: Primera
-  titulo: Primera
-  key: 6
+- nombre: Test
+  titulo: Saludo\nDragon Ball
+  key: 4
   accion: escribir
   opciones:
-    texto: Buenas tardes, estos modelos tenemos disponibles y esperamos sacar mas
-- nombre: Segundo
-  titulo: Segundo
-  key: 7
+    texto: Buenos días 👋, soy ChepeCarlos, La base de dragón ball 🐉 tiene el valor
+      de $20
+- nombre: Saludo OnePiece
+  titulo: Saludo\nOne Piece
+  key: 5
   accion: escribir
   opciones:
-    texto: Estamos trabajando en versiones minis, ejemplo el Luffy a 10 cm a 11 dolares
-- nombre: Tres
-  titulo: Tres
-  key: 8
-  accion: escribir
-  opciones:
-    texto: Tambien tenemos la opcion de personalizar los modelos con un nombre, para
-      un regalo mas especial
+    texto: Buenos días 👋, soy ChepeCarlos, La base de One Piece y Bob esponja tiene
+      el valor de $20
 - nombre: Cual?
   titulo: Cual?
   key: 9
   accion: escribir
   opciones:
     texto: Cual te gustaría?
+  imagen_opciones:
+    fondo: '#d6d600'
 - nombre: Llavero Letra
   titulo: Llavero\nLetra
   key: 11
@@ -93,35 +48,45 @@
   opciones:
     texto: Para pedidor personalizados en necesario un adelanto, lo puedo hacer por
       trasferencia
-- nombre: Reseña
-  titulo: Reseña
-  key: 17
-  accion: escribir
+- nombre: Info Envio
+  titulo: info\nEnvio
+  key: 19
+  accion: pegar
   opciones:
-    texto: 'Nos puede regalar una Reseña en GoogleMaps nos ayudaría mucho: https://g.page/r/CXyf9zebwv-yEAE/review'
-- nombre: Envió
-  titulo: Envió
+    texto: 'Me regala la siquiente informaccion
+
+      🪪Nombre:
+
+      📞 Telefono:
+
+      🛵 Direccion:
+
+      🌎 Departamento:'
+- nombre: Enviar
+  titulo: Enviar
   key: 20
-  accion: macro
+  accion: pegar
   opciones:
-  - accion: portapapeles
-    opciones:
-      texto: |-
-        📦 Hacemos envíos a todo El Salvador vía Aeroflash — $3
-        🕐 Entrega: 1 a 3 días hábiles
-
-        📍 También hacemos entregas personales en Estadio Felix Charlaix, San Miguel
-
-        ¿Programamos tu envío? 🙌
-  - accion: teclas
-    opciones:
-      teclas: ctrl + v
-  imagen_opciones:
-    fondo: '#009938'
+    texto: Hacemos entregas en San Miguel y envios 🛵 a todo el salvador por $3
+- nombre: Cuenta Banco
+  titulo: Cuenta\nBanco
+  key: 21
+  accion: pegar
+  opciones:
+    texto: "Cuenta de Ahorro \nJose Carlos Garcia Diaz\nBanco Agrícola \n3119835075\n\
+      Nos envía captura, gracias"
 - nombre: Buenos dias
   titulo: Buenos dias
   key: 26
   accion: escribir
   opciones:
     texto: 'Buenos días, soy Chepecarlos. '
+- nombre: Review
+  titulo: Review
+  key: 30
+  accion: pegar
+  opciones:
+    texto: https://g.page/r/CXyf9zebwv-yECE/review
+  imagen_opciones:
+    fondo: '#d6d600'
 ...

@@ -1,9 +1,13 @@
 ---
-- nombre: Cambiar OBS Previsualización
+- nombre: Ruido
+  titulo: Ruido
   key: 1
-  accion: mostrar_ventana
+  accion: mqtt
   opciones:
-    titulo: (Previsualización)
+    mensaje: '1'
+    topic: alsw/fondoOBS/ruido
+  imagen_opciones:
+    fondo: '#a2d400'
 - nombre: Random Colores FondoOBS
   key: 2
   accion: macro
@@ -12,21 +16,17 @@
     opciones:
       topic: alsw/fondoOBS/color/fondo
       mensaje: random
-    __estado: null
   - accion: mqtt
     opciones:
       topic: alsw/fondoOBS/color/linea
       mensaje: random
-    __estado: null
   - accion: mqtt
     opciones:
       topic: alsw/fondoOBS/color/base
       mensaje: random
-    __estado: null
 - nombre: Cambiar Chat Youtube
-  key: '3'
+  key: 3
   accion: mostrar_ventana
   opciones:
     titulo: live_char?
-  titulo: null
 ...

@@ -25,6 +25,7 @@
     filtro: Mover Derecha
     estado: true
 - nombre: Fondo OBS
+  titulo: fondo obs
   key: KEY_3
   accion: entrar_folder
   opciones:
@@ -52,7 +53,7 @@
   accion: anterior_pagina
 - nombre: Aplausos
   key: KEY_C
-  accion: reproducion
+  accion: reproduccion
   opciones:
     archivo: /sonidos/aplausos.wav
 - nombre: Dibujar Limpiar
@@ -95,30 +96,17 @@
   accion: entrar_folder
   opciones:
     folder: /tutorial
-- nombre: Salir
-  key: KEY_F10
-  accion: salir
-- nombre: Ventana Youtube Live
-  key: KEY_F12
-  accion: mostrar_ventana
+- nombre: Folder Tutorial
+  key: KEY_F1
+  accion: entrar_folder
   opciones:
-    titulo: YouTube Studio
+    folder: /tutorial
 - nombre: Jugar Pedal
   key: KEY_F2
   accion: entrar_folder
   opciones:
     folder: /jugar
     dispositivo: pedal
-- nombre: Folder Tutorial
-  key: KEY_F1
-  accion: entrar_folder
-  opciones:
-    folder: /tutorial
-- nombre: Cambiar Twitch
-  key: KEY_F3
-  accion: mostrar_ventana
-  opciones:
-    titulo: Google Chrome
 - nombre: Cambiar Ventana Proyección OBS
   key: KEY_F4
   accion: mostrar_ventana
@@ -126,18 +114,15 @@
     titulo: Proyector
 - nombre: Cuack
   key: KEY_F5
-  accion: reproducion
+  accion: reproduccion
   opciones:
     archivo: /sonidos/cuack.wav
 - nombre: Golpe
   key: KEY_F6
-  accion: reproducion
+  accion: reproduccion
   opciones:
     archivo: /sonidos/golpe.wav
     ganancia: -5
-- nombre: Reiniciar Data
-  key: KEY_F9
-  accion: reiniciar_data
 - nombre: Escena Cenital
   key: KEY_G
   accion: macro
@@ -155,14 +140,9 @@
     folder: /pulse
 - nombre: Pokemon
   key: KEY_LEFTCTRL
-  accion: reproducion
+  accion: reproduccion
   opciones:
     archivo: /sonidos/pokemon.wav
-- nombre: Cambiar Twitch
-  key: KEY_LEFTSHIFT
-  accion: mostrar_ventana
-  opciones:
-    titulo: Discord
 - nombre: Siquiente Pagina
   key: KEY_M
   accion: siquiente_pagina
@@ -193,7 +173,7 @@
       escena: Umaru_V
 - nombre: Parar Reproducion
   key: KEY_SPACE
-  accion: detener_reproducion
+  accion: detener_reproduccion
 - nombre: Escena Cenital Zoom
   key: KEY_T
   accion: macro
@@ -212,7 +192,7 @@
     - f9
 - nombre: Sonido Kawai
   key: KEY_V
-  accion: reproducion
+  accion: reproduccion
   opciones:
     archivo: /sonidos/kawai.wav
 - nombre: Esena Solo Umaru
@@ -222,12 +202,12 @@
     escena: Solo_Umaru
 - nombre: Sonido Rebobinar
   key: KEY_X
-  accion: reproducion
+  accion: reproduccion
   opciones:
     archivo: /sonidos/rebobinar.wav
 - nombre: Sonido Chan
   key: KEY_Z
-  accion: reproducion
+  accion: reproduccion
   opciones:
     archivo: /sonidos/chan.wav
 ...

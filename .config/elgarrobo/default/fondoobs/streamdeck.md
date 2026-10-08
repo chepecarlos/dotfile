@@ -14,6 +14,13 @@
     folder: ./fps
   imagen_opciones:
     fondo: '#00b500'
+- nombre: Ruido
+  titulo: Ruido
+  key: 3
+  accion: mqtt
+  opciones:
+    topic: alsw/fondoOBS/ruido
+    mensaje: '1'
 - nombre: Sub
   key: 4
   accion: mqtt

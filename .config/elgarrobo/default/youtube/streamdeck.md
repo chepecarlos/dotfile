@@ -16,13 +16,13 @@
 - nombre: picture in picture
   titulo: picture\nin picture
   key: 3
-  imagen_opciones:
-    fondo: '#2f00baff'
   accion: teclas
   opciones:
     teclas:
     - alt
     - p
+  imagen_opciones:
+    fondo: '#2f00baff'
 - nombre: MiniRepo
   titulo: MiniRepo
   key: 4
@@ -115,11 +115,35 @@
   opciones:
     teclas:
     - nexttrack
-- nombre: Play
-  titulo: Play
+- nombre: Play Remoto
+  titulo: Play\nRemoto
   key: 24
+  accion: control
+  opciones:
+    host: umaru
+    accion: teclas
+    opciones:
+      teclas:
+      - playpause
+  imagen_opciones:
+    fondo: '#ff0000'
+- nombre: Control
+  titulo: Control
+  key: 27
+  accion: control
+  opciones:
+    host: ryuk
+    accion: obs_escena
+    opciones:
+      escena: Zoom
+- nombre: test
+  titulo: test
+  key: 28
   accion: teclas
   opciones:
     teclas:
     - playpause
+- key: propiedad_folder
+  imagen_opciones:
+    fondo: '#ff0000'
 ...

@@ -186,6 +186,14 @@
     - shift
     - ctrl
     - c
+- nombre: Efectos de  Trayectos
+  titulo: Efectos de\nTrayectos
+  key: 30
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - "&"
 - nombre: Objeto a Trayectoria
   titulo: Trazo\nTrayectoria
   key: 27

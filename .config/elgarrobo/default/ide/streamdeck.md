@@ -8,18 +8,18 @@
     folder: ./arduino
 - nombre: Code
   titulo: Code
-  key: 2
+  key: 8
   imagen: ./code/code.png
   accion: entrar_folder
   opciones:
-    folder: ',/code'
+    folder: ./code
 - nombre: Processing
   titulo: Processing
   key: 3
   imagen: ./processing/processing.png
   accion: entrar_folder
   opciones:
-    folder: ',/processing'
+    folder: ./processing
 - nombre: Atom
   titulo: Atom
   key: 4

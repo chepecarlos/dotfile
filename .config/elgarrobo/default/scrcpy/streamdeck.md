@@ -40,4 +40,12 @@
     teclas:
     - alt
     - n
+- nombre: FPS
+  titulo: FPS
+  key: 25
+  accion: teclas
+  opciones:
+    teclas:
+    - alt
+    - i
 ---
