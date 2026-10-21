@@ -45,8 +45,8 @@
     ]
   },
   {
-    "nombre": "Siquiente",
-    "titulo": "Siquiente",
+    "nombre": "Siguiente",
+    "titulo": "Siguiente",
     "key": 2,
     "imagen": "defaul/fanpage/siquiente.png",
     "accion": "macro",

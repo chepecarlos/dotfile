@@ -29,28 +29,28 @@
   titulo_opciones:
     mqtt: sensor/estudio/temperatura
     borde_color: '#340000ff'
-- nombre: humedad Estudio
+- nombre: Humedad Estudio
   titulo: '{:.0f}%'
   key: 5
   imagen_opciones:
     fondo: '#0003aeff'
   titulo_opciones:
     mqtt: sensor/afuera/humedad
-- nombre: Uso Ran
+- nombre: Uso RAM
   titulo: '{:.0f}%\nRAM'
   key: 6
   imagen_opciones:
     fondo: '#8100d1ff'
   titulo_opciones:
     mqtt: estado_pc/umaru/ram
-- nombre: Uso Ran
+- nombre: Uso RAM
   titulo: '{:.0f}%\nRAM'
   key: 7
   imagen_opciones:
     fondo: '#8100d1ff'
   titulo_opciones:
     mqtt: estado_pc/ryuk/ram
-- nombre: humedad Estudio
+- nombre: Humedad Estudio
   titulo: '{:.0f}%'
   imagen: /humedad.gif
   key: 8
@@ -61,8 +61,8 @@
     alinear: arriba
 - nombre: Derecha
   key: deslizar_derecha_1
-  accion: siquiente_pagina
-- nombre: Siquiente
+  accion: siguiente_pagina
+- nombre: Siguiente
   key: deslizar_izquierda_1
   accion: anterior_pagina
 - nombre: Mute AT2035

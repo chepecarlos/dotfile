@@ -9,4 +9,5 @@ super: true
 estado_pc: true
 estado_octoprint: true
 estado_klipper: true
+estado_fdm_monster: true
 ...

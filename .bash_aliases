@@ -19,6 +19,8 @@ alias miip='hostname -I'
 alias miippublica='curl ifconfig.me'
 alias mired='nmap -sP 192.168.50.0/24'
 
+# Raspberry Pi
+
 # Android
 alias miandroid="scrcpy"
 
@@ -44,6 +46,7 @@ alias tooltubeCtrlZ="tooltube --canal ctrlz"
 alias urlNotion="tooltube_get --notion"
 alias urlYoutube="tooltube_get -url"
 
+alias renderizarVideo="basket --blender_renderizar"
 alias subirChepeCarlos="basket --blender_completo"
 alias subirCtrlZ="basket --canal ctrlz --blender_completo"
 
@@ -91,9 +94,7 @@ alias chitubox='export LD_LIBRARY_PATH=~/5.Programas/4.CNC/5.CHITUBOX_V1.8.1/lib
 
 # Raspberry Pi
 # Conectarme a las Raspberry Pi por SSH
-alias mipi="ssh chepecarlos@docker.local"
 alias mimmu="ssh chepecarlos@mmu3.local"
-alias migranja="ssh chepecarlos@192.168.50.129"
 alias mimini="ssh chepecarlos@prusamini.local"
 
 # Git
@@ -152,5 +153,3 @@ function computer-info
     echo "operating-system: $(uname --operating-system)"
 }
 
-# Agregar flatpak
-# alias code='/var/lib/flatpak/app/com.visualstudio.code/x86_64/stable/active/files/extra/vscode/code'

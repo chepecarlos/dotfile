@@ -79,8 +79,11 @@
   opciones:
     escena: Solo_Ryuk
 - nombre: Regresar
+  titulo: Regresar
   key: KEY_ESC
   accion: regresar_folder
+  imagen_opciones:
+    fondo: '#0000d6'
 - nombre: Escena apoyo
   key: KEY_F
   accion: macro
@@ -101,12 +104,14 @@
   accion: entrar_folder
   opciones:
     folder: /tutorial
-- nombre: Jugar Pedal
+- nombre: Granja Impresoras 3D
+  titulo: Granja
   key: KEY_F2
   accion: entrar_folder
   opciones:
-    folder: /jugar
-    dispositivo: pedal
+    folder: /octoprint
+  imagen_opciones:
+    fondo: '#00a300'
 - nombre: Cambiar Ventana Proyección OBS
   key: KEY_F4
   accion: mostrar_ventana
@@ -143,9 +148,9 @@
   accion: reproduccion
   opciones:
     archivo: /sonidos/pokemon.wav
-- nombre: Siquiente Pagina
+- nombre: Siguiente Pagina
   key: KEY_M
-  accion: siquiente_pagina
+  accion: siguiente_pagina
 - nombre: Escena Zoom
   key: KEY_Q
   accion: macro

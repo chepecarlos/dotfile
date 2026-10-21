@@ -30,74 +30,74 @@
 - nombre: Reimprimir MK4s
   titulo: Ultimo\nMK4s
   key: 7
-  imagen_opciones:
-    fondo: '#042ec6'
   accion: reimprimir_octoprint
   opciones:
     url: http://192.168.50.238
     token: qhMrz_URykjtBISSxqoF5RhHkPsYiPcx18MtxIbxi10
-- nombre: Reimprimir Maomao
-  titulo: Ultimo
-  imagen: ./maomao.png
-  key: 8
   imagen_opciones:
     fondo: '#042ec6'
+- nombre: Reimprimir Maomao
+  titulo: Ultimo
+  key: 8
   accion: reimprimir_octoprint
   opciones:
     url: http://192.168.50.129:5001
     token: -FvrxMdU2UAmfkmuauFD-xQUX39AZ-qeoqtyQrm2jps
-- nombre: Reimprimir Jinshi
-  titulo: Ultimo
-  imagen: ./jinshi.png
-  key: 9
+  imagen: ./maomao.png
   imagen_opciones:
     fondo: '#042ec6'
+- nombre: Reimprimir Jinshi
+  titulo: Ultimo
+  key: 9
   accion: reimprimir_octoprint
   opciones:
     url: http://192.168.50.129:5000
     token: Jpto-xPq9kiMphedDUL-mJY2WxT8cpVS-SnwtzX68SQ
+  imagen: ./jinshi.png
+  imagen_opciones:
+    fondo: '#042ec6'
 - nombre: Reiniciar gyokuyou
+  titulo: Ultimo
   key: 10
   accion: reimprimir_klipper
-  titulo: Ultimo
-  imagen: ./gyokuyou.png
   opciones:
     url: http://192.168.50.193
+  imagen: ./gyokuyou.png
   imagen_opciones:
     fondo: '#042ec6'
 - nombre: Cancelar MK4s
   titulo: Cancelar\nMK4s
   key: 12
-  imagen_opciones:
-    fondo: '#c60404'
   accion: cancelar_octoprint
   opciones:
     url: http://192.168.50.238
     token: qhMrz_URykjtBISSxqoF5RhHkPsYiPcx18MtxIbxi10
-- nombre: Cancelar Maomao
-  titulo: Cancelar
-  imagen: ./maomao.png
-  key: 13
   imagen_opciones:
     fondo: '#c60404'
+- nombre: Cancelar Maomao
+  titulo: Cancelar
+  key: 13
   accion: cancelar_octoprint
   opciones:
     url: http://192.168.50.129:5001
     token: -FvrxMdU2UAmfkmuauFD-xQUX39AZ-qeoqtyQrm2jps
-- nombre: Cancelar Jinshi
-  titulo: Cancelar
-  imagen: ./jinshi.png
-  key: 14
+  imagen: ./maomao.png
   imagen_opciones:
     fondo: '#c60404'
+- nombre: Cancelar Jinshi
+  titulo: Cancelar
+  key: 14
   accion: cancelar_octoprint
   opciones:
     url: http://192.168.50.129:5000
     token: Jpto-xPq9kiMphedDUL-mJY2WxT8cpVS-SnwtzX68SQ
+  imagen: ./jinshi.png
+  imagen_opciones:
+    fondo: '#c60404'
 - nombre: Cancelar Gyokuyou
+  titulo: Cancelar
   key: 15
   accion: cancelar_klipper
-  titulo: Cancelar
   opciones:
     url: http://192.168.50.193
   imagen: ./gyokuyou.png
@@ -159,6 +159,134 @@
     fondo: rgb(0, 110, 13)
   titulo_opciones:
     mqtt: estado_klipper/gyokuyou/temperatura/extruder/actual
+- nombre: Cola Granja
+  titulo: '{}\nCola'
+  key: 31
+  accion: nada
+  imagen_opciones:
+    fondo: '#5c2e00'
+  titulo_opciones:
+    mqtt: estado_fdm_monster/total/cola
+- nombre: Cola MK4s
+  titulo: '{}\nCola'
+  key: 32
+  accion: nada
+  imagen_opciones:
+    fondo: '#5c2e00'
+  titulo_opciones:
+    mqtt: estado_fdm_monster/MK4s/cola
+- nombre: Cola Maomao
+  titulo: '{}\nCola'
+  key: 33
+  accion: nada
+  imagen_opciones:
+    fondo: '#5c2e00'
+  titulo_opciones:
+    mqtt: estado_fdm_monster/CoreOne Maomao/cola
+- nombre: Cola Jinshi
+  titulo: '{}\nCola'
+  key: 34
+  accion: nada
+  imagen_opciones:
+    fondo: '#5c2e00'
+  titulo_opciones:
+    mqtt: estado_fdm_monster/CoreOne Jinshi/cola
+- nombre: Cola Gyokuyou
+  titulo: '{}\nCola'
+  key: 35
+  accion: nada
+  imagen_opciones:
+    fondo: '#5c2e00'
+  titulo_opciones:
+    mqtt: estado_fdm_monster/Gyokuyou/cola
+- nombre: Siguiente MK4s
+  titulo: Siguiente\nMK4s
+  key: 37
+  descripcion: Manda imprimir siguiente tarea de cola
+  accion: imprimir_cola_fdm
+  opciones:
+    url: http://192.168.50.200:4000
+    usuario: chepecarlos
+    clave: fullpower7
+    impresora: MK4s
+  imagen_opciones:
+    fondo: '#a35200'
+- nombre: Siguiente Maomao
+  titulo: Siguiente\nMaomao
+  key: 38
+  descripcion: Manda imprimir siguiente tarea de cola
+  accion: imprimir_cola_fdm
+  opciones:
+    url: http://192.168.50.200:4000
+    usuario: chepecarlos
+    clave: fullpower7
+    impresora: CoreOne Maomao
+  imagen_opciones:
+    fondo: '#a35200'
+- nombre: Siguiente CoreOne Jinshi
+  titulo: Siguiente\nJinshi
+  key: 39
+  descripcion: Manda imprimir siguiente tarea de cola
+  accion: imprimir_cola_fdm
+  opciones:
+    url: http://192.168.50.200:4000
+    usuario: chepecarlos
+    clave: fullpower7
+    impresora: CoreOne Jinshi
+  imagen_opciones:
+    fondo: '#a35200'
+- nombre: Siguiente Gyokuyou
+  titulo: Siguiente\nGyokuyou
+  key: 40
+  descripcion: Manda imprimir siguiente tarea de cola
+  accion: imprimir_cola_fdm
+  opciones:
+    url: http://192.168.50.200:4000
+    usuario: chepecarlos
+    clave: fullpower7
+    impresora: Gyokuyou
+  imagen_opciones:
+    fondo: '#a35200'
+- nombre: Abrir FDM
+  titulo: Abrir\nFDM
+  key: 66
+  accion: navegador
+  opciones:
+    url: http://192.168.50.200:4000/
+  imagen_opciones:
+    fondo: '#d60000'
+- nombre: Abrir Mk4s
+  titulo: Abrir\nMk4s
+  key: 67
+  accion: navegador
+  opciones:
+    url: http://192.168.50.238/
+  imagen_opciones:
+    fondo: '#0052a3'
+- nombre: Abrir Maomao
+  titulo: Abrir\nMaomao
+  key: 68
+  accion: navegador
+  opciones:
+    url: http://192.168.50.129:5001/
+  imagen_opciones:
+    fondo: '#0052a3'
+- nombre: Abrir Jinshi
+  titulo: Abrir\nJinshi
+  key: 69
+  accion: navegador
+  opciones:
+    url: http://192.168.50.129:5000/
+  imagen_opciones:
+    fondo: '#0052a3'
+- nombre: Abrir Gyokuyou
+  titulo: Abrir\nGyokuyou
+  key: 70
+  accion: navegador
+  opciones:
+    url: http://192.168.50.193/
+  imagen_opciones:
+    fondo: '#0052a3'
 - key: propiedad_folder
   titulo_opciones:
     tamanno_maximo: 30

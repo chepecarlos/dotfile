@@ -1,6 +1,6 @@
 ---
 - base: base/icono.png
-- siquiente_pagina: base/siquiente.png
+- siguiente_pagina: base/siguiente.png
 - anterior_pagina: base/anterior.png
 - regresar_folder: base/regresar.png
 ---

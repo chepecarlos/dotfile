@@ -101,8 +101,8 @@
   accion: escribir
   opciones:
     texto: https://github.com/chepecarlos/ElGatoALSW
-- nombre: siquiente
-  titulo: Siquiente
-  accion: siquiente_pagina
+- nombre: siguiente
+  titulo: Siguiente
+  accion: siguiente_pagina
   key: 29
 ...

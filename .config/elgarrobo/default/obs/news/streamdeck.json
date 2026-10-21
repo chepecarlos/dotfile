@@ -41,7 +41,7 @@
     "opcion": "actualizar"
   }]
 }, {
-  "nombre": "Siquiente",
+  "nombre": "Siguiente",
   "titulo": "i++",
   "imagen": "defaul/obs/news/siquiente.png",
   "key": 2,
@@ -101,9 +101,9 @@
   "accion": "anterior_pagina",
   "key": 19
 }, {
-  "nombre": "siquiente",
-  "titulo": "Siquiente",
-  "accion": "siquiente_pagina",
+  "nombre": "siguiente",
+  "titulo": "Siguiente",
+  "accion": "siguiente_pagina",
   "key": 24
 }, {
   "nombre": "regresar",

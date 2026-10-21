@@ -292,9 +292,9 @@
     }
   },
   {
-    "nombre": "Siquiente",
-    "titulo": "Siquiente",
-    "accion": "siquiente_pagina",
+    "nombre": "Siguiente",
+    "titulo": "Siguiente",
+    "accion": "siguiente_pagina",
     "key": 29
   },
   {

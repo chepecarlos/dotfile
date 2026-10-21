@@ -1,0 +1,3 @@
+---
+modo_usar: true
+...

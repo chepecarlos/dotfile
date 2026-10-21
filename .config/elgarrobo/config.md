@@ -10,7 +10,7 @@ global:
     file: streamdeck
 imagenes:
     base: base/icono.png
-    siquiente: base/siquiente.png
+    siguiente: base/siguiente.png
     anterior: base/anterior.png
     regresar: base/regresar.png
 ---

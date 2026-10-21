@@ -53,7 +53,7 @@
   key: 19
   accion: pegar
   opciones:
-    texto: 'Me regala la siquiente informaccion
+    texto: 'Me regala la siguiente informaccion
 
       🪪Nombre:
 
@@ -89,4 +89,7 @@
     texto: https://g.page/r/CXyf9zebwv-yECE/review
   imagen_opciones:
     fondo: '#d6d600'
+- key: propiedad_folder
+  imagen_opciones:
+    fondo: '#00d600'
 ...

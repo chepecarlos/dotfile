@@ -6,8 +6,6 @@
   opciones:
     folder: ./ide
   imagen: ./ide/ide.png
-  imagen_opciones:
-    fondo: '#002e5c'
 - nombre: Link
   titulo: Link's
   key: 2
@@ -41,10 +39,16 @@
   imagen: /ide/code/code.png
 - nombre: Extras
   titulo: Extras
-  key: 7
+  key: 6
   accion: entrar_folder
   opciones:
     folder: ./extras
+- nombre: Marcadores
+  titulo: Marcadores
+  key: 7
+  accion: entrar_folder
+  opciones:
+    folder: marcadores
 - nombre: Youtube
   titulo: Youtube
   key: 8
@@ -124,20 +128,20 @@
   opciones:
     folder: ./fondoobs
   imagen: ./fondoobs/fondoobs.png
-- nombre: Gromit
-  titulo: Gromit
-  key: 23
-  accion: entrar_folder
-  opciones:
-    folder: ./gromit
-  imagen: ./gromit/dibujar.png
 - nombre: OctoPrint
   titulo: OctoPrint
-  key: 24
+  key: 21
   accion: entrar_folder
   opciones:
     folder: ./octoprint
   imagen: ./octoprint/octoprint.png
+- nombre: Gromit
+  titulo: Gromit
+  key: 22
+  accion: entrar_folder
+  opciones:
+    folder: ./gromit
+  imagen: ./gromit/dibujar.png
 - nombre: instagram
   titulo: Instagram
   key: 25
@@ -267,7 +271,7 @@
     borde_color: white
 - nombre: OBS
   titulo: OBS
-  key: 50
+  key: 49
   accion: entrar_folder
   opciones:
     folder: ./obs

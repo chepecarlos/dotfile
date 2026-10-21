@@ -51,6 +51,8 @@
 - nombre: Salir
   key: KEY_ESC
   accion: salir
+  imagen_opciones:
+    fondo: '#a30000'
 - nombre: Escena apoyo
   key: KEY_F
   accion: macro
@@ -61,9 +63,12 @@
   - accion: obs_escena_vertical
     opciones:
       escena: Apoyo_V
-- nombre: Reiniciar
+- nombre: Reiniciar Data
+  titulo: Reinicar\nData
   key: KEY_F1
   accion: reiniciar_data
+  imagen_opciones:
+    fondo: '#a30000'
 - nombre: Encender Aro
   key: KEY_F10
   accion: os
@@ -74,6 +79,12 @@
   accion: os
   opciones:
     comando: curl -s http://192.168.50.123/muerto
+- nombre: Reinicar App
+  titulo: Reinicar\nApp
+  key: KEY_F2
+  accion: reiniciar_app
+  imagen_opciones:
+    fondo: '#a30000'
 - nombre: Luces
   titulo: "Luces\n   Izquierda"
   key: KEY_F5
@@ -102,6 +113,8 @@
   opciones:
     mensaje: c
     topic: alsw/estudio/estado/t
+  imagen_opciones:
+    fondo: '#d6d600'
 - nombre: Sub
   key: KEY_F9
   accion: mqtt
@@ -181,6 +194,12 @@
   - accion: obs_escena_vertical
     opciones:
       escena: Umaru_V
+- nombre: Abir Navegador
+  titulo: Abir\nNavegador
+  key: KEY_SYSRQ
+  accion: abrir_gui
+  imagen_opciones:
+    fondo: '#0052a3'
 - nombre: Comer Minecraft
   key: KEY_UP
   accion: reproduccion

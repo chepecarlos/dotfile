@@ -1,43 +1,42 @@
 ---
 - nombre: RotarI
-  imagen: ./rotar_i.png
   key: 1
   accion: teclas
   opciones:
     teclas:
     - ctrl
     - '['
+  imagen: ./rotar_i.png
 - nombre: RotarD
-  imagen: ./rotar_d.png
   key: 2
   accion: teclas
   opciones:
     teclas:
     - ctrl
     - ']'
+  imagen: ./rotar_d.png
 - nombre: ReflejarH
-  imagen: ./reflejar_h.png
   key: 3
   accion: teclas
   opciones:
     teclas:
     - h
+  imagen: ./reflejar_h.png
 - nombre: ReflejarV
-  imagen: ./reflejar_v.png
   key: 4
   accion: teclas
   opciones:
     teclas:
     - v
+  imagen: ./reflejar_v.png
 - nombre: Selecion
-  imagen: ./selecion.png
   key: 5
   accion: teclas
   opciones:
     teclas:
     - f1
+  imagen: ./selecion.png
 - nombre: Centrar Vertical
-  imagen: ./centar_vertical.png
   key: 6
   accion: teclas
   opciones:
@@ -45,8 +44,8 @@
     - ctrl
     - alt
     - h
+  imagen: ./centar_vertical.png
 - nombre: Centrar Horizontal
-  imagen: ./centrar_horizontal.png
   key: 7
   accion: teclas
   opciones:
@@ -54,56 +53,56 @@
     - ctrl
     - alt
     - u
+  imagen: ./centrar_horizontal.png
 - nombre: ordenar horizontal
-  imagen: ./ordenar_horizontal.png
   key: 8
+  imagen: ./ordenar_horizontal.png
 - nombre: ordenar vertical
-  imagen: ./ordenar_vertical.png
   key: 9
+  imagen: ./ordenar_vertical.png
 - nombre: Nodo
-  imagen: ./nodo.png
   key: 10
   accion: teclas
   opciones:
     teclas:
     - n
+  imagen: ./nodo.png
 - nombre: Bajar Fondo
-  imagen: ./bajar_fondo.png
   key: 11
   accion: teclas
   opciones:
     teclas:
     - end
+  imagen: ./bajar_fondo.png
 - nombre: Bajar
-  imagen: ./bajar.png
   key: 12
   accion: teclas
   opciones:
     teclas:
     - pagedown
+  imagen: ./bajar.png
 - nombre: Suvir
-  imagen: ./suvir.png
   key: 13
   accion: teclas
   opciones:
     teclas:
     - pageup
+  imagen: ./suvir.png
 - nombre: Suvir Frente
-  imagen: ./suvir_frente.png
   key: 14
   accion: teclas
   opciones:
     teclas:
     - home
+  imagen: ./suvir_frente.png
 - nombre: Texto
-  imagen: ./texto.png
   key: 15
   accion: teclas
   opciones:
     teclas:
     - t
+  imagen: ./texto.png
 - nombre: Relleno
-  imagen: ./relleno.png
   key: 16
   accion: teclas
   opciones:
@@ -111,20 +110,21 @@
     - shift
     - ctrl
     - f
+  imagen: ./relleno.png
 - nombre: Rectangulo
-  imagen: ./rectangulo.png
   key: 17
   accion: teclas
   opciones:
     teclas:
     - f4
+  imagen: ./rectangulo.png
 - nombre: Jessyink
   titulo: Jessyink
-  imagen: ./jessyink/jessyink.png
   key: 18
   accion: entrar_folder
   opciones:
     folder: ./jessyink
+  imagen: ./jessyink/jessyink.png
 - nombre: Trajectorias
   titulo: Trajecto
   key: 19
@@ -166,9 +166,14 @@
     - ctrl
     - shift
     - l
+- nombre: Selecionar sercanos
+  titulo: Selecionar\nNodos
+  key: 24
+  accion: teclas
+  opciones:
+    teclas: ctrl + a
 - nombre: Ultimo
   titulo: Ultimo
-  imagen: ./nodo.png
   key: 25
   accion: teclas
   opciones:
@@ -176,9 +181,9 @@
     - shift
     - alt
     - q
+  imagen: ./nodo.png
 - nombre: Objeto a Trayectoria
   titulo: Objeto
-  imagen: ./trajectoria.png
   key: 26
   accion: teclas
   opciones:
@@ -186,14 +191,7 @@
     - shift
     - ctrl
     - c
-- nombre: Efectos de  Trayectos
-  titulo: Efectos de\nTrayectos
-  key: 30
-  accion: teclas
-  opciones:
-    teclas:
-    - ctrl
-    - "&"
+  imagen: ./trajectoria.png
 - nombre: Objeto a Trayectoria
   titulo: Trazo\nTrayectoria
   key: 27
@@ -203,6 +201,14 @@
     - ctrl
     - alt
     - c
+- nombre: Efectos de  Trayectos
+  titulo: Efectos de\nTrayectos
+  key: 30
+  accion: teclas
+  opciones:
+    teclas:
+    - ctrl
+    - '&'
 - nombre: Union
   titulo: Union
   key: 36
@@ -218,47 +224,46 @@
   opciones:
     teclas:
     - ctrl
-    - "-"
+    - '-'
 - nombre: selector_color
-  imagen: ./selector_color.png
   key: 45
   accion: teclas
   opciones:
     teclas:
     - F7
+  imagen: ./selector_color.png
 - nombre: Duplicar
-  imagen: ./duplicar.png
   key: 60
   accion: teclas
   opciones:
     teclas:
     - ctrl
     - d
+  imagen: ./duplicar.png
 - nombre: Borrar
-  imagen: ./borrar.png
   key: 61
   accion: teclas
   opciones:
     teclas:
     - del
+  imagen: ./borrar.png
 - nombre: Salvar
-  imagen: ./salvar.png
   key: 62
   accion: teclas
   opciones:
     teclas:
     - ctrl
     - s
+  imagen: ./salvar.png
 - nombre: curva
-  imagen: ./curva.png
   key: 63
   accion: teclas
   opciones:
     teclas:
     - shift
     - f6
+  imagen: ./curva.png
 - nombre: Aliniar
-  imagen: ./aliniar.png
   key: 64
   accion: teclas
   opciones:
@@ -266,15 +271,16 @@
     - shift
     - ctrl
     - a
+  imagen: ./aliniar.png
 - nombre: Selecion
-  imagen: ./selecion.png
   key: 65
   accion: teclas
   opciones:
     teclas:
     - f1
+  imagen: ./selecion.png
 - nombre: Anterior
   titulo: Anterior
-  accion: anterior_pagina
   key: 66
+  accion: anterior_pagina
 ...

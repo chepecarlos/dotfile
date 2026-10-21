@@ -94,14 +94,6 @@
   imagen_estado:
     imagen_true: ./apoyo_on.png
     imagen_false: ./apoyo_off.png
-- nombre: BMO
-  titulo: BMO
-  key: 17
-  accion: mqtt
-  opciones:
-    mensaje: cambiar
-    topic: bmo/despierto
-  imagen: ./bmo.gif
 - nombre: Cenital Extra
   titulo: ExCenital
   key: 12
@@ -145,95 +137,107 @@
     imagen_false: ./borde_off.png
 - nombre: Camara
   key: 15
-  accion: obs_fuente
+  accion: macro
   opciones:
-    fuente: Esena_Camara
+  - accion: obs_fuente
+    opciones:
+      fuente: Esena_Camara
+  - accion: obs_fuente_vertical
+    opciones:
+      fuente: Esena_Camara
   imagen_estado:
     imagen_true: ./esena_camara_on.png
     imagen_false: ./esena_camara_off.png
-- nombre: Pausar
-  titulo: Pausar
+- nombre: BMO
+  titulo: BMO
   key: 16
-  accion: obs_pausar
-  imagen_estado:
-    imagen_true: /obs/grabar_on.png
-    imagen_false: /obs/grabar_off.png
+  accion: mqtt
+  opciones:
+    mensaje: cambiar
+    topic: bmo/despierto
+  imagen: ./bmo.gif
 - nombre: Area Segura
   titulo: Area\nSegura?
+  key: 17
+- nombre: Titulo
+  titulo: Titulo\nEnVivo
   key: 18
-  accion: null
-- nombre: Inicio
-  titulo: Inicio
-  key: 19
-  accion: obs_escena
+  accion: obs_fuente
   opciones:
-    escena: Inicio
-  imagen_estado:
-    imagen_true: ./empezar_on.png
-    imagen_false: ./empezar_off.png
+    fuente: TituloEnvivo
+  imagen_opciones:
+    fondo: '#051153ff'
 - nombre: Regreso
   titulo: Regreso
-  key: 20
+  key: 19
   accion: obs_escena
   opciones:
     escena: Regreso
   imagen_estado:
     imagen_true: ./tiktok_on.png
     imagen_false: ./tiktok_off.png
-- nombre: Grabar
-  key: 21
-  accion: obs_grabar
-  imagen_estado:
-    imagen_true: /obs/grabar_on.png
-    imagen_false: /obs/grabar_off.png
-- nombre: Grabar Vertical
-  titulo: Vertical
-  key: 22
-  accion: obs_grabar_vertical
-  imagen_estado:
-    imagen_true: /obs/grabar_on.png
-    imagen_false: /obs/grabar_off.png
 - nombre: Inicio
   titulo: Inicio
-  key: 23
+  key: 21
+  accion: obs_escena
+  opciones:
+    escena: Inicio
+  imagen_estado:
+    imagen_true: ./empezar_on.png
+    imagen_false: ./empezar_off.png
+- nombre: Inicio
+  titulo: Inicio
+  key: 22
   accion: obs_escena
   opciones:
     escena: Umaru_Sleep
   imagen_estado:
     imagen_true: ./empezar_on.png
     imagen_false: ./empezar_off.png
-- nombre: Titulo
-  titulo: Titulo\nEnVivo
-  imagen_opciones:
-    fondo: '#051153ff'
-  key: 25
-  accion: obs_fuente
-  opciones:
-    fuente: TituloEnvivo
-- nombre: EnVivo
-  key: 26
-  accion: obs_envivo
-  imagen_estado:
-    imagen_true: /obs/envivo_on.png
-    imagen_false: /obs/envivo_off.png
-- nombre: Ryuk full
-  titulo: Ryuk\nFull V
-  key: 29
-  accion: obs_escena_vertical
-  opciones:
-    escena: Ryuk_Full_V
-  imagen_estado:
-    imagen_true: ./prusa_on.png
-    imagen_false: ./prusa_off.png
 - nombre: Umaru full
   titulo: Umaru\nFull V
-  key: 30
+  key: 23
   accion: obs_escena_vertical
   opciones:
     escena: Umaru_Full_V
   imagen_estado:
     imagen_true: ./prusa_on.png
     imagen_false: ./prusa_off.png
+- nombre: Ryuk full
+  titulo: Ryuk\nFull V
+  key: 24
+  accion: obs_escena_vertical
+  opciones:
+    escena: Ryuk_Full_V
+  imagen_estado:
+    imagen_true: ./prusa_on.png
+    imagen_false: ./prusa_off.png
+- nombre: EnVivo
+  key: 26
+  accion: obs_envivo
+  imagen_estado:
+    imagen_true: /obs/envivo_on.png
+    imagen_false: /obs/envivo_off.png
+- nombre: Grabar Vertical
+  titulo: Vertical
+  key: 27
+  accion: obs_grabar_vertical
+  imagen_estado:
+    imagen_true: /obs/grabar_on.png
+    imagen_false: /obs/grabar_off.png
+- nombre: Pausar
+  titulo: Pausar
+  key: 28
+  accion: obs_pausar
+  imagen_estado:
+    imagen_true: /obs/grabar_on.png
+    imagen_false: /obs/grabar_off.png
+- nombre: Grabar
+  key: 30
+  accion: obs_grabar
+  imagen_estado:
+    imagen_true: /obs/grabar_on.png
+    imagen_false: /obs/grabar_off.png
 - nombre: Borde
   titulo: Borde
   key: 31
@@ -386,16 +390,16 @@
     imagen_false: ./circuito_off.png
 - nombre: Desconectar
   titulo: Desconectar
-  imagen_opciones:
-    fondo: '#F44'
   key: 59
   accion: obs_desconectar
+  imagen_opciones:
+    fondo: '#F44'
 - nombre: Conectar
   titulo: Conectar
-  imagen_opciones:
-    fondo: '#4F4'
   key: 60
   accion: obs_conectar
+  imagen_opciones:
+    fondo: '#4F4'
 - nombre: Camara
   titulo: SinFiltro
   key: 66

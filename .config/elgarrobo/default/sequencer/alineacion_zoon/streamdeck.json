@@ -270,10 +270,10 @@
     ]
   },
   {
-    "nombre": "siquiente",
-    "titulo": "siquiente",
+    "nombre": "siguiente",
+    "titulo": "siguiente",
     "key": 14,
-    "accion": "siquiente_pagina"
+    "accion": "siguiente_pagina"
   },
   {
     "nombre": "+0.01",
@@ -367,10 +367,10 @@
     ]
   },
   {
-    "nombre": "siquiente",
-    "titulo": "siquiente",
+    "nombre": "siguiente",
+    "titulo": "siguiente",
     "key": 29,
-    "accion": "siquiente_pagina"
+    "accion": "siguiente_pagina"
   },
   {
     "nombre": "X1",

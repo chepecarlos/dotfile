@@ -108,8 +108,8 @@
   opciones:
     teclas:
     - prevtrack
-- nombre: Siquiente
-  titulo: Siquiente
+- nombre: Siguiente
+  titulo: Siguiente
   key: 23
   accion: teclas
   opciones:
