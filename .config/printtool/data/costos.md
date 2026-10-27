@@ -30,4 +30,7 @@ costo_filamento: 23
 costo_hora_trabajo: 1.5
 url_dolibarr: http://192.168.50.200:8282/
 token_dolibarr: jsXfuShKFFVE
+nombre_filamento: ''
+ganancia_extras: 15.0
+ganancia_ensamblado: 15.0
 ...

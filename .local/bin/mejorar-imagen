@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Agranda imágenes x4 con Real-ESRGAN (GPU) y las deja a 300 DPI para imprimir.
+# Uso: mejorar-imagen [-a] imagen1.jpg [imagen2.png ...]
+#   -a   usa el modelo anime (mejor para dibujos/logos de colores planos)
+set -euo pipefail
+
+DIR="$HOME/.local/share/realesrgan"
+MODELO="realesrgan-x4plus"
+
+if [[ "${1:-}" == "-a" ]]; then MODELO="realesrgan-x4plus-anime"; shift; fi
+if [[ $# -eq 0 ]]; then sed -n '2,4p' "$0" | sed 's/^# //'; exit 1; fi
+
+for f in "$@"; do
+  salida="${f%.*}_x4.png"
+  echo "→ $f  ($MODELO)"
+  "$DIR/realesrgan-ncnn-vulkan" -i "$f" -o "$salida" -n "$MODELO" -m "$DIR/models" 2>/dev/null
+  convert "$salida" -density 300 -units PixelsPerInch "$salida"
+  identify -format "%w %h\n" "$salida" | LC_ALL=C awk -v f="$salida" \
+    '{printf "  ✓ %s  %sx%s px  (%.1f x %.1f cm a 300 DPI)\n", f, $1, $2, $1/300*2.54, $2/300*2.54}'
+done

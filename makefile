@@ -11,4 +11,14 @@ permisos-flatpak:
 	@echo "Configurando permisos de flatpak para leer symlinks de stow..."
 	flatpak override --user --filesystem=$(CURDIR):ro net.christianbeier.Gromit-MPX
 
+# Recupera archivos que una app reemplazo por uno normal (ej: HueForge),
+# solo en esta compu: en una nueva copiaria al repo las configs por defecto
+adoptar:
+	stow --adopt .
+	git diff --stat
+
+# Real-ESRGAN para el comando mejorar-imagen
+realesrgan:
+	sh script/instalar_realesrgan.sh
+
 
